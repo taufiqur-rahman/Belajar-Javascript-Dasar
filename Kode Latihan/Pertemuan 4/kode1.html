@@ -1,0 +1,88 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+<div><h1 id="coba"></h1></div>
+<p><button  id="tambah" onclick="operatorPenugasan()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+<script type="text/javascript">
+
+function operatorPenugasan() {
+
+var j = 6 ; 
+var k = 7 ;
+
+alert("nilai j = " + j + " dan k = " + k );  // hasil nilai j = 6 dan k = 7
+
+j += k;  // maksdunya j = j + k 
+
+alert("nilai j sekarang = " + j); // hasil nilai j sekarang = 13
+
+j -= k;  // maksdunya j = j - k 
+
+alert("nilai j sekarang = " + j); // hasil nilai j sekarang = 6
+
+j *= k;  // maksdunya j = j * k 
+
+alert("nilai j sekarang = " + j); // hasil nilai j sekarang = 42
+
+j /= k;  // maksdunya j = j / k 
+
+alert("nilai j sekarang = " + j); // hasil nilai j sekarang = 6
+
+j %= k;  // maksdunya j = j % k 
+
+alert("nilai j sekarang = " + j); // hasil nilai j sekarang = 6
+/*
+j **= k;  // maksdunya j = j ** k 
+
+alert("nilai j sekarang = " + j);
+
+j <<= k;  // maksdunya j = j << k 
+
+alert("nilai j sekarang = " + j);
+
+j >>= k;  // maksdunya j = j >> k 
+
+alert("nilai j sekarang = " + j);
+j >>>= k;  // maksdunya j = j >>> k 
+
+alert("nilai j sekarang = " + j);
+j &= k;  // maksdunya j = j & k 
+
+alert("nilai j sekarang = " + j);
+j ^= k;  // maksdunya j = j ^ k 
+
+alert("nilai j sekarang = " + j);
+j |= k;  // maksdunya j = j | k 
+
+alert("nilai j sekarang = " + j);
+*/
+}
+
+
+// KETERANGAN
+//Compound assignment operators Name 	Shorthand operator 	Meaning
+//Assignment 	                x = y 	x = y
+//Addition assignment 	        x += y 	x = x + y
+//Subtraction assignment 	    x -= y 	x = x - y
+//Multiplication assignment 	x *= y 	x = x * y
+//Division assignment 	        x /= y 	x = x / y
+//Remainder assignment 	        x %= y 	x = x % y
+//Exponentiation assignment 	x **= y 	x = x ** y
+//Left shift assignment 	    x <<= y 	x = x << y
+//Right shift assignment 	    x >>= y 	x = x >> y
+//Unsigned right shift assignment 	x >>>= y 	x = x >>> y
+//Bitwise AND assignment       	    x &= y 	x = x & y
+//Bitwise XOR assignment 	        x ^= y 	x = x ^ y
+//Bitwise OR assignment 	        x |= y 	x = x | y
+
+</script>

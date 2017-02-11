@@ -1,0 +1,28 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+</body>
+</html>
+
+<script type="text/javascript">
+
+var nilai = "isi variabel global";
+function cobain() {
+   var nilai = "isi variabel lokal";
+   var nilailokal = "ubuntu-indonesia";
+   tanpavar = "no scope"; //akan menjadi global variabel!!
+   console.log(nilai);
+   }
+
+cobain(); // print: isi variabel lokal
+console.log(nilai); // print: isi variabel global
+console.log(tanpavar); //print: no scope (bisa diakses)
+console.log(nilailokal); //error, karena nilailokal adalah variabel lokal didalam fungsi cobain()
+
+</script>

@@ -1,0 +1,1 @@
+alert("Cmgungudh Eaa..     \(^_^)/    ¯\_(?)_/¯");

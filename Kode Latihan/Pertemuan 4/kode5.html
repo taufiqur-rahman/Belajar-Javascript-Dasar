@@ -1,0 +1,57 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h3> Operator Bitwise </h3>
+<p>Hasil <strong>bitwise</strong> dari 15 & 9 adalah <strong><span id="satu"></span></strong></p>
+<p>Hasil <strong>bitwise</strong> dari 15 | 9 adalah <strong><span id="dua"></span></strong></p>
+<p>Hasil <strong>bitwise</strong> dari 15 ^ 9 adalah <strong><span id="tiga"></span></strong></p>
+<p>Hasil <strong>bitwise</strong> dari ~15 adalah <strong><span id="empat"></span></strong></p>
+<p>Hasil <strong>bitwise</strong> dari ~9 adalah <strong><span id="lima"></span></strong></p>
+<h3>Bitwise shift operators</h3>
+<p>Hasil <strong>bitwise</strong> dari 9<<2 adalah <strong><span id="enam"></span></strong></p>
+<p>Hasil <strong>bitwise</strong> dari 9>>2 adalah <strong><span id="tujuh"></span></strong></p>
+<p>Hasil <strong>bitwise</strong> dari 9>>>2 adalah <strong><span id="delapan"></span></strong></p>
+
+<p><button type="submit" id="tambah" onclick="operatorBitwise()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+
+
+
+<script type="text/javascript">
+
+function operatorBitwise() {
+
+ document.getElementById("satu").innerHTML = (15&9) ; 
+  // operator bitwise & akan menghitung >> 1111 & 1001 = 1001
+ 
+ document.getElementById("dua").innerHTML = (15|9) ; 
+  // operator bitwise | akan menghitung >>  	1111 | 1001 = 1111
+ 
+  document.getElementById("tiga").innerHTML = (15^9) ; 
+  // operator bitwise ^ akan menghitung >> 1111 ^ 1001 = 0110
+ 
+  document.getElementById("empat").innerHTML = (~15) ; 
+  // operator bitwise ~ akan menghitung >> ~00000000...00001111 = 11111111...11110000
+ 
+ document.getElementById("lima").innerHTML = (~9) ; 
+  // operator bitwise ~ akan menghitung >> ~00000000...00001001 = 11111111...11110110
+ 
+  document.getElementById("enam").innerHTML = (9<<2) ; 
+  // 9<<2 yields 36, because 1001 shifted 2 bits to the left becomes 100100, which is 36
+ 
+  document.getElementById("tujuh").innerHTML = (9>>2) ; 
+  // 9>>2 yields 2, because 1001 shifted 2 bits to the right becomes 10, which is 2. Likewise, -9>>2 yields -3, because the sign is preserved
+ 
+  document.getElementById("delapan").innerHTML = (9>>>2) ; 
+  // 19>>>2 yields 4, because 10011 shifted 2 bits to the right becomes 100, which is 4. For non-negative numbers, zero-fill right shift and sign-propagating right shift yield the same result.
+ 
+}
+
+</script>

@@ -1,0 +1,619 @@
+Bismillahirrahmanirrahim
+
+// /////////////////////////////////////////////////////////////////////////////////
+//     __  __ _             __            __        __                            //
+//    / / / / /_ __ __ __  / /___ __ ___ / /__  ___/ /___ ___  ___  ___ __ ___    //
+//   / /_/ / _  | // / _ `/ __/ // //__// / _ `/ __ / _  | _ `/ -_)(_-</ /'_  )   //
+//  |____ /____/____/_//_/___/,___/    /_/_//_/|___/\___/_//_/|__/____/_/\_,_/    //
+//                                                                                // 
+// /////////////////////////////////////////////////////////////////////////////////
+
+
+Belajar Bersama Komunitas Kanal #ubuntu-indonesia
+
+INFO
+server : irc.freenode.net  
+port   : 6667
+kanal  : #ubuntu-indonesia
+
+http://webchat.freenode.net/?channels=ubuntu-indonesia
+
+// ///////////////////////////////////////////////////////////////////////////////////////////
+
+             L O G    P E R T E M U A N   1
+
+// ///////////////////////////////////////////////////////////////////////////////////////////
+
+---------------------------
+Pertanyaan yang tidak terjelaskan dan menjadi PR kita semua
+1. Perbedaan antara immutable dan const ?
+2. Tipe data Symbol ?
+---------------------------
+
+
+[2017-02-02 19:46:02 WIB] Syandal_ >> im back
+[2017-02-02 19:46:05 WIB] Syandal_ >>  /me pindah dulu 
+[2017-02-02 19:46:18 WIB] Syandal_ >>  /me beneran mati lampu 
+[2017-02-02 19:46:53 WIB] Syandal_ >> langsung kita mulai aja ya
+[2017-02-02 19:47:08 WIB] triawarman >> mau pindah apa mau mulai ?
+[2017-02-02 19:47:31 WIB] Syandal_ >> bentar
+[2017-02-02 19:48:01 WIB] Syandal_ >> nanti muncul nick satu lagi
+[2017-02-02 19:48:06 WIB] Syandal_ >> tolong kasih voice kesitu
+[2017-02-02 19:48:08 WIB] Syandal_ >> !br
+[2017-02-02 19:48:08 WIB] botan >> ==============================
+[2017-02-02 19:48:30 WIB] sayur_elektronik >> hedeh
+[2017-02-02 19:48:59 WIB] Syandal_ >>  /me beneran mati lampu lagi disini :v 
+[2017-02-02 19:49:03 WIB] Syandal_ >> kita mulai aja ya
+[2017-02-02 19:49:05 WIB] Syandal_ >> !br
+[2017-02-02 19:49:05 WIB] botan >> ==============================
+[2017-02-02 19:49:07 WIB] Syandal` JOIN #ubuntu-indonesia
+[2017-02-02 19:49:26 WIB] Syandal_ >> Assalamu 'alaikum Warrahmatullahi Wabarakatuh ... #belajarjs
+[2017-02-02 19:50:04 WIB] Syandal_ >> saya sampaikan terima kasih kepada semua peserta yang telah meluangkan waktu untuk hadir di acara perdana kita .. belajar bersama javascript #belajarjs
+[2017-02-02 19:50:54 WIB] :ChanServ!ChanServ@services. MODE #ubuntu-indonesia +o triawarman
+[2017-02-02 19:51:16 WIB] Syandal_ >> yang akan kita pelajari hari ini adalah mengulang pertemuan pertama yaitu 1) Tentang Javascript 2) Deklarasi / Penulisan Data 3) Tipe Data .. #belajarjs
+[2017-02-02 19:51:27 WIB] triawarmanMODE #ubuntu-indonesia +o Syandal_
+[2017-02-02 19:51:54 WIB] Syandal_ >> baiklah untuk mempersingkat waktu saya akan mengirimkan beberapa ringkasan .. nanti teman-teman bisa menanggapinya langsung.. #belajarjs
+[2017-02-02 19:51:56 WIB] sayur QUIT :Ping timeout: 260 seconds
+[2017-02-02 19:52:09 WIB] sayur_elektronikQUIT :Read error: Connection reset by peer
+[2017-02-02 19:52:23 WIB] Syandal_ >> atau kalo teman2 mau perpartisipasi berdiskusi bisa kirimkan langsung ringkasan diskusinya sesuai hastag.. #belajarjs
+[2017-02-02 19:52:58 WIB] Syandal_ >> ringkasan yang saya kirimkan nanti bebas ditanggapi.. boleh pertanyaan, kritikan, sanggahan dll.. #belajarjs
+[2017-02-02 19:53:01 WIB] Syandal_ >> !br
+[2017-02-02 19:53:01 WIB] botan >> ==============================
+[2017-02-02 19:53:25 WIB] Syandal_ >> JavaScript adalah bahasa pemograman yang digunakan untuk membuat interaksi atau menambah fitur dinamis ke dalam halaman web .. (1) #belajarjs
+[2017-02-02 19:53:48 WIB] Syandal_ >> Untuk membuat website, kita tidak harus menggunakan JavaScript. Namun, saat ini JavaScript digunakan hampir dalam setiap web modern. Sehingga bagi programmer web, JavaScript merupakan salah satu bahasa pemograman web yang wajib di kuasai (2) #belajarjs
+[2017-02-02 19:54:33 WIB] Syandal_ >> silahkan yang mau ditanggapi.. saran .. kritik.. dan lain2 langsung disampaikan aja
+[2017-02-02 19:54:42 WIB] triawarman >> lanjut
+[2017-02-02 19:55:02 WIB] botanQUIT :Remote host closed the connection
+[2017-02-02 19:55:14 WIB] Syandal_ >> Pengertian JavaScript >> JavaScript adalah bahasa pemrograman web yang bersifat Client Side Programming Language. (3) #belajarjs
+[2017-02-02 19:55:18 WIB] botanJOIN #ubuntu-indonesia
+[2017-02-02 19:55:45 WIB] Syandal_ >> Client Side Programming Language adalah tipe bahasa pemrograman yang pemrosesannya dilakukan oleh client (4) #belajarjs
+[2017-02-02 19:56:06 WIB] Syandal_ >> Aplikasi client yang dimaksud merujuk kepada web browser seperti Google Chrome dan Mozilla Firefox, dll (5) #belajarjs
+[2017-02-02 19:56:27 WIB] Syandal_ >> Jenis bahasa pemrograman Client Side berbeda dengan bahasa pemrograman Server Side seperti PHP, dimana untuk server side seluruh kode program dijalankan di sisi server (6) #belajarjs
+[2017-02-02 19:56:49 WIB] Syandal_ >> sudah saya nomorin.. kalau mau ditanggapi sebutkan nomornya aja
+[2017-02-02 19:57:03 WIB] Syandal_ >> Untuk menjalankan JavaScript, kita hanya membutuhkan aplikasi text editor, dan web browser. (6) #belajarjs
+[2017-02-02 19:57:19 WIB] rofiquzzaki QUIT :Remote host closed the connection
+[2017-02-02 19:57:23 WIB] Syandal_ >> JavaScript memiliki fitur: high-level programming language, client-side, loosely tiped, dan berorientasi objek. (7) #belajarjs
+[2017-02-02 19:57:59 WIB] Syandal_ >> Fungsi JavaScript Dalam Pemograman Web >> avaScript pada awal perkembangannya berfungsi untuk membuat interaksi antara user dengan situs web menjadi lebih cepat tanpa harus menunggu pemrosesan di web server. Sebelum javascript, setiap interaksi dari user harus diproses oleh web server. (8) #belajarjs
+[2017-02-02 19:58:05 WIB] Syandal_ >>  /me kok ane jadi kek dosennya 
+[2017-02-02 19:58:15 WIB] Syandal_ >> kalo ada yang mau ngirim ringkasan kirim aja
+[2017-02-02 19:58:58 WIB] triawarman >> loosely tiped << ??
+[2017-02-02 19:59:25 WIB] Syandal_ >> javascript banyak digunakan untuk tugas2 ringan di web browser sehingga tidak membutuhkan mengambil keseluruhan dari halaman dari server (9) #belajarjs
+[2017-02-02 19:59:28 WIB] Syandal_ >> nomor berapa
+[2017-02-02 19:59:42 WIB] triawarman >> 7
+[2017-02-02 20:01:08 WIB] Syandal_ >> #jawab mungkin maksudnya dalam pengetikan kodenya nggak terlalu mengikat.. contohnya di akhir barisnya tidak harus ditambahkan semicolon ( ; ) #belajarjs dan baris tersebut akan dijalankan dengan normal #cmiiw .. tidak seperti bahasa pemrogramanlain
+[2017-02-02 20:01:47 WIB] sayur JOIN #ubuntu-indonesia
+[2017-02-02 20:01:54 WIB] sayur_elektronik JOIN #ubuntu-indonesia
+[2017-02-02 20:02:19 WIB] triawarman >> harus ";", sebagai pemisah
+[2017-02-02 20:02:30 WIB] Syandal_ >> misalnya pengecekan pengetikan format email.. pengecekan pengetikan input tanggal.. input umur.. kalau memanggil keseluruhan halaman dari server akan menghabiskan waktu.. javascript bisa menangani permasalahan ini ... (10)
+[2017-02-02 20:02:44 WIB] Syandal_ >> bentar lagi merenung
+[2017-02-02 20:03:53 WIB] sayur >> Dece mulu maaf ya
+[2017-02-02 20:04:24 WIB] sayur_elektronik QUIT :Read error: No route to host
+[2017-02-02 20:05:24 WIB] Syandal_ >> hmm
+[2017-02-02 20:06:01 WIB] Syandal_ >> pada contoh berikut .. dibaris alert yang pertama .. dan alert yang kedua masing2 tidak diakhiri dengan penanda akhir baris semicolon (;) .. #belajarjs >>
+<< dihapus karna spam >>
+[2017-02-02 20:06:15 WIB] sayur_elektronik JOIN #ubuntu-indonesia
+<< dihapus karna spam >>
+[2017-02-02 20:06:43 WIB] Syandal_ >> yah maap nyepam kan
+[2017-02-02 20:06:45 WIB] Syandal_ >> pada contoh berikut .. dibaris alert yang pertama .. dan alert yang kedua masing2 tidak diakhiri dengan penanda akhir baris semicolon (;) .. #belajarjs >> https://goo.gl/7upeF4
+[2017-02-02 20:06:58 WIB] Syandal_ >> ^ dicoba dijalanin kode nya dehe
+[2017-02-02 20:07:47 WIB] Syandal_ >> Dalam perkembangan selanjutnya, JavaScript tidak hanya berguna untuk validasi form, namun untuk berbagai keperluan yang lebih modern. Berbagai animasi untuk mempercantik halaman web, fitur chatting, efek-efek modern, games, semuanya bisa dibuat menggunakan JavaScript (11) #belajarjs
+[2017-02-02 20:08:20 WIB] Syandal_ >> Akan tetapi karena sifatnya yang dijalankan di sisi client yakni di dalam web browser yang digunakan oleh pengunjung situs, user sepenuhnya dapat mengontrol eksekusi JavaScript (12) .. #belajarjs
+[2017-02-02 20:08:42 WIB] Syandal` >> Test
+[2017-02-02 20:09:06 WIB] sayur_elektronik >> halo
+[2017-02-02 20:09:37 WIB] Syandal` >> Iya bentar
+[2017-02-02 20:10:08 WIB] Syandal` >> Sambil diskusi aja dulu.. ane nyiapin bahan lagi
+[2017-02-02 20:11:15 WIB] Syandal` >> Sambil diskusi dong
+[2017-02-02 20:12:59 WIB] Syandal_QUIT :Ping timeout: 255 seconds
+[2017-02-02 20:13:05 WIB] sayur QUIT :Ping timeout: 240 seconds
+[2017-02-02 20:13:08 WIB] triawarman >>  /me baru tau kalau JS ga perlu semicolonn 
+[2017-02-02 20:14:05 WIB] triawarman >>  /me sring liat file javascript dalam versi minify (tanpa spasi/baris baru) 
+[2017-02-02 20:14:28 WIB] triawarman >> , biasanya antara satu perinth dengan perintah dibatasi dengan ";" semicolon, sebagai pembeda
+[2017-02-02 20:14:40 WIB] Syandal` >> Secara teori kayaknya penanda akhir baris semicolon tidak wajib, tapi mendingan tetep ditulis, biar alur programnya bisa diprediksi #belajarjs
+[2017-02-02 20:14:49 WIB] sayur JOIN #ubuntu-indonesia
+[2017-02-02 20:14:54 WIB] sayur_elektronik QUIT :Read error: Connection reset by peer
+[2017-02-02 20:14:56 WIB] Syandal` >> Hashtag dong
+[2017-02-02 20:15:07 WIB] Syandal` >> Ada yg dc
+[2017-02-02 20:15:48 WIB] sayur_elektronik JOIN #ubuntu-indonesia
+[2017-02-02 20:16:19 WIB] Syandal_ JOIN #ubuntu-indonesia
+[2017-02-02 20:16:24 WIB] Syandal_ >> !salim
+[2017-02-02 20:16:24 WIB] botan >> assalamu alaikum
+[2017-02-02 20:17:37 WIB] triawarman >> !salim-all
+[2017-02-02 20:17:50 WIB] triawarman >> !notice-all
+[2017-02-02 20:17:55 WIB] triawarman >> !salim-semua
+[2017-02-02 20:17:55 WIB] botan >> salim ChanServ integermanual_ Bayangan botan ceprius crooz djangblue fauh45 Fugutaiten KOD3N mata-mata MugionoBNC ngin-x Oryza presiden ranudwis sayur seventhsky showcheap[m] Syandal vonstroheim yulianfh[m] Mugiono anonimus anonymus greenshirt blackshirt opisboy matematikaadit
+[2017-02-02 20:18:00 WIB] Syandal_ >> Perkembangan javascript >> Dalam perkembangannya, JavaScript mengalami permasalahan yang sama seperti kode pemograman web yang bersifat client side seperti CSS, yakni bergantung kepada implementasi web browser (13) .. #belajarjs
+[2017-02-02 20:19:01 WIB] Syandal_ >> kode javascript yang kita buat belum tentu sama hasilnya jika menjalankan dengan web browser yang berbeda2 (14) #belajarjs
+[2017-02-02 20:19:22 WIB] sayur QUIT :Read error: Connection reset by peer
+[2017-02-02 20:20:05 WIB] Syandal_ >> sehingga programmer harus bekerja ekstra untuk menangani perbedaan browser, tetapi di jaman sekarang sudah dibantu oleh munculnya library2 .. seperti jquery, dll .. sebutkan .. (15) #belajarjs
+[2017-02-02 20:20:17 WIB] Syandal_ >> kita doang keknya yang belajar
+[2017-02-02 20:20:26 WIB] Syandal_ >> ka kaus ijo sama ka presiden mana ya
+[2017-02-02 20:20:31 WIB] triawarman >> kondisi seperti apa yang ditemukan pada pernyataan di nomor #14
+[2017-02-02 20:20:53 WIB] Mugiono JOIN #ubuntu-indonesia
+[2017-02-02 20:21:13 WIB] Syandal_ >>  /me jangan tanya ane dong 
+[2017-02-02 20:21:18 WIB] Syandal_ >> yang lain #jawab dong
+[2017-02-02 20:21:25 WIB] Syandal_ >> kan kita belajar kelompok
+[2017-02-02 20:21:46 WIB] triawarman >>  /me mengira Syandal sudah menyiapkan permaslahaan yang diutarakan 
+[2017-02-02 20:22:18 WIB] Syandal_ >> mungkin implementasi javascript untuk tiap2 browser berbeda2 .. #jawab #belajarjs.. yang pasti berbeda sendiri sih tetep >> internet exproler :v
+[2017-02-02 20:22:33 WIB] Syandal_ >> * triawarman mengira Syandal sudah menyiapkan permaslahaan yang diutarakan << gak #belajarjs
+[2017-02-02 20:22:57 WIB] Syandal_ >> Sejarah JavaScript dimulai sekitar tahun 1994, ketika internet dan website sedang mengalami perkembangan yang pesat. Website pada saat itu umumnya dibuat menggunakan bahasa pemograman PERL yang pemrosesannya hanya bisa dilakukan di sisi web server (15) #belajarjs
+[2017-02-02 20:23:07 WIB] triawarman >> masukan kedepannya, semoga bisa dipertimbangkan tuk menyediakan kondisi nyata yang akan diutarakan
+[2017-02-02 20:23:11 WIB] Syandal_ >> sejarahnya perlu kita bahas nggak sih..
+[2017-02-02 20:23:16 WIB] Syandal_ >> hmm
+[2017-02-02 20:23:21 WIB] triawarman >> sejarha lewat
+[2017-02-02 20:23:38 WIB] Syandal_ >>  /me kan tukang pengumuman.. makannya lebih banyak menyediakan bahan2 untuk pengumuman..  
+[2017-02-02 20:23:51 WIB] Syandal_ >> ok..
+[2017-02-02 20:23:58 WIB] Syandal_ >> bagian pertama selesai
+[2017-02-02 20:24:00 WIB] Syandal_ >> !br
+[2017-02-02 20:24:00 WIB] botan >> ==============================
+[2017-02-02 20:24:28 WIB] Syandal_ >> baiklah untuk mempersingkat waktu marilah kita pindah ke bagian kedua >> 2) Deklarasi / Penulisan Data
+[2017-02-02 20:24:36 WIB] sayur_elektronik QUIT :Remote host closed the connection
+[2017-02-02 20:25:09 WIB] Syandal_ >> referensinya bisa di buka di MDN yang halaman grammar javascript
+[2017-02-02 20:26:53 WIB] Syandal_ >> baiklah saya mengajak kita semua untuk mempelajari pengenalan kode javascript yang pertama tadi >> https://jsfiddle.net/L3n0r1nn/1/ (16) #belajarjs
+[2017-02-02 20:28:11 WIB] suramadu JOIN #ubuntu-indonesia
+[2017-02-02 20:28:35 WIB] Syandal_ >> ^ tolong bilangin mereka kita lagi belajar bersama online dong
+[2017-02-02 20:29:45 WIB] suramadu QUIT :Remote host closed the connection
+[2017-02-02 20:29:59 WIB] sayur JOIN #ubuntu-indonesia
+[2017-02-02 20:30:13 WIB] Syandal_ >> kode pertama kita seperti ini .. coba pada bagian fungsi >> tampilPesan("gantijadinamakalian") >> https://goo.gl/3018pt (17) #belajarjs
+[2017-02-02 20:31:04 WIB] sayur >> maaf sulit ngikutin
+[2017-02-02 20:31:04 WIB] sayur >> koneksi memperhatinkan
+[2017-02-02 20:31:05 WIB] Go JOIN #ubuntu-indonesia
+[2017-02-02 20:31:15 WIB] Syandal_ >> pada kode tersebut adalah contoh struktur sederhana javascript.. kode tersebut memiliki 2 bagian yaitu 1) pembuatan fungsi .. 2) pemanggilan fungsi
+[2017-02-02 20:31:24 WIB] Syandal_ >> sama
+[2017-02-02 20:31:30 WIB] Syandal_ >> disini mati lampu terus
+[2017-02-02 20:31:40 WIB] Syandal_ >> pada kode tersebut adalah contoh struktur sederhana javascript.. kode tersebut memiliki 2 bagian yaitu 1) pembuatan fungsi .. 2) pemanggilan fungsi #belajajs
+[2017-02-02 20:31:47 WIB] Mugiono QUIT :Ping timeout: 240 seconds
+[2017-02-02 20:32:12 WIB] Syandal_ >> dari kode 1 tersebut ada pertanyaan atau nggak ? #belajarjs .. kalo nggak ada kita lanjut ke bagian berikutnya
+[2017-02-02 20:32:35 WIB] Mugiono JOIN #ubuntu-indonesia
+[2017-02-02 20:32:53 WIB] triawarman >> lnajut
+[2017-02-02 20:33:55 WIB] Syandal_ >> ok.. sebelum masuk ke deklarasi data kita akan membahas grammar javascript #belajarjs
+[2017-02-02 20:34:14 WIB] Syandal_ >> ada yang mau jelasin definisi grammar di javascript nggak #belajarjs
+[2017-02-02 20:35:03 WIB] Syandal_ >> karna nggak ada yang mau jelasin.. berarti nggak usah kita bahas .. #belajarjs
+[2017-02-02 20:35:36 WIB] Syandal_ >> aturan sintaks yang pertama adalah cara penulisan komentar #belajarjs.. perhatikan contoh berikut .. ada pertanyaan nggak ? >> https://goo.gl/P6T0Pl
+[2017-02-02 20:36:22 WIB] triawarman >> hmm
+[2017-02-02 20:36:52 WIB] triawarman >> definisi grammar ?
+[2017-02-02 20:37:15 WIB] Syandal_ >> ^ iya tolong jelasin definisi grammar javascript
+[2017-02-02 20:37:23 WIB] Syandal_ >> di tutorial MDN disebutnya grammar
+[2017-02-02 20:38:17 WIB] triawarman >>  /me bingugn juga 
+[2017-02-02 20:38:37 WIB] Syandal_ >> ^ sambil dia jelasin.. kita masuk ke pembahasan berikutnya yaitu deklarasi variabel.. deklarasi adalah cara penyebutan nama variabel.. sehingga variabel ini bisa dipakai selama program javascript berjalan.. #belajarjs
+[2017-02-02 20:39:35 WIB] Syandal_ >> variabel sebenernya adalah sebuah nama untuk memesan suatu tempat di ram komputer.. << istilah resminya kurang tau .. tetapi variabel digunakan untuk menyimpan nilai2 yang kita butuhkan selama program javascript berjalan #belajarjs
+[2017-02-02 20:39:49 WIB] Go >> Lanjut mas.
+[2017-02-02 20:40:33 WIB] Syandal_ >> nah variabel ini nilainya berubah-ubah selama kita menjalankan program.. kalo kita mau 'sesuatu' yang nilainya tetap kita bisa menggunakan cons #belajarjs
+[2017-02-02 20:41:16 WIB] Syandal_ >> cara penulisan variabel adalah >> var [nama_variabel] >>> atau >> var [nama_variabel] = nilainya ; >> contoh >> https://goo.gl/0FxvbN #belajarjs
+[2017-02-02 20:42:47 WIB] sayur QUIT :Ping timeout: 240 seconds
+[2017-02-02 20:43:04 WIB] Go >> Penggunaan 'use strict' sebelum deklarasi var apa ya? #tanya #belajarjs
+[2017-02-02 20:44:32 WIB] Syandal` QUIT :Ping timeout: 248 seconds
+[2017-02-02 20:44:48 WIB] Syandal_ >> colek pak triawarman
+[2017-02-02 20:45:19 WIB] triawarmanMODE #ubuntu-indonesia +o Syandal_
+[2017-02-02 20:45:57 WIB] suramadu JOIN #ubuntu-indonesia
+[2017-02-02 20:45:59 WIB] Syandal` JOIN #ubuntu-indonesia
+[2017-02-02 20:46:27 WIB] dion JOIN #ubuntu-indonesia
+[2017-02-02 20:46:30 WIB] greenshirt JOIN #ubuntu-indonesia
+[2017-02-02 20:46:30 WIB] greenshirt QUIT :Changing host
+[2017-02-02 20:46:30 WIB] greenshirt JOIN #ubuntu-indonesia
+[2017-02-02 20:46:30 WIB] :ChanServ!ChanServ@services. MODE #ubuntu-indonesia +v greenshirt
+[2017-02-02 20:47:11 WIB] triawarman >> strict memastikan tiap penampung data, harus dideklarasikan dahulu sebelumnya
+[2017-02-02 20:47:35 WIB] sayur JOIN #ubuntu-indonesia
+[2017-02-02 20:47:40 WIB] Syandal_ >> ow..
+[2017-02-02 20:47:43 WIB] triawarman >> semisal dibaris kode ada x = "aku keren";, nanti oleh konsol akan memberi pesan error
+[2017-02-02 20:47:43 WIB] Syandal_ >> menarik
+[2017-02-02 20:47:44 WIB] Go QUIT :Ping timeout: 260 seconds
+[2017-02-02 20:47:51 WIB] Syandal_ >> ^ hastag
+[2017-02-02 20:48:03 WIB] Syandal_ >>  /me nanti kita bikin lognya ga usah pake hastag keles ya.. 
+[2017-02-02 20:48:10 WIB] Syandal_ >> langsung kita log pas tanggal hari ini aja
+[2017-02-02 20:48:13 WIB] dion >> oo gitu
+[2017-02-02 20:48:42 WIB] triawarman >> jadi harus dideklarasikan dengan "var" terlebih dahulu, gitu kali ya :)
+[2017-02-02 20:48:48 WIB] triawarman >>  /me mengembalikan ke pak Syandal 
+[2017-02-02 20:48:49 WIB] sayur >> hmm hastag gak ngaruh di irc deh
+[2017-02-02 20:49:04 WIB] Syandal_ >> bisa jadi
+[2017-02-02 20:49:38 WIB] Syandal_ >> tapi kan kita bisa kasih perintah gini >> curl -s logubin.gomix.me/raw | grep '#hastag'
+[2017-02-02 20:50:05 WIB] Syandal_ >> oke lanjut kita ke bagian evaluating variabel #belajarjs
+[2017-02-02 20:50:10 WIB] triawarman >> lebih mudahnya http://www.w3schools.com/js/js_strict.asp
+[2017-02-02 20:50:16 WIB] triawarman >>  /me salah pemahaman tadi 
+[2017-02-02 20:50:25 WIB] greenshirt >> Syandal_, triawarman: ijin gabunh
+[2017-02-02 20:50:26 WIB] Syandal_ >> ^mastah detected _/|\_
+[2017-02-02 20:50:29 WIB] greenshirt >> gabung
+[2017-02-02 20:50:54 WIB] Syandal_ >> ka mati2ka-adit belum muncul ya..
+[2017-02-02 20:51:01 WIB] Syandal_ >> mati2ka-adit datanglah ...
+[2017-02-02 20:51:10 WIB] triawarman >> Syandal penjelasan var, literal, dan satu lagi (lupa)
+[2017-02-02 20:51:17 WIB] suramadu >> [presiden] hadir
+[2017-02-02 20:51:22 WIB] Syandal_ >> const
+[2017-02-02 20:51:28 WIB] Syandal_ >> heemmmpppp
+[2017-02-02 20:51:41 WIB] Syandal_ >> var, cons, literal, sama let kek nya
+[2017-02-02 20:51:50 WIB] Syandal_ >> tapi let nggak usah kita pelajarin kali ya
+[2017-02-02 20:52:32 WIB] dion >> wah disampein aja mas.walaupun sedikit
+[2017-02-02 20:52:35 WIB] sayur >>  /me mau baca log dulu, kuliah yang maren ada lognya juga kan ? 
+[2017-02-02 20:52:37 WIB] triawarman >> let, literal, var (optional) perlu diperdalami sepertinya
+[2017-02-02 20:52:42 WIB] Syandal_ >> semua variabel yang didelarasikan menggunakan keyword 'var' yang tidak memiliki nilai.. akan dianggap bernilai "undefined" #belajarjs
+[2017-02-02 20:52:52 WIB] triawarman >> karena literal terkait sama kata "use strict" tadi
+[2017-02-02 20:53:46 WIB] Syandal_ >> semua log kemarin dibatalin.. yang terpakai adalah log malam ini :v keknya sih
+[2017-02-02 20:54:10 WIB] sayur >> hmm tega
+[2017-02-02 20:55:54 WIB] Syandal_ >> nilai undefined bisa kita gunakan sebagai nilai pengujian untuk alur kondisi .. contohnya >> https://goo.gl/6Xror3 #belajarjs
+[2017-02-02 20:56:41 WIB] dion_ JOIN #ubuntu-indonesia
+[2017-02-02 20:58:16 WIB] Syandal_ >> ^ pada contoh itu ketika kita mendeklarasikan sebuah variabel dengan cara >> var masukan; << maka masukan isinya 'undefined' >> sehingga ketika diuji pada baris >> if(masukan===undefined) << maka akan menghasilkan nilai true.. karna ember.. nilai dari variabel masukan emang bener2 'undefined' kayak om sayur.. >> sehingga karna nilainya true.. hanya blok >> alert("Ciee.. benar ciee..") << yang dijalankan #belajarjs
+[2017-02-02 20:58:47 WIB] dion QUIT :Ping timeout: 240 seconds
+[2017-02-02 21:00:40 WIB] sayur >> hmm begitu
+[2017-02-02 21:00:57 WIB] Syandal_ >> dalam operasi yang berhubungan dengan boolean .. 'undefined' akan dianggap false >> https://goo.gl/XAswvh #belajarjs
+[2017-02-02 21:03:36 WIB] Syandal` >> Mati lampu lagi :'(
+[2017-02-02 21:03:37 WIB] Syandal` >> Kita begadang buat lanjut terus pembahaaannya ya.. /me udah bosen remedial mulu :(
+[2017-02-02 21:04:07 WIB] Syan|dal JOIN #ubuntu-indonesia
+[2017-02-02 21:04:21 WIB] Syan|dal >> Pindah disini
+[2017-02-02 21:04:51 WIB] Syan|dal >> Disitu sinyalnya 3G mulu
+[2017-02-02 21:05:19 WIB] triawarmanMODE #ubuntu-indonesia +o Syan|dal
+[2017-02-02 21:05:28 WIB] greenshirt >> php in...Mati lampu terjadi llagi
+[2017-02-02 21:05:40 WIB] Syandal_ QUIT :Ping timeout: 240 seconds
+[2017-02-02 21:06:13 WIB] Syan|dal >> :(
+[2017-02-02 21:06:30 WIB] Syan|dal >> Sambil pada diskusi dulu
+[2017-02-02 21:06:46 WIB] Syan|dal >> Beneran yg salah pln ..
+[2017-02-02 21:07:02 WIB] Syan|dal >>  /me cuman korban ketidakadilan 
+[2017-02-02 21:11:34 WIB] Syandal` >> Sebuah variabel yg bernilai undefined .. akan diubah menjadi NaN .. pada operasi perhitungan terhadap angka.. bisa diliat di web MDN #belajarjs
+[2017-02-02 21:13:35 WIB] Syandal` >> Sedangkan variabel yg bernilai 'null' akan diubah menjadi 0.. ketika dilakukan oprasi matematika terhadap angka #belajarjs
+[2017-02-02 21:13:38 WIB] suramadu QUIT :Remote host closed the connection
+[2017-02-02 21:14:41 WIB] Syandal` >> Baiklah.. kita lanjut ke pembahasannselanjutnya .. janggkauan variabel /variabel scope #belajarjs
+[2017-02-02 21:14:46 WIB] Syandal` >> !br
+[2017-02-02 21:14:46 WIB] botan >> ==============================
+[2017-02-02 21:17:44 WIB] Syandal` >> Ketika kita mendefinisikan sebuah variabel .. yang berada diluar fungsi2 yg ada.. maka variabel tersebut berupa variable global.. artinya variabel tersebut bisa diakse dari dalam semua fungsi2 yg kita buat.. contoh bisa dilihat diweb MDN #belajarjs
+[2017-02-02 21:17:59 WIB] suramadu JOIN #ubuntu-indonesia
+[2017-02-02 21:19:25 WIB] Syandal` >> Ketika kita mendefinisikan sebuah variable didalam sebuah fungsi.. oleh javascript dianggap variabel lokal.. yang hanya bisa diakses dari dalam fungsi itu sendiri #belajarjs
+[2017-02-02 21:19:44 WIB] Syandal` >> Contohnya nanti kalo udah nyala listrik
+[2017-02-02 21:21:07 WIB] Syandal` >> Sambil diskusi lagi dong
+[2017-02-02 21:21:30 WIB] triawarman >> hmm
+[2017-02-02 21:22:47 WIB] sayur QUIT :Ping timeout: 245 seconds
+[2017-02-02 21:23:19 WIB] Mugiono QUIT :Read error: Connection reset by peer
+[2017-02-02 21:24:01 WIB] Syandal` >> Variable hoisting << adalah salah satu kelebihan javascript .. maksudnya adalah.. kita bisa menggunakan sebuah variabel.. biarpun variabel tersebut di deklarasiinnya belakangan.. #belajarjs
+[2017-02-02 21:24:18 WIB] sayur JOIN #ubuntu-indonesia
+[2017-02-02 21:25:19 WIB] Syandal` >> Function hoisting << sama .. kita bisa memanggil sebuah fungsi.. padahal fungsi tersebut didefinisikannya belakangan #belajarjs
+[2017-02-02 21:26:20 WIB] Syandal` >> Baiklah kita pindah ke bagian berikutnya #belajarjs
+[2017-02-02 21:26:21 WIB] Syandal` >> !br
+[2017-02-02 21:26:22 WIB] botan >> ==============================
+[2017-02-02 21:30:02 WIB] triawarman >> hmm
+[2017-02-02 21:30:08 WIB] Syandal` >> CONSTANTS, sebuah nama untuk memesan suatu tempat di memory .. bedanya dengan varibel adalah .. pada const sekali dideklarasiin.. maka isi nilainya tidak bisa diubah.. untuk scope const sama seperti variabel .. contoh pendeklarasiannya >> const PI = 3.14; #belajarjs
+[2017-02-02 21:32:28 WIB] Syandal` >> Nah untuk deklarasi cukup sampe sini.. untuk literal sesuai di halaman MDN kita bahas belakangan .. #belajarjs
+[2017-02-02 21:32:29 WIB] Syandal` >> Sebelum lanjutin ada yg mau nanya2 dulu nggak
+[2017-02-02 21:32:29 WIB] Syandal` >> Abis ini kita pindah ke tipe data #belajarjs
+[2017-02-02 21:34:28 WIB] triawarman >> ga diperdalam ttg let dll ?
+[2017-02-02 21:34:29 WIB] Syandal` >> Hmm #belajarjs
+[2017-02-02 21:34:47 WIB] Syandal` >> Disini dari hape .. susah
+[2017-02-02 21:35:19 WIB] triawarman >> ok
+[2017-02-02 21:35:22 WIB] Syandal` >> Silahkan pak triawarman kalo mau membahasnya #belajarjs
+[2017-02-02 21:35:46 WIB] triawarman >>  /me nunggu Syandal` 
+[2017-02-02 21:35:46 WIB] sayur QUIT :Ping timeout: 260 seconds
+[2017-02-02 21:36:14 WIB] Syandal` >> Ga nemu tentang let
+[2017-02-02 21:36:31 WIB] Syandal` >> Coba pak triawarman aja
+[2017-02-02 21:37:29 WIB] greenshirt QUIT :Ping timeout: 256 seconds
+[2017-02-02 21:38:11 WIB] Syandal` >> Let sama kek array multi dimensional di php-in nggak ? #tanya #belajarjs
+[2017-02-02 21:39:01 WIB] triawarman >>  /me tau sdikit 
+[2017-02-02 21:39:37 WIB] Syandal` >> Coba jelasin ga apa2 sambil nunggu nyala lampu
+[2017-02-02 21:40:09 WIB] triawarman >> let itu deklarasi variable hanya tuk scope (lingkup) kecil, yang biasanya dalam blok kode, dan tiap deklarasi let walaupun memiliki nama deklarasi yang sama tetapi berbeda scope, maka dia ttp memiliki nilai berbeda berdasar scope yang ada
+[2017-02-02 21:40:15 WIB] triawarman >> contoh::
+[2017-02-02 21:40:46 WIB] Syandal` >> Ok
+[2017-02-02 21:41:59 WIB] triawarman >> let a = 'test 1';
+[2017-02-02 21:42:00 WIB] triawarman >> var e = false;
+[2017-02-02 21:42:00 WIB] triawarman >> if (e == false){
+[2017-02-02 21:42:00 WIB] triawarman >> let a = 'e sama dengan false nih';
+[2017-02-02 21:42:00 WIB] triawarman >> alert(a); //nanti akan memberi peringatan 'e sama dengan false nih'
+[2017-02-02 21:42:00 WIB] triawarman >> }
+[2017-02-02 21:42:00 WIB] triawarman >> alert(a); //nanti akan memberi peringatan 'test 1'
+[2017-02-02 21:42:54 WIB] greenshirt JOIN #ubuntu-indonesia
+[2017-02-02 21:42:54 WIB] greenshirt QUIT :Changing host
+[2017-02-02 21:42:54 WIB] greenshirt JOIN #ubuntu-indonesia
+[2017-02-02 21:42:54 WIB] :ChanServ!ChanServ@services. MODE #ubuntu-indonesia +v greenshirt
+[2017-02-02 21:43:00 WIB] Syandal` >> Ok
+[2017-02-02 21:43:11 WIB] Syandal` >>  /me sih paham 
+[2017-02-02 21:43:25 WIB] triawarman >> http://pastebin.com/pffMGMnw
+[2017-02-02 21:43:28 WIB] Syandal` >> Jones awam ada yg mau nanya gak
+[2017-02-02 21:43:28 WIB] triawarman >> literal bagaimana ?
+[2017-02-02 21:43:36 WIB] Syandal` >> Bentar
+[2017-02-02 21:43:45 WIB] Syandal` >> Abis ini tipe data
+[2017-02-02 21:43:52 WIB] dion_ >> literal dong mas..
+[2017-02-02 21:44:02 WIB] Syandal` >> Abis selesai tipe data baru literal
+[2017-02-02 21:44:34 WIB] Syandal` >> Di artikel di halaman MDN ., data tipe dulu
+[2017-02-02 21:45:01 WIB] Syandal` >> Sepertinya let bagus buat kuda looping ya
+[2017-02-02 21:46:39 WIB] Syandal` >> Contoh >> for (let n = 1 ; n < 10; n++)  {  // disini perulanngannya }
+[2017-02-02 21:46:59 WIB] greenshirt >> Syandal`: #nanyajs, bedanya immutable ma constant apaan om?
+[2017-02-02 21:47:17 WIB] greenshirt >> const
+[2017-02-02 21:47:41 WIB] Syandal` >> ^ pertanyyan mastah susah :v penuh dengan jebakan
+[2017-02-02 21:50:23 WIB] triawarman >> me idem Syandal`
+[2017-02-02 21:51:27 WIB] greenshirt >> Beneran ini, masih awam
+[2017-02-02 21:51:44 WIB] triawarman >> dari nick aja uda ketahuan suka jebak
+[2017-02-02 21:53:35 WIB] greenshirt >> hmmm... Mungkin lagi belajar, kan nanya ma suhu-suhu :-(
+[2017-02-02 21:54:46 WIB] Syandal` >> Mastah bukannya bantuin.. malah mempersulit keadaan
+[2017-02-02 21:55:15 WIB] Syandal` >> Koneksi di sine lagi lola .. cuco
+[2017-02-02 21:56:26 WIB] greenshirt >> triawarman: di PHP ada kah konsep itu?
+[2017-02-02 21:56:38 WIB] Syandal` >> Baiklah untuk mempersingkat waktu .. ane nyerah sama pertanyaan om greenshirt .. yg lain ada yang mqu bantuin jawab ga #belajarjs
+[2017-02-02 21:57:32 WIB] Syandal` >> Ane kasih waktu 1 menit.. kalo ga ada yg bisa jawab.. kita skip untuk pr kita semua .. #belajarjs
+[2017-02-02 21:57:52 WIB] triawarman >> greenshirt: ga tau
+[2017-02-02 21:57:59 WIB] triawarman >> istilah immutable aja baru tau ini
+[2017-02-02 21:58:53 WIB] dion_ >> http://wecodetheweb.com/2016/02/12/immutable-javascript-using-es6-and-beyond/
+[2017-02-02 22:00:33 WIB] Syandal` >> Yth pak dion_ bisa bantuin pake kalimat bahasa indonesa nggak, biar cepet terjawab #belajarjs
+[2017-02-02 22:01:32 WIB] dion_ >> ga bisa saya beginner ee
+[2017-02-02 22:01:52 WIB] Syandal` >> Ga apa2 jelasin aja
+[2017-02-02 22:02:39 WIB] Syandal` >> Disini kita sama masih belajar semua
+[2017-02-02 22:03:05 WIB] triawarman >> (23:02:40) Syandal`: Disini kita sama masih belajar semua << kecuali ChanServ, dia ga perlu belajar
+[2017-02-02 22:03:27 WIB] Syandal` >> Ember
+[2017-02-02 22:03:31 WIB] greenshirt >> idem op hot :-)
+[2017-02-02 22:03:34 WIB] Syandal` >> Tunggu 15 detik
+[2017-02-02 22:04:08 WIB] dion__ JOIN #ubuntu-indonesia
+[2017-02-02 22:04:24 WIB] greenshirt >> Syandal`: liat silabus tadi siang soal for dkk..Ane ketinggalan ya ? :-(
+[2017-02-02 22:05:03 WIB] greenshirt >> atau buat besok nya lagi
+[2017-02-02 22:05:03 WIB] dion__ >> agak bingung juga ngejelasinnya
+[2017-02-02 22:05:16 WIB] Syandal` >> For pertemuan ke 2.. kita masih pertama
+[2017-02-02 22:05:29 WIB] Syandal` >> Jelasin sedapetnya aja
+[2017-02-02 22:06:53 WIB] dion_ QUIT :Ping timeout: 276 seconds
+[2017-02-02 22:07:48 WIB] triawarman >> singkatnya iimmutability, kemampuan merubah variable terkait
+[2017-02-02 22:07:51 WIB] Syandal` >> Baiklah .. pertanyaan om greenshirt kita simpen, untuk jadi pr bersama #belajarjs
+[2017-02-02 22:08:17 WIB] Syandal` >> Baiklah kita ke materi selanjutnya
+[2017-02-02 22:08:25 WIB] Syandal` >> !br
+[2017-02-02 22:08:25 WIB] botan >> ==============================
+[2017-02-02 22:08:32 WIB] greenshirt >> Siap
+[2017-02-02 22:08:47 WIB] Syandal` >> 3) TIPE DATA
+[2017-02-02 22:08:55 WIB] Syandal` >> !br
+[2017-02-02 22:08:55 WIB] botan >> ==============================
+[2017-02-02 22:10:48 WIB] Syandal` >> Tipe data - primitif dan - obyek #belajarjs
+[2017-02-02 22:14:01 WIB] Syandal` >> Tipe data primitif di javascript >> kalo diliat dari tipe datanya pada js dibagi menjadi >> 1) boolean (true dan false)  2) null   3) undefined  4) angka  5) string  6) symbol #belajarjs
+[2017-02-02 22:15:44 WIB] dion__ >> lanjut mas
+[2017-02-02 22:16:08 WIB] alunux JOIN #ubuntu-indonesia
+[2017-02-02 22:16:58 WIB] Syandal` >> Contoh deklarasi boolean >> var nilai = true      >> kadang kadang bolean didapat dari operasi perbandingan .. misal >> (10 < 15)  #belajarjs
+[2017-02-02 22:17:29 WIB] Syandal` >> Ada yg mau menambahkan tentang boolean gak? #belajarjs
+[2017-02-02 22:17:33 WIB] triawarman >> ga
+[2017-02-02 22:19:18 WIB] Syandal` >> Contoh deklarasi null >>> var a = null    #belajarjs .. contoh kodenya bisa diliat di link yg saya kirim ya
+[2017-02-02 22:19:30 WIB] Syandal` >> !info-belajarjs
+[2017-02-02 22:19:30 WIB] botan >> Dear penghuni kanal .. ini yang kita pelajari di blajar bersama javascript #ubuntu-indonesia pertemuan pertama >> goo.gl/ZWJ7yK .. adapun referensinya bebas.. tapi /me mengikuti ini >> goo.gl/lxRJj0 .. alasannya kalo kita sudah menguasai materi disitu sudah mencukupi untuk mempelajari librari, fw, dst.. :)
+[2017-02-02 22:20:17 WIB] Syandal` >> Kalo gini sama kayak null ga pak triawarman  <<  var a ="";
+[2017-02-02 22:20:34 WIB] triawarman >> empty
+[2017-02-02 22:20:57 WIB] Syandal` >> Ow
+[2017-02-02 22:21:03 WIB] Syandal` >> Maap beda ya
+[2017-02-02 22:21:26 WIB] Syandal` >> Null didapat dari apa aja pak triawarman
+[2017-02-02 22:21:52 WIB] triawarman >> null saat tidak ada deklarasi
+[2017-02-02 22:22:15 WIB] triawarman >> tapi kalau berbicara ttg javascript ttg isi variable bernilai "undefined"
+[2017-02-02 22:22:19 WIB] triawarman >>  /me agak bingung juga 
+[2017-02-02 22:24:10 WIB] Syan|dal QUIT :Ping timeout: 240 seconds
+[2017-02-02 22:25:02 WIB] triawarman >> Sepertinya syandal sudah kehabisan asupan listrik
+[2017-02-02 22:26:01 WIB] Syandal_ JOIN #ubuntu-indonesia
+[2017-02-02 22:26:19 WIB] Syandal_ >> !salim
+[2017-02-02 22:26:19 WIB] botan >> assalamu alaikum
+[2017-02-02 22:26:24 WIB] Syandal_ >> ok lanjut
+[2017-02-02 22:26:25 WIB] triawarman >> oh
+[2017-02-02 22:26:32 WIB] triawarman >> diluar dugaan
+[2017-02-02 22:26:54 WIB] Syandal_ >> bentar
+[2017-02-02 22:26:57 WIB] Syandal_ >>  /me baru nyala 
+[2017-02-02 22:27:36 WIB] Syandal_ >> tuhkan ada yang lupa .. gara2 mati lampu ..
+[2017-02-02 22:28:05 WIB] Syandal_ >> berikkut adalah contoh cara memasukkan kode javascript kedalam halaman html >> https://goo.gl/XEY4Ig #belajarjs .. ada 4 cara menambahkan javascript .. diliat aja contoh2nya
+[2017-02-02 22:28:37 WIB] dion_ JOIN #ubuntu-indonesia
+[2017-02-02 22:29:23 WIB] dion__ QUIT :Read error: Connection reset by peer
+[2017-02-02 22:30:21 WIB] Syandal_ >> ada yang kelupaan lagi.. dalam bahasa php-in.. ada fungsi-fungsi yang disediakan untuk pengolahan data.. di php contohnya >> namafungsi() .. tetapi fungsi pada javascript berbeda #belajarjs
+[2017-02-02 22:30:55 WIB] Syandal_ >> dalam javascript fungsi dasar dari variabel 'melekat' kedalam variabel .. atau dengan kata lain 'setiap variabel langsung memiliki method' #belajarjs
+[2017-02-02 22:33:24 WIB] Syandal_ >> pada contoh berikut .. kita mendeklarasikan sebuah variabel 'teks' yang berisi nilai string.. nah di javascript disediakan fungsi untuk menghitung panjang string.. namanya fungsi 'length' tetapi cara memanggilnya sperti ini namavar.length .. contoh >> https://goo.gl/pVjTKw #belajarjs
+[2017-02-02 22:34:57 WIB] Syandal_ >> nah dalam javasript disebut menempel pada varnya.. atau disebut kita menganggil method length dari var.. seolah2 seperti ini.. ketika kita mendeklariskan sebuah variabel.. variabel itu akan otomatis menurunkan method2 dari kelas variabel yang sudah disediakan oleh javascript .. #belajarjs
+[2017-02-02 22:35:52 WIB] Syandal_ >> formatnya >> [namavariabel].[namamethodyangakandipanggil]    #belajarjs
+[2017-02-02 22:36:47 WIB] Syandal_ >> !br
+[2017-02-02 22:36:47 WIB] botan >> ==============================
+[2017-02-02 22:37:45 WIB] Syandal_ >> balik ke tipe data >> tipe data primitif >> 1) boolean 2) null 3) undefined 4) angka 5) string 6) symbol
+[2017-02-02 22:38:40 WIB] Syandal_ >> baiklah.. kita lanjut ke 3) undefined.. ketika kita mendeklarasikan sebuah variabel.. tetapi kita belum mengisinya dengan sebuah nilai.. maka variabel tersebut akan berisi nilai 'undefined' #catet #belajarjs
+[2017-02-02 22:39:03 WIB] Syandal_ >> sifat2 dari tipe data 'undefined' diawal sudah kita singgung dikit #belajarjs
+[2017-02-02 22:41:02 WIB] Syandal_ >> tipe data 4) number / angka ... biasa .. ... contoh tipe angka integer (hmm) >> 124234  .. contoh tipe data float >> 24244.34  << ada angka pecahannya
+[2017-02-02 22:43:34 WIB] Syandal_ >> tipe data 5) string .. dalam javascript sring dideklarasikan diantara tanda " " .. contoh >> var a = "ini sebuah teks"  .. contoh lain lagi >> var b = "12323" #belajarjs
+[2017-02-02 22:45:21 WIB] triawarman >> >>
+[2017-02-02 22:45:58 WIB] Syandal_ >> pada javascript .. sebuah variabel .. tipe nya bisa berubah2 selamam program berjalan.. contohnya >> var a = 10 ; var a = "teks";   // nilainya jadi berubah  #belajarjs
+[2017-02-02 22:47:00 WIB] Syandal_ >> untuk tipe data bisa dilihat disini aja >> http://www.w3schools.com/js/js_datatypes.asp << #belajarjs
+[2017-02-02 22:47:18 WIB] triawarman >> tipe data simbol belum dijelaskan
+[2017-02-02 22:47:45 WIB] Syandal_ >>  /me nyerah  
+[2017-02-02 22:47:47 WIB] Syandal_ >> gak ada
+[2017-02-02 22:48:05 WIB] Syandal_ >> pak triawarman tolong jelasin tentang tipe data symbol
+[2017-02-02 22:48:05 WIB] triawarman >> (23:37:45) Syandal_: balik ke tipe data >> tipe data primitif >> 1) boolean 2) null 3) undefined 4) angka 5) string 6) symbol << hmm
+[2017-02-02 22:48:11 WIB] triawarman >>  /me lewat 
+[2017-02-02 22:48:34 WIB] Syandal_ >> ^ nah pertanyaan itu sulit dijawab.. dan menjadi pr kita yang kedua
+[2017-02-02 22:48:54 WIB] Syandal_ >> baiklah ... kita lanjut ke pembahasan berikutnya >>> konversi tipe data
+[2017-02-02 22:48:55 WIB] Syandal_ >> !br
+[2017-02-02 22:48:55 WIB] botan >> ==============================
+[2017-02-02 22:49:26 WIB] Syandal_ >> perhatikan contoh berikut >>
+[2017-02-02 22:49:28 WIB] Syandal_ >> var umurKoden = 22;
+[2017-02-02 22:49:28 WIB] Syandal_ >> console.log(umurKoden);
+[2017-02-02 22:49:28 WIB] Syandal_ >> umurKoden = "22 Tahun cynt..";
+[2017-02-02 22:49:28 WIB] Syandal_ >> console.log(umurKoden);
+[2017-02-02 22:49:33 WIB] Syandal_ >> !br
+[2017-02-02 22:49:33 WIB] botan >> ==============================
+[2017-02-02 22:49:56 WIB] triawarman >> literal gmn ?, katanya setelah tipe data bahas literal
+[2017-02-02 22:50:01 WIB] triawarman >> yg jadi pr ya ?
+[2017-02-02 22:50:25 WIB] Syandal_ >> pada contoh diatas kita memiliki sebuah variabel.. yaitu umurKoden, pertama kali variabel tersebut bertipe angka .. selanjutnya tipenya berubah menjadi string..
+[2017-02-02 22:50:28 WIB] Syandal_ >> abis ini
+[2017-02-02 22:50:44 WIB] Syandal_ >> contoh 2
+[2017-02-02 22:50:46 WIB] Syandal_ >> !br
+[2017-02-02 22:50:46 WIB] botan >> ==============================
+[2017-02-02 22:50:48 WIB] Syandal_ >> / konversi dari string ke angka
+[2017-02-02 22:50:48 WIB] Syandal_ >> / menggunakan parseInt() dan parseFloat()
+[2017-02-02 22:50:48 WIB] Syandal_ >> j = parseInt("123.45",10);
+[2017-02-02 22:50:48 WIB] Syandal_ >> console.log(j);
+[2017-02-02 22:50:48 WIB] Syandal_ >> k = parseFloat("456.78",10);k
+[2017-02-02 22:50:49 WIB] Syandal_ >> console.log(j);
+[2017-02-02 22:50:52 WIB] Syandal_ >> !br
+[2017-02-02 22:50:52 WIB] botan >> ==============================
+[2017-02-02 22:51:27 WIB] Syandal_ >> contoh kode diatas bisa dilihat disini >> http://jsbin.com/ciyidofiwo/edit?html,js,console
+[2017-02-02 22:53:23 WIB] Syandal_ >> kode diatas hasilnya >> 123  dan 456.78  >> http://imagizer.imageshack.com/img923/4277/67Vbwx.png
+[2017-02-02 22:54:03 WIB] Syandal_ >> !br
+[2017-02-02 22:54:03 WIB] botan >> ==============================
+[2017-02-02 22:54:10 WIB] Syandal_ >> pada contoh berikut ane kurang ngerti
+[2017-02-02 22:54:12 WIB] Syandal_ >> / atau menggunakan operator unary +
+[2017-02-02 22:54:12 WIB] Syandal_ >> o = "1.1" + "1.1" ;
+[2017-02-02 22:54:12 WIB] Syandal_ >> console.log(o); // variabel o masih bertipe string
+[2017-02-02 22:54:12 WIB] Syandal_ >> p = (+"1.1") + (+"1.1");
+[2017-02-02 22:54:12 WIB] Syandal_ >> console.log(p); // variabel p sudah bertipe angka
+[2017-02-02 22:54:15 WIB] Syandal_ >> !br
+[2017-02-02 22:54:15 WIB] botan >> ==============================
+[2017-02-02 22:54:28 WIB] Syandal_ >> tapi hasilnya angka 2.2
+[2017-02-02 22:54:42 WIB] triawarman >> hmm
+[2017-02-02 22:54:51 WIB] Syandal_ >> baiklah kita ke pembahasan terakhir
+[2017-02-02 22:54:52 WIB] Syandal_ >> !br
+[2017-02-02 22:54:52 WIB] botan >> ==============================
+[2017-02-02 22:54:55 WIB] Syandal_ >> LITERALS
+[2017-02-02 22:54:57 WIB] Syandal_ >> !br
+[2017-02-02 22:54:57 WIB] botan >> ==============================
+[2017-02-02 22:55:10 WIB] Syandal_ >> ada yang mau mengirimkan diskusi gak ?
+[2017-02-02 22:55:36 WIB] triawarman >> g
+[2017-02-02 22:55:41 WIB] Syandal_ >> peserta di dungdat akademi dari daerah mana ?
+[2017-02-02 22:55:49 WIB] Syandal_ >> bagus nyanyinya
+[2017-02-02 22:55:52 WIB] Syandal_ >> bentar
+[2017-02-02 22:56:41 WIB] greenshirt >>  /me boleh nanya mastah ... 
+[2017-02-02 22:56:46 WIB] Syandal_ >> boleh
+[2017-02-02 22:56:51 WIB] Syandal_ >> tapi yang jawab bukan ane ya
+[2017-02-02 22:57:14 WIB] greenshirt >> Nanya mastah Syandal`
+[2017-02-02 22:57:22 WIB] alunux QUIT :Quit: Lost terminal
+[2017-02-02 22:57:42 WIB] Syandal_ >> :3
+[2017-02-02 22:58:25 WIB] Syandal_ >> hmm
+[2017-02-02 22:58:30 WIB] Syandal_ >> kalo mau nanya nanya dulu
+[2017-02-02 22:58:30 WIB] dion_ >> cianjur
+[2017-02-02 22:58:54 WIB] Syandal_ >> ow ok
+[2017-02-02 22:59:29 WIB] greenshirt >> Kayaknya tadi ada null ada undefined...Bisa jelasin lebih detil om... Masih ngrambyang
+[2017-02-02 22:59:41 WIB] greenshirt >> bedanya apaan...
+[2017-02-02 22:59:59 WIB] Syandal_ >> kalo udah pada nggak kuat boleh pamit.. Syandal_ tetep sampe selesai semua pembahasan.. buat ngejar log.. biar punya bukti ke pak Malsasa..
+[2017-02-02 23:00:19 WIB] Syandal_ >> kalo null kita harus tulis kek gini >> var a = null ;
+[2017-02-02 23:00:32 WIB] Syandal_ >> kalo >> var a ;
+[2017-02-02 23:00:37 WIB] Syandal_ >> ^ dianggap undefined
+[2017-02-02 23:00:57 WIB] greenshirt >>  /me lambaikan tangan ke triawarman  
+[2017-02-02 23:01:07 WIB] triawarman >> hmm
+[2017-02-02 23:01:11 WIB] Syandal_ >> ok..
+[2017-02-02 23:01:18 WIB] Syandal_ >> yang mau pamit silahkan
+[2017-02-02 23:01:22 WIB] Syandal_ >> nanti bacain di log aja
+[2017-02-02 23:01:47 WIB] Syan|dal JOIN #ubuntu-indonesia
+[2017-02-02 23:02:04 WIB] triawarman >> rehat?
+[2017-02-02 23:02:31 WIB] Syandal_ >> masih
+[2017-02-02 23:02:35 WIB] Syandal_ >> ^dia mata2
+[2017-02-02 23:02:40 WIB] Syandal_ >> dia lelah :v
+[2017-02-02 23:02:43 WIB] greenshirt >> Syandal`: anggaplah itu menyatakan ketiadaan suatu value atau apalah namanya...
+[2017-02-02 23:03:12 WIB] Syandal_ >> oww..
+[2017-02-02 23:03:16 WIB] Syandal_ >> nah itu .. trus
+[2017-02-02 23:03:46 WIB] Syandal_ >> mungkin sambil berjalannya kegiatan diskusi kita.. suatu saat kita bisa lebih ngerti..
+[2017-02-02 23:04:24 WIB] greenshirt >> Kayaknya punya 'kemiripan' fungsi..Tapi ga tau beda manfaat nya
+[2017-02-02 23:04:34 WIB] Syandal_ >> bisa jadi
+[2017-02-02 23:04:47 WIB] Syandal_ >> lanjut dikit
+[2017-02-02 23:04:49 WIB] Syandal_ >> !br
+[2017-02-02 23:04:49 WIB] greenshirt >> Kalau di perbandingkan, itu pakai yang mana?
+[2017-02-02 23:04:49 WIB] botan >> ==============================
+[2017-02-02 23:05:22 WIB] Syandal_ >> kalo data nya baru dideklarasiin.. mungkin pake undefined ..
+[2017-02-02 23:05:26 WIB] Syandal_ >> coba tanya pak triawarman
+[2017-02-02 23:05:57 WIB] triawarman >> g
+[2017-02-02 23:06:11 WIB] Syandal_ >> jelaskan
+[2017-02-02 23:06:16 WIB] greenshirt >> undefined itu keyword di JS?
+[2017-02-02 23:07:35 WIB] Syandal_ >> mungkin tipe data..
+[2017-02-02 23:07:53 WIB] Syandal_ >> nah itu dia masalahnya .. undefined << tipe data .. o em ji heloooowww... :v
+[2017-02-02 23:08:19 WIB] Syandal_ >> coba buka link berikut .. lalu jalankan ulang.. lalu liat di tampilan console nya >> http://jsbin.com/widorujoka/edit?html,js,console,output
+[2017-02-02 23:08:23 WIB] greenshirt >> Itu tipe data?
+[2017-02-02 23:09:02 WIB] Syandal_ >> nah itu .. ga tau
+[2017-02-02 23:09:43 WIB] triawarman >> undefined means a variable has been declared but has not yet been assigned a value. On the other hand, null is an assignment value. It can be assigned to a variable as a representation of no value. Also, undefined and null are two distinct types: undefined is a type itself (undefined) while null is an objec
+[2017-02-02 23:10:16 WIB] Syandal_ >> ok thx ^ .. _/|\_
+[2017-02-02 23:11:27 WIB] Syandal_ >> lanjut ya
+[2017-02-02 23:11:28 WIB] Syandal_ >> 1br
+[2017-02-02 23:11:30 WIB] Syandal_ >> !br
+[2017-02-02 23:11:30 WIB] botan >> ==============================
+[2017-02-02 23:12:34 WIB] Syandal_ >> LITERALS
+[2017-02-02 23:12:46 WIB] Syandal_ >> / Macam-macam konstanta/literal
+[2017-02-02 23:12:47 WIB] Syandal_ >> / - Array literals
+[2017-02-02 23:12:47 WIB] Syandal_ >> / - Boolean literals
+[2017-02-02 23:12:47 WIB] Syandal_ >> / - Floating-point literals
+[2017-02-02 23:12:47 WIB] Syandal_ >> / - Integers
+[2017-02-02 23:12:47 WIB] Syandal_ >> / - Object literals
+[2017-02-02 23:12:49 WIB] Syandal_ >> / - RegExp literals
+[2017-02-02 23:12:51 WIB] Syandal_ >> / - String literals
+[2017-02-02 23:12:53 WIB] Syandal_ >> !br
+[2017-02-02 23:12:53 WIB] botan >> ==============================
+[2017-02-02 23:13:23 WIB] Syandal_ >> dalam javascript array dimasukkan dalam literals
+[2017-02-02 23:14:08 WIB] Syandal_ >> 1) array adalah daftar nol atau lebih ekspresi, masing-masing ekspresi tersebut mewakili elemen array, semua elemen berada didalam kurung siku ([]) #belajarjs
+[2017-02-02 23:14:31 WIB] Syandal_ >> / contoh :
+[2017-02-02 23:14:31 WIB] Syandal_ >> var coffees = ["French Roast", "Colombian", "Kona"];
+[2017-02-02 23:14:31 WIB] Syandal_ >> console.log(coffees); // hasilnya "French Roast", "Colombian", "Kona"
+[2017-02-02 23:14:31 WIB] Syandal_ >> / contoh 2
+[2017-02-02 23:14:31 WIB] Syandal_ >> var fish = ["Lion", , "Angel"];
+[2017-02-02 23:14:32 WIB] Syandal_ >> console.log(fish); // "Lion", undefined, "Angel"
+[2017-02-02 23:14:48 WIB] Syandal_ >> !br
+[2017-02-02 23:14:48 WIB] botan >> ==============================
+[2017-02-02 23:15:03 WIB] Syandal_ >> kode tersebut bisa liaat disini >> http://jsbin.com/casitecifu/edit?html,js,console
+[2017-02-02 23:16:49 WIB] triawarman >>  /me rehat 
+[2017-02-02 23:16:53 WIB] Syandal_ >> ow
+[2017-02-02 23:16:55 WIB] Syandal_ >> ok
+[2017-02-02 23:17:15 WIB] Syandal_ >> / - Boolean literals
+[2017-02-02 23:17:15 WIB] Syandal_ >> / hanya 2 nilai true dan false
+[2017-02-02 23:17:15 WIB] Syandal_ >> var a;
+[2017-02-02 23:17:15 WIB] Syandal_ >> console.log(a === undefined); // true
+[2017-02-02 23:17:16 WIB] Syandal_ >> console.log(!a == undefined); // false
+[2017-02-02 23:17:49 WIB] Syandal_ >> !br
+[2017-02-02 23:17:50 WIB] botan >> ==============================
+[2017-02-02 23:17:52 WIB] Syandal_ >> / Integers
+[2017-02-02 23:17:52 WIB] Syandal_ >> / Integers can be expressed in decimal (base 10), hexadecimal (base 16), octal (base 8) and binary (base 2).
+[2017-02-02 23:17:52 WIB] Syandal_ >> /  Decimal integer literal consists of a sequence of digits without a leading 0 (zero).
+[2017-02-02 23:17:52 WIB] Syandal_ >> /  Leading 0 (zero) on an integer literal, or leading 0o (or 0O) indicates it is in octal. Octal integers can include only the digits 0-7.
+[2017-02-02 23:17:59 WIB] Syandal_ >> /  Leading 0x (or 0X) indicates hexadecimal. Hexadecimal integers can include digits (0-9) and the letters a-f and A-F.
+[2017-02-02 23:18:00 WIB] Syandal_ >> /  Leading 0b (or 0B) indicates binary. Binary integers can include digits only 0 and 1.
+[2017-02-02 23:18:00 WIB] Syandal_ >> / contoh
+[2017-02-02 23:18:12 WIB] Syandal_ >> / Integers literals
+[2017-02-02 23:18:13 WIB] Syandal_ >> var b = 20;
+[2017-02-02 23:18:13 WIB] Syandal_ >> var c = 14;
+[2017-02-02 23:18:13 WIB] Syandal_ >> console.log(b + 13 + c) // angka 13 kita anggap konstanta / literal
+[2017-02-02 23:18:39 WIB] Syandal_ >> contoh diatas ^ angka 13 kita sebut literals
+[2017-02-02 23:18:43 WIB] Syandal_ >> !br
+[2017-02-02 23:18:43 WIB] botan >> ==============================
+[2017-02-02 23:19:01 WIB] Syandal_ >> / Floating-point literals
+[2017-02-02 23:19:02 WIB] Syandal_ >> var d = 234.12;
+[2017-02-02 23:19:02 WIB] Syandal_ >> console.log(d + 45.23); // 45.23 kita anggap konstanta /literal floating point
+[2017-02-02 23:19:24 WIB] Syandal_ >> ^ angka 45.23 diatas disebut literal floating point
+[2017-02-02 23:19:27 WIB] Syandal_ >> !br
+[2017-02-02 23:19:27 WIB] botan >> ==============================
+[2017-02-02 23:20:19 WIB] Syandal_ >> literal obyek susah :v
+[2017-02-02 23:20:21 WIB] Syandal_ >> skip
+[2017-02-02 23:20:23 WIB] Syandal_ >> !br
+[2017-02-02 23:20:23 WIB] botan >> ==============================
+[2017-02-02 23:20:53 WIB] greenshirt >> Syan|dal: kalau integermanual literalnya gimana om?
+[2017-02-02 23:21:08 WIB] Syandal_ >> literal regular expresion adalah diantara /  dan /
+[2017-02-02 23:21:10 WIB] Syandal_ >> :3
+[2017-02-02 23:21:18 WIB] Syandal_ >> sama kek integer biasa mungkin
+[2017-02-02 23:22:10 WIB] Syandal_ >> mungkin kita bisa menggunakan regex standart.. mungkin bahasa regular expresion udah distandarisasi di semua aplikasi #cmiiw
+[2017-02-02 23:22:41 WIB] Syandal_ >> contoh
+[2017-02-02 23:22:42 WIB] Syandal_ >> var re = /ab+c/;
+[2017-02-02 23:22:45 WIB] Syandal_ >> !br
+[2017-02-02 23:22:45 WIB] botan >> ==============================
+[2017-02-02 23:23:12 WIB] Syandal_ >> Literal String << semua teks yang diapit " "
+[2017-02-02 23:23:29 WIB] Syandal_ >> contoh
+[2017-02-02 23:23:29 WIB] Syandal_ >> console.log("John's cat".length)
+[2017-02-02 23:23:42 WIB] Syandal_ >> ^ John's cat << itu yang kita sebut string
+[2017-02-02 23:24:10 WIB] Syandal_ >> contoh 2
+[2017-02-02 23:24:11 WIB] Syandal_ >> / Basic literal string creation
+[2017-02-02 23:24:11 WIB] Syandal_ >> `In JavaScript '\n' is a line-feed.`
+[2017-02-02 23:24:40 WIB] Syandal_ >> contoh string banyak baris
+[2017-02-02 23:24:42 WIB] Syandal_ >> / Multiline strings
+[2017-02-02 23:24:42 WIB] Syandal_ >> `In JavaScript template strings can run
+[2017-02-02 23:24:42 WIB] Syandal_ >> over multiple lines, but double and single
+[2017-02-02 23:24:42 WIB] Syandal_ >> quoted strings cannot.`
+[2017-02-02 23:25:12 WIB] Syandal_ >> contoh string dengan spesial karakter
+[2017-02-02 23:25:12 WIB] Syandal_ >> "one line \n another line"
+[2017-02-02 23:25:42 WIB] Syandal_ >> contoh heredoc
+[2017-02-02 23:25:43 WIB] Syandal_ >> var poem =
+[2017-02-02 23:25:44 WIB] Syandal_ >> "Roses are red,\n\
+[2017-02-02 23:25:44 WIB] Syandal_ >> Violets are blue.\n\
+[2017-02-02 23:25:44 WIB] Syandal_ >> Sugar is sweet,\n\
+[2017-02-02 23:25:44 WIB] Syandal_ >> and so is foo."
+[2017-02-02 23:25:47 WIB] Syandal_ >> !br
+[2017-02-02 23:25:47 WIB] botan >> ==============================
+[2017-02-02 23:25:54 WIB] Syandal_ >>  /me selesai dulu 
+[2017-02-02 23:26:20 WIB] dion_ >> kalau literal objek didlm bracket ya ({})?
+[2017-02-02 23:26:29 WIB] Syandal_ >> hmm
+[2017-02-02 23:26:32 WIB] Syandal_ >> bentar
+[2017-02-02 23:27:07 WIB] dion_ >> var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+[2017-02-02 23:27:11 WIB] dion_ >> kaya gitu??
+[2017-02-02 23:28:14 WIB] Syandal_ >> hmm ..
+[2017-02-02 23:28:18 WIB] Syandal_ >>  /me merenung dulu 
+[2017-02-02 23:28:34 WIB] Syandal_ >> iya bisa jadi kek gitu
+[2017-02-02 23:28:54 WIB] Syandal_ >> person itu ada kemungkinan kita membuat literal obyek 'person' #cmiiw
+[2017-02-02 23:31:06 WIB] dion_ >> http://qaiserlab.com/2016/07/belajar-javascript-oop-versi-object-literal-es5/
+[2017-02-02 23:32:07 WIB] Syandal_ >> iya seperti itu bener..
+[2017-02-02 23:32:13 WIB] Syandal_ >> liat contoh ini >> http://qaiserlab.com/2016/07/belajar-javascript-oop-versi-object-literal-es5/
+[2017-02-02 23:32:18 WIB] Syandal_ >> jalanin ulang deh
+[2017-02-02 23:33:18 WIB] panji JOIN #ubuntu-indonesia
+[2017-02-02 23:33:19 WIB] Syandal_ >> contoh yang om dion_ kasih adalah contoh membuat sebuah obyek 'person' dimana obyek tersebut memiliki beberapa properti, seperti firstNama, dst.. nanti cara mengaksesnya person.firstName  atau person.lastName
+[2017-02-02 23:33:26 WIB] Syandal_ >> eh ada kak panji
+[2017-02-02 23:33:43 WIB] Syandal_ >> tumben dateng malem _/|\_
+[2017-02-02 23:33:51 WIB] panji >> iya..
+[2017-02-02 23:34:07 WIB] Syandal_ >> fyi hari ini kita lagi ngadain belajar bersaja javascript loh..
+[2017-02-02 23:34:18 WIB] Syandal_ >> liat log deh >> logubin.gomix.me
+[2017-02-02 23:34:43 WIB] panji >> ke tkp
+[2017-02-02 23:35:48 WIB] Syandal_ >> Dear all member.. karna semua pembahasan untuk materi pertemuan pertama sudah selesai kita bahas sperti di silabus, selain itu juga karna kak panji sudah muncul.. maka saya mau menyampaikan bahwa pertemuan hari ini kita akhir sampai disini ... sekian .. mohon maaf atas kekurangannya _/|\_ .. wassalamu alaikum wr. wb. ~Syandal_ / Anonimouse
+[2017-02-02 23:36:01 WIB] Syandal_ >> untuk pertemuan berikutnya akan diumimin menyusul
+[2017-02-02 23:36:05 WIB] Syandal_ >> !br
+[2017-02-02 23:36:06 WIB] botan >> ==============================

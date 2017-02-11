@@ -1,0 +1,28 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p id="coba"></p>
+</body>
+</html>
+
+
+<script type="text/javascript">
+
+   var sebuahteks = "";
+   var peserta = { namaPeserta:"Yono", umurPeserta: 22, statusPeserta: "ldr", cita2ta: "Hidup Bahagia" };
+   var iterasi;
+   
+   for (iterasi in peserta) {
+        sebuahteks += peserta[iterasi] + " ";
+    }
+    
+    document.getElementById("coba").innerHTML = sebuahteks;
+
+   // perulangan for - in akan melakukan loop sebanyak
+   // isi dari sebuah obyek/array
+</script>

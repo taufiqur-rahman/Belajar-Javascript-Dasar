@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Belajar Bersama Javascript di Kanal #ubuntu-indonesia</title>
+  
+  
+  
+  
+  
+</head>
+
+<body>
+  
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="w3css/w3.css">
+<link rel="stylesheet" href="w3css/w3-theme-black.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="w3css/font-awesome.min.css">
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.w3-sidenav a,.w3-sidenav h4{padding:12px;}
+.w3-navbar a{padding-top:12px !important;padding-bottom:12px !important;}
+</style>
+<body>
+
+<!-- Navbar -->
+<ul class="w3-navbar w3-black w3-top w3-left-align w3-large" style="z-index:4;">
+  <li class="w3-opennav w3-right">
+    <a class="w3-hover-white w3-large w3-black" href="#" onclick="w3_open()">&#9776;</a>
+  </li>
+  <li><a href="#" class="w3-red">Logo</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-hover-white">About</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-hover-white">Values</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-hover-white">News</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-hover-white">Contact</a></li>
+</ul>
+
+<!-- Sidenav -->
+<nav class="w3-sidenav w3-theme-l1 w3-animate-right" style="right:0;display:none;z-index:3;width:250px;margin-top:51px;">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black" title="close menu">&times;</a>
+  <h4><b>Menu</b></h4>
+  <a href="#" class="w3-hover-black">Link</a>
+  <a href="#" class="w3-hover-black">Link</a>
+  <a href="#" class="w3-hover-black">Link</a>
+  <a href="#" class="w3-hover-black">Link</a>
+</nav>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay" onclick="w3_close()" style="cursor:pointer" title="close side menu"></div>
+
+
+<!-- KODE YANG DIPELAJARIN MULAINYA DISINI -->
+
+<br /> <br />
+
+
+<div class="w3-container w3-teal">
+  <h1 id="demo1">Percobaan Throw</h1>
+</div>
+
+<div class="w3-container">
+  <p id="demo1">Mohon masukkan sebuah angka antara 5-10</p>
+  <input id="demo2" type="text"> 
+</div>
+
+<br />
+<button id="tambah" onclick="cobaLagi()">Test om.. </button>
+
+
+<p id="salah"></p>
+
+
+<script type="text/javascript">
+
+function cobaLagi() {
+     var y=document.getElementById("salah");
+         y.innerHTML="";
+         
+         
+      try
+         {
+            var x=document.getElementById("demo2").value;
+            if(x == "")    throw "kosong";
+            if( isNaN(x) ) throw "bukan sebuah angka";
+            if(x > 10)     throw "terlalu tinggi";
+            if(x < 5)      throw "terlalu rendah";
+          }  
+
+      catch(errr)    
+          {
+             y.innerHTML="Kesalahan : " + errr + ".";
+             }
+          
+}
+</script>
+
+
+<!-- KODE YANG DIPELAJARIN SELESAINYA DISINI -->
+
+<!-- Penjelasan
+
+     Pernyataan Throw
+     Pernyataan throw memungkinkan Anda untuk membuat kesalahan kustom.
+     Istilah teknis yang benar adalah dengan membuat atau melemparkan sebuah pengecualian.
+
+     Jika Anda menggunakan pernyataan throw bersama dengan mencoba dan menangkap, 
+     Anda dapat mengontrol aliran program dan menghasilkan pesan kesalahan kustom.
+
+     sintaksis
+
+     throw exception
+     Pengecualian bisa menjadi JavaScript String, Nomor, Boolean atau Object.
+
+     Contoh ini mengkaji nilai dari variabel input. Jika nilai salah, 
+     pengecualian (error) dilemparkan. 
+     Kesalahan tertangkap oleh pernyataan menangkap dan pesan kesalahan kustom ditampilkan:
+     
+     anda bisa mencobanya dengan menginput angka, karakter, kosong, teks, dll dan lihat
+     perbedaan pesan errornya
+     
+     
+-->
+<!-- Footer -->
+<footer class="w3-container w3-theme-l2 w3-padding-32">
+  <h4>Footer</h4>
+</footer>
+
+<div class="w3-container w3-theme-l1">
+  <p>Template by <a href="/w3css">w3.css</a></p>
+</div>
+
+<script>
+// Script to open and close the sidenav
+function w3_open() {
+    document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+    document.getElementsByClassName("w3-overlay")[0].style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
+    document.getElementsByClassName("w3-overlay")[0].style.display = "none";
+}
+</script>
+
+</body>
+</html>
+  
+  
+</body>
+</html>

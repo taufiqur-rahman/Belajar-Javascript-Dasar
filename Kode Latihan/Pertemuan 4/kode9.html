@@ -1,0 +1,55 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h3> Operator Unary </h3>
+<p>Nilai Awal</p>
+<p>var total = 8;</p>
+<p>var subtotal = 4;</p>
+
+<p>Hasilnya dari <strong>(total=--subtotal)</strong> adalah <strong><span id="satu"></span></strong></p>
+<p>Hasilnya dari <strong>(total=++subtotal)</strong> adalah <strong><span id="dua"></span></strong></p>
+<p>Hasilnya dari <strong>(total=-subtotal)</strong> adalah <strong><span id="tiga"></span></strong></p>
+<br />
+<h3>delete</h3>
+<p>x = 42;</p>
+<p>var y = 43;</p>
+<p>Nilai dari <strong>x</strong> adalah <strong><span id="empat"></span></strong></p>
+<p>Nilai dari <strong>y</strong> adalah <strong><span id="lima"></span></strong></p>
+<br />
+<p>Hasil dari <strong>delete x;</strong> adalah <strong><span id="enam"></span></strong></p>
+<p>Hasil dari <strong>delete y;</strong> adalah <strong><span id="tujuh"></span></strong></p>
+  
+<p><button type="submit" id="tambah" onclick="operatorUnary()">Om Pencet Om..</button></p>
+</body>
+</html>
+
+
+<script type="text/javascript">
+
+function operatorUnary() {
+  var total = 8;
+  var subtotal = 4;
+  total=--subtotal;
+  document.getElementById("satu").innerHTML = (total) ; // 
+  total=++subtotal;
+  document.getElementById("dua").innerHTML = (total) ; // 
+  total=-subtotal;
+  document.getElementById("tiga").innerHTML = (total) ; // 
+
+  x = 42;
+  var y = 43;  
+  document.getElementById("empat").innerHTML = (x) ; // 
+  document.getElementById("lima").innerHTML = (y) ; //   
+  delete x;
+  delete y;
+  
+  document.getElementById("enam").innerHTML = (x) ; // 
+  document.getElementById("tujuh").innerHTML = (y) ; //    
+  
+}
+
+</script>

@@ -1,0 +1,61 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<p>Belajar Bersama JavaScript</p>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+
+<h3> Operator Perbandingan </h3>
+<p>benarkah 100 = 100 ? <span id="satu"></span></p>
+<p>benarkah 100 != 50 ? <span id="dua"></span></p>
+<p>benarkah 100 > 50 ? <span id="tiga"></span></p>
+<p>benarkah 100 < 50 ? <span id="empat"></span></p>
+<p>benarkah 100 >= 100 ? <span id="lima"></span></p>
+<p>benarkah 100 <= 100 ? <span id="enam"></span></p>
+
+<p><button id="tambah" onclick="operatorPerbandingan()">Om Pencet Om..</button></p>
+
+  
+</body>
+</html>
+
+
+
+
+<script type="text/javascript">
+
+function operatorPerbandingan() {
+
+ document.getElementById("satu").innerHTML = (100==100) ; // operator == akan membadingkan 2 nilai, hasilnya antara true dan false
+ document.getElementById("dua").innerHTML = (100!=50) ; // operator != akan membadingkan 2 nilai, hasilnya antara true dan false
+ document.getElementById("tiga").innerHTML = (100>50) ; // operator > akan membadingkan 2 nilai, hasilnya antara true dan false
+ document.getElementById("empat").innerHTML = (100<50) ; // operator < akan membadingkan 2 nilai, hasilnya antara true dan false
+ document.getElementById("lima").innerHTML = (100>=100) ; // operator >= akan membadingkan 2 nilai, hasilnya antara true dan false
+ document.getElementById("enam").innerHTML = (100<=100) ; // operator <= akan membadingkan 2 nilai, hasilnya antara true dan false
+}
+
+
+//Comparison operators Operator
+//	Description 	Examples returning true
+//Equal (==) 	Returns true if the operands are equal. 	3 == var1
+
+//"3" == var1
+//3 == '3'
+//Not equal (!=) 	Returns true if the operands are not equal. 	var1 != 4
+//var2 != "3"
+//Strict equal (===) 	Returns true if the operands are equal and of the same type. See also Object.is and sameness in JS. 	3 === var1
+//Strict not equal (!==) 	Returns true if the operands are of the same type but not equal, or are of different type. 	var1 !== "3"
+//3 !== '3'
+//Greater than (>) 	Returns true if the left operand is greater than the right operand. 	var2 > var1
+//"12" > 2
+//Greater than or equal (>=) 	Returns true if the left operand is greater than or equal to the right operand. 	var2 >= var1
+//var1 >= 3
+//Less than (<) 	Returns true if the left operand is less than the right operand. 	var1 < var2
+//"2" < 12
+//Less than or equal (<=) 	Returns true if the left operand is less than or equal to the right operand. 	var1 <= var2
+//var2 <= 5
+
+</script>

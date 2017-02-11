@@ -1,0 +1,404 @@
+Bismillahirrahmanirrahim
+
+// /////////////////////////////////////////////////////////////////////////////////
+//     __  __ _             __            __        __                            //
+//    / / / / /_ __ __ __  / /___ __ ___ / /__  ___/ /___ ___  ___  ___ __ ___    //
+//   / /_/ / _  | // / _ `/ __/ // //__// / _ `/ __ / _  | _ `/ -_)(_-</ /'_  )   //
+//  |____ /____/____/_//_/___/,___/    /_/_//_/|___/\___/_//_/|__/____/_/\_,_/    //
+//                                                                                // 
+// /////////////////////////////////////////////////////////////////////////////////
+
+
+Belajar Bersama Komunitas Kanal #ubuntu-indonesia
+
+INFO
+server : irc.freenode.net  
+port   : 6667
+kanal  : #ubuntu-indonesia
+
+http://webchat.freenode.net/?channels=ubuntu-indonesia
+
+// ///////////////////////////////////////////////////////////////////////////////////////////
+
+             L O G    P E R T E M U A N   2
+
+// ///////////////////////////////////////////////////////////////////////////////////////////
+
+---------------------------
+Catatan : 
+- Tidak ada pertanyaan karna pesertanya dikit
+- Mungkin karna materinya tentang struktur program dianggap mudah, maka banyak peserta yang tidak hadir
+---------------------------
+
+
+[2017-02-06 20:07:02 WIB] Syandal_ >> kita mulai aja keles ya.. biar cepet selesai
+[2017-02-06 20:07:08 WIB] Syandal_ >> siapa yang mau jadi moderator..
+[2017-02-06 20:08:01 WIB] ChanServ MODE #ubuntu-indonesia +o Syandal_
+[2017-02-06 20:08:28 WIB] Syandal_ >> siapa yang kasih op ..
+[2017-02-06 20:08:32 WIB] Syandal_ >> coba ngaku
+[2017-02-06 20:09:07 WIB] Syandal_ >> karna ga ada yang mau jadi moderator.. ane putusin ane jadi moderator sementara ..
+[2017-02-06 20:09:10 WIB] Syandal_ >> kita mulai aja ya
+[2017-02-06 20:09:12 WIB] Syandal_ >> !br
+[2017-02-06 20:09:12 WIB] botan >> ==============================
+[2017-02-06 20:09:22 WIB] Syandal_ >> assalamu alaikum wr. wb #belajarjs
+[2017-02-06 20:10:14 WIB] Syandal_ >> /me* ucapkan terima kasih kepada peserta belajar bersama javascript yang masih mau meluangkan waktu lagi untuk melaksanakan kegiatan belajar bersama kita .. untuk materi javascript #belajarjs 
+[2017-02-06 20:10:50 WIB] Syandal_ >> sebelum memulai diskusi marilah kita berdoa dalam hatii masing2 .. menurut agama dan kepercayaan masing2.. berdoa .. mulai .. #belajarjs
+[2017-02-06 20:10:58 WIB] Syandal_ >> berdoa selesai #belajarjs
+[2017-02-06 20:12:10 WIB] Syandal_ >> sesuai dengan silabus yang sudah kita sepakati bahwa materi yang akan kita diskusikan pertemuan 2 ini adalah tentang >> a) struktur percabangan .. b) penanganan kesalahan .. c) dan perulangan .. #belajarjs
+[2017-02-06 20:12:43 WIB] Syandal_ >> adapun sub materi yang akan kita bahas adalah >> 1) statemen blok 2) kondisi if 3) switch - case 4) try and catch 5) throw 6) perulangan for 7) perulangan while 8) perulangan do - while 9) label 10) statemen break 11) statemen continue 12) perulangan for in 13) perulangan for of #belajarjs
+[2017-02-06 20:13:29 WIB] presiden QUIT :Ping timeout: 252 seconds
+[2017-02-06 20:14:07 WIB] Syandal_ >> untuk kode latihan bisa di download dibawah ini
+[2017-02-06 20:14:14 WIB] Syandal_ >> !info-belajarjs2
+[2017-02-06 20:14:14 WIB] botan >> Dear penghuni kanal, berikut adalah materi pertemuan kedua >> https://goo.gl/OIFtCu .. pada kode berikut berupa file html yang telah saya gabungkan dengan framwork w3css, alasannya karna materi di MDN lebih banyak membahas javascript sebagai halaman html, maka kita harus mencobanya dengan menggabungkan javascript kedalam html .. berikut skrinsutnya >> https://goo.gl/Lx218a
+[2017-02-06 20:14:56 WIB] Syandal_ >> untuk referensi pertemuan kali ini >>  https://goo.gl/gU8uKy dan >> https://goo.gl/MJjBGd #belajarjs
+[2017-02-06 20:15:02 WIB] Syandal_ >> kok pesertanya sepi ya
+[2017-02-06 20:15:07 WIB] triawarman >> :)
+[2017-02-06 20:15:38 WIB] Syandal_ >> agar tidak banyak mengulur waktu .. saya harap semua peserta belajar untuk mendownload contoh kode yang akan kita pelajari diatas ^ .. #belajarjs
+[2017-02-06 20:16:05 WIB] Syandal_ >> !br
+[2017-02-06 20:16:06 WIB] botan >> ==============================
+[2017-02-06 20:16:48 WIB] Syandal_ >> harus ada basa-basinya dulu
+[2017-02-06 20:17:11 WIB] Syandal_ >> lanjut aja deh
+[2017-02-06 20:17:17 WIB] Syandal_ >> baiklah untuk mempersingkat waktu mari kitas mulai memasuki pembahasan tentang 1) statemen block #belajarjs
+[2017-02-06 20:18:26 WIB] Syandal_ >> struktur paling mendasar dalam bahasa javascript adalah blok statemen .. yang berada diantara kurung kurawal .. contoh >>   {    statemen1 ;   statemen2 ; statemen3 ; dst ;   }   #belajarjs
+[2017-02-06 20:19:30 WIB] greenshirt QUIT :Ping timeout: 240 seconds
+[2017-02-06 20:19:31 WIB] Syandal_ >> dalam penggunaannya blok statemen dasar ini tidak berdiri sendiri .. biasanya bersama struktur if, atau perulangan, dll .. #belajarjs
+[2017-02-06 20:20:44 WIB] Syandal_ >> contoh gambarnya seperti ini >> http://imagizer.imageshack.com/img923/5223/kSynwe.png #belajarjs .. untuk blok statemen dasar ada yang mau didiskusiin dulu nggak .. sebelum kita melanjutkan ke sub materi berikutnya ?
+[2017-02-06 20:21:13 WIB] Syandal_ >> nggak ada yang mau di bahas kan yaa?
+[2017-02-06 20:21:20 WIB] Syandal_ >> /me* tunggu 15 detik 
+[2017-02-06 20:21:26 WIB] triawarman >> >
+[2017-02-06 20:21:36 WIB] Syandal_ >> ^ itu artinya next kan ya
+[2017-02-06 20:21:42 WIB] triawarman >> bagaimana kalau ditulis dibanding di kasi SS
+[2017-02-06 20:21:52 WIB] triawarman >> atau setidakya dikasi link ke jsfiddle/sejenisnya
+[2017-02-06 20:22:03 WIB] Syandal_ >> ow..
+[2017-02-06 20:22:04 WIB] triawarman >> iya next/berikutnya
+[2017-02-06 20:22:14 WIB] Syandal_ >> tadi kan udah .. pas statemen1 statemen2 dst
+[2017-02-06 20:22:48 WIB] Syandal_ >>   {    statemen1 ;   statemen2 ; statemen3 ; dst ;   }  << ini .. biasanya tulisannya baris perbaris.. ini biar mempersingkat aja jadi dijadiin satu baris #belajarjs
+[2017-02-06 20:22:52 WIB] Syandal_ >> ok next
+[2017-02-06 20:22:54 WIB] Syandal_ >> !br
+[2017-02-06 20:22:54 WIB] botan >> ==============================
+[2017-02-06 20:22:56 WIB] triawarman >> hmmmm tiap contoh harus ada link ke js fiddle, atau setidaknya txt file, biar bisa di copas ke browser console
+[2017-02-06 20:23:03 WIB] Syandal_ >> ok
+[2017-02-06 20:23:07 WIB] triawarman >> tuk kedepannya aja sih
+[2017-02-06 20:23:10 WIB] Syandal_ >> *mangap _/|\_
+[2017-02-06 20:23:16 WIB] triawarman >> /me* maafin Syandal_ 
+[2017-02-06 20:23:24 WIB] Syandal_ >> :(
+[2017-02-06 20:23:56 WIB] triawarman >> >
+[2017-02-06 20:23:57 WIB] Syandal_ >> ok lanjut .. baiklah kita lanjut ke pembahasan berikutnya >> 2) Kondisi IF
+[2017-02-06 20:24:24 WIB] Syandal_ >> Struktur IF adalah stuktur kode pemograman ?conditional? yang akan membuat percabangan di dalam program.  #belajarjs
+[2017-02-06 20:24:52 WIB] Syandal_ >> Dengan menggunakan struktur IF, kita bisa membuat 2 percabangan program yang akan dieksekusi jika ?kondisi? terpenuhi, dan akan menjalankan kode program lain jika ?kondisi? tidak terpenuhi. #belajarjs
+[2017-02-06 20:25:09 WIB] :Guest50370!~greenshir@112.215.173.219 JOIN #ubuntu-indonesia
+[2017-02-06 20:26:03 WIB] presiden JOIN #ubuntu-indonesia
+[2017-02-06 20:28:35 WIB] triawarman >> >
+[2017-02-06 20:29:45 WIB] presiden QUIT :Client Quit
+[2017-02-06 20:30:00 WIB] Syandal_ >> hmm
+[2017-02-06 20:30:16 WIB] Syandal_ >> berikut contoh kode struktur if sederhana >> http://jsbin.com/qalosiyuco/edit?html,js,output #belajarjs
+[2017-02-06 20:30:41 WIB] Syandal_ >> dicoba dulu
+[2017-02-06 20:30:46 WIB] Syandal_ >> ada yang mau di diskusiin gak
+[2017-02-06 20:31:24 WIB] Syandal_ >> untuk kode latihan yang di download bisa dilihat didalam direktori code3/ di file 2 conditional statemen.html .. #belajarjs
+[2017-02-06 20:31:55 WIB] triawarman >> >
+[2017-02-06 20:32:08 WIB] Syandal_ >> format penulisan dari struktur if >>
+[2017-02-06 20:32:14 WIB] Syandal_ >> if (kondisi) {
+[2017-02-06 20:32:23 WIB] Syandal_ >>  // bagian statemen true
+[2017-02-06 20:32:25 WIB] Syandal_ >> }
+[2017-02-06 20:32:34 WIB] Syandal_ >>  // bagian statemen else {
+[2017-02-06 20:32:43 WIB] Syandal_ >> sori salah
+[2017-02-06 20:32:54 WIB] Syandal_ >> if (kondisi) {
+[2017-02-06 20:32:54 WIB] Syandal_ >>    //kode program jika kondisi true
+[2017-02-06 20:32:54 WIB] Syandal_ >> }
+[2017-02-06 20:32:54 WIB] Syandal_ >> else {
+[2017-02-06 20:32:54 WIB] Syandal_ >>    //kode program jika kondisi false
+[2017-02-06 20:32:55 WIB] Syandal_ >> }
+[2017-02-06 20:32:59 WIB] Syandal_ >> !br
+[2017-02-06 20:32:59 WIB] botan >> ==============================
+[2017-02-06 20:33:05 WIB] newbie90 JOIN #ubuntu-indonesia
+[2017-02-06 20:33:24 WIB] Syandal_ >> ^ om newbie90 kita lagi diskusi online
+[2017-02-06 20:33:28 WIB] Syandal_ >> coba liat log
+[2017-02-06 20:33:40 WIB] Syandal_ >> dan liat kode berikut >> http://jsbin.com/qalosiyuco/edit?html,js,output
+[2017-02-06 20:38:29 WIB] newbie90 >> Syandal_: Iya, Om. Silahkan, dilanjut.
+[2017-02-06 20:38:35 WIB] newbie90 >> Terima kasih, Om.
+[2017-02-06 20:39:37 WIB] Syandal_ >> nah tadi kita mempelajari struktur IF .. dengan hanya satu kondisi .. yaitu hanya mengecek apakah true.. jika true (benar) maka perintah alert dijalankan.. tetapi kalo ekspresi kondisi menghasilkan nilai false (salah) maka baris alert akan dilewati .. #belajarjs
+[2017-02-06 20:40:04 WIB] Syandal_ >> selanjutnya di kode berikut kita akan melihat contoh struktur IF yang menggunakan dua keadaan >> http://jsbin.com/nitosuhede/edit?html,js,output #belajarjs
+[2017-02-06 20:41:59 WIB] newbie90 >> Syandal_: OK, Om.
+[2017-02-06 20:42:36 WIB] Syandal_ >> ok lanjut
+[2017-02-06 20:42:40 WIB] Syandal_ >> !br
+[2017-02-06 20:42:40 WIB] botan >> ==============================
+[2017-02-06 20:43:39 WIB] Syandal_ >> struktur IF juga bisa menggunakan banyak kondisi.. contoh kode nya bisa dilihat contoh kode yang didownload.. di file 2 kondisi if. html #beljarjs
+[2017-02-06 20:47:08 WIB] Syandal_ >> berikut contoh struktur IF yang memiliki banyak kondisi >> http://jsbin.com/tunusepolu/edit?html,js,output
+[2017-02-06 20:49:17 WIB] Syandal_ >> kalo mau liat kode yang didownload >> http://imagizer.imageshack.com/img923/3212/VPF6nr.png .. nanti hasilnya >> http://imagizer.imageshack.com/img923/5343/A4cmAF.png #beljarjs
+[2017-02-06 20:49:38 WIB] Syandal_ >> angka 18 diganti2 aja untuk lihat perbedannya
+[2017-02-06 20:50:03 WIB] Syandal_ >> sampaii sini .. ada yang mau didiskusikan tentang struktur IF nggak..sebelum kita lanjut ke pembahasa berikutnya .. #beljarjs
+[2017-02-06 20:50:10 WIB] Syandal_ >> /me* tungguu 15 detik 
+[2017-02-06 20:50:27 WIB] triawarman >> >
+[2017-02-06 20:50:35 WIB] Syandal_ >> ok lanjut
+[2017-02-06 20:50:42 WIB] Syandal_ >> !br
+[2017-02-06 20:50:42 WIB] botan >> ==============================
+[2017-02-06 20:50:56 WIB] Syandal_ >> 3. STRUKTUR SWITCH - CASE
+[2017-02-06 20:51:39 WIB] Syandal_ >> pada bahasa pemrograman .. untuk memudahkan ketika sebuah program memiliki struktur kondisi yang sangat banyak .. maka disediakan struktur Switch - Case #belajarjs
+[2017-02-06 20:52:58 WIB] Syandal_ >> Struktur logika SWITCH dapat disederhanakan sebagai bentuk khusus dari struktur IF ELSE. SWITCH digunakan untuk percabangan kode program dimana kondisi yang diperiksa hanya 1 namun membutuhkan banyak opsi. #belajarjs
+[2017-02-06 20:53:14 WIB] Syandal_ >> Struktur dasar penulisan SWITCH adalah sebagai berikut:
+[2017-02-06 20:53:14 WIB] Syandal_ >> switch (kondisi)
+[2017-02-06 20:53:15 WIB] Syandal_ >> {
+[2017-02-06 20:53:15 WIB] Syandal_ >> case hasil_kondisi_1:
+[2017-02-06 20:53:15 WIB] Syandal_ >>       // kode program jika kondisi sama dengan hasil_kondisi_1
+[2017-02-06 20:53:16 WIB] Syandal_ >>       break;
+[2017-02-06 20:53:18 WIB] Syandal_ >> case hasil_kondisi_2:
+[2017-02-06 20:53:20 WIB] Syandal_ >>       // kode program jika kondisi sama dengan hasil_kondisi_2
+[2017-02-06 20:53:22 WIB] Syandal_ >>       break;
+[2017-02-06 20:53:24 WIB] Syandal_ >> default:
+[2017-02-06 20:53:26 WIB] Syandal_ >>       kode program untuk kondisi lainnya
+[2017-02-06 20:53:28 WIB] Syandal_ >>       break;
+[2017-02-06 20:53:30 WIB] Syandal_ >> }
+[2017-02-06 20:53:32 WIB] Syandal_ >> !br
+[2017-02-06 20:53:32 WIB] botan >> ==============================
+[2017-02-06 20:53:34 WIB] Syandal_ >> !br
+[2017-02-06 20:53:34 WIB] botan >> ==============================
+[2017-02-06 20:53:46 WIB] rofiquzzaki QUIT :Quit: rofiquzzaki
+[2017-02-06 20:54:15 WIB] Syandal_ >> Kondisi untuk inputan struktur SWITCH biasanya adalah variabel yang akan diperiksa. Hasil percabangan dari variabel tersebut akan ditangani oleh perintah case. Opsi default bisa ditambahkan untuk menangani kasus yang tidak ditangani oleh perintah case. #belajarjs
+[2017-02-06 20:56:50 WIB] Syandal_ >> berikut contoh kode latihan untuk switch - case >> http://jsbin.com/nacetofixe/edit?html,js,output #belajarjs
+[2017-02-06 20:58:14 WIB] Syandal_ >> pada contoh diatas Setelah mendeklarasikan variabel 'angka' dan mengisi nilainya dengan angka 5, kemudian kita masuk ke struktur SWITCH. #belajarjs
+[2017-02-06 20:58:29 WIB] Syandal_ >> Blok SWITCH diawali dan diakhiri dengan kurung kurawal. Dan kemudian untuk setiap kemungkinan yang terjadi dari variabel angka, ditampung dengan perintah case. #belajarjs
+[2017-02-06 20:58:47 WIB] Syandal_ >> erintah case diikuti dengan kondisi yang ingin di-?tampung?. Di dalam contoh diatas, saya menampung isi variabel angka dengan case 1 untuk menangani kondisi jika angka==1, case 2 untuk menangani kondisi jika angka==2, dan seterusnya. Setiap case lalu diikuti dengan tanda titik dua (:). #belajarjs
+[2017-02-06 20:59:06 WIB] Syandal_ >> Pada kondisi terakhir, terdapat perintah default yang tujuannya adalah untuk menampung kondisi jika seluruh kondisi case tidak tersedia. #belajarjs
+[2017-02-06 20:59:31 WIB] Syandal_ >> Jika anda perhatikan dalam setiap case, saya menambahkan perintah break. Perintah break disini bertujuan untuk mengistruksikan kepada JavaScript untuk segera keluar dari SWITCH jika salah satu case ditemukan. Jika kita tidak mencantumkan perintah break, maka seluruh perintah mulai dari case yang sesuai sampai ke bawah akan dijalankan. #belajarjs
+[2017-02-06 21:00:50 WIB] Syandal_ >> berikut contoh kode yang nggak pake pernyataan break >> http://jsbin.com/daxilicahe/edit?html,js,output #belajarjs
+[2017-02-06 21:01:05 WIB] Syandal_ >> bentar peserta kedua dungdat akademi dulu..
+[2017-02-06 21:01:14 WIB] Syandal_ >> yang mau diskusi diskusi dulu aja
+[2017-02-06 21:01:16 WIB] Syandal_ >> !br
+[2017-02-06 21:01:16 WIB] botan >> ==============================
+[2017-02-06 21:02:13 WIB] triawarman >> >
+[2017-02-06 21:03:29 WIB] Syandal_ >> bentar.. kode yang di download .. bisa dicoba2 diubah2 aja dulu ..
+[2017-02-06 21:03:40 WIB] newbie90 >> Syandal_: Berarti, kalau setelah statement "default" tidak pakai break. Berarti, benar... Om?
+[2017-02-06 21:04:09 WIB] Syandal_ >> sepertinya iya.. karna default posisinya paling terakhir..
+[2017-02-06 21:04:25 WIB] Syandal_ >> mungkin abis default.. langsung break dengan sendirinya..
+[2017-02-06 21:04:39 WIB] Syandal_ >> tanya pak triawarman
+[2017-02-06 21:04:52 WIB] newbie90 >> Syandal_: Iya, Om. Terima kasih.
+[2017-02-06 21:06:31 WIB] triawarman >> hmm
+[2017-02-06 21:06:50 WIB] triawarman >> /me* kadang suka naruh defauld didepan(atas) 
+[2017-02-06 21:06:53 WIB] triawarman >> *awal
+[2017-02-06 21:07:17 WIB] Syandal_ >> ow..
+[2017-02-06 21:07:24 WIB] Syandal_ >> kalo default di atas.. pake break nggak om
+[2017-02-06 21:07:37 WIB] Syandal_ >> /me* kualitas vokalnya bagus 
+[2017-02-06 21:07:50 WIB] triawarman >> /me* selalu gunakan break dimanapun 
+[2017-02-06 21:08:25 WIB] Syandal_ >> ok..
+[2017-02-06 21:08:52 WIB] Syandal_ >> ok.. lanjut
+[2017-02-06 21:08:54 WIB] Syandal_ >> !br
+[2017-02-06 21:08:54 WIB] botan >> ==============================
+[2017-02-06 21:09:13 WIB] Syandal_ >> untuk mempersingkat waktu marilah kita lanjut ke sub materi berikutnya yaitu :
+[2017-02-06 21:09:33 WIB] Syandal_ >> 4. PENANGANAN TRY and CATCH
+[2017-02-06 21:10:31 WIB] Syandal_ >> Pernyataan try memungkinkan kita menguji sebuah blok kode untuk kesalahan .  Pernyataan catch memungkinkan kita menangani kesalahan . Pernyataan throw memungkinkan kita membuat kesalahan kustom .#belajarjs
+[2017-02-06 21:12:43 WIB] Syandal_ >> Pernyataan try memungkinkan Anda untuk menentukan blok kode yang akan  diuji untuk kesalahan ketika sedang dieksekusi . #belajarjs
+[2017-02-06 21:15:58 WIB] presiden JOIN #ubuntu-indonesia
+[2017-02-06 21:16:05 WIB] Syandal_ >> berikut contohnya >> http://jsbin.com/vayuruwuva/edit?html,js,output #belajarjs
+[2017-02-06 21:16:10 WIB] Syandal_ >> ada pertanyaan gak ?
+[2017-02-06 21:16:56 WIB] newbie90 >> Sementara ini, belum... Om.
+[2017-02-06 21:17:01 WIB] Syandal_ >> untuk catatan lengkap nya .. bisa dibuka di kode latihan di file '4 try and catch.html' #belajarjs
+[2017-02-06 21:17:03 WIB] Syandal_ >> ok
+[2017-02-06 21:17:10 WIB] Syandal_ >> lanjut ya
+[2017-02-06 21:19:00 WIB] pupil JOIN #ubuntu-indonesia
+[2017-02-06 21:19:00 WIB] ChanServ MODE #ubuntu-indonesia +v pupil
+[2017-02-06 21:20:26 WIB] Syandal_ >> eh ada ka pupil *sungkem _/|\_
+[2017-02-06 21:20:32 WIB] Syandal_ >> kita lagi belajar online
+[2017-02-06 21:20:37 WIB] Syandal_ >> materinya javascript
+[2017-02-06 21:20:43 WIB] Syandal_ >> tapi komunitas belajarnya ilegal :v
+[2017-02-06 21:20:46 WIB] pupil >> Assalamu alaikum
+[2017-02-06 21:20:48 WIB] Syandal_ >> ok .. lanjut..
+[2017-02-06 21:20:48 WIB] presiden >> pupil: waalaikumsalam warahmatullahi wabarakatuh
+[2017-02-06 21:20:53 WIB] Syandal_ >> waalaikum salam
+[2017-02-06 21:21:08 WIB] Syandal_ >> untuk contoh kode penggunaan throw seperti ini >> http://jsbin.com/yaxoyupese/edit?html,js,console,output #belajarjs
+[2017-02-06 21:21:12 WIB] newbie90 >> Wa'alaikumsalam Warahmatullahi Wabarakatuh.
+[2017-02-06 21:21:49 WIB] Syandal_ >> atau untuk di kode latihan yang didownload nama filenya '5 throw statemen.html'.. #belajarjs
+[2017-02-06 21:21:59 WIB] Syandal_ >> ada pertanyaan ga untuk throw..
+[2017-02-06 21:22:42 WIB] Syandal_ >> Pernyataan throw memungkinkan Anda untuk membuat kesalahan kustom.  Istilah teknis yang benar adalah dengan membuat atau melemparkan sebuah pengecualian. #belajarjs
+[2017-02-06 21:22:48 WIB] triawarman >> >
+[2017-02-06 21:22:55 WIB] Syandal_ >> ok
+[2017-02-06 21:22:59 WIB] Syandal_ >> !br
+[2017-02-06 21:22:59 WIB] botan >> ==============================
+[2017-02-06 21:23:52 WIB] Syandal_ >> untuk mempersingkat waktu .. marilah kita masuk ke sub materi berikutnya
+[2017-02-06 21:24:05 WIB] Syandal_ >> yaitu PERULANGAN / LOOPING pada javascript
+[2017-02-06 21:24:08 WIB] Syandal_ >> !br
+[2017-02-06 21:24:08 WIB] botan >> ==============================
+[2017-02-06 21:24:47 WIB] Syandal_ >> Struktur perulangan di dalam bahasa pemograman di gunakan untuk mengulang perintah program. Terdapat beberapa struktur perulangan yang didukung oleh JavaScript, dan struktur perulangan pertama yang akan kita bahas adalah struktur perulangan FOR. #belajarjs
+[2017-02-06 21:25:29 WIB] newbie90 >> Syandal_: Permisi, Om. Mau tanya.
+[2017-02-06 21:25:39 WIB] Syandal_ >> iya ..
+[2017-02-06 21:25:41 WIB] newbie90 >> *Maaf
+[2017-02-06 21:25:41 WIB] Syandal_ >> tanya aja
+[2017-02-06 21:25:46 WIB] Syandal_ >> yang jawab dia >> triawarman
+[2017-02-06 21:26:40 WIB] newbie90 >> (9:21:50 PM) Syandal_: atau untuk di kode latihan yang didownload nama filenya '5 throw statemen.html'.. #belajarjs
+[2017-02-06 21:27:06 WIB] newbie90 >> Maksudnya, apa... Om?
+[2017-02-06 21:27:17 WIB] Syandal_ >> download disini >> https://goo.gl/OIFtCu
+[2017-02-06 21:27:22 WIB] Syandal_ >> !br
+[2017-02-06 21:27:22 WIB] botan >> ==============================
+[2017-02-06 21:27:58 WIB] Syandal_ >> Struktur perulangan for, biasanya membutuhkan 4 perintah, yaitu: 1) Kondisi awal perulangan 2) Kondisi akhir perulangan 3) Baris program yang akan diulang 4) Increment / kenaikkan dalam setiap perulangan #belajarjs
+[2017-02-06 21:28:16 WIB] newbie90 >> Syandal_: Terima kasih.
+[2017-02-06 21:28:22 WIB] Syandal_ >> Berikut adalah format dasar yang digunakan dalam struktur for:
+[2017-02-06 21:28:22 WIB] Syandal_ >> for (kondisi_awal, kondisi_akhir, increment)
+[2017-02-06 21:28:22 WIB] Syandal_ >>     //baris program yang akan diulang
+[2017-02-06 21:28:28 WIB] Syandal_ >> !br
+[2017-02-06 21:28:28 WIB] botan >> ==============================
+[2017-02-06 21:28:37 WIB] Syandal_ >> kebanyakan !br nya :v
+[2017-02-06 21:29:14 WIB] newbie90 >> Permisi, Om-Om.
+[2017-02-06 21:29:14 WIB] newbie90 >> Pamit dulu.
+[2017-02-06 21:29:14 WIB] newbie90 >> Dipanggil ortu.
+[2017-02-06 21:29:14 WIB] newbie90 >> Assalamu'alaikum Wr. Wb.
+[2017-02-06 21:29:16 WIB] presiden >> newbie90: waalaikumsalam warahmatullahi wabarakatuh
+[2017-02-06 21:29:26 WIB] newbie90 >> Terima kasih.
+[2017-02-06 21:29:46 WIB] newbie90 QUIT :Quit: Leaving.
+[2017-02-06 21:30:19 WIB] triawarman >> hmm
+[2017-02-06 21:34:44 WIB] Syandal_ >> ow
+[2017-02-06 21:34:48 WIB] Syandal_ >> waalaikum salam
+[2017-02-06 21:35:00 WIB] Syandal_ >> /me* dia disuruh cuci piring kek nya 
+[2017-02-06 21:36:06 WIB] Syandal_ >> /me* lagi nyoba kode 
+[2017-02-06 21:36:16 WIB] Syandal_ >> ada yang punya kode simple untuk perulangan for nggak
+[2017-02-06 21:36:21 WIB] Syandal_ >> kirim ke jsfidle dong
+[2017-02-06 21:37:23 WIB] triawarman >> hmm
+[2017-02-06 21:39:14 WIB] triawarman >> btw Syandal_ ijin rehat, keadaan badan semakin kurang nyaman
+[2017-02-06 21:39:22 WIB] Syandal_ >> ok..
+[2017-02-06 21:39:28 WIB] Syandal_ >> /me* mau nyelesain pembahasan 
+[2017-02-06 21:39:32 WIB] Syandal_ >> buat ngejar log :v
+[2017-02-06 21:39:37 WIB] triawarman >> di lanjutkan atau .. ?
+[2017-02-06 21:39:38 WIB] Syandal_ >> yang nemenin siapa
+[2017-02-06 21:39:39 WIB] triawarman >> owh lanjut
+[2017-02-06 21:39:42 WIB] Syandal_ >> /me* lanjut 
+[2017-02-06 21:39:43 WIB] triawarman >> ok sip
+[2017-02-06 21:43:02 WIB] Syandal_ >> ini contoh perulangan sederhana >> http://jsbin.com/vawafipofa/edit?html,js,console,output
+[2017-02-06 21:43:34 WIB] Syandal_ >> untuk kode latihan download ada di file '6 for loop.html' #belajarjs
+[2017-02-06 21:43:43 WIB] Syandal_ >> sampe sini ada yang mau ditanyain gak
+[2017-02-06 21:44:44 WIB] Syandal_ >> untuk struktur perulangan FOR >> formatnya >> for ( nilaiawal; kondisiakhir; step) {   // baris2 yang akan dilakukan perulangan  }   #belajarjs
+[2017-02-06 21:44:55 WIB] Syandal_ >> kalo mau nanya naya dulu
+[2017-02-06 21:45:11 WIB] Syandal_ >> /me* tunggu 15 detik 
+[2017-02-06 21:45:58 WIB] Syandal_ >> /me* ke toilet dulu 
+[2017-02-06 21:49:02 WIB] Syandal_ >> karna ga ada pertanyaan kita lanjut
+[2017-02-06 21:49:03 WIB] Syandal_ >> !br
+[2017-02-06 21:49:03 WIB] botan >> ==============================
+[2017-02-06 21:49:22 WIB] Syandal_ >> Perulangan while
+[2017-02-06 21:49:23 WIB] Syandal_ >> !br
+[2017-02-06 21:49:24 WIB] botan >> ==============================
+[2017-02-06 21:49:47 WIB] Syandal_ >> Cara penulisan perulangan WHILE mirip dengan stuktur logika IF, yakni kondisi perulangan akan diperiksa di awal. Jika kondisi bernilai TRUE, maka perulangan akan terus dilakukan sampai dengan nilai kondisi bernilai FALSE. #belajarjs
+[2017-02-06 21:49:59 WIB] Syandal_ >> Berikut adalah penulisan dasar perulangan WHILE:
+[2017-02-06 21:50:00 WIB] Syandal_ >> while (kondisi)
+[2017-02-06 21:50:00 WIB] Syandal_ >> {
+[2017-02-06 21:50:00 WIB] Syandal_ >>    //kode program
+[2017-02-06 21:50:00 WIB] Syandal_ >>    counter
+[2017-02-06 21:50:00 WIB] Syandal_ >> }
+[2017-02-06 21:50:16 WIB] Syandal_ >> !br
+[2017-02-06 21:50:16 WIB] botan >> ==============================
+[2017-02-06 21:50:19 WIB] Syandal_ >> Kondisi akan selalu diperiksa pada setiap perulangan, dan kita bisa ?mengendalikan? kondisi ini pada bagian counter di dalam perulangan. #belajarjs
+[2017-02-06 21:57:56 WIB] Syandal_ >> berikut contoh perulangan while >> https://jsfiddle.net/kh26vfag/ #belajarjs
+[2017-02-06 21:58:28 WIB] Syandal_ >> untuk contoh kode latihan yang didownload ada di file '7 while loop.html
+[2017-02-06 21:58:47 WIB] Syandal_ >> Satu hal kunci yang membedakan struktur WHILE dengan FOR, adalah di dalam perulangan FOR kondisi akhir perulangan harus sudah diketahui pada awal program. Namun dalam perulangan WHILE, kita bisa membuat perulangan yang nilai akhir atau kondisinya belum diketahui pada saat perulangan dimulai. #belajarjs
+[2017-02-06 21:58:57 WIB] Syandal_ >> lanjut
+[2017-02-06 21:58:58 WIB] Syandal_ >> !br
+[2017-02-06 21:58:58 WIB] botan >> ==============================
+[2017-02-06 21:59:05 WIB] Syandal_ >> PERuLANGAN DO - WHILE
+[2017-02-06 21:59:07 WIB] Syandal_ >> !br
+[2017-02-06 21:59:07 WIB] botan >> ==============================
+[2017-02-06 21:59:19 WIB] Syandal_ >> Struktur perulangan DO WHILE sebenarnya adalah bentuk lain dari perulangan WHILE. #belajarjs
+[2017-02-06 21:59:34 WIB] Syandal_ >> Perbedaan keduanya terletak pada posisi pengecekan kondisi. Apabila dalam perulangan WHILE kondisi di cek pada awal perulangan, pada perulangan DO WHILE, kondisi perulangan di cek pada akhir perulangan #belajarjs
+[2017-02-06 22:01:22 WIB] Syandal_ >> berikut contoh kodenya >> https://jsfiddle.net/f6o66ota/
+[2017-02-06 22:01:34 WIB] Syandal_ >> /me* keknya tingal bertiga sama ChanServ sama botan deh :( 
+[2017-02-06 22:01:39 WIB] Syandal_ >> !anonimouse
+[2017-02-06 22:01:39 WIB] botan >> buat apa berlari dalam kelam.. sedang kabutpun takmau menyibak.. biarlah semua berlalu .. bermimpipun aku tak ingin.. meskii rindu ini tercipta untukmu ... ~anonimouse~
+[2017-02-06 22:01:43 WIB] Syandal_ >> :'(
+[2017-02-06 22:01:45 WIB] Syandal_ >> !br
+[2017-02-06 22:01:45 WIB] botan >> ==============================
+[2017-02-06 22:02:20 WIB] Syandal_ >> Dampak dari proses pemeriksaan kondisi di akhir perulangan ini adalah, perulangan akan dikerjakan setidaknya 1 kali, walaupun kondisi perulangan tidak dipenuhi atau menghasilkan nilai FALSE,  #belajarjs
+[2017-02-06 22:03:51 WIB] Syandal_ >> berikut contoh kode do - while yang hanya dijalankan setidaknya sekali .. walaupun kondisi tidak terpenuhi >> https://jsfiddle.net/kqhL3t7d/
+[2017-02-06 22:03:56 WIB] Syandal_ >> ada yang mau nanya ga
+[2017-02-06 22:03:58 WIB] Syandal_ >> ok lanjut
+[2017-02-06 22:04:00 WIB] Syandal_ >> !br
+[2017-02-06 22:04:00 WIB] botan >> ==============================
+[2017-02-06 22:04:36 WIB] Syandal_ >> contoh perulangan do - while bisa diliat di file '8 do while loop.html' #belajarjs
+[2017-02-06 22:04:47 WIB] Syandal_ >> !br
+[2017-02-06 22:04:47 WIB] botan >> ==============================
+[2017-02-06 22:05:05 WIB] Syandal_ >> Kita lanjut ke sub materi berikut nya yaitu label
+[2017-02-06 22:07:54 WIB] Syandal_ >> A label provides a statement with an identifier that lets you refer to it elsewhere in your program. For example, you can use a label to identify a loop, and then use the break or continue statements to indicate whether a program should interrupt the loop or continue its execution #belajarjs
+[2017-02-06 22:08:11 WIB] Syandal_ >> label untuk penamaan doang.. biasanya didepan loop.. #belajarjs
+[2017-02-06 22:08:36 WIB] Syandal_ >> ini contoh kode penggunaan label >> http://jsbin.com/lapeguwake/edit?html,js,output #belajarjs
+[2017-02-06 22:09:19 WIB] Syandal_ >> kata perulanganku adalah berfungsi sebagai label >> http://imagizer.imageshack.com/img923/3737/IiZt2g.png #belajarjs
+[2017-02-06 22:09:40 WIB] Syandal_ >> untuk kode latihan bisa dilihat di file '9 label.html;
+[2017-02-06 22:09:44 WIB] Syandal_ >> lanjut
+[2017-02-06 22:09:46 WIB] Syandal_ >> !br
+[2017-02-06 22:09:46 WIB] botan >> ==============================
+[2017-02-06 22:11:15 WIB] Syandal_ >> kita lanjut ke pembahasan selanjutnya
+[2017-02-06 22:11:19 WIB] Syandal_ >> BREAK
+[2017-02-06 22:11:21 WIB] Syandal_ >> !br
+[2017-02-06 22:11:21 WIB] botan >> ==============================
+[2017-02-06 22:12:37 WIB] Syandal_ >> break adalah statemen untuk memaksa berhenti dan keluar dari perulangan..
+[2017-02-06 22:12:48 WIB] Syandal_ >> biasanya break digabungkan dengan pengujian kondisi IF
+[2017-02-06 22:12:50 WIB] Syandal_ >> contoh
+[2017-02-06 22:16:50 WIB] Syandal_ >> berikutu contoh penggunaan break
+[2017-02-06 22:18:07 WIB] Syandal_ >> perhatikan bahwa batas perulangan adalah 1 < loop dimana loop = 15, tetapi perulangan akan dipaksa berhenti ketika nila i berisi 6 .. >> http://imagizer.imageshack.com/img922/9675/z92Elv.png
+[2017-02-06 22:18:10 WIB] Syandal_ >> lanjut
+[2017-02-06 22:18:12 WIB] Syandal_ >> !br
+[2017-02-06 22:18:12 WIB] botan >> ==============================
+[2017-02-06 22:18:38 WIB] Syandal_ >> contoh kode latihan break ada di file '10 break.html' #belajarjs
+[2017-02-06 22:18:43 WIB] Syandal_ >> !br
+[2017-02-06 22:18:43 WIB] botan >> ==============================
+[2017-02-06 22:19:15 WIB] Syandal_ >> CONTINUE
+[2017-02-06 22:19:55 WIB] Syandal_ >> The continue statement can be used to restart a while, do-while, for, or label statement.
+[2017-02-06 22:19:56 WIB] Syandal_ >>     When you use continue without a label, it terminates the current iteration of the innermost enclosing while, do-while, or for statement and continues execution of the loop with the next iteration. In contrast to the break statement, continue does not terminate the execution of the loop entirely. In a while loop, it jumps back to the condition. In a for loop, it jumps to the increment-expression.
+[2017-02-06 22:19:56 WIB] Syandal_ >>     When you use continue with a label, it applies to the looping statement identified with that label.
+[2017-02-06 22:19:57 WIB] Syandal_ >> !br
+[2017-02-06 22:19:57 WIB] botan >> ==============================
+[2017-02-06 22:22:08 WIB] Syandal_ >> pada contoh ini >> statemen continue .. akan melewati perulangan jika kondisinya true >> http://jsbin.com/peciliqawi/edit?html,js,output
+[2017-02-06 22:23:15 WIB] Syandal_ >> berikut skrinsut nya >> http://imagizer.imageshack.com/img923/3146/9iPptb.png << perhatikan .. habis perulangan ke 5 loncat ke 7 .. #belajarjs
+[2017-02-06 22:23:18 WIB] Syandal_ >> !br
+[2017-02-06 22:23:18 WIB] botan >> ==============================
+[2017-02-06 22:23:21 WIB] Syandal_ >> lanjut
+[2017-02-06 22:23:46 WIB] Syandal_ >> untuk latihan bisa dilihat di kode '11 Continue.html'
+[2017-02-06 22:23:49 WIB] Syandal_ >> !br
+[2017-02-06 22:23:49 WIB] botan >> ==============================
+[2017-02-06 22:26:27 WIB] Syandal_ >> FOR - IN
+[2017-02-06 22:26:29 WIB] Syandal_ >> !br
+[2017-02-06 22:26:29 WIB] botan >> ==============================
+[2017-02-06 22:26:43 WIB] Syandal_ >> Perulangan FOR IN adakah perulangan khusus di dalam JavaScript yang digunakan untuk menampilkan ?isi? dari sebuah objek. Objek yang digunakan dapat berupa Array, karena array pada dasarnya juga merupakan objek di dalam JavaScript #belajarjs
+[2017-02-06 22:27:04 WIB] Syandal_ >> Perulangan FOR IN mirip dengan perulangan FOR EACH di dalam PHP. Berikut adalah penulisan dasar perulangan FOR IN dalam JavaScript
+[2017-02-06 22:27:12 WIB] Syandal_ >> for (variabel in objek)
+[2017-02-06 22:27:13 WIB] Syandal_ >> {
+[2017-02-06 22:27:13 WIB] Syandal_ >>    // kode program
+[2017-02-06 22:27:13 WIB] Syandal_ >> }
+[2017-02-06 22:27:16 WIB] Syandal_ >> !br
+[2017-02-06 22:27:16 WIB] botan >> ==============================
+[2017-02-06 22:27:32 WIB] Syandal_ >> Perulangan di dalam FOR IN akan dijalankan sebanyak ?isi? dari objek. Jika objek tersebut adalah Array, maka perulangan akan dilakukan sebanyak data yang ada di dalam Array. #belajarjs
+[2017-02-06 22:27:45 WIB] Syandal_ >> /me* berasa ngomong sendiri ya 
+[2017-02-06 22:28:02 WIB] Syandal_ >> .ingat lelah=lelah abang neng
+[2017-02-06 22:28:02 WIB] botan >> 'lelah' diingat
+[2017-02-06 22:28:06 WIB] Syandal_ >> !lelah
+[2017-02-06 22:28:06 WIB] botan >> lelah abang neng
+[2017-02-06 22:28:11 WIB] Syandal_ >> ok :)
+[2017-02-06 22:32:17 WIB] Syandal_ >> Jika di gunakan untuk objek, perulangan FOR IN akan menampilkan seluruh property dan method dari objek tersebut. #belajarjs
+[2017-02-06 22:32:38 WIB] Syandal_ >> contoh kode untuk for-in >> http://jsbin.com/murigakuhu/edit?js,output #belajarjs
+[2017-02-06 22:32:42 WIB] Syandal_ >> !br
+[2017-02-06 22:32:42 WIB] botan >> ==============================
+[2017-02-06 22:33:28 WIB] Syandal_ >> last one >> FOR OF
+[2017-02-06 22:33:31 WIB] Syandal_ >> !br
+[2017-02-06 22:33:31 WIB] botan >> ==============================
+[2017-02-06 22:33:55 WIB] Syandal_ >> for...of statement
+[2017-02-06 22:33:55 WIB] Syandal_ >> Edit
+[2017-02-06 22:33:55 WIB] Syandal_ >> The for...of statement creates a loop Iterating over iterable objects (including Array, Map, Set, arguments object and so on), invoking a custom iteration hook with statements to be executed for the value of each distinct property.
+[2017-02-06 22:34:07 WIB] Syandal_ >> formatnya
+[2017-02-06 22:34:16 WIB] Syandal_ >> for (variable of object) {
+[2017-02-06 22:34:16 WIB] Syandal_ >>   statement
+[2017-02-06 22:34:16 WIB] Syandal_ >> }
+[2017-02-06 22:34:28 WIB] Syandal_ >> !br
+[2017-02-06 22:34:29 WIB] botan >> ==============================
+[2017-02-06 22:35:19 WIB] Syandal_ >> /me* kurang ngerti 
+[2017-02-06 22:35:25 WIB] Syandal_ >> tapi langsung kita liat contoh kode nya
+[2017-02-06 22:37:52 WIB] Syandal_ >> berikut kode untuk contoh FOR - OF >> https://jsfiddle.net/8kyobfan/ #belajarjs
+[2017-02-06 22:38:02 WIB] Syandal_ >> botan, ChanServ ada pertanyaan ga?
+[2017-02-06 22:38:06 WIB] Syandal_ >> /me* nunggu 15 deti 
+[2017-02-06 22:38:09 WIB] Syandal_ >> detik
+[2017-02-06 22:39:47 WIB] Syandal_ >> ok.. karna botan sama opah ChanServ ga ada pertanyaan.. maka ane menyampaikan bahwa kegiatan pembelajaran bersama (bersama bot :v) .. untuk materi javascript .. kita akhiri sampai disini.. ane ucapkan juga terimakasih sebesar2nya untuk semue peserta yang sempat hadir dikanal biarpun akhirnya bubar lagi.. :v .. wassalamu alaikum wr. wb. :) happy learning \(^_^)/
+[2017-02-06 22:39:56 WIB] Syandal_ >> peserta dungdat akademi terakhir
+[2017-02-06 22:40:01 WIB] Syandal_ >> !br
+[2017-02-06 22:40:01 WIB] botan >> ==============================
+[2017-02-06 22:40:16 WIB] botan >> roger bos!
+[2017-02-06 22:44:57 WIB] Syandal_ >> hmm
+[2017-02-06 22:45:06 WIB] Syandal_ >> keren vokalnya
+[2017-02-06 22:45:24 WIB] Syandal_ >> /me* megang dinda bondowoso ah untuk peserta ceweknya .. 
+[2017-02-06 22:45:55 WIB] Syandal_ >> untuk log nanti saya taruh di gist, dan semua kode nanti akan saya usahain di taruh di github..
+[2017-02-06 22:46:01 WIB] Syandal_ >> afk dulu _/|\_
+[2017-02-06 22:46:22 WIB] Syandal_ >> <botan> roger bos! << dia kalo malem bisa ngomong ya
+[2017-02-06 22:46:49 WIB] Syandal_ >>  VERSION 
+[2017-02-06 22:47:29 WIB] Syandal_ QUIT :Quit: Lelah abang neng..
+[2017-02-06 22:47:35 WIB] botan >> roger bos!

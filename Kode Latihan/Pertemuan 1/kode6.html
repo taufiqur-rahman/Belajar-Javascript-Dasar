@@ -1,0 +1,52 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+</body>
+</html>
+
+<script type="text/javascript">
+
+// Tipe Data
+// The latest ECMAScript standard defines seven data types:
+//    Six data types that are primitives:
+//        Boolean. true and false.
+//        null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.
+//        undefined. A top-level property whose value is undefined.
+//        Number. 42 or 3.14159.
+//        String. "Howdy"
+//        Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.
+//    and Object
+
+// Konversi
+// isi dari sebuah variabel dapat langsung kita ubah tipenya dengan merubah tipe isinya
+var umurKoden = 22;
+console.log(umurKoden);
+umurKoden = "22 Tahun cynt..";
+console.log(umurKoden);
+
+// ekspresi penjumlahan angka dan string akan menghasikan string
+x = "jawabannya adalah " + 22;
+console.log(x);
+y = 22 + " adalah jawabannya" ;
+console.log(y);
+
+// konversi dari string ke angka 
+// menggunakan parseInt() dan parseFloat()
+j = parseInt("123.45",10);
+console.log(j);
+k = parseFloat("456.78",10);k
+console.log(j);
+
+// atau menggunakan operator unary +
+o = "1.1" + "1.1" ;
+console.log(o); // variabel o masih bertipe string
+p = (+"1.1") + (+"1.1");   
+console.log(p); // variabel p sudah bertipe angka
+
+</script>

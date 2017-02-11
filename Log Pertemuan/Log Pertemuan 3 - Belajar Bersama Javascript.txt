@@ -1,0 +1,674 @@
+Bismillahirrahmanirrahim
+
+// /////////////////////////////////////////////////////////////////////////////////
+//     __  __ _             __            __        __                            //
+//    / / / / /_ __ __ __  / /___ __ ___ / /__  ___/ /___ ___  ___  ___ __ ___    //
+//   / /_/ / _  | // / _ `/ __/ // //__// / _ `/ __ / _  | _ `/ -_)(_-</ /'_  )   //
+//  |____ /____/____/_//_/___/,___/    /_/_//_/|___/\___/_//_/|__/____/_/\_,_/    //
+//                                                                                // 
+// /////////////////////////////////////////////////////////////////////////////////
+
+
+Belajar Bersama Komunitas Kanal #ubuntu-indonesia
+
+INFO
+server : irc.freenode.net  
+port   : 6667
+kanal  : #ubuntu-indonesia
+
+http://webchat.freenode.net/?channels=ubuntu-indonesia
+
+// ///////////////////////////////////////////////////////////////////////////////////////////
+
+             L O G    P E R T E M U A N   3
+
+// ///////////////////////////////////////////////////////////////////////////////////////////
+
+---------------------------
+Catatan : 
+1. PR1 >> http://jsbin.com/baqihulozi/edit?html,js,output
+2. PR2 >> http://jsbin.com/bulazuvipa/edit?html,js,output
+3. Sama beberapa kode terakhir harus didiskusikan ulang di momen2 santai kanal #ubuntu-indonesia
+---------------------------
+
+[2017-02-08 20:19:03 WIB] Sandal >> !br
+[2017-02-08 20:19:03 WIB] botan >> ==============================
+[2017-02-08 20:19:21 WIB] Sandal >> sebelum mulai, kita review ulang, silabus kita bisa dibaca2 disini >>
+[2017-02-08 20:19:24 WIB] Sandal >> !infobelajarjs
+[2017-02-08 20:19:25 WIB] botan >> FYI : kita mau mengadakan belajar bersama javascript .. mohon dilihat topik kanal .. semua masukan, saran, tanggapan, dll harap dikirimkan ke bagian komentar pada dokumen ini .. >> git.io/vMjls .. kegiatan diskusi perdana akan dilaksanakan pada : Selasa 31 Jan 2017 pukul 20.00 wib (malem rabu)..
+[2017-02-08 20:19:35 WIB] greenshirt >> 2 vs 1 :-3
+[2017-02-08 20:19:43 WIB] Sandal >> trus materi pertemuan malam ini (pertemuan ke 3) disini
+[2017-02-08 20:19:50 WIB] Sandal >> !info-belajarjs3
+[2017-02-08 20:19:50 WIB] botan >> Dear penghuni kanal, ini materi belajar bersama japaskrip pertemuan 3 >> https://goo.gl/d0IAAd .. susah :'(
+[2017-02-08 20:20:36 WIB] Sandal >> sedangkan referensi materinya bebas, dari mana aja, tetapi yang paling resmi kita pakai dari halaman ini >> https://goo.gl/US3Fkm
+[2017-02-08 20:20:40 WIB] Sandal >> !br
+[2017-02-08 20:20:40 WIB] botan >> ==============================
+[2017-02-08 20:20:49 WIB] Sandal >> ^sambil dibaca2 dulu link2 diatas
+[2017-02-08 20:20:51 WIB] Sandal >> !br
+[2017-02-08 20:20:51 WIB] botan >> ==============================
+[2017-02-08 20:21:36 WIB] Sandal >> untuk mempersingkat waktu, gimana kalo kita mulai aja?
+[2017-02-08 20:21:53 WIB] Sandal >> mudah2an pertemuan2 selanjutnya ada moderator yang lebih baik untuk kita semua
+[2017-02-08 20:21:56 WIB] Sandal >> !br
+[2017-02-08 20:21:56 WIB] botan >> ==============================
+[2017-02-08 20:21:59 WIB] Sandal >> ok mulai
+[2017-02-08 20:22:04 WIB] Sandal >> Assalamu alaikum wr.wb
+[2017-02-08 20:22:06 WIB] presiden >> Sandal: waalaikumsalam warahmatullahi wabarakatuh
+[2017-02-08 20:22:48 WIB] Sandal >> /me* sebagai perwakilan dari penghuni kanal mengucapkan terima kasih atas kehadiran kawan2 semua, dalam kegiatan yang sudah kita rencanakan >> yaitu belajar bersama javascript #belajarjs 
+[2017-02-08 20:23:20 WIB] Sandal >> adapun pertemuan kita kali ini adalah yang ke-3 yang materinya membahas tentang fungsi
+[2017-02-08 20:24:22 WIB] greenshirt QUIT :Ping timeout: 264 seconds
+[2017-02-08 20:26:04 WIB] Sandal >> dan sub materi yang akan kita bahas adalah >> 1) deklarasi fungsi 2) fungsi dengan parsing argumen 3) fungsi dengan parsing obyek 4) fungsi ekspresi 5) fungsi rekursif 6) scope fungsi 7) stak fungsi 8) fungsi bersarang 9) konflik nama pada fungsi 10) closures 11) obyek sebagai argumen 12) default parameter dan rest parameter 12) menyingkat fungsi 13) lexical this #belajarjs
+[2017-02-08 20:26:20 WIB] Sandal >> baiklah untuk mempersingkat waktu kita lanjut ke sub materi berikutnya
+[2017-02-08 20:26:20 WIB] greenshirt JOIN #ubuntu-indonesia
+[2017-02-08 20:26:20 WIB] greenshirt QUIT :Changing host
+[2017-02-08 20:26:20 WIB] greenshirt JOIN #ubuntu-indonesia
+[2017-02-08 20:26:20 WIB] ChanServ!! MODE #ubuntu-indonesia +v greenshirt
+[2017-02-08 20:26:21 WIB] Sandal >> !br
+[2017-02-08 20:26:21 WIB] botan >> ==============================
+[2017-02-08 20:26:34 WIB] ChanServ!! MODE #ubuntu-indonesia +o greenshirt
+[2017-02-08 20:27:12 WIB] Sandal >> sebelumnya ada yang mau mengasih masukan tentang definisi dari sebuah fungsi dalam bahasa pemrograman ga?
+[2017-02-08 20:28:03 WIB] greenshirt >> Hmmm
+[2017-02-08 20:28:41 WIB] Sandal >> ka greenshirt definisi fungsi apaan?
+[2017-02-08 20:29:10 WIB] greenshirt >> fungsi = kegunaan :-)
+[2017-02-08 20:29:14 WIB] Sandal >> hmm
+[2017-02-08 20:29:21 WIB] Sandal >> ^ bisa jadi
+[2017-02-08 20:29:33 WIB] greenshirt >> @tau sejenis jamur :-)
+[2017-02-08 20:29:39 WIB] Sandal >> peserta lain, ada yang mau ngasih masukan tentang definisi fungsi ga?
+[2017-02-08 20:29:47 WIB] Sandal >> itu fungi
+[2017-02-08 20:29:53 WIB] Sandal >> eh apa ya?
+[2017-02-08 20:30:03 WIB] Sandal >> /me* nunggu 15 detik 
+[2017-02-08 20:30:13 WIB] greenshirt >> Hmmm..Salah ya :-(
+[2017-02-08 20:30:33 WIB] Sandal >> kurang tau deh
+[2017-02-08 20:30:37 WIB] greenshirt >> /me* >>> 0p rusuh 
+[2017-02-08 20:31:10 WIB] triawarman >> >
+[2017-02-08 20:31:32 WIB] Sandal >> ok,karna ga ada yang mau ngasih ide, ane coba kasih masukan >> fungsi adalah fasilitas bahasa pemrograman untuk membuat suatu perintah yang menjalankan tugas2 tertentu, dan bisa dilakukan pemanggilan berulang2.. #belajarjs
+[2017-02-08 20:32:32 WIB] Sandal >> Pada javascript fungsi dapat disimpan dalam variabel, dikembalikan oleh fungsi lain, dan dikirimkan sebagai argumen untuk fungsi lainnya. Implementasi fungsi yang sangat fleksibel seperti ini membuka banyak kesempatan kepada pengembang untuk menuliskan kode yang bukan hanya berjalan dengan baik dan indah #belajarjs
+[2017-02-08 20:32:52 WIB] Sandal >> /me* sih ga bisa bikin kode yang indah :v 
+[2017-02-08 20:32:57 WIB] triawarman >> super
+[2017-02-08 20:34:16 WIB] dwix_ >> ahay
+[2017-02-08 20:34:21 WIB] Sandal >> hmm
+[2017-02-08 20:34:29 WIB] Sandal >> deklarasi fungsi .. >> http://pastebin.com/hk0t5isJ #belajarjs
+[2017-02-08 20:34:42 WIB] Sandal >> ^mudah2an ga salah ngetik
+[2017-02-08 20:35:31 WIB] triawarman >> /me* uda sarankan jangan pastebin 
+[2017-02-08 20:35:40 WIB] Sandal >> hmm
+[2017-02-08 20:35:54 WIB] Sandal >> kalo di gist harus login dulu nggak
+[2017-02-08 20:36:09 WIB] triawarman >> kalau paste ga
+[2017-02-08 20:36:24 WIB] triawarman >> di github kan ada raw mode, di gist mungkin ada juga
+[2017-02-08 20:36:41 WIB] Sandal >> spertinya harus ada nama filenya
+[2017-02-08 20:38:05 WIB] Sandal >> ow..
+[2017-02-08 20:38:16 WIB] Sandal >> ok .. selanjutnya nanti di gist
+[2017-02-08 20:38:32 WIB] Sandal >> baiklah, untuk mempersingkat waktu kita coba latihan kode pertama #belajarjs
+[2017-02-08 20:38:59 WIB] Sandal >> berikut cara membuat fungsi tanpa argumen >> http://jsbin.com/rijikacuqa/edit?html,js,output #belajarjs
+[2017-02-08 20:39:05 WIB] Sandal >> /me* nunggu 15 detik 
+[2017-02-08 20:41:41 WIB] Sandal >> ok lanjut ya
+[2017-02-08 20:42:48 WIB] Sandal >> pada contoh diatas kita membuat sebuah fungsi buatGaris() .. sedangkan pemanggilan fungsinya ada di bagian elemen html button .. dengan memanfaatkan evet onclick #belajarjs
+[2017-02-08 20:42:53 WIB] Sandal >> !br
+[2017-02-08 20:42:53 WIB] botan >> ==============================
+[2017-02-08 20:43:20 WIB] Sandal >> baiklah kita melanjutkan pembahasan ke sub materi berikutnya yaitu fungsi dengan parsing argumen
+[2017-02-08 20:45:58 WIB] Sandal >> deklarasi fungsi dengan argumen >> https://gist.github.com/anonymous/0d63ea6cd81b750abbafffc855a1d0ab
+[2017-02-08 20:46:53 WIB] Sandal >> soal latihan, lengkapi kode berikut ini >> dan kirimkan jawabannya ke code playground >> http://jsbin.com/qomuxesavu/edit?html,js,output  .. #belajarjs
+[2017-02-08 20:47:00 WIB] Sandal >> /me* nunggu 2 menit 
+[2017-02-08 20:48:40 WIB] Sandal >> pake alert aja
+[2017-02-08 20:50:17 WIB] triawarman >> /me* baru tau jsbin bisa streaming 
+[2017-02-08 20:50:21 WIB] sayur JOIN #ubuntu-indonesia
+[2017-02-08 20:51:06 WIB] dwix_ QUIT :Read error: Connection reset by peer
+[2017-02-08 20:51:09 WIB] Sandal >> hmm
+[2017-02-08 20:51:25 WIB] Sandal >> sampe bagian fungsi dengan parsing argumen ada yang mau di diskusikan nggak
+[2017-02-08 20:51:34 WIB] Sandal >> sampe sini gampang di mengerti kan ya?
+[2017-02-08 20:51:39 WIB] Sandal >> kalo nggak ada kita lanjut
+[2017-02-08 20:51:42 WIB] triawarman >> >
+[2017-02-08 20:51:51 WIB] Sandal >> :3
+[2017-02-08 20:51:53 WIB] Sandal >> ok lanjut
+[2017-02-08 20:51:55 WIB] Sandal >> !br
+[2017-02-08 20:51:55 WIB] botan >> ==============================
+[2017-02-08 20:52:33 WIB] sayur QUIT :Client Quit
+[2017-02-08 20:52:37 WIB] Sandal >> baiklah untuk mempersingkat waktu kita lanjtu ke sub materi berikutnya yaitu 3) fungsi dengan parsing obyek
+[2017-02-08 20:53:27 WIB] Sandal >> ^ seperti dibahas diawal, dalam javascript kita bisa membuat fungsi, dan saat pemanggilan fungsi tersebut, kita bisa memasukan obyek sebagai argumennya .. #belajarjs
+[2017-02-08 20:53:43 WIB] sayur JOIN #ubuntu-indonesia
+[2017-02-08 20:53:53 WIB] sayur_elektronik JOIN #ubuntu-indonesia
+[2017-02-08 20:54:39 WIB] sayur_elektronik >> Sandal: ada kuliah yak
+[2017-02-08 20:54:39 WIB] sayur_elektronik >> hmm gak ngasih tau
+[2017-02-08 20:56:10 WIB] icehiro QUIT :Ping timeout: 264 seconds
+[2017-02-08 20:56:57 WIB] triawarman >> hmm
+[2017-02-08 20:57:37 WIB] Sandal >> berikut contoh kode untuk fungsi dengan parsing obyek >> https://jsfiddle.net/bvqr4qqp/
+[2017-02-08 20:57:56 WIB] Sandal >> ka triawarman tolong jelasin baris2 kode diatas deh ^
+[2017-02-08 20:58:22 WIB] triawarman >> loading
+[2017-02-08 20:58:24 WIB] Sandal >> sayur_elektronik, ada, kita lagi online belajar bersama javascript sekarang :3 #belajarjs
+[2017-02-08 20:58:32 WIB] Sandal >> lola ya
+[2017-02-08 20:59:04 WIB] Sandal >> kalo ini >> http://jsbin.com/vijitesafo/edit?html,js,output
+[2017-02-08 20:59:48 WIB] triawarman >> objek itu merupakan variable yang menampung nilai larik (array)
+[2017-02-08 21:00:08 WIB] sayur QUIT :Ping timeout: 240 seconds
+[2017-02-08 21:00:29 WIB] triawarman >> disitu ada fuungsi cobaObyek dimana gunanya untuk mengambil nilai dari properti "merek"
+[2017-02-08 21:01:04 WIB] triawarman >> dimana variabale motorKu diguakan untuk menyimpan nilai2 yang akan di gunakan pada fungsi cobaObyek
+[2017-02-08 21:01:08 WIB] triawarman >> sekian
+[2017-02-08 21:01:24 WIB] Sandal >> :)
+[2017-02-08 21:02:12 WIB] sayur_elektronik QUIT :Read error: Connection reset by peer
+[2017-02-08 21:02:16 WIB] Sandal >> ada yang mau nanya dulu nggak ? sebelum kita lanjutin ke pembahasan selanjutnya ? #belajarjs
+[2017-02-08 21:02:19 WIB] dwix_ JOIN #ubuntu-indonesia
+[2017-02-08 21:03:07 WIB] triawarman >> >
+[2017-02-08 21:04:24 WIB] Sandal >> ok lanjut
+[2017-02-08 21:04:26 WIB] Sandal >> !br
+[2017-02-08 21:04:26 WIB] botan >> ==============================
+[2017-02-08 21:04:44 WIB] dwix_ >> aku aku ngirim jawaban latihan
+[2017-02-08 21:04:48 WIB] dwix_ >> http://jsbin.com/vudimamozi/1/edit?html,js,output
+[2017-02-08 21:05:03 WIB] Sandal >> /me* cek tkp 
+[2017-02-08 21:05:04 WIB] triawarman >> (y)
+[2017-02-08 21:05:40 WIB] Sandal >> menarik :D
+[2017-02-08 21:05:48 WIB] Sandal >> ok kita lanjut
+[2017-02-08 21:05:50 WIB] Sandal >> !br
+[2017-02-08 21:05:50 WIB] botan >> ==============================
+[2017-02-08 21:06:06 WIB] Sandal >> baiklah kita masuk ke sub materi ke 4) ekspresi fungsi
+[2017-02-08 21:07:02 WIB] Sandal >> selain fungsi dideklarasikan dengan kata 'function' .. sebuah fungsi juga bisa dideklarasikan melalui sebuah ekspresi.. #belajarjs
+[2017-02-08 21:09:22 WIB] :sayur!~aryaldata@120.188.84.95 JOIN #ubuntu-indonesia
+[2017-02-08 21:09:38 WIB] :sayur!~aryaldata@120.188.84.95 QUIT :Read error: Connection reset by peer
+[2017-02-08 21:10:17 WIB] Sandal >> contohnya pada kode berikut >> http://jsbin.com/paxoqetowo/edit?html,js,output #belajarjs
+[2017-02-08 21:10:38 WIB] Sandal >> ka triawarman .. tolong jelasin baris2 kode diatas dong ^ .. #belajarjs
+[2017-02-08 21:11:17 WIB] triawarman >> loading
+[2017-02-08 21:11:54 WIB] dwix_ >> haha
+[2017-02-08 21:12:31 WIB] :sayur!~aryaldata@120.188.76.136 JOIN #ubuntu-indonesia
+[2017-02-08 21:14:18 WIB] triawarman >> jadi var selain digunakan sebagai deklarasi variable, juga dapat digunakan untuk menampung data, sekligus deklarasi fungsi (beserta hasil nya)
+[2017-02-08 21:14:39 WIB] Sandal >> hmm..
+[2017-02-08 21:14:48 WIB] Sandal >> nah itu,
+[2017-02-08 21:15:27 WIB] Sandal >> ada yang mau nanya dulu nggak
+[2017-02-08 21:16:11 WIB] dwix_ >> jadi itu ya yang dimaksud melalui ekspresi?
+[2017-02-08 21:16:54 WIB] Sandal >> sepertinya iya
+[2017-02-08 21:17:16 WIB] Sandal >> mungkin itu yang disebut .. mendeklarasikan fungsi melalui ekspresi..
+[2017-02-08 21:17:29 WIB] Sandal >> While the function declaration above is syntactically a statement, functions can also be created by a function expression. Such a function can be anonymous; it does not have to have a name. For example, the function square could have been defined as:
+[2017-02-08 21:17:32 WIB] Sandal >> !br
+[2017-02-08 21:17:32 WIB] botan >> ==============================
+[2017-02-08 21:17:51 WIB] Sandal >> contoh 2 >> http://jsbin.com/baqihulozi/edit?html,js,output #belajarjs
+[2017-02-08 21:18:03 WIB] Sandal >> ka triawarman tolong jelasin baris2 kode itu dong ^
+[2017-02-08 21:19:17 WIB] Sandal >> bentar .. lagi peserta 2 .. dungdat akademi..
+[2017-02-08 21:20:16 WIB] triawarman >> /me* ga paham di a = map(multiply, [0, 1, 2, 5, 10]); 
+[2017-02-08 21:20:39 WIB] triawarman >> variable X sebelumnya tiada di berikan nilai
+[2017-02-08 21:22:04 WIB] Sandal >> nah itu .. merenung dulu
+[2017-02-08 21:22:19 WIB] Sandal >> kualitas vokalnya lumayan..
+[2017-02-08 21:23:45 WIB] triawarman >> kalau dicontoh2 sebelumnya biasanya multiply(nilai)
+[2017-02-08 21:23:55 WIB] triawarman >> tapi ini hanya multiply
+[2017-02-08 21:24:26 WIB] triawarman >> dan variable x didalam fungsi multiply tiada dikasi nila di awal, atau diberi nilai setelah dipanggil
+[2017-02-08 21:25:27 WIB] dwix_ >> bukankah multiply di angkut sebagai argumen map, di f?
+[2017-02-08 21:26:06 WIB] dwix_ >> terus di map ada perulangan yang mengkomputasi f
+[2017-02-08 21:26:43 WIB] triawarman >> tapi diatas map(f, a), f itu sendiri tiada diberi nilai masukan
+[2017-02-08 21:27:21 WIB] triawarman >> bahkan di a = map(multiply, [0, 1, 2, 5, 10]); hanya "mulltiply", yang umumnya fungsi variable masukan fungsi didapat dari luar
+[2017-02-08 21:27:37 WIB] triawarman >> multiply(masukan){}
+[2017-02-08 21:27:41 WIB] :sayur!~aryaldata@120.188.76.136 QUIT :Ping timeout: 276 seconds
+[2017-02-08 21:27:46 WIB] triawarman >> tapi entah, coba Sandal lebih jelaskan
+[2017-02-08 21:28:26 WIB] Sandal >> coba liat kode sederhana ini deh >> https://jsfiddle.net/ov7jymLt/ #belajarjs
+[2017-02-08 21:28:51 WIB] Sandal >> /me* sebenernya bukan pemateri.. tapi sebatas tukang pengumuman ..  
+[2017-02-08 21:30:05 WIB] Sandal >> itu rumit .. :v
+[2017-02-08 21:30:09 WIB] Sandal >> :'(
+[2017-02-08 21:30:27 WIB] triawarman >> ini masih bisa dipahami, sama seperti fungsi refaktor
+[2017-02-08 21:30:35 WIB] triawarman >> jika dilihat kan dapat nilai masukan dari luar
+[2017-02-08 21:30:37 WIB] Sandal >> multiply sepertinya dimasukin .. ke argumen f .. pada fungsi map()
+[2017-02-08 21:31:19 WIB] :kalimbu4y!uid211718@gateway/web/irccloud.com/x-rjvvuyldgdeahayt PART #ubuntu-indonesia
+[2017-02-08 21:31:29 WIB] triawarman >> nah iya, x itu sendiri di dalam fungsi multiply apaa ? dapat nilai apa ?
+[2017-02-08 21:31:40 WIB] triawarman >> /me* masih belum dapat logikanya 
+[2017-02-08 21:31:52 WIB] triawarman >> ayo dong
+[2017-02-08 21:33:14 WIB] Sandal >> :3
+[2017-02-08 21:33:24 WIB] Sandal >> spertinya pendapat ka dwix_ benar
+[2017-02-08 21:33:28 WIB] dwix_ >> https://www.sitepoint.com/higher-order-functions-javascript/
+[2017-02-08 21:33:41 WIB] dwix_ >> di bagian "taking function as arguments"
+[2017-02-08 21:35:19 WIB] triawarman >> yup, itu link bisa dipahami
+[2017-02-08 21:36:14 WIB] Sandal >> hmm.. coba jelasin
+[2017-02-08 21:37:50 WIB] Sandal >> <dwix_> terus di map ada perulangan yang mengkomputasi f .. << sepertinya dia bener.. sedangkan isi dari f sendiri kan .. dari fungsi multiply() .. sedangkan fungsi multiply() sendiri berisi.. perkalian dari sebuah nilai * sebuah nila * sebuah nilai lagi ..
+[2017-02-08 21:39:47 WIB] Sandal >> jadi pas argumen yang diparsinginnya seperti ini >> multiply, [0, 1, 2, 5, 10]  .. perulangan pertama 0 x 0 x 0 .. perulangan ke dua .. 1 x 1 x 1 .. perulangan ketiga .. 2 x 2 x 2 .. perulangan keempat .. 5 x 5 x 5 .. perulangan kelima 10 x 10 x 10 .. sehingga hasilnya ... 0, 1, 8, 125, 1000 *bener nggak yaa*
+[2017-02-08 21:40:47 WIB] Sandal >> gimana kalo kita lanjut dulu.. kalo masih ada pertanyaan.. kita jadiin PR yang nggak terpecahkan #belajarjs
+[2017-02-08 21:40:59 WIB] triawarman >> http://www.w3schools.com/js/js_function_parameters.asp
+[2017-02-08 21:41:00 WIB] dwix_ >> #belajarjs
+[2017-02-08 21:41:56 WIB] triawarman >> yang di parsing (di lewatkan) ialah argumen object
+[2017-02-08 21:42:19 WIB] triawarman >> bla bla bla bla... seperti penjelasan teman2
+[2017-02-08 21:42:26 WIB] triawarman >> (singkatnya)
+[2017-02-08 21:42:37 WIB] pupil JOIN #ubuntu-indonesia
+[2017-02-08 21:42:37 WIB] ChanServ!! MODE #ubuntu-indonesia +v pupil
+[2017-02-08 21:42:38 WIB] Sandal >> hmm.. trus
+[2017-02-08 21:42:40 WIB] triawarman >> ok sip lanjut :)
+[2017-02-08 21:42:41 WIB] :kalimbu4y!uid211718@gateway/web/irccloud.com/x-fvrclouhwrzqkalv JOIN #ubuntu-indonesia
+[2017-02-08 21:42:43 WIB] pupil QUIT :Read error: Connection reset by peer
+[2017-02-08 21:43:01 WIB] triawarman >> ok umumnya kita manggil fungsi dalam fungsi
+[2017-02-08 21:43:11 WIB] Sandal >> kurang tau deh..
+[2017-02-08 21:43:14 WIB] Sandal >> pr nya apa tadi
+[2017-02-08 21:43:14 WIB] triawarman >> /me* baru tau ilmu ini di dari Sandal 
+[2017-02-08 21:43:20 WIB] triawarman >> lanjut ya
+[2017-02-08 21:43:24 WIB] Sandal >> ok lanjut
+[2017-02-08 21:43:28 WIB] Sandal >> /me* ga punya ilmu 
+[2017-02-08 21:43:33 WIB] Sandal >> !br
+[2017-02-08 21:43:33 WIB] botan >> ==============================
+[2017-02-08 21:43:46 WIB] triawarman >> /me* ga jadi jelasin 
+[2017-02-08 21:43:48 WIB] Sandal >> PR >> kode latihan 5
+[2017-02-08 21:43:51 WIB] Sandal >> !br
+[2017-02-08 21:43:51 WIB] botan >> ==============================
+[2017-02-08 21:43:51 WIB] triawarman >> > lanjut
+[2017-02-08 21:44:01 WIB] Sandal >> ok.. baiklah kita lajut..
+[2017-02-08 21:44:02 WIB] Sandal >> !br
+[2017-02-08 21:44:02 WIB] botan >> ==============================
+[2017-02-08 21:44:38 WIB] pupil JOIN #ubuntu-indonesia
+[2017-02-08 21:44:38 WIB] ChanServ!! MODE #ubuntu-indonesia +v pupil
+[2017-02-08 21:45:12 WIB] Sandal >> di materi pada halaman MDN .. sub materi berikutnya adalah pemanggilan fungsi, karna pemanggilan fungsi dari tadi sudah kita bahas, kita lanjtu ke sub materi berikut nya yaitu 6) fungsii rekursif
+[2017-02-08 21:46:35 WIB] Sandal >> berikut contoh kode latihannya >> https://jsfiddle.net/7wewquk2/ #belajarjs
+[2017-02-08 21:46:53 WIB] Sandal >> ka triawarman mohon jelaskan kode diatas _/|\_  #belajarjs
+[2017-02-08 21:47:14 WIB] triawarman >> loading
+[2017-02-08 21:47:22 WIB] triawarman >> gantian lah
+[2017-02-08 21:47:29 WIB] triawarman >> dwix_ misalnya
+[2017-02-08 21:49:27 WIB] Sandal >> ok.. yang terhormat ka dwix_ dimohon memberikan penjelasan dengan bahasa sederhana tentang penjelasan dari bait2 kode diatas ^ .. #belajarjs
+[2017-02-08 21:49:48 WIB] dwix_ >> Bismillah
+[2017-02-08 21:49:53 WIB] Sandal >> /me* abis pesertanya kita doang :v 
+[2017-02-08 21:52:04 WIB] :manusia!~kalimbu4y@112.215.173.32 JOIN #ubuntu-indonesia
+[2017-02-08 21:53:14 WIB] dwix_ >> di contoh faktorial 10, kita memanggil fungsi faktorial dengan argumen nilai=10. di dalam faktorial dilakukan pemeriksaan nilai, karena sepuluh bukan nilai 0 atau satu maka dilakukan perkalian nilai 10 dengan faktorial 10-1 (9). dst
+[2017-02-08 21:53:40 WIB] dwix_ >> maaf, begitu benar?
+[2017-02-08 21:56:14 WIB] Sandal >> sepertinya bener
+[2017-02-08 21:56:21 WIB] Sandal >> ka triawarman ada yang mau ditambahin gak
+[2017-02-08 21:56:30 WIB] triawarman >> ga
+[2017-02-08 21:56:32 WIB] Sandal >> yang lain ada yang mau ditanyain ga? sebelum lanjut
+[2017-02-08 21:56:39 WIB] Sandal >> knapa? alasannya?
+[2017-02-08 21:57:02 WIB] triawarman >> krn uda dijelasin
+[2017-02-08 21:57:16 WIB] Sandal >> contoh itu disebut rekursif, yaitu fungsi melakukan pemanggilan dirinya sendiri untuk melakukan perhitungan.. *bener nggak yaa*
+[2017-02-08 21:57:32 WIB] :dion!~dion@120.188.86.21 JOIN #ubuntu-indonesia
+[2017-02-08 21:57:44 WIB] Sandal >> eh ada pak dion pak manusia
+[2017-02-08 21:57:51 WIB] Sandal >> ada yang mau ditanya ga
+[2017-02-08 21:57:56 WIB] Sandal >> /me* nunggu 15 detik 
+[2017-02-08 21:58:09 WIB] :dion!~dion@120.188.86.21 >> ketinggalan beberapa harihuhuh
+[2017-02-08 21:58:41 WIB] Sandal >> hmm.. ini pertemuan ke tiga.. liat log deh.. logubin.gomix.me
+[2017-02-08 21:58:59 WIB] Sandal >> ok karna ga ada yang didiskusikan .. kita lanjut
+[2017-02-08 21:59:01 WIB] Sandal >> !br
+[2017-02-08 21:59:01 WIB] botan >> ==============================
+[2017-02-08 22:00:04 WIB] Sandal >> pembahasan selanjutnya >> scope / cakupan fungsi
+[2017-02-08 22:00:37 WIB] Sandal >> Dalam konteks bahasa pemrograman, scope atau cakupan merupakan sebuah aturan yang mengendalikan waktu hidup (lifetime) dan akses dari sebuah nilai dalam program.  #belajarjs
+[2017-02-08 22:00:57 WIB] Sandal >> Nilai yang dikendalikan oleh scope umumnya adalah variabel. Scope sangat penting dalam pemrograman, terutama untuk memudahkan kita dalam menamakan variabel dan manajemen memori. #belajarjs
+[2017-02-08 22:01:38 WIB] Sandal >> Aturan scoping yang dimiliki Javascript hanyalah function scope. Function scope berarti semua parameter dan variabel yang dibuat di dalam sebuah fungsi tidak dapat diakses di luar fungsi tersebut #belajarjs
+[2017-02-08 22:03:03 WIB] Sandal >> perhatikan kode berikut >> http://jsbin.com/focosumoji/edit?html,js,output
+[2017-02-08 22:03:28 WIB] Sandal >> tolong salah satu peserta jelasin cara kerja dari baris2 kode diatas ^ #belajarjs
+[2017-02-08 22:04:18 WIB] :dion!~dion@120.188.86.21 >> baru baca log pak
+[2017-02-08 22:04:21 WIB] Sandal >> colek triawarman dwix_ greenshirt manusia dion
+[2017-02-08 22:04:24 WIB] Sandal >> ok pak
+[2017-02-08 22:04:30 WIB] triawarman >> hmmm
+[2017-02-08 22:04:33 WIB] Sandal >> ka triawarman tolong jelasin dong
+[2017-02-08 22:04:54 WIB] triawarman >> >
+[2017-02-08 22:06:31 WIB] Sandal >> hmm.. ok .. ta jelasin dikit.. pada contoh diatas .. kita mendeklarasikan 3 buah variabel >> yaitu nilai1, nila2 dan nama.. << variabel2 ini cakupannya global
+[2017-02-08 22:06:41 WIB] Sandal >> artinya bisa diakses dari manasaja
+[2017-02-08 22:07:39 WIB] Sandal >> sedangkan pada fungsi ambilSkor() .. kita memiliki 2 variabel.. yaitu nilai2, nilai2 .. kedua variabel ini cakupannya lokal.. hanya bisa diakses dari dalam fungsi ambilSkor() tersebut..
+[2017-02-08 22:09:05 WIB] :dion!~dion@120.188.86.21 >> okeoke.lanjut pak
+[2017-02-08 22:09:16 WIB] Sandal >> selain itu kita memiliki sebuah fungsi tambah() .. << fungsi tambah ini sendiri berada didalam fungsi ambilSkor() sehingga variabel yang akan dipakai adalah nila2 dan nilai2 yang ada didalam fungsi ambilSkor() .. bukan yang dari variabel globa.. ada yang tau ga alasannya kenapa ? #belajarjs
+[2017-02-08 22:10:16 WIB] :dion!~dion@120.188.86.21 >> karena nested ga sih?
+[2017-02-08 22:10:47 WIB] Sandal >> hmm.. tanya dia triawarman /me takut salah
+[2017-02-08 22:10:51 WIB] Sandal >> contoh 2 >> http://jsbin.com/yiraziseco/edit?html,js,output
+[2017-02-08 22:11:02 WIB] Sandal >> ka triawarman tolong jelasin..  /me mau ke toilet dulu bentar
+[2017-02-08 22:12:07 WIB] triawarman >> hmm
+[2017-02-08 22:12:12 WIB] triawarman >> ini ga perlu dijelasin
+[2017-02-08 22:12:33 WIB] triawarman >> cuma dibagian console.log(bill); diakan ngeprint di browser consol
+[2017-02-08 22:13:30 WIB] Sandal >> udah diperbaiki.. pake alert() .. lupa tadi
+[2017-02-08 22:13:33 WIB] Sandal >> ok lanjut
+[2017-02-08 22:13:35 WIB] Sandal >> !br
+[2017-02-08 22:13:35 WIB] botan >> ==============================
+[2017-02-08 22:15:09 WIB] Sandal >> sub materi berikutnya bisa dilihat di halaman MDN .. pas bagian >> Scope and the function stack
+[2017-02-08 22:16:02 WIB] triawarman >> m
+[2017-02-08 22:16:11 WIB] Sandal >> /me* kurang ngerti .. ini contoh kodenya >> http://jsbin.com/bulazuvipa/edit?html,js,output .. #belajarjs 
+[2017-02-08 22:16:23 WIB] Sandal >> ka triawarman mohon kasih penjelasan kode diatas ^
+[2017-02-08 22:17:18 WIB] triawarman >> jelasin lah
+[2017-02-08 22:17:24 WIB] triawarman >> dari tadi nunjuk molo
+[2017-02-08 22:17:25 WIB] :manusia!~kalimbu4y@112.215.173.32 QUIT :Remote host closed the connection
+[2017-02-08 22:17:31 WIB] Sandal >> hmm
+[2017-02-08 22:17:35 WIB] Sandal >> /me* kan moderator 
+[2017-02-08 22:17:38 WIB] triawarman >> /me* laporin presiden 
+[2017-02-08 22:17:41 WIB] Sandal >> foo(3);  // coba nilai foo diganti pakai angka lain
+[2017-02-08 22:17:44 WIB] Sandal >> :3
+[2017-02-08 22:18:05 WIB] Sandal >> yang lain tolong jelasin dong.. jangan diem aja..
+[2017-02-08 22:18:31 WIB] triawarman >> nilai kesulitanya berkurang dibanding yang tadi
+[2017-02-08 22:18:49 WIB] triawarman >> parsing function in funtion parameter <<<
+[2017-02-08 22:19:00 WIB] Sandal >> /me* nyimak.. 
+[2017-02-08 22:19:09 WIB] Sandal >> kak dwix_ mohon pencerahannya _/|\_
+[2017-02-08 22:19:26 WIB] Sandal >> yang pasti .. fungsi tersebut foo() .. dipanggil dari dalam fungsi foo() sendiri
+[2017-02-08 22:20:22 WIB] Sandal >> /me* nunggu 16 detik .. kalo ga ada masukan kita lanjut 
+[2017-02-08 22:21:15 WIB] dwix_ >> aku bingung
+[2017-02-08 22:21:23 WIB] Sandal >> sama
+[2017-02-08 22:21:56 WIB] Sandal >> ok lanjut
+[2017-02-08 22:22:03 WIB] Sandal >> itu kita anggap pr aja ya
+[2017-02-08 22:22:07 WIB] triawarman >> hmmm
+[2017-02-08 22:22:08 WIB] dwix_ >> kalau di urut outputnya begin: 3 end: 0 begin: 2 end: 1 begin:1 end: 3
+[2017-02-08 22:22:09 WIB] triawarman >> lagi ??
+[2017-02-08 22:22:13 WIB] Sandal >> !br
+[2017-02-08 22:22:13 WIB] botan >> ==============================
+[2017-02-08 22:22:42 WIB] dwix_ >> cmiiw
+[2017-02-08 22:23:14 WIB] dwix_ >> eh aku yang salah ding
+[2017-02-08 22:23:16 WIB] dwix_ >> lanjut
+[2017-02-08 22:23:24 WIB] Sandal >> hmm
+[2017-02-08 22:23:27 WIB] Sandal >> kita anggap pr
+[2017-02-08 22:23:32 WIB] triawarman >> lagi ?
+[2017-02-08 22:23:41 WIB] Sandal >> PR 2 >> kode latihan 8
+[2017-02-08 22:23:42 WIB] Sandal >> !br
+[2017-02-08 22:23:43 WIB] botan >> ==============================
+[2017-02-08 22:23:52 WIB] Sandal >> diatas adalah yang disebut sebagai stack
+[2017-02-08 22:24:09 WIB] triawarman >> stack - tumpukan
+[2017-02-08 22:24:14 WIB] Sandal >> baiklah untuk mempersingkat waktu, marilah kita melanjutkan ke pembahasan selanjutnya #belajarjs
+[2017-02-08 22:24:22 WIB] triawarman >> #belajarJS
+[2017-02-08 22:24:23 WIB] Sandal >> kurang tau deh apaan
+[2017-02-08 22:25:42 WIB] Sandal >> Fungsi Bersarang
+[2017-02-08 22:25:44 WIB] Sandal >> !br
+[2017-02-08 22:25:44 WIB] botan >> ==============================
+[2017-02-08 22:26:24 WIB] Sandal >> pada javascript kita bisa membuat fungsi didalam fungsi, hal ini disebut fungsi bersarang (nested function)
+[2017-02-08 22:28:05 WIB] Sandal >> fungsi yang ada di dalam fungsi lainnya juga memiliki akses terhadap semua nilai-nilai yang dimiliki fungsi penampungnya #belajarjs
+[2017-02-08 22:28:20 WIB] Sandal >> Ketika sebuah fungsi menggunakan dan bergantung kepada nilai yang ada di luar dirinya, fungsi tersebut dikenal dengan nama closure. #belajarjs
+[2017-02-08 22:29:25 WIB] Sandal >> ini contoh kode latihannya >> http://jsbin.com/bocecunawe/edit?html,js,output #belajarjs
+[2017-02-08 22:30:11 WIB] Sandal >> /me* skarang kita meminta kesediannya kepada yang terhormat pak dion untuk menjelaskan maksud dari kode diatas ^ #belajarjs 
+[2017-02-08 22:30:38 WIB] Sandal >> /me* kata2nya kek acara di kantor rw ya :v 
+[2017-02-08 22:32:10 WIB] triawarman >> >
+[2017-02-08 22:34:00 WIB] Sandal >> kok hasilnya bisa 13, 25, 41 .. triawarman tolong jelasin
+[2017-02-08 22:34:11 WIB] Sandal >> biar ga ada curiga diantara kita
+[2017-02-08 22:34:41 WIB] triawarman >> seperti sudah dijelaskan sebelumnya, fungsi dialam fungsi.
+[2017-02-08 22:35:07 WIB] triawarman >> jadi di baris terakhir return dia memanggil fungsi diatasnya (masih dalam 1 blok fungsi)
+[2017-02-08 22:35:19 WIB] triawarman >> sekian
+[2017-02-08 22:35:53 WIB] triawarman >> >
+[2017-02-08 22:35:55 WIB] Sandal >> tambahPersegi(2,3) hasilnya 13 uih.. dapetnya dari menong?
+[2017-02-08 22:36:18 WIB] triawarman >> krn (2x2) + (3x3)
+[2017-02-08 22:36:37 WIB] Sandal >> hmm.. ok dimengerti :) mangap
+[2017-02-08 22:36:39 WIB] Sandal >> lanjut
+[2017-02-08 22:36:52 WIB] Sandal >> ini contoh closure
+[2017-02-08 22:36:54 WIB] Sandal >> http://jsbin.com/ladiliqura/edit?html,js,output
+[2017-02-08 22:37:09 WIB] Sandal >> ada yang mau ditanyain ga? kalo ga kita lanjut ..
+[2017-02-08 22:37:17 WIB] Sandal >> /me* nunggu 14 detik 
+[2017-02-08 22:37:52 WIB] triawarman >> code ini ga jalan
+[2017-02-08 22:38:41 WIB] Sandal >> iya ga jalan
+[2017-02-08 22:38:45 WIB] :dion!~dion@120.188.86.21 >> iyaa
+[2017-02-08 22:38:48 WIB] Sandal >> tolong perbaikin dong .. sekalian :p
+[2017-02-08 22:39:04 WIB] triawarman >> /me* angkat tangan 
+[2017-02-08 22:39:07 WIB] triawarman >> dan ga mo dijadikan PR
+[2017-02-08 22:39:37 WIB] Sandal >> solved.. buka ulang deh.. jalan ga?
+[2017-02-08 22:39:44 WIB] dwix_ >> ahay
+[2017-02-08 22:39:53 WIB] triawarman >>  yu
+[2017-02-08 22:39:59 WIB] triawarman >> realtime ya sync nya
+[2017-02-08 22:40:00 WIB] :dion!~dion@120.188.86.21 >> udahh..mantapp
+[2017-02-08 22:40:07 WIB] Sandal >> kurang tau deh..
+[2017-02-08 22:40:14 WIB] Sandal >> kode latihan 3 >> http://jsbin.com/zirokujede/edit?html,js,output
+[2017-02-08 22:40:38 WIB] Sandal >> /me* tunggu 26 detik.. abis itu kita lanjut ke pembahasanberikutnya .. #belajarjs 
+[2017-02-08 22:41:01 WIB] Sandal >> ada yang mau didiskusiin ga..
+[2017-02-08 22:41:06 WIB] Sandal >> /me* nunggu 3 detik 
+[2017-02-08 22:41:19 WIB] :dion!~dion@120.188.86.21 >> monggo lanjut
+[2017-02-08 22:41:35 WIB] triawarman >> nah ini bagus dijadikan diskusi lagi
+[2017-02-08 22:41:43 WIB] Sandal >> hmm
+[2017-02-08 22:41:47 WIB] Sandal >> coba jelasin ka triawarman
+[2017-02-08 22:42:20 WIB] Sandal >> hasilnya 8 sama 8 juga
+[2017-02-08 22:43:00 WIB] triawarman >> hmm
+[2017-02-08 22:43:26 WIB] triawarman >> kondisinya sama seperti dikusi awal tadi, yang dicari kemana nilai variable f berasal
+[2017-02-08 22:43:44 WIB] triawarman >> ternyata variable f menampung objek, lebih tepatnya fungsi.
+[2017-02-08 22:44:00 WIB] Sandal >> hmm.. trus?
+[2017-02-08 22:44:05 WIB] triawarman >> kalau yang ini... bentar masih mencoba memahami
+[2017-02-08 22:44:54 WIB] Sandal >> /me* tunggu 47.65 detik 
+[2017-02-08 22:44:59 WIB] triawarman >> nah lagi2 ini di fungsi daleman(y), dapat nilai dari luaran(x)
+[2017-02-08 22:45:07 WIB] triawarman >> didalamnya memproses x +y
+[2017-02-08 22:45:54 WIB] Sandal >> ka dwix_ ka dion ada tanggapan ga?
+[2017-02-08 22:45:59 WIB] triawarman >> ternyata variable x dan y dlam fungsi daleman mendapat nilai dari luar...
+[2017-02-08 22:46:25 WIB] triawarman >> contoh x didalam fungsi daleman mendapat masukan nilai dari luaran(x)
+[2017-02-08 22:47:19 WIB] Sandal >> /me* menurut ane .. ga tau bener apa nggak sih.. fungsi luaran() memiliki variabel x, dimana variabel tersebut bisa diakses dari mana saja dalam fungsi itu.. nah variabel itu juga dipakai buat nyimpen nilai .. *bener ga ya* 
+[2017-02-08 22:47:25 WIB] triawarman >> /me* baru sadar y ga di parse saat return daleman(nilai); 
+[2017-02-08 22:48:21 WIB] Sandal >> ada yang mau tanggapin lagi gak?
+[2017-02-08 22:48:27 WIB] triawarman >> variable x dapat masuka dari luaran(x), dan variable y seharusna dapat masukan dari daleman(y), tetapi ternyata di code dibawahnya hanya "return daleman"
+[2017-02-08 22:48:37 WIB] triawarman >> /me* berharap ada return daleman(nilai); 
+[2017-02-08 22:48:47 WIB] :dion!~dion@120.188.86.21 >> butuh penjelasan lebih lanjut
+[2017-02-08 22:48:57 WIB] Sandal >> colek ka dwix_
+[2017-02-08 22:49:20 WIB] Sandal >> ka matematika-adit sama ka greenshirt ga muncul2 ya..
+[2017-02-08 22:49:34 WIB] dwix_ >> aku bingung yang ada komentar think of it like bla bla
+[2017-02-08 22:50:00 WIB] dwix_ >> aku coba console.log(panggil_daleman); setelah baris itu
+[2017-02-08 22:50:11 WIB] dwix_ >> outputnya fungsi
+[2017-02-08 22:50:20 WIB] dwix_ >> nah, argumen 3 itu kemana?
+[2017-02-08 22:50:39 WIB] triawarman >> /me* melakukan perubahan kode 
+[2017-02-08 22:50:44 WIB] triawarman >> lupa sedang sync
+[2017-02-08 22:52:51 WIB] dwix_ >> cara pemanggilan pertama itu memang harus 2 kali panggil gitu ya?
+[2017-02-08 22:53:04 WIB] Sandal >> kurang tau deh
+[2017-02-08 22:53:07 WIB] dwix_ >> untuk memperoleh hasil yang diharapkan
+[2017-02-08 22:53:16 WIB] Sandal >> /me* kasih waktu 3 menit buat diskusi.. abis itu buat PR 3 
+[2017-02-08 22:53:28 WIB] triawarman >> lagi ???
+[2017-02-08 22:53:51 WIB] triawarman >> jadi yang luaran(3) ternyata dia melewatkan funsi lagi, bukan nilai
+[2017-02-08 22:54:13 WIB] Sandal >> ow
+[2017-02-08 22:54:14 WIB] dwix_ >> ah
+[2017-02-08 22:54:25 WIB] Sandal >> ^ knapa?
+[2017-02-08 22:55:10 WIB] triawarman >> jika return daleman; diubah return daleman(x);
+[2017-02-08 22:55:25 WIB] Sandal >> hasilnya?
+[2017-02-08 22:55:30 WIB] triawarman >> hasilnya akan berbeda, dan hnya melakukan 1 alert saja
+[2017-02-08 22:55:49 WIB] dwix_ >> aha
+[2017-02-08 22:56:02 WIB] Sandal >> penjelesannya dong
+[2017-02-08 22:56:18 WIB] triawarman >> pertanyaanya.. ini Sandal ga bermaksud menciptakan code bug kan ?
+[2017-02-08 22:56:35 WIB] Sandal >> nggak .. nyontek dari halaman MDN ..
+[2017-02-08 22:57:45 WIB] Sandal >> kasih penjelasan dong..
+[2017-02-08 22:57:46 WIB] triawarman >> mudahnya anggap aj ini iterasi (penambahan)
+[2017-02-08 22:57:50 WIB] triawarman >> i++;
+[2017-02-08 22:57:56 WIB] triawarman >> beres, solved case
+[2017-02-08 22:58:09 WIB] triawarman >> walaupun ada logika yang ga sampai
+[2017-02-08 22:58:09 WIB] Sandal >> /me* bentar 
+[2017-02-08 22:58:27 WIB] Sandal >> /me* kasih waktu dulu .. buat peserta yang mau nonton peserta 3 dungdat akademi .. 
+[2017-02-08 22:59:15 WIB] dwix_ >> untuk yang ini logikaku belum sampai
+[2017-02-08 22:59:35 WIB] triawarman >> alert('panggil_daleman'+panggil_daleman);
+[2017-02-08 22:59:46 WIB] triawarman >> coba dia memberikan return x + y;
+[2017-02-08 23:00:05 WIB] triawarman >> *coba, dia memberikan return x + y;
+[2017-02-08 23:00:45 WIB] triawarman >> 3 diawal siapa yang nampung ?
+[2017-02-08 23:01:36 WIB] triawarman >> atau bisa dianggap krn x didalm fungsi daleman ialah anak dari fungsi luaran, jadi dianya bisa langsung gunakan parameter masukan di induk
+[2017-02-08 23:01:40 WIB] dwix_ >> lha siapa?
+[2017-02-08 23:02:15 WIB] engkur JOIN #ubuntu-indonesia
+[2017-02-08 23:02:44 WIB] triawarman >> tapi saat hasil = panggil_daleman(5); kan umumnya 5 nimpa nilai 3
+[2017-02-08 23:02:51 WIB] engkur >> halo
+[2017-02-08 23:02:53 WIB] engkur >> semuanya
+[2017-02-08 23:02:58 WIB] triawarman >> engkur: :)
+[2017-02-08 23:03:01 WIB] engkur >> pada ngapain ?
+[2017-02-08 23:03:09 WIB] triawarman >> kuliah JS, oleh Sandal
+[2017-02-08 23:03:30 WIB] triawarman >> http://jsbin.com/zirokujede/edit?html,js,output kasus yang coba di cari logika berjalannya
+[2017-02-08 23:04:19 WIB] Sandal >> hi pak engkur
+[2017-02-08 23:04:25 WIB] Sandal >> kita lagi diskusi bareng
+[2017-02-08 23:04:30 WIB] Sandal >> !br
+[2017-02-08 23:04:30 WIB] botan >> ==============================
+[2017-02-08 23:04:34 WIB] Sandal >> !infobelajarjs
+[2017-02-08 23:04:34 WIB] botan >> FYI : kita mau mengadakan belajar bersama javascript .. mohon dilihat topik kanal .. semua masukan, saran, tanggapan, dll harap dikirimkan ke bagian komentar pada dokumen ini .. >> git.io/vMjls .. kegiatan diskusi perdana akan dilaksanakan pada : Selasa 31 Jan 2017 pukul 20.00 wib (malem rabu)..
+[2017-02-08 23:04:36 WIB] Sandal >> !br
+[2017-02-08 23:04:36 WIB] botan >> ==============================
+[2017-02-08 23:04:44 WIB] Sandal >> oleh pak triawarman
+[2017-02-08 23:04:54 WIB] Sandal >> /me* aja gak ngerti pas kode ini dari tadi.. 
+[2017-02-08 23:05:31 WIB] engkur >> sip...
+[2017-02-08 23:05:46 WIB] Sandal >> suara nyanyinya bikin merinding uih.. padahal masih abg.. nada nya tinggi bingit.. dia berhasil nyanyiin lagu 'kejam' :'(
+[2017-02-08 23:06:02 WIB] triawarman >> ok dicoba ya
+[2017-02-08 23:06:26 WIB] dwix_ >> aku menyadap x, console.log(x); didalam luaran sebelum daleman. ketika dia memanggil luaran(3). kenapa gak masuk ke x yang ada di daleman?
+[2017-02-08 23:06:28 WIB] triawarman >> jadi panggil_daleman = luaran(3); dia kan memberikan nilai balik berupa fungsi
+[2017-02-08 23:06:34 WIB] triawarman >> function daleman(y) { return x + y;}
+[2017-02-08 23:06:40 WIB] engkur >> /me* duduk manis paling belakang 
+[2017-02-08 23:06:59 WIB] Sandal >> ^ pada bahas daleman :v
+[2017-02-08 23:07:01 WIB] triawarman >> lalu di panggil lagi oleh hasil = panggil_daleman(5);, disini nilainya 8
+[2017-02-08 23:07:36 WIB] triawarman >> jadi logianya saat dipanggil pertama dia menyimpan nilai 3 pada x
+[2017-02-08 23:08:00 WIB] dwix_ >> ah
+[2017-02-08 23:08:28 WIB] triawarman >> lalu panggilan kedua krn dia memanggil fungsi sebelumnya dan diapat nlai balikan berupa fungsi function daleman(y) { return x + y;}, dan nilainya 5 pada y
+[2017-02-08 23:08:34 WIB] triawarman >> jadi 3 + 5 = 8
+[2017-02-08 23:08:46 WIB] triawarman >> bisa didapat ga ?
+[2017-02-08 23:08:55 WIB] triawarman >> atau penjelasannya masih rumit
+[2017-02-08 23:08:58 WIB] Sandal >> dikit
+[2017-02-08 23:09:18 WIB] Sandal >> /me* mungkin itu sifat dari variabel pada javascript ya .. bisa menyimpan nilai, bisa menyimpan obyek.. bisa juga menyimpan fungsi..  
+[2017-02-08 23:10:22 WIB] Sandal >> panggil_daleman = luaran(3) << variabel panggil_daleman akan menyimpan fungsi ya..
+[2017-02-08 23:10:25 WIB] dwix_ >> tapi tapi tapi ...
+[2017-02-08 23:10:39 WIB] triawarman >> http://jsbin.com/lakiqogiwu/edit?js,output modify dari sebelumnya
+[2017-02-08 23:10:47 WIB] Sandal >> /me* cek tkp 
+[2017-02-08 23:11:47 WIB] triawarman >> perhatikan di alert('panggil_daleman '+panggil_daleman); //function daleman(y) { return x + y;}
+[2017-02-08 23:13:01 WIB] Sandal >> /me* .. hmm.. ok karna pembahasan pada sub materi ini agak rumit .. Sandal mau nyeruput air putih dulu ..  
+[2017-02-08 23:13:14 WIB] Sandal >> masih mau didiskusin lagi nggak ?
+[2017-02-08 23:13:21 WIB] triawarman >> 00:13 wita
+[2017-02-08 23:13:28 WIB] triawarman >> /me* jam tidur 
+[2017-02-08 23:13:33 WIB] Sandal >> ow..
+[2017-02-08 23:13:53 WIB] Sandal >> ok .. yang mau istrahat .. dipersilahkan istirahat..
+[2017-02-08 23:14:06 WIB] Sandal >> yang masih mau lanjut .. silahkan dilanjut..
+[2017-02-08 23:14:10 WIB] Sandal >> !br
+[2017-02-08 23:14:10 WIB] botan >> ==============================
+[2017-02-08 23:14:28 WIB] Sandal >> baiklah karna waktunya sudah makin sedikit.. kita lanjutkan ke sub materi berikutnya..
+[2017-02-08 23:14:44 WIB] Sandal >> Konflik Nama
+[2017-02-08 23:14:44 WIB] engkur >> gak punya kopi... udah ngantuk oey
+[2017-02-08 23:14:46 WIB] Sandal >> !br
+[2017-02-08 23:14:46 WIB] botan >> ==============================
+[2017-02-08 23:14:52 WIB] Sandal >> :)
+[2017-02-08 23:15:00 WIB] engkur >> lanjut....
+[2017-02-08 23:16:00 WIB] :dion!~dion@120.188.86.21 >> pamit pak
+[2017-02-08 23:16:08 WIB] Sandal >> ok..
+[2017-02-08 23:16:08 WIB] :dion!~dion@120.188.86.21 QUIT :Remote host closed the connection
+[2017-02-08 23:16:57 WIB] Sandal >> pada saat dua buah variabel .. yang beda cakupan (scope) memiliki nama yang sama .. akan terjadi konflik nama.. #belajarjs
+[2017-02-08 23:17:54 WIB] Sandal >> cakupan variabel yang berada didalam fungsi akan lebih diprioritaskan .. dibandingkan variabel yang diluar fungsi #belajarjs #benergayaa
+[2017-02-08 23:18:58 WIB] Sandal >> untuk lebih memperjelas.. bisa lihat kode berikkut >> http://jsbin.com/dohasidowo/edit?html,js,console,output #belajarjs
+[2017-02-08 23:19:05 WIB] Sandal >> ChanServ, botan ada tanggapan nggak ?
+[2017-02-08 23:19:14 WIB] Sandal >> /me* kasih waktu 45 detik..  
+[2017-02-08 23:19:47 WIB] dwix_ >> NAH, INI
+[2017-02-08 23:19:54 WIB] Sandal >> ka dwix_ ada tanggapan nggak?
+[2017-02-08 23:20:52 WIB] Sandal >> masalah lagi :v
+[2017-02-08 23:20:59 WIB] dwix_ >> emh... tidak
+[2017-02-08 23:21:03 WIB] Sandal >> kek nya bakal mandek disini lagi :(
+[2017-02-08 23:22:12 WIB] Sandal >> /me* curiga clue nya disini >> result = luaran()(20) << kalo kita panggil sebuah fungsi kan kek gini >> namafungsi() >> nah ini jadi gini >> namafungsi()() << Sandal curiga kurung kedua digunain buat memparsing nilai kedalam inner function .. *bener ga yaa* 
+[2017-02-08 23:22:45 WIB] botan >> roger bos!
+[2017-02-08 23:23:00 WIB] Sandal >> jadi result = luaran()(20) << memparsing nilai 20 ke dalam inner function
+[2017-02-08 23:23:12 WIB] Sandal >> ka dwix_ ada tanggapan lain gak?
+[2017-02-08 23:24:43 WIB] dwix_ >> variabel x = 10 itu sebagai pancingan karena pokok permasalahnya adalah prioritas variabel yang sama. dan akhir dipilih variabel yang daa di dalam scope inner function.
+[2017-02-08 23:25:11 WIB] Sandal >> ^ mungkin itu
+[2017-02-08 23:25:42 WIB] Sandal >> karna outer function .. dan inner function di contoh kode diatas .. memiliki nama variabel yang sama .. sama2 'x' .. maka akan terjadi konflik nama .. pada konflik nama.. yang jadi prioritas adalah nama variabel yang ada didalam fungsi itu (inner) .. #belajarjs #cmiiw
+[2017-02-08 23:25:50 WIB] Sandal >> /me* kita lanjut pembahasanya ya? 
+[2017-02-08 23:26:23 WIB] dwix_ >> sip
+[2017-02-08 23:26:43 WIB] Sandal >> !br
+[2017-02-08 23:26:43 WIB] botan >> ==============================
+[2017-02-08 23:26:57 WIB] engkur >> Sandal: kalo sampe tanya jawab, gue pengen tanya
+[2017-02-08 23:27:11 WIB] Sandal >> ok silahkan..
+[2017-02-08 23:27:58 WIB] Sandal >> sebenernya pas pembagian tugas belajar bersama.. yang dapet bagian penjawab adalah beliau >> triawarman dan kaus ijo .. :(
+[2017-02-08 23:28:18 WIB] Sandal >> kak engkur mau menanyakan apa?
+[2017-02-08 23:29:39 WIB] Sandal >> sambil menunggu ka engkur mau bertanya kita lajut ya ..
+[2017-02-08 23:29:40 WIB] engkur >> Sandal: penerapan web untuk input data, apakah bisa pakai javascript ?
+[2017-02-08 23:30:04 WIB] engkur >> apakah mungkin di web server yang very low end
+[2017-02-08 23:31:00 WIB] engkur >> apakah independent dari client web, misalnya dari android, pc, atau web robot, kayak google crawler
+[2017-02-08 23:31:04 WIB] engkur >> segitu dulu
+[2017-02-08 23:31:54 WIB] Sandal >> setahu ane bisa aja .. tapi semua kode javascript ajan dijalankan di browser.. #cmiiw..
+[2017-02-08 23:32:30 WIB] Sandal >> /me* kurang tau .. untuk browser di android .. apakah akan menjalankan versi javascriptnya sama atau tidak dengan web browser di pc..  
+[2017-02-08 23:32:58 WIB] presiden >> sama kok, enginenya kebanyakan sama
+[2017-02-08 23:33:08 WIB] Sandal >> ow..
+[2017-02-08 23:33:13 WIB] Sandal >> ada ka presiden
+[2017-02-08 23:33:19 WIB] Sandal >> menurut ka presiden gimana?
+[2017-02-08 23:33:24 WIB] presiden >> kalo chrome/safari pake webkit, firefox pake gecko
+[2017-02-08 23:33:46 WIB] presiden >> /me* bangkit dari kubur 
+[2017-02-08 23:33:53 WIB] Sandal >> hmm..
+[2017-02-08 23:34:12 WIB] presiden >> engkur: kalo untuk jalanin di web, ada nodejs
+[2017-02-08 23:34:18 WIB] presiden >> s/web/server/
+[2017-02-08 23:34:18 WIB] botan >> <presiden> engkur: kalo untuk jalanin di server, ada nodejs
+[2017-02-08 23:34:25 WIB] Sandal >> ^ iya itu..
+[2017-02-08 23:34:57 WIB] presiden >> contohnya botan dan mata-mata ini, dua bot ini dikode pake javascript. jalan di servernya gomix.com
+[2017-02-08 23:35:06 WIB] presiden >> !bot
+[2017-02-08 23:35:06 WIB] botan >> mata-mata (pencatat log, https://logubin.gomix.me); botan (imut dan lucu, https://botan.gomix.me)
+[2017-02-08 23:35:06 WIB] Sandal >> node.js.. kalo ga salah.. web framework yang dibangun menggunakan javascript.. untuk lebih lanjut menanyakan tentang node.js bisa ditanyakan ke beliau>> presiden
+[2017-02-08 23:35:18 WIB] Sandal >> ok sambil kita lanjut ya
+[2017-02-08 23:35:19 WIB] Sandal >> !br
+[2017-02-08 23:35:19 WIB] botan >> ==============================
+[2017-02-08 23:35:24 WIB] presiden >> lanjut :)
+[2017-02-08 23:35:27 WIB] engkur >> presiden: ok, botan : ok
+[2017-02-08 23:35:28 WIB] Sandal >> baiklah kita lanjut ke sub materi berikutnya yaitu
+[2017-02-08 23:35:32 WIB] Sandal >> /me* tuh kan lupa 
+[2017-02-08 23:35:37 WIB] Sandal >> closure
+[2017-02-08 23:35:39 WIB] Sandal >> !br
+[2017-02-08 23:35:39 WIB] botan >> ==============================
+[2017-02-08 23:36:10 WIB] Sandal >> seperti yang sudah kita singgung didepan >>  Ketika sebuah fungsi menggunakan dan bergantung kepada nilai yang ada di luar dirinya, fungsi tersebut dikenal dengan nama closure #belajarjs
+[2017-02-08 23:36:22 WIB] engkur >> bisa gak javascript kita pake di device lowend kayak arduino, raspberry-pi
+[2017-02-08 23:37:18 WIB] Sandal >> colek pak presiden
+[2017-02-08 23:37:45 WIB] presiden >> Sandal: ditampung aja pertanyaannya dulu, dilanjut om :)
+[2017-02-08 23:38:01 WIB] Sandal >> ga apa2 sambil dijawab
+[2017-02-08 23:38:33 WIB] Sandal >> mungkin pak engkur mau mengoprek tentang web server di perangkat lowend..
+[2017-02-08 23:39:16 WIB] presiden >> engkur: kalo raspberry-pi sih masih bisa. kalo arduino gak tau. terlalu berat buat jalanin runtimenya javascript keknya.
+[2017-02-08 23:39:43 WIB] Sandal >> berikut adalah kode latihan closure >> http://jsbin.com/qerokawuso/edit?html,js,output  #belajarjs
+[2017-02-08 23:40:48 WIB] dwix_ QUIT :Quit: Ex-Chat
+[2017-02-08 23:40:52 WIB] Sandal >> ada yang mau didiskusikan nggak dari kode diatas ^
+[2017-02-08 23:42:34 WIB] presiden >> oke
+[2017-02-08 23:42:58 WIB] engkur >> yap ok, banyak baca baca tentang nodejs nih
+[2017-02-08 23:43:15 WIB] engkur >> apakah nodejs ini versi server dari javascript
+[2017-02-08 23:44:19 WIB] engkur >> gue mau buat IOT pakai arduino, raspbberry dan server beneran di internet atau di cloud
+[2017-02-08 23:44:24 WIB] engkur >> kayak begini lah
+[2017-02-08 23:44:28 WIB] presiden >> engkur: ada ini http://johnny-five.io/
+[2017-02-08 23:45:59 WIB] engkur >> sensor --> arduino --> (wifi-network) --> mini-pc (raspberry-pi) --> server (cloud server)
+[2017-02-08 23:46:49 WIB] _greenshirt_ JOIN #ubuntu-indonesia
+[2017-02-08 23:47:15 WIB] presiden >> Sandal: gak ada pertanyaan om :) lanjut deh :)
+[2017-02-08 23:47:28 WIB] Sandal >> hmm ok..
+[2017-02-08 23:47:39 WIB] Sandal >> ka presiden sambil diskusi aja sama om engkur
+[2017-02-08 23:47:41 WIB] Sandal >> pada contoh kode diatas, variabel nama bisa diakses dari dalam fungsi2 lain .. dan tidak ada cara untuk mengakses variabel didalam fungsi2 lain .. kecuali dari dalam fungsi itu .. #belajarjs
+[2017-02-08 23:47:56 WIB] Sandal >> ok kita lanjut
+[2017-02-08 23:47:57 WIB] Sandal >> !br
+[2017-02-08 23:47:57 WIB] botan >> ==============================
+[2017-02-08 23:48:24 WIB] greenshirt QUIT :Ping timeout: 260 seconds
+[2017-02-08 23:49:02 WIB] Sandal >> baiklah kita lanjut ke sub materi berikutnya .. yaitu parsing argumen obyek pada fungsi
+[2017-02-08 23:49:06 WIB] Sandal >> !br
+[2017-02-08 23:49:07 WIB] botan >> ==============================
+[2017-02-08 23:51:43 WIB] engkur >> silahkan lanjut
+[2017-02-08 23:51:50 WIB] Sandal >> :)
+[2017-02-08 23:52:12 WIB] Sandal >> pada javasript kita bisa memakai obyek sebagai nilai untuk dimasukan pada function #belajarjs
+[2017-02-08 23:52:51 WIB] Sandal >> nilai yang di parsing sebagai argumen tersebut bisa kita akses seperti array.. #belajarjs
+[2017-02-08 23:53:06 WIB] Sandal >> formatnya >> arguments[i]   #belajarjs
+[2017-02-08 23:54:00 WIB] Sandal >> perhatikan  kode latihan berikut >> http://jsbin.com/noritigure/edit?html,js,output #belajarjs
+[2017-02-08 23:54:08 WIB] Sandal >> /me* ada yang mau didiskusiin nggak? 
+[2017-02-08 23:55:20 WIB] Sandal >> arguments[i] << dimana i dimulai dari index 0
+[2017-02-08 23:55:41 WIB] presiden >> loading gak selesai2
+[2017-02-08 23:57:06 WIB] presiden >> hm... arguments itu kayak array, tapi bukan array
+[2017-02-08 23:57:16 WIB] Sandal >> bisa jadi
+[2017-02-08 23:58:08 WIB] Sandal >> ini >> https://jsfiddle.net/e8ppk9q0/ << loading nggak
+[2017-02-08 23:58:16 WIB] Sandal >> /me* kayaknya mandek disini lagi :v 
+[2017-02-08 23:59:01 WIB] Sandal >> susah dipahamin..
+[2017-02-08 23:59:14 WIB] Sandal >> kita skip dulu.. besok tanya triawarman
+[2017-02-08 23:59:16 WIB] Sandal >> !br
+[2017-02-08 23:59:16 WIB] botan >> ==============================
+[2017-02-08 23:59:20 WIB] Sandal >> tanya triawarman
+[2017-02-08 23:59:21 WIB] Sandal >> !br
+[2017-02-08 23:59:21 WIB] botan >> ==============================
+[2017-02-08 23:59:35 WIB] Sandal >> baiklah kita lanjut ke sub materi berikutnya
+[2017-02-08 23:59:58 WIB] Sandal >> default parameter dan rest parameter
+<< lanjutan log>>
+[2017-02-09 00:00:01 WIB] Sandal >> !br
+[2017-02-09 00:00:01 WIB] botan >> ==============================
+[2017-02-09 00:00:36 WIB] Sandal >> default paramter adalah jika salah satu argumen tidak ada, menggunakan nilai default #belajarjs
+[2017-02-09 00:01:34 WIB] Sandal >> formatnya >> function namafungsi(defaultnilai = angka, defaultnilai2 = angka2) {   // disini badan fungsinya }
+[2017-02-09 00:02:35 WIB] presiden QUIT :Ping timeout: 240 seconds
+[2017-02-09 00:03:34 WIB] pupil QUIT :Quit: Leaving.
+[2017-02-09 00:03:55 WIB] Sandal >> rest parameter adalah menggunakan isi dari banyak nilai array sebagai aragumen..
+[2017-02-09 00:04:00 WIB] engkur >> boleh diskusi bebas ?
+[2017-02-09 00:04:04 WIB] Sandal >> perhatikan contoh berikut..
+[2017-02-09 00:04:11 WIB] Sandal >> boleh aja sih om
+[2017-02-09 00:04:15 WIB] engkur >> oh masih belum ya
+[2017-02-09 00:04:31 WIB] Sandal >> /me* lagi ngejar log .. biar pertemuan hari ini nggak diulang lagi :) 
+[2017-02-09 00:05:34 WIB] Sandal >> contoh kode latihan untuk default parameter dan rest parameter >> http://jsbin.com/qujiyapoli/edit?html,js,output #belajarjs
+[2017-02-09 00:05:58 WIB] Sandal >> pada fungsi pertama pada baris >> function perkalian(a, b = 1)  << defalut parameternya adalah 1
+[2017-02-09 00:06:12 WIB] presiden JOIN #ubuntu-indonesia
+[2017-02-09 00:07:52 WIB] Sandal >> function perkalian(nilaipengali, ...argumen2) << pada contoh fungsi kedua .. nilai pertama dari awal.. digunakan sebagai pengali.. dan nilai2 selanjutnya sampe nilai terakhiri dari array .. adalah angka2 yang akan dikalikan..  jadi array tersebut adalah >> (2, 1, 2, 3) << hasilnya adalah >> [2, 4, 6]
+[2017-02-09 00:08:02 WIB] Sandal >> botan, ChanServ ada pertanyaan ga?
+[2017-02-09 00:08:04 WIB] Sandal >> ok lanjut
+[2017-02-09 00:08:06 WIB] Sandal >> !br
+[2017-02-09 00:08:06 WIB] botan >> ==============================
+[2017-02-09 00:09:30 WIB] Sandal >> baiklah kita melanjutkanke kode latihan berikutnya >> mempersingkat fungsi..
+[2017-02-09 00:10:09 WIB] Sandal >> perhatikan contoh latihan berikut >> http://jsbin.com/qukaxafigu/edit?html,js,output #belajarjs
+[2017-02-09 00:10:52 WIB] Sandal >> pada kode di baris ini adalah sebuah fungsi panjang >> var a2 = a.map(function(s){ return s.length });  .. akan kita singkat jadi seperti ini >> var a3 = a.map( s => s.length ); hasilnya sama aja :v
+[2017-02-09 00:11:03 WIB] Sandal >> botan ChanServ ada pertanyaan ga/
+[2017-02-09 00:11:05 WIB] Sandal >> ?
+[2017-02-09 00:11:24 WIB] Sandal >> ok karna ga ada pertanyaan kita lanjut ke sub materi terakhir lexical this
+[2017-02-09 00:11:25 WIB] Sandal >> !br
+[2017-02-09 00:11:25 WIB] botan >> ==============================
+[2017-02-09 00:11:30 WIB] Sandal >> lexical this
+[2017-02-09 00:11:32 WIB] Sandal >> !br
+[2017-02-09 00:11:32 WIB] botan >> ==============================
+[2017-02-09 00:11:36 WIB] presiden QUIT :Ping timeout: 256 seconds
+[2017-02-09 00:12:47 WIB] Sandal >> ^ dia kabur .. padahal baru mau tanya ?
+[2017-02-09 00:13:34 WIB] presiden JOIN #ubuntu-indonesia
+[2017-02-09 00:14:22 WIB] Sandal >> lexical this adalah sebuah variabel khusus dalam OOP PHP yang digunakan sebagai penunjuk kepada objek, ketika kita mengaksesnya dari dalam class #belajarjs
+[2017-02-09 00:14:29 WIB] Sandal >> salah
+[2017-02-09 00:15:00 WIB] Sandal >> adalah sebuah variabel khusus dalam bahasa pemrograman oop yang digunakan sebagai penunjuk kepada objek, ketika kita mengaksesnya dari dalam class #belajarjs
+[2017-02-09 00:16:17 WIB] Sandal >> berikut contohnya >> http://jsbin.com/lixiyesive/edit?html,js,output #belajarjs
+[2017-02-09 00:16:56 WIB] Sandal >> ka presiden mau menambahkan tentang lexical this nggak?
+[2017-02-09 00:17:19 WIB] Sandal >> botan, ChanServ ada yang mau ditanyain nggak ?
+[2017-02-09 00:18:05 WIB] _greenshirt_ >> Objek yang bagaimana yang ditunjuk om?
+[2017-02-09 00:18:07 WIB] presiden >> loading2
+[2017-02-09 00:18:22 WIB] presiden >> /me* internetnya lagi lola 
+[2017-02-09 00:18:41 WIB] Anomalizer JOIN #ubuntu-indonesia
+[2017-02-09 00:23:29 WIB] Anomalizer QUIT :Quit: reboot
+[2017-02-09 00:23:54 WIB] Anomalizer JOIN #ubuntu-indonesia
+[2017-02-09 00:24:10 WIB] Sandal >> ini bisa dibuka nggak>> https://jsfiddle.net/9bw3mn8s/
+[2017-02-09 00:24:44 WIB] presiden QUIT :Read error: Connection reset by peer
+[2017-02-09 00:24:48 WIB] Sandal >> hmm.. kalo dalam bahasa pemrograman php .. this digunakan ketika merujuk nilai sebagai obyek bukan sebagai class nya .. #belajarjs
+[2017-02-09 00:25:37 WIB] Sandal >> kalo di php kan kita bikin class dulu.. nah class itu hanya sebagai cetakannya saja.. nanti kalo mau di pake di pemrograman.. kita harus menurunkannya menjadi obyek.. kita bisa menurunkan banyak obyek dari sebuah kelas.. #belajarjs
+[2017-02-09 00:26:35 WIB] Sandal >> nah this ini akan merujuk kepada nilai didalam obyek2.. bukan didalam class.. maksudnya .. nilai2 this untuk tiap obyek belum tentu sama..
+[2017-02-09 00:26:43 WIB] Anomalizer >> halo om salken all
+[2017-02-09 00:26:47 WIB] Sandal >> ok.. karna mengingat waktu nya terbatas
+[2017-02-09 00:26:50 WIB] Sandal >> salam kenal
+[2017-02-09 00:27:41 WIB] Anomalizer >> halo om mau nanya dsni ada yg pakai adapter realtek ?
+[2017-02-09 00:27:50 WIB] presiden JOIN #ubuntu-indonesia
+[2017-02-09 00:29:07 WIB] Sandal >> ok .. karna mengingat waktu terbatas.. dan ka Anomalizer sudah muncul.. maka kegiatan belajar bersama untuk hari ini pertemuan ke 3 saya akhiri sampe disini.. saya mengucapkan terima kasih untuk semua peserta yang telah hadir biarpun akhirnya bubar :v .. dan terima kasih kepada botan dan ChanServ yang sudah hadir dari awal same akhir kegiatan diskusi.. saya ucapkan  wassalamu alaikum wr. wb.. happy learning \(^_^)/
+[2017-02-09 00:29:11 WIB] Sandal >> /me* pake broadcom 
+[2017-02-09 00:29:16 WIB] Sandal >> !br
+[2017-02-09 00:29:16 WIB] botan >> ==============================
+[2017-02-09 00:29:25 WIB] Sandal >> selesai tugas ane
+[2017-02-09 00:29:27 WIB] Sandal >> afk dulu
+[2017-02-09 00:29:32 WIB] Sandal >> *sungkem _/|\_
+[2017-02-09 00:29:36 WIB] Sandal QUIT :Quit: Lelah abang neng..

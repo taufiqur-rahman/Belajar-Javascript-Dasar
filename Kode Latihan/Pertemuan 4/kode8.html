@@ -1,0 +1,27 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1> Operator Ternary </h1>
+<p>var status = (age >= 18) ? 'dewasa' : 'remaja labil';</p>
+<p>Hasilnya adalah <strong><span id="satu"></span></strong></p>
+
+<p><button type="submit" id="tambah" onclick="operatorTernary()">Om Pencet Om..</button></p>
+</body>
+</html>
+
+
+<script type="text/javascript">
+
+function operatorTernary() {
+ var age = 12;  // umurnya diganti2 deh
+ var status = (age >= 18) ? 'dewasa' : 'remaja labil';
+ 
+ document.getElementById("satu").innerHTML = (status) ; // 
+
+}
+
+</script>

@@ -1,0 +1,33 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p id="hasil"></p>
+</body>
+</html>
+
+
+<script type="text/javascript">
+var loop = 15 ; // ganti2 varibel lopp deh
+var laman = document.getElementById("hasil");
+
+    perulanganku: for ( var i = 1; i <= loop ; i++) { // perulanganku adalah label
+      if ( i === 6 ) continue perulanganku;
+      isiteks = "Perulangan ke-" + i + "<br />";
+      laman.innerHTML += isiteks;
+         
+     }
+
+// continue melongkapi, perhatikan pas perulangan
+// variabel i mencapain nilai 6 dia akan
+// lanjut ke perulangan selanjutnya
+//
+// Perulangan ke-4
+// Perulangan ke-5
+// Perulangan ke-7
+// Perulangan ke-8
+</script>

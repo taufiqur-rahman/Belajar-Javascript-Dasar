@@ -1,0 +1,32 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1> Operator String </h1>
+<p>Hasil dari <strong>('My' + 'String')</strong> adalah <strong><span id="satu"></span></strong></p>
+// kita mendefinisikan string <br />
+var mystring = 'alpha'; <br />
+mystring += 'bet';
+<p>Hasil dari <strong>(mystring += 'bet')</strong> adalah <strong><span id="dua"></span></strong></p>
+
+<p><button type="submit" id="tambah" onclick="operatorString()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+
+
+
+<script type="text/javascript">
+
+function operatorString() {
+ var mystring = 'alpha';
+ document.getElementById("satu").innerHTML = ('My' + 'String') ; // 
+ document.getElementById("dua").innerHTML = (mystring += 'bet');
+ 
+}
+
+</script>

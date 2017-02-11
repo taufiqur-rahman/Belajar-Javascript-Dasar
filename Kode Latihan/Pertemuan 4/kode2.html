@@ -1,0 +1,47 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+<p>nilai foo[0] <span id="satu"></span></p>
+<p>nilai foo[1] <span id="dua"></span></p>
+<p>nilai foo[2] <span id="tiga"></span></p>
+
+<h4></h4>
+<div><h1 id="coba"></h1></div>
+
+<p><button id="tambah" onclick="operatorPenugasan()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+
+
+
+<script type="text/javascript">
+// pada latihan ini mempelajari konsep destructuring
+
+function operatorPenugasan() {
+
+var foo = ['one', 'two', 'three'];
+
+// without destructuring
+var one   = foo[0];
+var two   = foo[1];
+var three = foo[2];
+
+// with destructuring
+var [one, two, three] = foo;
+
+ document.getElementById("satu").innerHTML = foo[0];
+ document.getElementById("dua").innerHTML = foo[1];
+ document.getElementById("tiga").innerHTML = foo[2];
+
+}
+
+
+</script>

@@ -1,0 +1,38 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ 
+<script type="text/javascript">
+function cobaperulangan() {
+   var sebuahteks = "";
+   var peserta = { namaPeserta:"Yono", umurPeserta: 22, statusPeserta: "ldr" };
+   var iterasi;
+   
+   for (iterasi in peserta) {
+        sebuahteks += peserta[iterasi] + " ";
+    }
+    
+    document.getElementById("div_cmugudh").innerHTML = sebuahteks;
+
+}
+    // pada contoh diatas kita membuat sebuah obyek bernama 'peserta'
+    // obyek peserta ini memiliki beberapa properti yaitu : namaPeserta, umurPeserta, statusPeserta
+    // perulangan for - in digunakan pada array atau obyek, dan akan mengambil semua nilai
+    // yang ada didalam array / obyek itu selama nilai itu masih ada, kalo nilai sudah
+    // habis maka perulangan akan selesai
+
+</script>
+ 
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+Kita mencoba perulangan FOR - IN <br />
+ 
+<button id="tambah" onclick="cobaperulangan()">Om pencet Om.. </button>
+ 
+<div><h1 id="div_cmugudh"></h1></div>
+</body>
+</html>

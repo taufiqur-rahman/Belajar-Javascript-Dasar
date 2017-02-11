@@ -1,0 +1,64 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+</body>
+</html>
+
+<script type="text/javascript">
+// << komentar >>
+
+// komentar per baris
+ 
+/* contoh komentar untuk satu baris
+
+ */
+ 
+// /* You can't, however, /* nest comments */ SyntaxError */
+
+// << contoh deklarasi variabel >>
+var a;
+console.log("The value of a is " + a); // The value of a is undefined
+
+var b;
+console.log("The value of b is " + b); // The value of b is undefined
+
+//console.log("The value of c is " + c); // Uncaught ReferenceError: c is not defined
+
+let x;
+//console.log("The value of x is " + x); // The value of x is undefined
+
+//console.log("The value of y is " + y); // Uncaught ReferenceError: y is not defined
+let y;
+
+// << kita bisa menggunakan nilai undefined untuk alur program>>
+
+var masukan;
+
+if(masukan === undefined){
+    alert("Ciee.. benar ciee..") 
+} else {
+  alert("Mangap .. kamu salah ..")
+}
+
+// undefined akan dianggap false jika digunakan dalam konteks boolean
+
+var myArray = [];
+if (!myArray[0]) alert(myArray[0]);
+
+//ketika menghitung null akan dianggap 0 pada konteks angka dan dianggap false pada konteks boolean
+
+var n = null;
+console.log(n * 32); // Will log 0 to the console
+
+// undefined akan diubah menjadi NaN pada konteks angka
+var a;
+a + 2;  // Evaluates to NaN
+
+
+</script>

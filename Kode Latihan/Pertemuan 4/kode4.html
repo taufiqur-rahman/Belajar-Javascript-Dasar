@@ -1,0 +1,49 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h3> Operator Aritmatika </h3>
+<p>Hasil dari 2 + 3 adalah <strong><span id="satu"></span></strong></p>
+<p>Hasil dari 3 - 2 adalah <strong><span id="dua"></span></strong></p>
+<p>Hasil dari 2 * 3 adalah <strong><span id="tiga"></span></strong></p>
+<p>Hasil dari 3 / 2 adalah <strong><span id="empat"></span></strong></p>
+<p>Hasil dari 3 mod 2 adalah <strong><span id="lima"></span></strong></p>
+<p>Hasil dari 17 mod 3 adalah <strong><span id="enam"></span></strong></p>
+
+<p><button id="tambah" onclick="operatorAritmatika()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+
+
+
+<script type="text/javascript">
+
+function operatorAritmatika() {
+
+ document.getElementById("satu").innerHTML = (2+3) ; // operator + untuk penjumlahan
+ document.getElementById("dua").innerHTML = (3-2) ; // operator - untuk pengurangan
+ document.getElementById("tiga").innerHTML = (2*3) ; // operator * untuk perkalian
+ document.getElementById("empat").innerHTML = (3/2) ; // operator / untuk pembagian
+ document.getElementById("lima").innerHTML = (3%2) ; // operator + untuk penjumlahan
+ document.getElementById("enam").innerHTML = (17%3) ; // operator + untuk penjumlahan
+ 
+}
+
+//Addition (+)
+//Subtraction (-)
+//Division (/)
+//Multiplication (*)
+//Remainder (%)
+//Exponentiation (**)
+//Increment (++)
+//Decrement (--)
+//Unary negation (-)
+//Unary plus (+)
+
+
+</script>

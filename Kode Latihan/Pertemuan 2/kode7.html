@@ -1,0 +1,40 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+  <p id="demo1">Mohon masukkan sebuah angka antara 5-10</p>
+  <input id="demo2" type="text"> 
+  <button id="tambah" onclick="cobaLagi()">Test om.. </button>
+  <p id="salah"></p>
+  
+</body>
+</html>
+
+
+<script type="text/javascript">
+function cobaLagi() {
+     var y=document.getElementById("salah");
+         y.innerHTML="";
+         
+         
+      try
+         {
+            var x=document.getElementById("demo2").value;
+            if(x == "")    throw "kosong";
+            if( isNaN(x) ) throw "bukan sebuah angka";
+            if(x > 10)     throw "terlalu tinggi";
+            if(x < 5)      throw "terlalu rendah";
+          }  
+
+      catch(errr)    
+          {
+             y.innerHTML="Kesalahan : " + errr + ".";
+             }
+          
+}
+</script>

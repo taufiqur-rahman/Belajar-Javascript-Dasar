@@ -1,0 +1,48 @@
+<!--
+
+
+ -->
+
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ 
+<script type="text/javascript">
+function cobaperulangan() {
+
+   var sebuaharray = [3, 7, 6, 4, 2, 8];
+   sebuaharray.foo = "Ini test aja..";
+   
+   for (let i in sebuaharray) {
+
+        alert("untuk FOR - IN akan menampilkan >> \"0\" \"1\" \"2\" \"3\" \"4\" \"5\" \"foo\" \n\n" + i);
+   }
+   
+   for (let i of sebuaharray) {
+        alert("untuk FOR - OF akan menampilkan >> 3, 7, 6, 4, 2, 8 \n\n" + i);
+       }
+   
+
+
+}
+    // 
+    // 
+    //
+    // 
+    // 
+
+</script>
+ 
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+Kita mencoba perulangan FOR - OF <br />
+ 
+<button id="tambah" onclick="cobaperulangan()">Om pencet Om.. </button>
+ 
+<div><h1 id="div_cmugudh"></h1></div>
+</body>
+</html>

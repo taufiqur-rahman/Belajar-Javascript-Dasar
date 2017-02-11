@@ -1,0 +1,38 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ 
+
+ 
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+
+</body>
+</html>
+
+<script type="text/javascript">
+
+// bagian ini adalah pembuatan fungsi map
+function map(f,a) {
+  var result = [], // Create a new Array
+      i;
+  for (i = 0; i != a.length; i++)
+    result[i] = f(a[i]);
+  return result;
+}
+
+// bagian ini adalah pembuatan obyek multiply
+var multiply = function(x) {return x * x * x}; // Expression function.
+var a;
+
+// bagian ini adalah pemanggilan fungsi map dengan parsing nilai dari obyek multiply
+a = map(multiply, [0, 1, 2, 5, 10]);
+
+// bagian ini adalah menampilkan hasilnya
+alert("Hasil >> " + a);
+
+</script>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Belajar Bersama Javascript di Kanal #ubuntu-indonesia</title>
+  
+  
+  
+  
+  
+</head>
+
+<body>
+  
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="w3css/w3.css">
+<link rel="stylesheet" href="w3css/w3-theme-black.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="w3css/font-awesome.min.css">
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.w3-sidenav a,.w3-sidenav h4{padding:12px;}
+.w3-navbar a{padding-top:12px !important;padding-bottom:12px !important;}
+</style>
+<body>
+
+<!-- Navbar -->
+<ul class="w3-navbar w3-black w3-top w3-left-align w3-large" style="z-index:4;">
+  <li class="w3-opennav w3-right">
+    <a class="w3-hover-white w3-large w3-black" href="#" onclick="w3_open()">&#9776;</a>
+  </li>
+  <li><a href="#" class="w3-red">Logo</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-hover-white">About</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-hover-white">Values</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-hover-white">News</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-hover-white">Contact</a></li>
+</ul>
+
+<!-- Sidenav -->
+<nav class="w3-sidenav w3-theme-l1 w3-animate-right" style="right:0;display:none;z-index:3;width:250px;margin-top:51px;">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black" title="close menu">&times;</a>
+  <h4><b>Menu</b></h4>
+  <a href="#" class="w3-hover-black">Link</a>
+  <a href="#" class="w3-hover-black">Link</a>
+  <a href="#" class="w3-hover-black">Link</a>
+  <a href="#" class="w3-hover-black">Link</a>
+</nav>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay" onclick="w3_close()" style="cursor:pointer" title="close side menu"></div>
+
+
+<!-- KODE YANG DIPELAJARIN MULAINYA DISINI -->
+
+<br /> <br />
+
+
+<div class="w3-container w3-teal">
+  <h1 id="demo1">My Header</h1>
+</div>
+
+<div class="w3-container">
+  <p id="demo2">A car is a wheeled, self-powered motor vehicle used for transportation.</p>
+</div>
+
+<br />
+<button id="tambah" onclick="cobaLagi()">Om pencet Om.. </button>
+
+
+
+
+<script type="text/javascript">
+
+var angka = 18 ; // variabel angka coba diganti2, biar bisa liat perbedaannya
+
+
+
+function cobaLagi() {
+
+    if (angka > 10) {                      //blok pertama
+
+    document.getElementById("demo1").innerHTML = "Besar";
+    document.getElementById("demo2").innerHTML = "Hemmmmp.. ternyata nganu.. angka " + angka + " nya lebih besar .. dari 10 ";
+    
+    }
+    
+    else if (angka < 10) {                //blok kedua
+
+    document.getElementById("demo1").innerHTML = "Kecil";
+    document.getElementById("demo2").innerHTML = "Hemmmmp.. ternyata nganu.. angka " + angka + " nya lebih kecil .. dari 10 ";
+    
+    }
+    
+    else {                                //blok ketiga
+    
+    document.getElementById("demo1").innerHTML = "Sama";
+    document.getElementById("demo2").innerHTML = "Hemmmmp.. ternyata nganu.. angka " + angka + " nya = 10 ";    
+    
+    }
+}
+</script>
+
+
+<!-- KODE YANG DIPELAJARIN SELESAINYA DISINI -->
+
+<!-- Penjelasan
+     2. Blok Kondisional 
+     
+     Blok kondisional biasanya digunakan untuk percabangan sebuah program,
+     blok kondisional memiliki nilai yang akan di test kondisinya,
+     pada contoh kali ini nilai yang akan di test kondisinya adalah variabel angka
+     biasanya pada blok kondisional, hanya salah satu bloknya saja yang dijalankan
+     sisa dari blok lain akan diabaikan..
+     
+     contohnya
+     
+     pada saat statemen if pertama di baris >> if ( angka > 10 ) akan menguji isi 
+     variabel angka jika lebih besar dari 10 maka seluruh baris didalam blok pertama akan dijalankan,
+     tetapi jika hasilnya bukan lebih besar dari 10 maka blok pertama akan di abaikan. 
+     
+     tetapi di baris berikutnya menemukan pengujian lagi >> if ( angka < 100 ) disini isi 
+     variabel angka akan diuji jika lebih kecil dari 10 maka seluruh baris yang berada di 
+     blok kedua akan dijalankan, tapi jika hasilnya bukan maka loncat ke statemen berikutnya
+     
+     pada baris >> else tidak akan melakukan pengujian.. tetapi langsung menjalankan semua baris
+     yang ada di blok ketiga
+     
+     if - else if - else << adalah sebuah kesatuan, artinya jika kondisi if yang pertama terpenuhi,
+     maka kondisi lain tidak akan di cek.. tetapi langsung keluar dari keseluruhan bagian if - else if -else
+     
+     begitu pula jika kondisi if yang kedua yang terpenuhi, maka bagian else tidak akan dijalankan
+     
+     
+   
+-->
+<!-- Footer -->
+<footer class="w3-container w3-theme-l2 w3-padding-32">
+  <h4>Footer</h4>
+</footer>
+
+<div class="w3-container w3-theme-l1">
+  <p>Template by <a href="/w3css">w3.css</a></p>
+</div>
+
+<script>
+// Script to open and close the sidenav
+function w3_open() {
+    document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+    document.getElementsByClassName("w3-overlay")[0].style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
+    document.getElementsByClassName("w3-overlay")[0].style.display = "none";
+}
+</script>
+
+</body>
+</html>
+  
+  
+</body>
+</html>

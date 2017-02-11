@@ -1,0 +1,44 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<h3> Operator Unary TypeOf</h3>
+<pre>
+var myFun = new Function('5 + 2');
+var shape = 'round';
+var size = 1;
+var foo = ['Apple', 'Mango', 'Orange'];
+var today = new Date();
+</pre>
+<p>Hasil dari <strong>typeof myFun;</strong> adalah <strong><span id="satu"></span></strong></p>
+<p>Hasil dari <strong>typeof shape;</strong> adalah <strong><span id="dua"></span></strong></p>
+<p>Hasil dari <strong>typeof size;</strong> adalah <strong><span id="tiga"></span></strong></p>
+<p>Hasil dari <strong>typeof foo;</strong> adalah <strong><span id="empat"></span></strong></p>
+<p>Hasil dari <strong>typeof today;</strong> adalah <strong><span id="lima"></span></strong></p>
+
+<p><button class="w3-btn w3-padding w3-section" type="submit" id="tambah" onclick="operatorUnary()">Om Pencet Om..</button></p>
+</body>
+</html>
+
+
+<script type="text/javascript">
+
+function operatorUnary() {
+  
+  var myFun = new Function('5 + 2');
+  var shape = 'round';
+  var size = 1;
+  var foo = ['Apple', 'Mango', 'Orange'];
+  var today = new Date();
+
+  document.getElementById("satu").innerHTML = typeof myFun ; //   
+  document.getElementById("dua").innerHTML = typeof shape ; //   
+  document.getElementById("tiga").innerHTML = typeof size ; //   
+  document.getElementById("empat").innerHTML = (typeof foo) ; //   
+  document.getElementById("lima").innerHTML = (typeof today) ; //   
+  
+}
+
+</script>

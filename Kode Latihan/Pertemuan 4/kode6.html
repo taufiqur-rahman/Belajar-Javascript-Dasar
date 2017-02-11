@@ -1,0 +1,87 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+
+<h3> Operator Logical </h3>
+<p>Hasil dari <strong>true && true</strong> adalah <strong><span id="satu"></span></strong></p>
+<p>Hasil dari <strong>true && false</strong> adalah <strong><span id="dua"></span></strong></p>
+<p>Hasil dari <strong>false && true</strong> adalah <strong><span id="tiga"></span></strong></p>
+<p>Hasil dari <strong>false && (3 == 4)</strong> adalah <strong><span id="empat"></span></strong></p>
+<p>Hasil dari <strong>'Cat' && 'Dog'</strong> adalah <strong><span id="lima"></span></strong></p>
+<p>Hasil dari <strong>false && 'Cat'</strong> adalah <strong><span id="enam"></span></strong></p>
+<p>Hasil dari <strong>'Cat' && false</strong> adalah <strong><span id="tujuh"></span></strong></p><br />
+
+<p>Hasil dari <strong>true || true</strong> adalah <strong><span id="delapan"></span></strong></p>
+<p>Hasil dari <strong>false || true</strong> adalah <strong><span id="sembilan"></span></strong></p>
+<p>Hasil dari <strong>true || false</strong> adalah <strong><span id="sepuluh"></span></strong></p>
+<p>Hasil dari <strong>false || (3 == 4)</strong> adalah <strong><span id="sebelas"></span></strong></p>
+<p>Hasil dari <strong>'Cat' || 'Dog'</strong> adalah <strong><span id="duabelas"></span></strong></p>
+<p>Hasil dari <strong>false || 'Cat'</strong> adalah <strong><span id="tigabelas"></span></strong></p>
+<p>Hasil dari <strong>'Cat' || false</strong> adalah <strong><span id="empatbelas"></span></strong></p><br />
+
+<p>Hasil dari <strong>!true</strong> adalah <strong><span id="limabelas"></span></strong></p>
+<p>Hasil dari <strong>!false</strong> adalah <strong><span id="enambelas"></span></strong></p>
+<p>Hasil dari <strong>!'Cat'</strong> adalah <strong><span id="tujuhbelas"></span></strong></p><br />
+
+<p><button type="submit" id="tambah" onclick="operatorLogical()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+
+
+
+<script type="text/javascript">
+
+
+function operatorLogical() {
+
+ document.getElementById("satu").innerHTML = (true && true) ; // 
+ document.getElementById("dua").innerHTML = (true && false) ; // 
+ document.getElementById("tiga").innerHTML = (false && true) ; // 
+ document.getElementById("empat").innerHTML = (false && (3 == 4)) ; // 
+ document.getElementById("lima").innerHTML = ('Cat' && 'Dog') ; // 
+ document.getElementById("enam").innerHTML = (false && 'Cat') ; // 
+ document.getElementById("tujuh").innerHTML = ('Cat' && false) ; // 
+
+ document.getElementById("delapan").innerHTML = (true || true) ; // 
+ document.getElementById("sembilan").innerHTML = (true || false) ; // 
+ document.getElementById("sepuluh").innerHTML = (false || true) ; // 
+ document.getElementById("sebelas").innerHTML = (false || (3 == 4)) ; // 
+ document.getElementById("duabelas").innerHTML = ('Cat' || 'Dog') ; // 
+ document.getElementById("tigabelas").innerHTML = (false || 'Cat') ; // 
+ document.getElementById("empatbelas").innerHTML = ('Cat' || false) ; // 
+
+ document.getElementById("limabelas").innerHTML = (!true) ; // 
+ document.getElementById("enambelas").innerHTML = (!false) ; // 
+ document.getElementById("tujuhbelas").innerHTML = (!'Cat') ; // 
+
+ 
+}
+
+
+// OPERATOR LOGICAL
+// &&     (and) dimana kedua nilai yang dibandingkan harus sama baru bernilai true
+// tabel kebenaran
+//  false  &&  false   >> false
+//  false  &&  true    >> false
+//  true   &&  false   >> false
+//  true   &&  true    >> true
+
+// ||   (or) salah satu atau keduanya benar 
+// tabel kebenaran
+//  false  &&  false   >> false
+//  false  &&  true    >> true
+//  true   &&  false   >> true
+//  true   &&  true    >> true
+
+// !    (not) negasi
+//  false            >> true
+//  true             >> false
+
+
+</script>

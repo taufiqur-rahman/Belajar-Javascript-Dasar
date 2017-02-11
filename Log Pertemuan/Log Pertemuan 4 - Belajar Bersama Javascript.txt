@@ -1,0 +1,434 @@
+Bismillahirrahmanirrahim
+
+// /////////////////////////////////////////////////////////////////////////////////
+//     __  __ _             __            __        __                            //
+//    / / / / /_ __ __ __  / /___ __ ___ / /__  ___/ /___ ___  ___  ___ __ ___    //
+//   / /_/ / _  | // / _ `/ __/ // //__// / _ `/ __ / _  | _ `/ -_)(_-</ /'_  )   //
+//  |____ /____/____/_//_/___/,___/    /_/_//_/|___/\___/_//_/|__/____/_/\_,_/    //
+//                                                                                // 
+// /////////////////////////////////////////////////////////////////////////////////
+
+
+Belajar Bersama Komunitas Kanal #ubuntu-indonesia
+
+INFO
+server : irc.freenode.net  
+port   : 6667
+kanal  : #ubuntu-indonesia
+
+http://webchat.freenode.net/?channels=ubuntu-indonesia
+
+// ///////////////////////////////////////////////////////////////////////////////////////////
+
+             L O G    P E R T E M U A N   4
+
+// ///////////////////////////////////////////////////////////////////////////////////////////
+
+---------------------------
+Catatan : 
+1. Pesertanya die lagi, die lagi, jadi mulai berasa monoton
+---------------------------
+
+
+[2017-02-10 20:02:59 WIB] Syandal_ >> !br
+[2017-02-10 20:02:59 WIB] botan >> ==============================
+[2017-02-10 20:03:15 WIB] Syandal_ >> seperti biasa, sebelum kita mulai, mari kita memilih moderator untuk hari ini ..
+[2017-02-10 20:03:15 WIB] Syandal_ >> !br
+[2017-02-10 20:03:15 WIB] botan >> ==============================
+[2017-02-10 20:03:36 WIB] greenshirt >> !brrrrr
+[2017-02-10 20:03:45 WIB] greenshirt >> Dingin
+[2017-02-10 20:03:47 WIB] triawarman >> /me* seperti biasa ma greenshirt sepakat Syandal_
+[2017-02-10 20:04:02 WIB] greenshirt >> Kalo ini sepakat
+[2017-02-10 20:04:05 WIB] Mugiono_ >> /me* vote Syandal_
+[2017-02-10 20:05:14 WIB] Syandal_ >> :3
+[2017-02-10 20:05:18 WIB] Syandal_ >> /me* kena lagi deh
+[2017-02-10 20:05:44 WIB] Syandal_ >> baiklah sambil menunggu yang lain, mari kita mulai kegiatan diskusi kita
+[2017-02-10 20:05:46 WIB] Syandal_ >> !br
+[2017-02-10 20:05:46 WIB] botan >> ==============================
+[2017-02-10 20:05:59 WIB] greenshirt >> Syandal_: tanya om
+[2017-02-10 20:05:59 WIB] Mugiono_ >> Lupa belum gabung Telegram Sinaudev om Petruknisme.
+[2017-02-10 20:06:17 WIB] Syandal_ >> referensi untuk hari ini bisa dibuka disini >> https://goo.gl/q7RPI1 #belajarjs
+[2017-02-10 20:06:29 WIB] Syandal_ >> nanyanya nanti dulu, belum juga dibuka
+[2017-02-10 20:06:46 WIB] Syandal_ >> Assalamu alaikum wr. wb.
+[2017-02-10 20:06:46 WIB] greenshirt >> Behhh
+[2017-02-10 20:06:48 WIB] presiden >> Syandal_: waalaikumsalam warahmatullahi wabarakatuh
+[2017-02-10 20:07:26 WIB] greenshirt >> /me* ngirit kuota, ga ke tkp
+[2017-02-10 20:07:37 WIB] Syandal_ >> /me* dengan tidak mewakili siapapun mengucapkan terima kasih dan selamat datang kepada para peserta yang sampai hari ini masih bisa hadir di kegiatan kita, yaitu belajar bersama materi javascript pertemuan 4 #belajarjs
+[2017-02-10 20:08:11 WIB] triawarman >> /me* terpaksa datang
+[2017-02-10 20:08:12 WIB] Syandal_ >> adapun materi kita hari ini adalah tentang 'Operator Pada Javascript" #belajarjs
+[2017-02-10 20:08:16 WIB] Syandal_ >> :3
+[2017-02-10 20:09:54 WIB] Syandal_ >> sedangkan sub materi yang akan kita bahas adalah >> 1) operator penugasan 2) operator perbandingan 3) operator aritmatika 4) operator bitwise 5) operator logikal 6) operator string 7) operator ternari 8) operator unari 9) prioritas operator #belajarjs
+[2017-02-10 20:09:57 WIB] Syandal_ >> !br
+[2017-02-10 20:09:58 WIB] botan >> ==============================
+[2017-02-10 20:10:26 WIB] greenshirt >> 10. Operator ponari
+[2017-02-10 20:10:35 WIB] Syandal_ >> baiklah, untuk mempersingkat waktu mari kita melanjutkan ke sub materi yang pertama yaitu 1) operator penugasan
+[2017-02-10 20:10:37 WIB] greenshirt >> Pakai batu
+[2017-02-10 20:10:38 WIB] Syandal_ >> !br
+[2017-02-10 20:10:38 WIB] botan >> ==============================
+[2017-02-10 20:10:40 WIB] Syandal_ >> :3
+[2017-02-10 20:11:16 WIB] Syandal_ >> sebelum kita masuk ke operator penugasan, saya meminta kepada salah satu peserta untuk menjelaskan definisi operator pada bahasa pemrograman terutama bahasa javascript #belajarjs
+[2017-02-10 20:11:30 WIB] Syandal_ >> ada yang mau kasih pendapat nggak ? tentang definisi operator?
+[2017-02-10 20:11:41 WIB] Syandal_ >> colek triawarman Mugiono_ greenshirt presiden
+[2017-02-10 20:11:50 WIB] Syandal_ >> /me* tunggu 15 detik
+[2017-02-10 20:12:34 WIB] Syandal_ >> /me* ngerti tentang operator, tapi kalo jelasin definisinya pake kalimat agak susah
+[2017-02-10 20:12:39 WIB] Syandal_ >> ada yang mau nyoba gak?
+[2017-02-10 20:12:42 WIB] triawarman >> operator itu seperti pembantu menyeleksi kondisi
+[2017-02-10 20:12:50 WIB] Syandal_ >> hmm
+[2017-02-10 20:12:53 WIB] Syandal_ >> selain itu?
+[2017-02-10 20:13:05 WIB] triawarman >> g ada
+[2017-02-10 20:13:20 WIB] Syandal_ >> hmm cius?
+[2017-02-10 20:14:11 WIB] Syandal_ >> baiklah untuk mempersingkat waktu kita anggap saja >> Operator merupakan perintah yang memanipulasi nilai atau variable dan memberikan suatu hasil tertentu. #belajarjs
+[2017-02-10 20:14:35 WIB] Syandal_ >> nilai atau variabel tersebut kita sebut sebagai 'operand' #belajarjs
+[2017-02-10 20:15:22 WIB] Syandal_ >> sintaks sebuah operasi seperti ini >> (operand1 operator operand2) #belajarjs
+[2017-02-10 20:15:52 WIB] Syandal_ >> atau seperti ini >> operator operand << ini disebut unary operator #belajarjs
+[2017-02-10 20:16:32 WIB] Syandal_ >> untuk mempermudah cara memahaminya mari kita buka contoh kode latihan yang sudah didownload .. silahkan dibuka latihan 1 .. #belajarjs
+[2017-02-10 20:16:53 WIB] Syandal_ >> OPERATOR PENUGASAN
+[2017-02-10 20:16:54 WIB] Syandal_ >> !br
+[2017-02-10 20:16:54 WIB] botan >> ==============================
+[2017-02-10 20:17:02 WIB] Syandal_ >> berikut contohnya >> http://jsbin.com/buxojoqica/edit?html,js,output #belajarjs
+[2017-02-10 20:17:20 WIB] Syandal_ >> ^ ada yang mau jelasin tentang maksud kode diatas nggak ? #belajarjs
+[2017-02-10 20:20:06 WIB] triawarman >> >
+[2017-02-10 20:20:06 WIB] Syandal_ >> dimohon dengan hormat kepada ka triawarman untuk menjelaskan maksud kode diatas ^ terutama yang dimaksud dengan operator penugasan apaan ?
+[2017-02-10 20:20:34 WIB] Syandal_ >> hmm
+[2017-02-10 20:20:35 WIB] Syandal_ >> !br
+[2017-02-10 20:20:35 WIB] botan >> ==============================
+[2017-02-10 20:21:03 WIB] triawarman >> /me* nuunggu studi kasus yng rumit-an
+[2017-02-10 20:21:09 WIB] Syandal_ >> :33
+[2017-02-10 20:21:25 WIB] Syandal_ >> operator penugasan berguna untuk memasukkan nilai kedalam variabel .. #cmiiw
+[2017-02-10 20:22:39 WIB] Syandal_ >> berikut daftar operator yang digunakan untuk penugasan >>     =  +=  -=  *=  /=  %=  dst (bisa dilihat dibagian keterangan dibawah kode) #belajarjs
+[2017-02-10 20:22:52 WIB] Syandal_ >> baiklah mari kita lanjut ke sub materi berikutnya
+[2017-02-10 20:22:56 WIB] Syandal_ >> !br
+[2017-02-10 20:22:56 WIB] botan >> ==============================
+[2017-02-10 20:23:49 WIB] Syandal_ >> pada javascript memiliki apa yang disebut >> destructuring assignment #belajarjs
+[2017-02-10 20:24:14 WIB] Syandal_ >> latihan berikut >> http://jsbin.com/hegewuvaju/edit?html,js,output   yang disebut desctructing
+[2017-02-10 20:24:34 WIB] Syandal_ >> ka triawarman tolong jelasin yang dimaksud dengan destructing asigment ?
+[2017-02-10 20:24:46 WIB] triawarman >> loading
+[2017-02-10 20:25:45 WIB] triawarman >> /me* ga tau perbedaan
+[2017-02-10 20:25:50 WIB] triawarman >> hanya seperti array dalam array
+[2017-02-10 20:25:54 WIB] greenshirt >> Destructing atau destructuring?
+[2017-02-10 20:26:13 WIB] triawarman >> destructuring sepertinya
+[2017-02-10 20:26:29 WIB] triawarman >> (21:24:14) Syandal_: latihan berikut >> http://jsbin.com/hegewuvaju/edit?html,js,output   yang disebut desctructing << terlihat typo
+[2017-02-10 20:26:44 WIB] Syandal_ >> bisa jadi
+[2017-02-10 20:27:11 WIB] Syandal_ >> /me* bahasa inggrisnya kan ga bagus
+[2017-02-10 20:28:14 WIB] Syandal_ >> masih loading ga
+[2017-02-10 20:28:18 WIB] Syandal_ >> ini loading ga >> https://jsfiddle.net/446hxpko/
+[2017-02-10 20:30:10 WIB] Syandal_ >> ini penjelasan bahasa inggrisnya >>
+[2017-02-10 20:30:11 WIB] Syandal_ >> Destructuring
+[2017-02-10 20:30:11 WIB] Syandal_ >> For more complex assignments, the destructuring assignment syntax is a JavaScript expression that makes it possible to extract data from arrays or objects using a syntax that mirrors the construction of array and object literals.
+[2017-02-10 20:30:49 WIB] Syandal_ >> masih belum susah kalo kita liat kodenya
+[2017-02-10 20:30:52 WIB] Syandal_ >> kita lanjut aja ya
+[2017-02-10 20:30:53 WIB] Syandal_ >> !br
+[2017-02-10 20:30:53 WIB] botan >> ==============================
+[2017-02-10 20:31:04 WIB] Syandal_ >> baiklah kita lanjut ke sub materi berikutnya #belajarjs
+[2017-02-10 20:31:31 WIB] Syandal_ >> 2) OPERATOR PERBANDINGAN
+[2017-02-10 20:31:33 WIB] Syandal_ >> !br
+[2017-02-10 20:31:33 WIB] botan >> ==============================
+[2017-02-10 20:34:46 WIB] Syandal_ >>  
+[2017-02-10 20:34:46 WIB] Syandal_ >> Operator   perbandingan   adalah   operator   yang   digunakan   untuk
+[2017-02-10 20:34:46 WIB] Syandal_ >> membandingkan satu nilai dengan nilai yang lain, untuk mendapatkan hasil benar atau salah.  #belajarjs
+[2017-02-10 20:35:10 WIB] Syandal_ >> Pada umumnya, macam dari jenis operator perbandingan ini adalah sama dengan (==)  #belajarjs
+[2017-02-10 20:35:31 WIB] Syandal_ >> Contohnya >> Biaya == 100
+[2017-02-10 20:35:37 WIB] greenshirt >> === ?
+[2017-02-10 20:36:02 WIB] Syandal_ >> Jika nilai dari variable biaya di atas besarnya sama dengan 100, maka pernyataan di atas akan
+[2017-02-10 20:36:03 WIB] Syandal_ >> memberikan hasil true (benar). Tetapi jika nilai dari variable biaya di atas besarnya tidak sama
+[2017-02-10 20:36:03 WIB] Syandal_ >> dengan 100, maka pernyataan di atas akan memberikan hasil false (salah). #belajarjs
+[2017-02-10 20:36:14 WIB] Syandal_ >> ka greenshirt coba tanya ka triawarman
+[2017-02-10 20:36:58 WIB] triawarman >> hmmm Syandal_ ga tau atau gmn ni ?
+[2017-02-10 20:37:00 WIB] greenshirt >> Hmmm
+[2017-02-10 20:37:25 WIB] triawarman >> kalau ga tau, dengan senang hati sedikit menjelaskan yg diketahui
+[2017-02-10 20:37:47 WIB] Syandal_ >> /me* otak ane lagi dipake mikir yang lain
+[2017-02-10 20:37:51 WIB] Syandal_ >> /me* ga multitasking
+[2017-02-10 20:37:52 WIB] triawarman >> *menjelaskan ssedikit yang diketahui
+[2017-02-10 20:37:59 WIB] triawarman >> /me* jelaskan
+[2017-02-10 20:38:07 WIB] Syandal_ >> ok silahkan jelaskan ^
+[2017-02-10 20:38:22 WIB] triawarman >> == operator ini digunakan untuk memeriksa nilainya sama
+[2017-02-10 20:38:25 WIB] Syandal_ >> ini kode latihan operator perbandingan http://jsbin.com/hivozuwoma/edit?html,js,output #belajarjs
+[2017-02-10 20:38:40 WIB] triawarman >> === digunakan untuk memeriksa nilai dan tipe yang sama
+[2017-02-10 20:39:17 WIB] triawarman >> sekian
+[2017-02-10 20:39:27 WIB] triawarman >> /me* taunya dari greenshirt juga dulunya
+[2017-02-10 20:40:09 WIB] Syandal_ >> :D
+[2017-02-10 20:40:21 WIB] Syandal_ >> iya dia mastah tapi suka ngetest kemampuan nubi :v
+[2017-02-10 20:40:30 WIB] greenshirt >> Hmm
+[2017-02-10 20:41:23 WIB] Syandal_ >> jadi hasil dari operator perbandingan kalo ga true ya false, operator perbandingan biasanya digunakan pada struktur percabangan atau ekspresi lain.. #belajarjs
+[2017-02-10 20:41:32 WIB] Syandal_ >> lanjut ke sub materi lain apa nggak ?
+[2017-02-10 20:41:59 WIB] triawarman >> >
+[2017-02-10 20:42:11 WIB] triawarman >> /me* tanya
+[2017-02-10 20:42:49 WIB] Syandal_ >> naya apaan?
+[2017-02-10 20:43:07 WIB] triawarman >> itu yang destructurization, studi kasus penggunaanya bagaimana ?
+[2017-02-10 20:43:09 WIB] greenshirt >> Mo tanya dah keduluan
+[2017-02-10 20:43:34 WIB] triawarman >> *destructuring
+[2017-02-10 20:43:34 WIB] Syandal_ >> nah itu
+[2017-02-10 20:44:20 WIB] Syandal_ >> ka presiden bantuin dong
+[2017-02-10 20:45:42 WIB] Syandal_ >> #jawab #belajarjs misalnya kita punya data array kek gini >> var foo = ['one', 'two', 'three'];     masing2 elemen array mau kita masukin ke variabel .. misalnya .. >> var satu = foo[0];    var dua = foo[1];    var tiga = foo[2];
+[2017-02-10 20:46:22 WIB] Syandal_ >> cara masukin gampangnya gini >> var [satu, dua, tiga] = foo;
+[2017-02-10 20:47:08 WIB] Syandal_ >> Destructuring ga tau kapan digunainnya
+[2017-02-10 20:47:22 WIB] Syandal_ >> kita lanjut ya..
+[2017-02-10 20:47:27 WIB] Syandal_ >> apa masih mau diskusi
+[2017-02-10 20:47:41 WIB] triawarman >> tambahan https://ponyfoo.com/articles/es6-destructuring-in-depth
+[2017-02-10 20:47:43 WIB] triawarman >> >
+[2017-02-10 20:48:52 WIB] Syandal_ >> /me* cek tkp
+[2017-02-10 20:49:39 WIB] Syandal_ >> makin berat aja pembahasan :'(
+[2017-02-10 20:49:41 WIB] Syandal_ >> ok lanjut
+[2017-02-10 20:49:43 WIB] Syandal_ >> !br
+[2017-02-10 20:49:43 WIB] botan >> ==============================
+[2017-02-10 20:49:46 WIB] triawarman >> :D
+[2017-02-10 20:49:55 WIB] triawarman >> /me* tapi dapat ilmu baru berkat Syandal_
+[2017-02-10 20:49:56 WIB] Syandal_ >> baiklah untuk mempersingkat waktu mari kita melanjutkan ke sub materi berikutnya
+[2017-02-10 20:50:14 WIB] Syandal_ >> 3) Operator Aritmatika
+[2017-02-10 20:50:18 WIB] Syandal_ >> /me* ga punya ilmu
+[2017-02-10 20:50:19 WIB] Syandal_ >> !br
+[2017-02-10 20:50:19 WIB] botan >> ==============================
+[2017-02-10 20:50:56 WIB] summonagus JOIN #ubuntu-indonesia
+[2017-02-10 20:51:18 WIB] Syandal_ >> ada ka summonagus selamat datang
+[2017-02-10 20:51:31 WIB] Syandal_ >> kita lagi diskusi belajar bersama online
+[2017-02-10 20:52:00 WIB] Syandal_ >> operator aritmatika adalah operator yang menggunakan dua nilai untuk melakukan perhitungan aritmatika #belajarjs
+[2017-02-10 20:52:31 WIB] Syandal_ >> untuk contoh kode latihannya silahkan dibuka file latihan yang didownlad.. dan atau buka halaman ini >> http://jsbin.com/weweyanige/edit?html,js,output #belajarjs
+[2017-02-10 20:52:52 WIB] Syandal_ >> ka triawarman  tolong jelasin sedikit tentang operator artimatika dong
+[2017-02-10 20:53:02 WIB] triawarman >> >
+[2017-02-10 20:53:40 WIB] Syandal_ >> hmm
+[2017-02-10 20:53:42 WIB] Syandal_ >> cius
+[2017-02-10 20:53:43 WIB] Syandal_ >> !br
+[2017-02-10 20:53:43 WIB] botan >> ==============================
+[2017-02-10 20:54:03 WIB] Syandal_ >> baiklah untuk mempersingkat waktu dan kuota marilah kita melanjutkan ke sub materi berikutnya #belajarjs
+[2017-02-10 20:54:34 WIB] summonagus >> salim om Syandal_
+[2017-02-10 20:54:38 WIB] summonagus >> salim semuanya..
+[2017-02-10 20:54:51 WIB] summonagus >> kog tumben bnyak yg nongkrong, apa pada jomblo?
+[2017-02-10 20:54:59 WIB] Syandal_ >> !wasalam @ summonagus
+[2017-02-10 20:54:59 WIB] botan >> summonagus: Waalaikumsalam Warahmatullahi Wabarakatuh
+[2017-02-10 20:55:03 WIB] Syandal_ >> hmm
+[2017-02-10 20:55:07 WIB] Syandal_ >> dibawah yang jones
+[2017-02-10 20:55:09 WIB] Syandal_ >> /me* nggak
+[2017-02-10 20:55:11 WIB] Syandal_ >> !br
+[2017-02-10 20:55:11 WIB] botan >> ==============================
+[2017-02-10 20:55:18 WIB] Syandal_ >> 4 OPERATOR BITWISE
+[2017-02-10 20:55:20 WIB] Syandal_ >> !br
+[2017-02-10 20:55:20 WIB] botan >> ==============================
+[2017-02-10 20:55:47 WIB] summonagus >> bnyak nick baru disini.. salim om Mugiono_
+[2017-02-10 20:57:45 WIB] Syandal_ >> penjelasannya susah
+[2017-02-10 20:57:55 WIB] Syandal_ >> Bitwise operators
+[2017-02-10 20:57:55 WIB] Syandal_ >> A bitwise operator treats their operands as a set of 32 bits (zeros and ones), rather than as decimal, hexadecimal, or octal numbers. For example, the decimal number nine has a binary representation of 1001. Bitwise operators perform their operations on such binary representations, but they return standard JavaScript numerical values.
+[2017-02-10 20:58:35 WIB] Syandal_ >> kita langsun ke contoh latihannya aja, silahkan dibuka, atau lihat ke halaman ini >> http://jsbin.com/sapuzusoyu/edit?html,js,output #belajarjs
+[2017-02-10 20:58:51 WIB] Syandal_ >> ka triawarman mohon dijelaskan maksud dari kode diatas ^
+[2017-02-10 20:59:51 WIB] greenshirt >> Itu dah dijelaskan...
+[2017-02-10 21:00:24 WIB] Syandal_ >> hmm, kurang, penjelasan pake bahasa indonesianya #belajarjs
+[2017-02-10 21:01:25 WIB] Syandal_ >> berikut operator yang digunakan untuk operasi bitwise >>  &  |  ^  ~  <<  >>  >>>    hati2 .. operator bitwise berbeda loh sama operator logical .. #belajarjs
+[2017-02-10 21:01:49 WIB] Syandal_ >> biar nggak salah kaprah, mohon ka triawarman menjelaskan lebih lanjut tentang operator bitwise #belajarjs
+[2017-02-10 21:01:55 WIB] Mugiono_ >> !salam @ summonagus
+[2017-02-10 21:01:55 WIB] botan >> summonagus: Assalamualaikum Warahmatullahi Wabarakatuh
+[2017-02-10 21:02:18 WIB] Syandal_ >> cara jalanin kodenya seperti biasa, klik tombol om pencet om
+[2017-02-10 21:02:38 WIB] Syandal_ >> ada yang mau didiskusiin dulu nggak ? atau lanjut ke sub materi berikutnya
+[2017-02-10 21:03:11 WIB] greenshirt >> Jelasin satu-satu #request
+[2017-02-10 21:03:41 WIB] Syandal_ >> /me* yang jelasin peserta lain /me kan moderator musiman :(
+[2017-02-10 21:03:56 WIB] Syandal_ >> /me* ambil minum dulu
+[2017-02-10 21:04:36 WIB] greenshirt >> Saya dah sepakat sama  triawarman,  om  Syandal_ yang akan jelasin
+[2017-02-10 21:04:43 WIB] triawarman >> /me* idem
+[2017-02-10 21:04:46 WIB] triawarman >> makanya diam
+[2017-02-10 21:04:49 WIB] Syandal_ >> :3
+[2017-02-10 21:05:13 WIB] triawarman >> uda berubah konsepnya, ga ke mengajari/diskusi, lebih nunjuk
+[2017-02-10 21:05:15 WIB] triawarman >> hhhhh
+[2017-02-10 21:05:25 WIB] Syandal_ >> hmm
+[2017-02-10 21:05:31 WIB] Syandal_ >> /me* nggak nunjuk sih, bagi2 tugas
+[2017-02-10 21:05:38 WIB] Syandal_ >> /me* biar ga ane sendirian..
+[2017-02-10 21:05:41 WIB] Syandal_ >> kan pesertanya dikit
+[2017-02-10 21:05:48 WIB] triawarman >> uda resiko
+[2017-02-10 21:05:49 WIB] Syandal_ >> yang lain ngobrol doang :v
+[2017-02-10 21:05:59 WIB] greenshirt >> Idem
+[2017-02-10 21:06:03 WIB] triawarman >> kemarin2 g gini, keseringan nunjuk
+[2017-02-10 21:06:09 WIB] triawarman >> *awal2 ga sering nunjuk
+[2017-02-10 21:06:20 WIB] triawarman >> kasi contoh + jelasin.
+[2017-02-10 21:06:20 WIB] Syandal_ >> operator bitwise akan mengubah nilai ke bilangan binernya .. setelah itu dilakukan operasi bitwise.. dan hasilnya di kembalikan ke integer .. #cmiiw
+[2017-02-10 21:06:27 WIB] Syandal_ >> hmm
+[2017-02-10 21:07:01 WIB] Syandal_ >> kalo kuliah online >> pemateri kasih penjelasan, kasih latihan, kasi kesempatan bertanya, abis itu menjawab, tapi kan kita bukan kuliah online
+[2017-02-10 21:07:08 WIB] Syandal_ >> /me* kita belajar kelompok :'(
+[2017-02-10 21:07:27 WIB] Syandal_ >> ok biar ga mengulur2 waktu marilah kita lanjut ke sub materi berikutnya
+[2017-02-10 21:07:28 WIB] Syandal_ >> !br
+[2017-02-10 21:07:29 WIB] botan >> ==============================
+[2017-02-10 21:08:12 WIB] triawarman >> /me* nambahin. 
+[2017-02-10 21:08:58 WIB] triawarman >> berdasar http://stackoverflow.com/questions/654057/where-would-i-use-a-bitwise-operator-in-javascript, sudy kasus bitwise bisa digunakan untuk melewatkan nilai hexadecimal ke RGB
+[2017-02-10 21:09:06 WIB] triawarman >> *salah satunya
+[2017-02-10 21:10:28 WIB] Syandal_ >> ow ok
+[2017-02-10 21:10:32 WIB] Syandal_ >> /me* cek tkp
+[2017-02-10 21:11:13 WIB] Syandal_ >> ok lanjut apa nggak
+[2017-02-10 21:12:36 WIB] triawarman >> >
+[2017-02-10 21:13:41 WIB] Syandal_ >> ok lanjut
+[2017-02-10 21:13:42 WIB] Syandal_ >> !br
+[2017-02-10 21:13:43 WIB] botan >> ==============================
+[2017-02-10 21:13:55 WIB] Syandal_ >> 5 OPERATOR LOGICAL
+[2017-02-10 21:13:56 WIB] Syandal_ >> !br
+[2017-02-10 21:13:57 WIB] botan >> ==============================
+[2017-02-10 21:15:02 WIB] Syandal_ >> ada dasarnya Operator logical hampir sama dengan operator perbandingan
+[2017-02-10 21:15:02 WIB] Syandal_ >> yang berfungsi untuk membandingkan dua buah nilai untuk memberikan hasil benar atau salah. #belajarjs
+[2017-02-10 21:15:25 WIB] Syandal_ >> Perbedaannya   kedua   operator   ini   adalah   operator   logical   berfungsi   membandingkan perbandingan. #belajarjs
+[2017-02-10 21:16:14 WIB] triawarman >> ambigu
+[2017-02-10 21:16:42 WIB] Syandal_ >> contoh >> ( total > 10) && (biaya < 10)    pada contoh ini  digunakan   operator
+[2017-02-10 21:16:43 WIB] Syandal_ >> &&
+[2017-02-10 21:16:43 WIB] Syandal_ >>   yang   artinya   adalah   mengharuskan   kedua   nilai memenuhi syarat. Jika kedua nilai benar maka ekspresi di atas akan bernilai benar.  #belajarjs
+[2017-02-10 21:16:48 WIB] Syandal_ >> hmm
+[2017-02-10 21:17:38 WIB] Syandal_ >> kita liat contoh latihannya aja >> http://jsbin.com/miposoxibe/edit?html,js,output #belajarjs
+[2017-02-10 21:17:53 WIB] Syandal_ >> /me* ada yang mau didiskusiin dulu nggak ?
+[2017-02-10 21:18:49 WIB] triawarman >> ada
+[2017-02-10 21:19:19 WIB] Syandal_ >> apaan?
+[2017-02-10 21:19:21 WIB] Syandal_ >> link?
+[2017-02-10 21:19:23 WIB] triawarman >> /me* sama greenshirt sepakat "penyusunan kalimat penjelasan perlu diperbaiki kedepannya"
+[2017-02-10 21:19:38 WIB] greenshirt >> Idem
+[2017-02-10 21:19:47 WIB] triawarman >> ada dasarnya Operator logical hampir sama dengan operator perbandingan, yang berfungsi untuk membandingkan dua buah nilai untuk memberikan hasil benar atau salah. #belajarjs, Perbedaannya   kedua   operator   ini   adalah   operator   logical   berfungsi   membandingkan perbandingan. #belajarjs <<< ini diawal tadi
+[2017-02-10 21:20:07 WIB] Syandal_ >> iya terus?
+[2017-02-10 21:20:26 WIB] triawarman >> operator   logical   berfungsi   membandingkan perbandingan<< sebelumnya dijelaskan "Operator logical hampir sama dengan operator perbandingan"
+[2017-02-10 21:21:32 WIB] triawarman >> dengan penjelasan tadi bisa ditarik kesimpulan "cukup gunakan operator perbandingan, ga perlu logikal." krn ga da perbedaan
+[2017-02-10 21:22:25 WIB] Syandal_ >> contoh operator perbandingan >> 100 < 50 ..  contoh operator logical  (100 < 50 )  ||  (100 > 50)    yang kita sebut operator logical adalah operator ||
+[2017-02-10 21:23:49 WIB] Syandal_ >> operator yang digunakan untuk operasi logical >>   &&   ||   dan !      dimanan && (and)    || (or)    ! (not) #belajarjs
+[2017-02-10 21:25:18 WIB] Syandal_ >> ada yang mau ditanyain lagi ga ?
+[2017-02-10 21:25:21 WIB] Syandal_ >> atau lanjut
+[2017-02-10 21:25:34 WIB] triawarman >> ?
+[2017-02-10 21:25:40 WIB] triawarman >> >
+[2017-02-10 21:27:12 WIB] Syandal_ >> buka ulang disini, dilihat bagian bawah deh, udah ane kasih keterangan tabel kebenaran
+[2017-02-10 21:28:53 WIB] Syandal_ >> ok lanjut
+[2017-02-10 21:29:12 WIB] Syandal_ >> !br
+[2017-02-10 21:29:12 WIB] botan >> ==============================
+[2017-02-10 21:29:29 WIB] Syandal_ >> baiklah kita lanjut ke sub materi berikutnya
+[2017-02-10 21:29:39 WIB] Syandal_ >> 6) OPERATOR STRING
+[2017-02-10 21:30:31 WIB] Syandal_ >>  
+[2017-02-10 21:30:32 WIB] Syandal_ >> adalah operator yang mengolah nilai string, yaitu nilai yang berupa karakter #belajarjs
+[2017-02-10 21:31:31 WIB] Syandal_ >> coba latihan operator string dulu >> http://jsbin.com/najifikesu/edit?html,js,output
+[2017-02-10 21:31:44 WIB] Syandal_ >> /me* mau nonton peserta ke 2 dungdat akedemi 
+[2017-02-10 21:31:45 WIB] Syandal_ >> !br
+[2017-02-10 21:31:45 WIB] botan >> ==============================
+[2017-02-10 21:36:49 WIB] Syandal_ >> im back
+[2017-02-10 21:36:57 WIB] Syandal_ >> vokalnya bagus uih
+[2017-02-10 21:37:06 WIB] Syandal_ >> sampe cewek ada yang sampe nangis
+[2017-02-10 21:37:12 WIB] Syandal_ >> nggak tau deh nangis kenapa
+[2017-02-10 21:37:23 WIB] Syandal_ >> masih ada yang mau didiskusiin apa nggak?
+[2017-02-10 21:37:29 WIB] Syandal_ >> lanjut apa nggak ?
+[2017-02-10 21:37:30 WIB] triawarman >> (22:37:06) Syandal_: sampe cewek ada yang sampe nangis << contoh penjelasan yang ambigu
+[2017-02-10 21:37:39 WIB] Syandal_ >> :3
+[2017-02-10 21:37:49 WIB] Syandal_ >> /me* lagi bahas peserta dungdat akademi
+[2017-02-10 21:37:50 WIB] greenshirt >> xor ga ada om?
+[2017-02-10 21:37:56 WIB] triawarman >> ga ada
+[2017-02-10 21:38:03 WIB] Syandal_ >> bisa jadi
+[2017-02-10 21:38:10 WIB] triawarman >> ga usah cari yg g ada, cari aj yang ada.
+[2017-02-10 21:38:23 WIB] triawarman >> krn yang ga ada belum tentu akan ada, tetapi yang ada pasti ada
+[2017-02-10 21:38:45 WIB] greenshirt >> /me* dan  triawarman sepakat nanya ke  Syandal_ 
+[2017-02-10 21:38:52 WIB] Syandal_ >> hmm
+[2017-02-10 21:38:56 WIB] Syandal_ >> ga ada >> https://goo.gl/bEBYg6
+[2017-02-10 21:38:56 WIB] triawarman >> hmm mau ga mau
+[2017-02-10 21:39:55 WIB] Syandal_ >> mau lanjut apa ga
+[2017-02-10 21:40:01 WIB] triawarman >> >
+[2017-02-10 21:40:46 WIB] Syandal_ >> operator string cuman 2 .. yaitu + dan +=
+[2017-02-10 21:40:57 WIB] Syandal_ >> ok lanjut
+[2017-02-10 21:40:59 WIB] Syandal_ >> !br
+[2017-02-10 21:40:59 WIB] botan >> ==============================
+[2017-02-10 21:41:52 WIB] Syandal_ >> Beberapa hal yang perlu diperhatikan pada penggunaan operator string adalah:
+[2017-02-10 21:42:15 WIB] Syandal_ >> 1) String tidak bisa dibandingkan
+[2017-02-10 21:42:38 WIB] Syandal_ >> ika   kita   tidak   bisa   membandingkan   antara   ?roti?   ==   ?keju?   atau   ?roti?>?keju?.   Maka   hasil keduanya adalah salah atau false.
+[2017-02-10 21:43:00 WIB] Syandal_ >> Jika   kita   tidak   bisa   membandingkan   antara   ?roti?   ==   ?keju?   atau   ?roti?>?keju?.   Maka   hasil keduanya adalah salah atau false.
+[2017-02-10 21:43:37 WIB] Syandal_ >> 2) avascript mengubah string angka menjadi numerik Apabila string berisi angka,
+[2017-02-10 21:44:58 WIB] Syandal_ >> Perhatikan   contoh:  ?100? > ?10?.  Javascript   akan   mengubah  ?100?  menjadi  100   dan mengubah  ?10? menjadi 10. Karena 100  lebih besar dari  10 , maka ekspresi di atas bernilai true  atau benar.
+[2017-02-10 21:45:22 WIB] Syandal_ >> 3) String gabungan tidak diubah
+[2017-02-10 21:46:05 WIB] Syandal_ >> Gabungan yang dimaksud adalah gabungan antara numerik dengan kalimat. Misalkan string tersebut   berupa  ?angkatan   2014?,  contoh   tersebut   tidak   akan   diubah   menjadi   nilai numerik
+[2017-02-10 21:46:22 WIB] Syandal_ >> ok lanjut :)
+[2017-02-10 21:46:23 WIB] Syandal_ >> !br
+[2017-02-10 21:46:23 WIB] botan >> ==============================
+[2017-02-10 21:46:38 WIB] Syandal_ >> 7) ternary operator
+[2017-02-10 21:49:16 WIB] :Mugiono!~io@unaffiliated/mugiono JOIN #ubuntu-indonesia
+[2017-02-10 21:49:20 WIB] Syandal_ >> operator ternary adalah operator kondisional .. yang memiliki 3 operand .. operator akan mengambil salah satu dari dua nilai berdasarkan kondisi
+[2017-02-10 21:49:37 WIB] Syandal_ >> berikut sintaks nya >> condition ? val1 : val2
+[2017-02-10 21:50:02 WIB] Syandal_ >> berikut contoh latihannya >> http://jsbin.com/xugogavalo/edit?html,js,output
+[2017-02-10 21:50:10 WIB] Syandal_ >> ada yang mau didiskusiin dulu atau lanjut
+[2017-02-10 21:51:29 WIB] greenshirt >> >>
+[2017-02-10 21:51:59 WIB] Syandal_ >> ok bentar
+[2017-02-10 21:52:03 WIB] Syandal_ >> ka triawarman kemana?
+[2017-02-10 21:52:09 WIB] Syandal_ >> tumben dia yang jawab
+[2017-02-10 21:52:34 WIB] Mugiono_ QUIT :Ping timeout: 264 seconds
+[2017-02-10 21:52:35 WIB] greenshirt >> Jam bubu
+[2017-02-10 21:52:53 WIB] Syandal_ >> hmm
+[2017-02-10 21:53:08 WIB] Syandal_ >> bukannya disana baru jam 11 ya
+[2017-02-10 21:53:11 WIB] Syandal_ >> !br
+[2017-02-10 21:53:11 WIB] botan >> ==============================
+[2017-02-10 21:53:18 WIB] Syandal_ >> ok kita lanjut ke bahasan berikutnya
+[2017-02-10 21:53:39 WIB] Syandal_ >> 8) Operator Unary
+[2017-02-10 21:54:06 WIB] Syandal_ >> adalah operator yang hanya memiliki sebuah operand..
+[2017-02-10 21:54:37 WIB] Syandal_ >> contoh operatornya adalah >>    --    ++    delete
+[2017-02-10 21:54:55 WIB] Syandal_ >> berikut contoh latihannya >> http://jsbin.com/reqagereyo/edit?html,js,output
+[2017-02-10 21:57:23 WIB] Syandal_ >> ada yang mau di diskusiin gak?
+[2017-02-10 21:57:27 WIB] triawarman >> >
+[2017-02-10 21:57:56 WIB] greenshirt >> komplemen ga termasuk unary operator om?
+[2017-02-10 21:58:27 WIB] triawarman >> ga, uda dikasi tau jangan tanya/cari yang ga ada. krn yang di  cari belum tentu cari balik
+[2017-02-10 21:58:31 WIB] triawarman >> lupakan saja
+[2017-02-10 21:58:52 WIB] greenshirt >> baiklah kalo begitu ...
+[2017-02-10 21:58:53 WIB] greenshirt >> Hm
+[2017-02-10 21:59:05 WIB] greenshirt >> /me* kembali sesuatu
+[2017-02-10 21:59:19 WIB] Syandal_ >> hmm
+[2017-02-10 22:00:05 WIB] Syandal_ >> komplemen artinya apaan
+[2017-02-10 22:00:10 WIB] Syandal_ >> disini nggak ada complemen
+[2017-02-10 22:00:23 WIB] Syandal_ >> lanjut atau nggak?
+[2017-02-10 22:00:25 WIB] triawarman >> /me* bantu jelasin
+[2017-02-10 22:00:41 WIB] greenshirt >> Eh, apa ya namanya
+[2017-02-10 22:00:44 WIB] Syandal_ >> /me* silahkan
+[2017-02-10 22:01:17 WIB] Syandal_ >> di mdn yang termasuk unary adalah adalah >> delete typeof void
+[2017-02-10 22:01:39 WIB] triawarman >> komplemen itu seperti makanan pada rumaah makan, harganya selangit, tetapi rasa dan layanan disna ga sesuai. maka pelanggan melakukan komplemen
+[2017-02-10 22:01:56 WIB] Syandal_ >> :3
+[2017-02-10 22:02:00 WIB] Syandal_ >> itu komplen
+[2017-02-10 22:02:29 WIB] triawarman >> hmmm kalau gitu coba greenshirt bantu jelasin
+[2017-02-10 22:02:44 WIB] Syandal_ >> /me* nunggu 23 detik
+[2017-02-10 22:03:32 WIB] Syandal_ >> /me* sub materi kita tentang operator sampe unary operator, dan terakhir Operator precedence (prioritas operator)
+[2017-02-10 22:03:39 WIB] greenshirt >> not
+[2017-02-10 22:04:00 WIB] Syandal_ >> kayaknya sih nggak.. nggak tau juga sih
+[2017-02-10 22:05:57 WIB] Syandal_ >> untuk tipeof contoh latihannya disini >> http://jsbin.com/senapozoxe/edit?html,js,output #belajarjs
+[2017-02-10 22:06:27 WIB] Syandal_ >> untuk void silahkan dicoba sendiri, /me nggak menyediakan contoh kode latihan.. karna susah :v
+[2017-02-10 22:06:32 WIB] Syandal_ >> ada yang mau nambahin gak
+[2017-02-10 22:11:57 WIB] Syandal_ >> sebenernya masih ada pembahasan di halaman MDN tentang operator, tapi karna susah Syandal_ nggak nyampe bikin kode latihannya, maka pembahasannya sampai operator precedence .. #belajarjs
+[2017-02-10 22:12:06 WIB] Syandal_ >> ini catatan terakhir >> http://jsbin.com/lajofuhaje/edit?js,output
+[2017-02-10 22:12:14 WIB] Syandal_ >> ada yang mau didiskusiin ga
+[2017-02-10 22:12:18 WIB] Syandal_ >> /me* tunggu 2 menit
+[2017-02-10 22:12:30 WIB] Syandal_ >> kalo ga ada berarti kegiatan kita bisa ditutup sampe disini
+[2017-02-10 22:12:38 WIB] Syandal_ >> abis itu diskusi bebas
+[2017-02-10 22:12:41 WIB] Syandal_ >> bisa oot lagi :v
+[2017-02-10 22:12:51 WIB] triawarman >> operator precedence = function
+[2017-02-10 22:13:20 WIB] Syandal_ >> kurang tau deh
+[2017-02-10 22:13:29 WIB] triawarman >> itu tadi cuma alert
+[2017-02-10 22:13:52 WIB] Syandal_ >> The precedence of operators determines the order they are applied when evaluating an expression. You can override operator precedence by using parentheses.
+[2017-02-10 22:14:46 WIB] triawarman >> hmm
+[2017-02-10 22:14:52 WIB] Syandal_ >> mungkin pada operator ada order (urutannya) .. nah itu daftar urutan dari tertinggi sampe terendah, untuk membuat urutannya menjadi tinggi .. mungkin operatornya dibuat didalam tanda kurung #cmiiw *bener ga ya*
+[2017-02-10 22:14:54 WIB] triawarman >> https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+[2017-02-10 22:15:01 WIB] Syandal_ >> /me* cek tkp
+[2017-02-10 22:15:29 WIB] triawarman >> study kasus seperti 4+5*2 = 4+(5*2) = 14
+[2017-02-10 22:15:39 WIB] Syandal_ >> hmm
+[2017-02-10 22:15:46 WIB] Syandal_ >> /me* bentar
+[2017-02-10 22:16:22 WIB] triawarman >> ngasi materi cuma ngejar target nih
+[2017-02-10 22:16:55 WIB] triawarman >> /me* sepakat ma greenshirt
+[2017-02-10 22:17:02 WIB] t0ng >> assalamualaikum
+[2017-02-10 22:17:03 WIB] presiden >> t0ng: waalaikumsalam warahmatullahi wabarakatuh
+[2017-02-10 22:17:11 WIB] t0ng >> malam all
+[2017-02-10 22:17:12 WIB] t0ng >> /me* absen malam
+[2017-02-10 22:17:17 WIB] triawarman >> :)
+[2017-02-10 22:18:22 WIB] Syandal_ >> walaikum salam
+[2017-02-10 22:18:28 WIB] Syandal_ >> /me* ga ngejar target sih
+[2017-02-10 22:18:39 WIB] Syandal_ >> /me* soalnya beberapa malam yang kemaren kita sampe larut malem
+[2017-02-10 22:18:43 WIB] triawarman >> ngejar log
+[2017-02-10 22:19:52 WIB] Syandal_ >> :v
+[2017-02-10 22:19:57 WIB] Syandal_ >> coba ini >> http://jsbin.com/sedovizomu/edit?html,js,output
+[2017-02-10 22:20:07 WIB] Syandal_ >> kalo udah ditinggal peserta baru ngejar log
+[2017-02-10 22:20:18 WIB] Syandal_ >> /me* kalo pesertanya masih on nggak 
+[2017-02-10 22:20:36 WIB] triawarman >> precedence
+[2017-02-10 22:20:47 WIB] triawarman >> nah tadi cuma alert doang
+[2017-02-10 22:21:53 WIB] Syandal_ >> liat catatan di bagian kode javascript nya dehe
+[2017-02-10 22:21:55 WIB] Syandal_ >> deh
+[2017-02-10 22:22:37 WIB] Syandal_ >> itu urutan dari operator tertinggi ke terendah
+[2017-02-10 22:22:47 WIB] Syandal_ >> ada yang mau kasih contoh studi kasusnya nggak?
+[2017-02-10 22:24:09 WIB] triawarman >> ga
+[2017-02-10 22:25:20 WIB] Syandal_ >> yang lain ada yang mau kasih contoh studi kasusnya nggak
+[2017-02-10 22:26:33 WIB] triawarman >> /me* pamit duluan
+[2017-02-10 22:26:43 WIB] kalimbu4y >> saya hidup
+[2017-02-10 22:26:44 WIB] kalimbu4y >> saya hidup
+[2017-02-10 22:26:48 WIB] triawarman >> dan terimakasih buat Syandal_ krn uda menyempatkan tuk berbagi ilmu
+[2017-02-10 22:27:02 WIB] triawarman >> ada brp hal baru diketahui tadi (y)
+[2017-02-10 22:27:11 WIB] Syandal_ >> hmm
+[2017-02-10 22:27:15 WIB] Syandal_ >> /me* ga punya ilmu sih
+[2017-02-10 22:27:29 WIB] Syandal_ >> ka kalimbu4y kapan join nya ya
+[2017-02-10 22:28:10 WIB] Syandal_ >> hmm
+[2017-02-10 22:29:26 WIB] Syandal_ >> baiklah pertemuan untuk kali ini kita akhiri sampai disini, Syandal_ mau mengucapkan terimakasih kepada semua peserta yang sudah bisa hadir, dan mohon maaf kalo ada kekurangan, sekian dari Syandal_ wassalamu alaikum wr. wb.
+[2017-02-10 22:29:36 WIB] Syandal_ >> \(^-^)/
+[2017-02-10 22:29:37 WIB] Syandal_ >> !br
+[2017-02-10 22:29:37 WIB] botan >> ==============================
+[2017-02-10 22:29:43 WIB] Syandal_ >> /me* afk dulu
+[2017-02-10 22:29:55 WIB] Syandal_ QUIT :Quit: Lelah abang neng..

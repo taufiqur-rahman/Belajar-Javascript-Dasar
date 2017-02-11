@@ -1,0 +1,27 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+  <p> Hasil 1 >> <span id="satu"></span></p>
+  <p> Hasil 2 >><span id="dua"></span></p>
+  
+  <p><button id="tambah" onclick="testaja()">Om Pencet Om..</button></p>
+
+  </body>
+</html>
+
+
+<script type="text/javascript">
+
+// ini contoh opetator precedence
+function testaja(){
+  document.getElementById("satu").innerHTML = (4+5*2) ; // 
+  document.getElementById("dua").innerHTML = ((4+5)*2) ; // 
+}
+
+</script>

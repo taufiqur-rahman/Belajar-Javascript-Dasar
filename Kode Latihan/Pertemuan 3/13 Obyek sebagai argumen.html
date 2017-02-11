@@ -1,0 +1,37 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ 
+<script type="text/javascript">
+
+function latPemotongan(pemisah) {
+   var hasil = ""; // initialize list
+   var i;
+   // iterate through arguments
+   for (i = 1; i < arguments.length; i++) {
+      hasil += arguments[i] + pemisah;
+   }
+   return hasil;
+}
+
+// returns "red, orange, blue, "
+alert(latPemotongan(", ", "red", "orange", "blue"));
+
+// returns "elephant; giraffe; lion; cheetah; "
+alert(latPemotongan("; ", "elephant", "giraffe", "lion", "cheetah"));
+
+// returns "sage>> basil>> oregano>> pepper>> parsley>> "
+alert(latPemotongan(">> ", "sage", "basil", "oregano", "pepper", "parsley"));    
+              
+
+</script>
+ 
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+
+</body>
+</html>

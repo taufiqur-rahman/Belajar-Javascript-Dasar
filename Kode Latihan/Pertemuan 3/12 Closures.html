@@ -1,0 +1,54 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title> 
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+
+var daftarinHewan = function(nama) {
+  var jender;
+  
+  return {
+    setNama: function(namaBaru) {
+      nama = namaBaru;
+    },
+    
+    ambilNama: function() {
+      return nama;
+    },
+    
+    ambilJender: function() {
+      return jender;
+    },
+    
+    setJender: function(jenderBaru) {
+      if(typeof jenderBaru === "string" && (jenderBaru.toLowerCase() === "cowo" || jenderBaru.toLowerCase() === "cewe")) {
+        jender = jenderBaru;
+      }
+    }
+  }
+}
+
+var hewan1 = daftarinHewan("Bleki"); 
+alert("Namanya >> " + hewan1.ambilNama());                  // Bleki
+
+hewan1.setNama("Sarimin");  // mengakses sebuah fungsi didalam 
+hewan1.setJender("cowo"); // mengakses sebuah fungsi didalam
+
+alert("Abis di set jendernya >> " + hewan1.ambilJender());    // mengakses sebuah fungsi didalam 
+alert("Abis di set namanya >> " + hewan1.ambilNama());    // mengakses sebuah fungsi didalam 
+              
+// pada contoh kode diatas, variabel nama bisa diakses dari dalam fungsi2 lain
+// dan tidak ada cara untuk mengakses variabel didalam fungsi2 lain
+// kecuali dari dalam fungsi itu
+
+</script>

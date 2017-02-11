@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<title>Belajar Bersama Ubuntu-Indonesia ~ Javascript</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3css/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <ul class="w3-navbar w3-white w3-wide w3-padding-8 w3-card-2">
+    <li>
+      <a href="#home" class="w3-margin-left">Belajar Bersama #ubuntu-indonesia</a>
+    </li>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <li class="w3-right w3-hide-small">
+      <a href="#about" class="w3-left">About</a>
+      <a href="#menu" class="w3-left">Menu</a>
+      <a href="#contact" class="w3-left w3-margin-right">Contact</a>
+    </li>
+  </ul>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-xlarge w3-opacity">
+    <h1 class="w3-xxlarge">Le Catering</h1>
+  </div>
+</header>
+
+<!-- SEMUA KODE LATIHAN DISINI-->
+<div class="w3-content" style="max-width:1100px">
+ <div class="w3-row w3-padding-64" id="about">
+
+<h1> Operator Perbandingan </h1>
+<p>benarkah 100 = 100 ? <span id="satu"></span></p>
+<p>benarkah 100 != 50 ? <span id="dua"></span></p>
+<p>benarkah 100 > 50 ? <span id="tiga"></span></p>
+<p>benarkah 100 < 50 ? <span id="empat"></span></p>
+<p>benarkah 100 >= 100 ? <span id="lima"></span></p>
+<p>benarkah 100 <= 100 ? <span id="enam"></span></p>
+
+<p><button class="w3-btn w3-padding w3-section" type="submit" id="tambah" onclick="operatorPerbandingan()">Om Pencet Om..</button></p>
+
+<!-- KODE LATIHAN BERAKHIR DISINI  -->
+ </div>
+</div>
+
+
+<!-- kode javascript disini -->
+
+<script type="text/javascript">
+
+function operatorPerbandingan() {
+
+ document.getElementById("satu").innerHTML = (100==100) ; // operator == akan membadingkan 2 nilai, hasilnya antara true dan false
+ document.getElementById("dua").innerHTML = (100!=50) ; // operator != akan membadingkan 2 nilai, hasilnya antara true dan false
+ document.getElementById("tiga").innerHTML = (100>50) ; // operator > akan membadingkan 2 nilai, hasilnya antara true dan false
+ document.getElementById("empat").innerHTML = (100<50) ; // operator < akan membadingkan 2 nilai, hasilnya antara true dan false
+ document.getElementById("lima").innerHTML = (100>=100) ; // operator >= akan membadingkan 2 nilai, hasilnya antara true dan false
+ document.getElementById("enam").innerHTML = (100<=100) ; // operator <= akan membadingkan 2 nilai, hasilnya antara true dan false
+}
+
+</script>
+
+<!-- kode javascript sampe disini -->
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
