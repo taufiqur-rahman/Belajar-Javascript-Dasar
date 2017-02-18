@@ -1,0 +1,41 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+</body>
+</html>
+
+<script type="text/javascript">
+   a = 5;
+   b = 7;
+
+   c = b / 0;
+   console.log(c);      // Hasil: Infinity (division by zero)
+
+   d = 12 / 0;
+   console.log(d);      // Hasil: Infinity (division by zero)
+
+   e = 1 + Math.pow(10,309);
+   console.log(e);      // Hasil: Infinity (overflow)
+
+   f = -Math.pow(10,309) - 1;
+   console.log(f);      // Hasil: -Infinity (negative infinity)
+
+   g = b + e;
+   console.log(g);      // Hasil: Infinity (karena e dan b infinity)
+
+   h = 0/0;
+   console.log(h);      // Hasil: NaN
+
+   i = Math.sqrt(-25);
+   console.log(i);      // Hasil: NaN (akar kuadrat negatif)
+
+   j = c / d
+   console.log(j);   // Hasil: NaN (c dan d sama-sama bernilai infinity)
+
+
+</script>

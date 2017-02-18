@@ -1,0 +1,22 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+  <p>Hasil tanggal.toString() adalah <strong><span id="satu"></span></strong></p>
+  <p>Nilai tanggal.toUTCString() <strong><span id="dua"></span></strong></p>
+  <p>Nilai tanggal.toDateString() <strong><span id="tiga"></span></strong></p>
+</body>
+</html>
+
+<script type="text/javascript">
+var tanggal = new Date();
+
+  document.getElementById("satu").innerHTML = tanggal.toString() ; //
+  document.getElementById("dua").innerHTML = tanggal.toUTCString() ; //
+  document.getElementById("tiga").innerHTML = tanggal.toDateString() ; //
+
+</script>

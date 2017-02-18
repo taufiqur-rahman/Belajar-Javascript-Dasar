@@ -1,0 +1,371 @@
+Bismillahirrahmanirrahim
+
+// /////////////////////////////////////////////////////////////////////////////////
+//     __  __ _             __            __        __                            //
+//    / / / / /_ __ __ __  / /___ __ ___ / /__  ___/ /___ ___  ___  ___ __ ___    //
+//   / /_/ / _  | // / _ `/ __/ // //__// / _ `/ __ / _  | _ `/ -_)(_-</ /'_  )   //
+//  |____ /____/____/_//_/___/,___/    /_/_//_/|___/\___/_//_/|__/____/_/\_,_/    //
+//                                                                                // 
+// /////////////////////////////////////////////////////////////////////////////////
+
+
+Belajar Bersama Komunitas Kanal #ubuntu-indonesia
+
+INFO
+server : irc.freenode.net  
+port   : 6667
+kanal  : #ubuntu-indonesia
+
+http://webchat.freenode.net/?channels=ubuntu-indonesia
+
+// ///////////////////////////////////////////////////////////////////////////////////////////
+
+             L O G    P E R T E M U A N   5
+
+// ///////////////////////////////////////////////////////////////////////////////////////////
+
+---------------------------
+Catatan : 
+1. Pesertanya cuman 2
+---------------------------
+
+
+
+[2017-02-16 19:49:53 WIB] Syandal_ JOIN #ubuntu-indonesia
+[2017-02-16 19:50:05 WIB] Syandal_ <bilang> assalamu alaikum
+[2017-02-16 19:50:06 WIB] presiden <bilang> Syandal_: waalaikumsalam warahmatullahi wabarakatuh
+[2017-02-16 19:50:13 WIB] Syandal_ <bilang> hmm
+[2017-02-16 19:51:49 WIB] Syandal_ <bilang> kode latihan untuk malem ini banyak lagi :(
+[2017-02-16 19:56:30 WIB] newbie90 JOIN #ubuntu-indonesia
+[2017-02-16 19:57:00 WIB] Syandal_ <bilang> nungguin pak triawarman dulu sebentar
+[2017-02-16 19:57:10 WIB] Syandal_ <bilang> kita terakhir sudah membahas operator
+[2017-02-16 19:57:15 WIB] Syandal_ <bilang> hari ini kita membahas angka
+[2017-02-16 19:57:26 WIB] Syandal_ <bilang> tipe date number kayaknya
+[2017-02-16 19:57:54 WIB] Syandal_ <bilang> /me* seperti biasa .. sebelum mulai kegiatan, kita akan pooling memilih moderator dulu..
+[2017-02-16 20:01:21 WIB] triawarman <bilang> /me* sama greenshirt seperti biasa, sepakat Syandal_ jadi moderator
+[2017-02-16 20:01:29 WIB] Syandal_ <bilang> :3
+[2017-02-16 20:01:33 WIB] Syandal_ <bilang> tuh kan kena lagi
+[2017-02-16 20:01:39 WIB] Syandal_ <bilang> cek password dulu deh
+[2017-02-16 20:05:34 WIB] Syandal_ <bilang> gimana kalo sambil nunggu yang lain .. kita langsung mulai aja..
+[2017-02-16 20:06:21 WIB] ChanServ! MODE #ubuntu-indonesia +o Syandal_
+[2017-02-16 20:06:44 WIB] Syandal_ <bilang> hmm..
+[2017-02-16 20:07:20 WIB] Syandal_ <bilang> baiklah untuk mempersingkat waktu kita mulai aja kali yaa.. soalnya peserta lain biasanya kek gitu.. suka muncul belakangan.. biar nggak disuruh jadi moderator..
+[2017-02-16 20:07:24 WIB] Syandal_ <bilang> !br
+[2017-02-16 20:07:25 WIB] botan <bilang> ==============================
+[2017-02-16 20:08:17 WIB] Syandal_ <bilang> assalamu alaikum wr. wb.. Saya mengucapkan terimakasih sebesar2 nya kepada semua peserta yang tidak bisa dimention satupersatu yang telah hadir dalam kegiatan kita.. yaitu belajarbersama javascript .. #belajarjs
+[2017-02-16 20:09:16 WIB] Syandal_ <bilang> malam ini kita akan melaksanakan kegiatan diskusi untuk pertemuan 5 .. yaitu membahas tentang tipe data angka (number data type) dan obyek tanggal (date object) #infobelajarjs
+[2017-02-16 20:09:38 WIB] Syandal_ <bilang> adapun yang akan kita pelajari adalah >> 1) deklarasi angka desimal 2) biner 3) oktal 4) heksadesimal 5) eksponen 6) pengertian NaN dan Infinity 7) konstanta obyek angka 8) method angka 9) konstanta obyek math 10) method obyek math 11) obyek tanggal/date 12) method tanggal #belajarjs
+[2017-02-16 20:09:41 WIB] Syandal_ <bilang> !br
+[2017-02-16 20:09:41 WIB] botan <bilang> ==============================
+[2017-02-16 20:10:03 WIB] Syandal_ <bilang> baiklah untuk mempersingkat waktu kita langsung saja ke pembahasa pertama
+[2017-02-16 20:10:17 WIB] Syandal_ <bilang> 1) deklarasi angka desimal #belajarjs
+[2017-02-16 20:10:26 WIB] triawarman <bilang> (y)
+[2017-02-16 20:11:01 WIB] Syandal_ <bilang> Dalam JavaScript, semua nomor diimplementasikan dalam presisi ganda 64-bit format biner IEEE 754 (yaitu angka antara - (2 53 -1) dan 2 53 -1). Tidak ada jenis tertentu untuk bilangan bulat, semua angka di javascript disimpan sebagai angka floating point (1) #belajarjs
+[2017-02-16 20:11:30 WIB] Syandal_ <bilang> Selain mampu mewakili angka floating-point, jenis nomor memiliki tiga nilai simbolik: + Infinity , - Infinity , dan NaN (bukan angka) (2) #belajarjs)
+[2017-02-16 20:12:34 WIB] Syandal_ <bilang> Pada javascript kita dapat menggunakan empat jenis nomor literal: 1) desimal, 2) biner, 3) oktal, dan 4) heksadesimal.   #belajarjs
+[2017-02-16 20:13:03 WIB] Syandal_ <bilang> Cara Membuat Tipe Data Angka Karena di dalam JavaScript sebuah variabel tidak perlu di deklarasikan akan bertipe apa, maka jika sebuah variabel diberikan nilai angka, maka variabel tersebut telah menjadi variabel dengan tipe angka. #belajarjs
+[2017-02-16 20:13:27 WIB] Syandal_ <bilang> berikut contohnya >> latihan1 >> http://jsbin.com/gabagihapi/edit?html,js,output #belajarjs
+[2017-02-16 20:14:34 WIB] triawarman <bilang> loading
+[2017-02-16 20:14:36 WIB] Syandal_ <bilang> untuk deklarasi angka desimal bisa dilihat juga di file latihan yang di download.. atau disini http://jsbin.com/vovenigage/edit?html,output
+[2017-02-16 20:14:45 WIB] Rizy JOIN #ubuntu-indonesia
+[2017-02-16 20:14:46 WIB] Syandal_ <bilang> kok bisa ya ..
+[2017-02-16 20:14:53 WIB] Syandal_ <bilang> pake operator apaan kalo boleh tau ?
+[2017-02-16 20:15:06 WIB] triawarman <bilang> telkomsel
+[2017-02-16 20:15:13 WIB] triawarman <bilang> >
+[2017-02-16 20:15:31 WIB] triawarman <bilang> /me* mau bertanya saat sesi pertanyaan diperbolehkan
+[2017-02-16 20:15:32 WIB] MugionoBNC <bilang> /me* nyimak saja. :)
+[2017-02-16 20:16:15 WIB] Syandal_ <bilang> ok.. silahkan bertanya dulu
+[2017-02-16 20:16:20 WIB] Syandal_ <bilang> atau disini >> https://jsfiddle.net/wcuvf27o/
+[2017-02-16 20:16:26 WIB] Syandal_ <bilang> /me* disini jsfiddle yang loading
+[2017-02-16 20:17:36 WIB] triawarman <bilang> Syandal_: Dalam JavaScript, semua nomor diimplementasikan dalam presisi ganda 64-bit format biner IEEE 754 (yaitu angka antara - (2 53 -1) dan 2 53 -1). Tidak ada jenis tertentu untuk bilangan bulat, semua angka di javascript disimpan sebagai angka floating point (1) #belajarjs << (yaitu angka antara - (2 53 -1) dan 2 53 -1).
+[2017-02-16 20:17:41 WIB] triawarman <bilang> sepertinya taida perbedaan
+[2017-02-16 20:18:24 WIB] Syandal_ <bilang> /me* bentar
+[2017-02-16 20:19:14 WIB] Syandal_ <bilang> ada tanda minus nya >> (i.e. a number between -(253 -1) and 253 -1).  soalnya pake bantuan translate :v #belajarjs
+[2017-02-16 20:19:31 WIB] Syandal_ <bilang> ^ kok dia nyebutnya taida perbedaan
+[2017-02-16 20:19:57 WIB] Syandal_ <bilang> dan atau disini >> https://jsfiddle.net/dbv47zjy/
+[2017-02-16 20:21:41 WIB] triawarman <bilang> /me* masih gagal paham
+[2017-02-16 20:22:12 WIB] Syandal_ <bilang> maap salah lagi :(
+[2017-02-16 20:22:25 WIB] triawarman <bilang> -(2 53-1) dan 2 53-1 <<< kenapa ada spasi diantara 2 dan 5
+[2017-02-16 20:22:41 WIB] triawarman <bilang> lalu kenapa harus 53-1 ?
+[2017-02-16 20:22:53 WIB] Syandal_ <bilang> bentar..
+[2017-02-16 20:23:01 WIB] Syandal_ <bilang> kalimatnya pake bahasa indonesia gimana ya..
+[2017-02-16 20:23:06 WIB] triawarman <bilang> juga masih ga paham kenapa minus harus diluar kurung
+[2017-02-16 20:23:10 WIB] Syandal_ <bilang> ada yang bisa jelasin nggak .. ?
+[2017-02-16 20:23:12 WIB] triawarman <bilang> paste aja kalimat asli disini
+[2017-02-16 20:23:29 WIB] Syandal_ <bilang> yang sesuai dengan referensinya >> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates
+[2017-02-16 20:23:52 WIB] triawarman <bilang> owh pangkat gitu
+[2017-02-16 20:23:59 WIB] Syandal_ <bilang> iya
+[2017-02-16 20:24:48 WIB] triawarman <bilang> >
+[2017-02-16 20:25:29 WIB] Syandal_ <bilang> kira2 gini>> dalam javascript tipe data angka diimplementasikan dalam bentuk format 64bit biner .. iee 754.. diantara -(2^53-1) sampai dengan 2^53-1) .. *bener nggak yaa* #belajarjs
+[2017-02-16 20:25:31 WIB] Syandal_ <bilang> ok lanjut
+[2017-02-16 20:25:33 WIB] Syandal_ <bilang> !br
+[2017-02-16 20:25:33 WIB] botan <bilang> ==============================
+[2017-02-16 20:25:51 WIB] triawarman <bilang> Syandal_: Selain mampu mewakili angka floating-point, jenis nomor memiliki tiga nilai simbolik: + Infinity , - Infinity , dan NaN (bukan angka) (2) #belajarjs) << dijelaskan tulis + Infinity  (positif infinity), - Infinity (negatif infinity)
+[2017-02-16 20:26:26 WIB] triawarman <bilang> lalu dijelaskan positif infinity dan negatif infinity cakupan nilainya, biar ga meraba
+[2017-02-16 20:26:58 WIB] Syandal_ <bilang> nanti dibahas di latihan berikutnya..
+[2017-02-16 20:27:04 WIB] triawarman <bilang> owh sip
+[2017-02-16 20:28:02 WIB] Syandal_ <bilang> yang perlu diperhatikan dalam deklarasii angka desimal adalah.. boleh didahului angka 0..#belajarjs
+[2017-02-16 20:28:34 WIB] Syandal_ <bilang> tetapi jika angka yang didahului angka 0 adalah 1-7.. dianggap sebagai mendeklarasikan angka oktal.. #belajarjs
+[2017-02-16 20:28:41 WIB] Syandal_ <bilang> ok lanjut
+[2017-02-16 20:28:43 WIB] Syandal_ <bilang> !br
+[2017-02-16 20:28:43 WIB] botan <bilang> ==============================
+[2017-02-16 20:29:05 WIB] Syandal_ <bilang> baiklah untuk mempersingkat waktu marilah kita melanjutkan ke pembahasan berikutnya .. #belajarjs
+[2017-02-16 20:29:18 WIB] Syandal_ <bilang> 2) Deklarasi angka biner
+[2017-02-16 20:31:16 WIB] Syandal_ <bilang> Sintaks bilangan biner didahului nol diikuti oleh huruf kecil "b" atau huruf besar  "B" ( contoh: 0b atau 0B ). Jika digit setelah 0b selain 0 atau 1, akan menampilkan SyntaxError  "Hilang biner digit setelah 0b". #belajarjs
+[2017-02-16 20:34:02 WIB] Syandal_ <bilang> ini contoh latihannya >> http://jsbin.com/docijimiha/edit?html,js,output
+[2017-02-16 20:35:02 WIB] Syandal_ <bilang> coba dijalanin deh..
+[2017-02-16 20:35:08 WIB] Syandal_ <bilang> malah menampilkan angka desimal biasa
+[2017-02-16 20:36:41 WIB] Syandal_ <bilang> loading nggak?
+[2017-02-16 20:36:52 WIB] triawarman <bilang> >
+[2017-02-16 20:37:37 WIB] DjangBlue QUIT :Changing host
+[2017-02-16 20:37:37 WIB] Guest88253 JOIN #ubuntu-indonesia
+[2017-02-16 20:37:37 WIB] Guest88253 QUIT :Changing host
+[2017-02-16 20:37:37 WIB] DjangBlue JOIN #ubuntu-indonesia
+[2017-02-16 20:39:04 WIB] Syandal_ <bilang> ini latihan berikutnya >> https://jsfiddle.net/h04t12tj/
+[2017-02-16 20:39:14 WIB] Syandal_ <bilang> /me* liat peserta dungdat akademi dulu
+[2017-02-16 20:39:19 WIB] DjangBlue NICK :djangblue
+[2017-02-16 20:41:23 WIB] Syandal_ <bilang> hmm
+[2017-02-16 20:41:35 WIB] Syandal_ <bilang> lagunya bikin baper.. 'sengsara dalam cinta' :3
+[2017-02-16 20:41:39 WIB] Syandal_ <bilang> ok lanjut
+[2017-02-16 20:41:41 WIB] Syandal_ <bilang> !br
+[2017-02-16 20:41:41 WIB] botan <bilang> ==============================
+[2017-02-16 20:42:10 WIB] Syandal_ <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-16 20:42:40 WIB] Syandal_ <bilang> 3) Deklarasi angka oktal
+[2017-02-16 20:43:50 WIB] Syandal_ <bilang> bilangan oktal didahului dengan angka 0.. diikuti angka lain diantara 1-7 (alasannya karna bilangan oktal adalah bilangan basis 8, sehingga menggunakan simbol 0-7 saja) #belajarjs
+[2017-02-16 20:44:14 WIB] Syandal_ <bilang> contoh deklarasinya >> var n = 0755; var n = 0755;
+[2017-02-16 20:44:54 WIB] triawarman <bilang> nilai yang dihasilkan oktal sama dengan 0101 ?
+[2017-02-16 20:45:01 WIB] triawarman <bilang> /me* lupa namanya
+[2017-02-16 20:45:39 WIB] Syandal_ <bilang> kalo yang 0101 adalah bilangan biner..
+[2017-02-16 20:45:48 WIB] Syandal_ <bilang> ^ pertanyaannya gimana .. kurang jelas..
+[2017-02-16 20:46:23 WIB] triawarman <bilang> emmm lewat aja
+[2017-02-16 20:48:19 WIB] Syandal_ <bilang> ini contoh latihannya >> http://jsbin.com/yadunogugo/edit?html,js,output
+[2017-02-16 20:49:24 WIB] Syandal_ <bilang> .ingat singkat =  baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-16 20:49:24 WIB] botan <bilang> 'singkat' diingat
+[2017-02-16 20:49:29 WIB] Syandal_ <bilang> !br
+[2017-02-16 20:49:30 WIB] botan <bilang> ==============================
+[2017-02-16 20:49:33 WIB] Syandal_ <bilang> !singkat
+[2017-02-16 20:49:33 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-16 20:49:36 WIB] Syandal_ <bilang> ok
+[2017-02-16 20:49:51 WIB] Syandal_ <bilang> 4) Deklarasi angka heksadesimal
+[2017-02-16 20:51:52 WIB] Syandal_ <bilang> Sintaks nomor heksadesimal diawali angka nol diikuti oleh huruf kecil "x" atau huruf besar Latin "X" ( 0x atau 0X) . Angka berikutnya harus diantara  (0123456789ABCDEF) karna bilangan hexa adalah bilangan basis 16 .. #belajarjs
+[2017-02-16 20:53:35 WIB] Syandal_ <bilang> ini contoh latihannya
+[2017-02-16 20:53:37 WIB] Syandal_ <bilang> http://jsbin.com/wicofabohi/edit?html,js,output
+[2017-02-16 20:55:09 WIB] Syandal_ <bilang> aneh nya.. semua variabel yang kita deklarsiin angka apa aja.. kalo ditampilin pake console log.. atau pake alert.. yang ditampilkan angka desimalnya #belajarjs
+[2017-02-16 20:56:33 WIB] triawarman <bilang> /me* request daripada alet, lebih nyaman dilihat gunakan console
+[2017-02-16 20:57:26 WIB] triawarman <bilang> karena bisa dibandingkan "secara nyaman", antara code dan hasil keluaran, dibanding alert yng menutup code
+[2017-02-16 20:57:50 WIB] Syandal_ <bilang> hmm..
+[2017-02-16 20:57:55 WIB] Syandal_ <bilang> bisa jadi..
+[2017-02-16 20:58:02 WIB] Syandal_ <bilang> perhatikan contoh ini >> http://jsbin.com/guresecehu/edit?html,js,console,output
+[2017-02-16 20:58:23 WIB] triawarman <bilang> itu pintar
+[2017-02-16 20:58:56 WIB] triawarman <bilang> tanya
+[2017-02-16 20:59:30 WIB] Syandal_ <bilang> silahkan..
+[2017-02-16 20:59:31 WIB] triawarman <bilang> logikanya bagaimana bisa dari oktan bernila 0755 menjadi 493
+[2017-02-16 20:59:55 WIB] Syandal_ <bilang> hmm
+[2017-02-16 21:00:05 WIB] triawarman <bilang> kalau biner semisal 111, dia dari 1 2 4, nilanya artinya tujuh
+[2017-02-16 21:01:55 WIB] Syandal_ <bilang> hmm lagi..
+[2017-02-16 21:02:05 WIB] triawarman <bilang> hmm salah bukan 1 2 4, tapi 4 2 1, karena biner dibaca dari kanan kekiri
+[2017-02-16 21:02:16 WIB] Syandal_ <bilang> kalo kita bahas itu agak lama.. coba dipelajari artikel lain.. misalnya disini >> http://www.haniif.com/konversi-bilangan-desimal-biner-oktal-dan-hexadesimal/
+[2017-02-16 21:02:37 WIB] triawarman <bilang> hmmm
+[2017-02-16 21:02:58 WIB] Syandal_ <bilang> itu cuman basis sih.. pada dasarnya saat data itu disimpan.. nilainya tetep sama..
+[2017-02-16 21:04:18 WIB] triawarman <bilang> >
+[2017-02-16 21:04:51 WIB] Syandal_ <bilang> contohnya kalo bilangan binary.. kan hanya menggunakan karakter 0 dan 1.. jadi muternya di angka2 antara 0 dan satu aja.. contoh.. misalnya deret desimal kek gini >> 0 1 2 3 4 5 6 7 8 9 10 11 12 13 dst.. maka di deret biner kek gini 0 1 10 11 100 101 110 111 1000 dst
+[2017-02-16 21:05:05 WIB] Syandal_ <bilang> ^ karna dia cuma pake dua karakter jadinya kek gitu..
+[2017-02-16 21:05:31 WIB] Syandal_ <bilang> !br
+[2017-02-16 21:05:31 WIB] botan <bilang> ==============================
+[2017-02-16 21:05:34 WIB] Syandal_ <bilang> !singkat
+[2017-02-16 21:05:34 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-16 21:09:51 WIB] Syandal_ <bilang> 5) deklarasi eksponen
+[2017-02-16 21:09:56 WIB] Syandal_ <bilang> ini contohnya >> http://jsbin.com/wubuzefeba/edit?html,js,console,output
+[2017-02-16 21:10:06 WIB] Syandal_ <bilang> #gaadapenjelasan
+[2017-02-16 21:13:19 WIB] Syandal_ <bilang> karakter e atau E itu mungkin maksudnya pangkat
+[2017-02-16 21:13:36 WIB] Syandal_ <bilang> eh bukan pangkat deng..
+[2017-02-16 21:13:42 WIB] triawarman <bilang> exponent
+[2017-02-16 21:13:43 WIB] Syandal_ <bilang> perkalian dengan 10
+[2017-02-16 21:13:52 WIB] Syandal_ <bilang> /me* iya itu apaan?
+[2017-02-16 21:13:57 WIB] Syandal_ <bilang> ada yang tau nggak
+[2017-02-16 21:14:07 WIB] Syandal_ <bilang> 1E3 = 1000
+[2017-02-16 21:14:35 WIB] triawarman <bilang> 10*10*10 gitu kaliya
+[2017-02-16 21:14:43 WIB] Syandal_ <bilang> nah bisa jadi..
+[2017-02-16 21:15:07 WIB] Syandal_ <bilang> contoh 2e6 berarti 2000000 ..
+[2017-02-16 21:15:24 WIB] Syandal_ <bilang> nah di javascript mendukung deklarasi menggunakan eksponen
+[2017-02-16 21:18:53 WIB] Syandal_ <bilang> eksponen sepertinya masih disa di mengerti
+[2017-02-16 21:18:57 WIB] Syandal_ <bilang> lanjut apa nggak
+[2017-02-16 21:19:07 WIB] Syandal_ <bilang> atau ada yang mau didiskusiin dulu
+[2017-02-16 21:19:23 WIB] triawarman <bilang> >
+[2017-02-16 21:19:55 WIB] Syandal_ <bilang> kek nya kita berdua doang pesertanya :v
+[2017-02-16 21:19:59 WIB] Syandal_ <bilang> mention jones dulu
+[2017-02-16 21:20:02 WIB] Syandal_ <bilang> !jones
+[2017-02-16 21:20:02 WIB] botan <bilang> 1. triawarman_modif 2. KOD3N 3. ceprius 4. Syandal_ (couple) 5. Mugiono 6. Kaus ijo 7. goww 8. t0ng 9. sayur 10. Petruknisme 11. Conna .. :D
+[2017-02-16 21:20:06 WIB] Syandal_ <bilang> !br
+[2017-02-16 21:20:06 WIB] botan <bilang> ==============================
+[2017-02-16 21:20:10 WIB] Syandal_ <bilang> !singkat
+[2017-02-16 21:20:10 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-16 21:20:23 WIB] Syandal_ <bilang> 6) NaN dan Infinity
+[2017-02-16 21:20:41 WIB] Syandal_ <bilang> JavaScript memiliki 2 hasil operasi matematis yang ‘bukan‘ berupa angka, yakni NaN dan Infinity. #belajarjs
+[2017-02-16 21:20:57 WIB] Syandal_ <bilang> NaN dan Infinity adalah dua hasil perhitungan matematis yang digunakan JavaScript untuk menampung nilai yang bukan angka. #belajarjs
+[2017-02-16 21:21:18 WIB] Syandal_ <bilang> Operasi matematika yang hasilnya ‘tidak terdefinisi’, tidak akan dianggap error di dalam JavaScript. Misalnya operasi pembagian sebuah angka dengan angka 0, atau hasil dari akar kuadrat nilai negatif. Di dalam JavaScript, operasi seperti ini diselesaikan dengan nilai NaN dan Infinity. #belajarjs
+[2017-02-16 21:21:32 WIB] Syandal_ <bilang> Hasil Infinity akan di dapat jika kita melakukan salah satu operasi di bawah ini:
+[2017-02-16 21:21:50 WIB] Syandal_ <bilang> Jika sebuah angka melewati nilai maksimum angka yang bisa ditampung di dalam JavaScript (disebut juga dengan istilah: overflow).
+[2017-02-16 21:22:00 WIB] Syandal_ <bilang> Jika sebuah angka lebih besar dari angka negatif yang bisa ditampung (negative overflow).
+[2017-02-16 21:22:09 WIB] Syandal_ <bilang> Melakukan operasi aritmatika dengan infinity (misal: a=1 + infinity)
+[2017-02-16 21:22:18 WIB] Syandal_ <bilang> Melakukan operasi pembagian dengan nilai 0 (division by zero)
+[2017-02-16 21:22:54 WIB] Syandal_ <bilang> Nilai Infinity di dalam JavaScript dibedakan menjadi 2, yakni infinity positif dan infinity negatif.
+[2017-02-16 21:23:05 WIB] Syandal_ <bilang> Infinity positif di dapat jika angka yang dihasilkan lebih besar dari angka positif yang dapat ditampung. Infinity negatif di dapat jika angka yang dihasilkan lebih negatif dari angka negatif yang dapat ditampung (bukan nilai paling kecil).
+[2017-02-16 21:23:18 WIB] Syandal_ <bilang> Jika angka hasil operasi sangat kecil, atau disebut dengan underflow, JavaScript akan menampilkannya dengan angka 0.
+[2017-02-16 21:23:21 WIB] Syandal_ <bilang> !br
+[2017-02-16 21:23:21 WIB] botan <bilang> ==============================
+[2017-02-16 21:23:36 WIB] Syandal_ <bilang> Nilai NaN (singkatan dari Not a Number) akan di dapat jika melakukan operasi dibawah ini:
+[2017-02-16 21:23:43 WIB] Syandal_ <bilang> Pembagian 0 dengan 0
+[2017-02-16 21:23:50 WIB] Syandal_ <bilang> Pembagian infinity dengan infinity
+[2017-02-16 21:23:56 WIB] Syandal_ <bilang> Akar kuadrat dari nilai negatif
+[2017-02-16 21:24:13 WIB] Syandal_ <bilang> Operasi aritmatika dengan nilai yang bukan angka (dan tidak bisa dikonversi menjadi angka).
+[2017-02-16 21:24:20 WIB] Syandal_ <bilang> !br
+[2017-02-16 21:24:20 WIB] botan <bilang> ==============================
+[2017-02-16 21:24:49 WIB] Syandal_ <bilang> berikut contoh latihannya >> http://jsbin.com/napijulizi/edit?html,js,console,output
+[2017-02-16 21:24:53 WIB] Syandal_ <bilang> !br
+[2017-02-16 21:24:53 WIB] botan <bilang> ==============================
+[2017-02-16 21:25:46 WIB] triawarman <bilang> Math.pow() fungsi apa ya ?
+[2017-02-16 21:26:32 WIB] Syandal_ <bilang> bentar
+[2017-02-16 21:27:07 WIB] triawarman <bilang> pasti google dlu, kemarin cuma copas aj pasti
+[2017-02-16 21:27:20 WIB] greenshirt <bilang>  I'm back ....
+[2017-02-16 21:27:28 WIB] greenshirt <bilang> Wohhh...Rame...
+[2017-02-16 21:28:21 WIB] greenshirt <bilang> Behhh...Ternyata isinya cuma  Syandal_ ma  triawarman sedang 'bermesraan' :-(
+[2017-02-16 21:28:35 WIB] Syandal_ <bilang> hmm
+[2017-02-16 21:28:37 WIB] Syandal_ <bilang> embeer
+[2017-02-16 21:28:52 WIB] Syandal_ <bilang> jangankan kita2.. yang lagi ujian aja bisa googling dulu..
+[2017-02-16 21:28:56 WIB] Syandal_ <bilang> /me* nyerah dulu..
+[2017-02-16 21:29:08 WIB] Syandal_ <bilang> ada yang tau nggak Math.pow() apaan
+[2017-02-16 21:29:55 WIB] greenshirt <bilang> /me* sebaiknya menjauh dulu, takut gangguin mereka berdua 
+[2017-02-16 21:30:11 WIB] Syandal_ <bilang> :3
+[2017-02-16 21:30:13 WIB] triawarman <bilang> Syandal_: pernah kick oranag ?
+[2017-02-16 21:30:18 WIB] Syandal_ <bilang> nggak
+[2017-02-16 21:30:21 WIB] Syandal_ <bilang> caranya gimana
+[2017-02-16 21:30:25 WIB] Syandal_ <bilang> banned permanen..
+[2017-02-16 21:30:26 WIB] triawarman <bilang> nah itu bisa dicoba
+[2017-02-16 21:30:32 WIB] triawarman <bilang>  /kick greenshirt <<
+[2017-02-16 21:30:33 WIB] Syandal_ <bilang> hmm..
+[2017-02-16 21:30:47 WIB] Syandal_ <bilang> ga berani.. ntar dia masuk lagi .. trus bales..
+[2017-02-16 21:31:01 WIB] Syandal_ <bilang> Math.pow() untuk eksponen.. bener nggak yaa..
+[2017-02-16 21:31:06 WIB] Syandal_ <bilang> ini contohnya >> http://jsbin.com/gowoyivizo/edit?html,js,console,output
+[2017-02-16 21:32:29 WIB] Syandal_ <bilang> kesimpulannya NaN dan Infinity adalah nilai bukan angka..
+[2017-02-16 21:33:10 WIB] Syandal_ <bilang> jika angka terlalu besar, atau terlalu kecil sampai tidak dapat ditampung, atau pembagian dengan nol, biasanya menghasilkan Infinity
+[2017-02-16 21:33:51 WIB] Syandal_ <bilang> Infinity positip adalah angka yang lebih besar dari yang bisa ditampung oleh angka positip
+[2017-02-16 21:34:13 WIB] Syandal_ <bilang> Infinity negatif angka yang sangat kecil yang bisa ditampung oleh angka negatip..
+[2017-02-16 21:35:11 WIB] Syandal_ <bilang> jika pembagian 0 dengan 0 atau pembagian infinity dengan infinity, akar kuadrat negatif, operasi aritmatika yang bukan angka.. akan menghasilkan NaN (not a number)
+[2017-02-16 21:41:22 WIB] Syandal_ <bilang> ini latihan berikutnya >> http://jsbin.com/meqekuzewu/edit?html,js,console,output
+[2017-02-16 21:44:25 WIB] Syandal_ <bilang> lanjut apa nggak
+[2017-02-16 21:44:25 WIB] triawarman <bilang> >
+[2017-02-16 21:44:28 WIB] Syandal_ <bilang> ok
+[2017-02-16 21:44:30 WIB] Syandal_ <bilang> !br
+[2017-02-16 21:44:30 WIB] botan <bilang> ==============================
+[2017-02-16 21:44:33 WIB] Syandal_ <bilang> !singkat
+[2017-02-16 21:44:33 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-16 21:44:53 WIB] Syandal_ <bilang> /me* bentar .. liat peserta dungdat akademi dulu
+[2017-02-16 21:51:23 WIB] greenshirt QUIT :Remote host closed the connection
+[2017-02-16 21:52:37 WIB] Syandal_ <bilang> hmm
+[2017-02-16 21:52:40 WIB] Syandal_ <bilang> /me* back
+[2017-02-16 21:52:43 WIB] Syandal_ <bilang> abis dari warung
+[2017-02-16 21:53:03 WIB] Syandal_ <bilang> 7) konstanta obyek angka
+[2017-02-16 21:53:04 WIB] triawarman <bilang> cepat y
+[2017-02-16 21:53:09 WIB] Syandal_ <bilang> deket
+[2017-02-16 21:53:43 WIB] triawarman <bilang> kenapa ga beli di papua aja ?
+[2017-02-16 21:53:51 WIB] triawarman <bilang> naik kapal
+[2017-02-16 21:55:03 WIB] greenshirt JOIN #ubuntu-indonesia
+[2017-02-16 21:55:03 WIB] greenshirt QUIT :Changing host
+[2017-02-16 21:55:03 WIB] greenshirt JOIN #ubuntu-indonesia
+[2017-02-16 21:55:03 WIB] ChanServ! MODE #ubuntu-indonesia +v greenshirt
+[2017-02-16 21:56:06 WIB] newbie90 QUIT :Remote host closed the connection
+[2017-02-16 21:57:13 WIB] Syandal_ <bilang> :3
+[2017-02-16 21:58:33 WIB] Syandal_ <bilang> pada obyek Number memiliki properti untuk konstanta angka, seperti nilai maksimal, nilai milimal, dst.. kita tidak bisa merubahnya.. tetapi konstanta ini bisa kita gunakan.. misalnya untuk mengisi nilai kedalam variabel.. #belajarjs
+[2017-02-16 21:58:53 WIB] Syandal_ <bilang> berikut contoh latihannya >> http://jsbin.com/cejiqilora/edit?html,js,console,output
+[2017-02-16 22:00:51 WIB] triawarman <bilang> bisa buat const sendiri ?
+[2017-02-16 22:01:30 WIB] Syandal_ <bilang> hmm..
+[2017-02-16 22:01:41 WIB] Syandal_ <bilang> /me* coba tanya yang lain deh..
+[2017-02-16 22:02:12 WIB] Syandal_ <bilang> kalo bikin konstanta.. kalo ga salah di pertemuan sebelumnya pake keword 'const' bener nggak yaa..
+[2017-02-16 22:02:39 WIB] Syandal_ <bilang> properti2 konstanta tersebut adalah milik obyek 'Number' bukan milik obyek kita sendiri..
+[2017-02-16 22:03:40 WIB] Syandal_ <bilang> misalnya kita punya obyek kek gini >> var dataku = new Number(123);    nah.. properti2 tadi ga bisa di pake untuk obyek dataku..
+[2017-02-16 22:05:25 WIB] summonagus JOIN #ubuntu-indonesia
+[2017-02-16 22:05:40 WIB] Syandal_ <bilang> hmm.. sepertinya itu hanya kosntanta.. untuk membantu kita..
+[2017-02-16 22:05:49 WIB] summonagus <bilang> assalamu'alaikum...
+[2017-02-16 22:05:49 WIB] triawarman <bilang> >
+[2017-02-16 22:06:10 WIB] Syandal_ <bilang> waalaikum salam
+[2017-02-16 22:06:13 WIB] Syandal_ <bilang> !br
+[2017-02-16 22:06:13 WIB] botan <bilang> ==============================
+[2017-02-16 22:06:16 WIB] Syandal_ <bilang> !singkat
+[2017-02-16 22:06:17 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-16 22:08:36 WIB] Bayangan JOIN #ubuntu-indonesia
+[2017-02-16 22:08:45 WIB] Syandal_ <bilang> 8) method2 dari obyek number
+[2017-02-16 22:08:52 WIB] Syandal_ <bilang> eh ada pak summonagus .. pak Bayangan
+[2017-02-16 22:12:23 WIB] Syandal_ <bilang> ini contoh latihan untuk method2 obyek 'Number'
+[2017-02-16 22:12:24 WIB] Syandal_ <bilang> http://jsbin.com/qarezivema/edit?html,js,console,output
+[2017-02-16 22:16:08 WIB] triawarman <bilang> /me* ijin rehat dluan
+[2017-02-16 22:16:28 WIB] triawarman <bilang> trimakasih ilmunya.
+[2017-02-16 22:16:36 WIB] Syandal_ <bilang> hmm
+[2017-02-16 22:16:38 WIB] Syandal_ <bilang> ok
+[2017-02-16 22:16:47 WIB] Syandal_ <bilang> /me* kalo ga ada temen suka ngejar log
+[2017-02-16 22:16:56 WIB] Syandal_ <bilang> /me* yang masih online mana suaranya
+[2017-02-16 22:17:55 WIB] Syandal_ <bilang> hmm
+[2017-02-16 22:17:59 WIB] Syandal_ <bilang> /me* ngejar log ah
+[2017-02-16 22:18:07 WIB] Syandal_ <bilang> biar cepet :v
+[2017-02-16 22:18:10 WIB] Syandal_ <bilang> !br
+[2017-02-16 22:18:10 WIB] botan <bilang> ==============================
+[2017-02-16 22:18:49 WIB] Syandal_ <bilang> pada materi 7) dan 8) kita bahas tentang obyek 'Number' berikutnya kita akan bahas tentang obyek 'Math' #belajarjs
+[2017-02-16 22:18:51 WIB] Syandal_ <bilang> !br
+[2017-02-16 22:18:51 WIB] botan <bilang> ==============================
+[2017-02-16 22:19:34 WIB] Syandal_ <bilang> 9) Properti2 Konstanta obyek math
+[2017-02-16 22:20:15 WIB] Syandal_ <bilang> pada obyek 'Math' memiliki properti konstanta, dan method untuk perhitungan matematika..
+[2017-02-16 22:21:45 WIB] Syandal_ <bilang> untuk properti konstanta obyek 'Math' contoh latihannya bisa dilihat disini >> http://jsbin.com/sayabofuqa/edit?html,js,console,output
+[2017-02-16 22:24:51 WIB] Syandal_ <bilang> botan opah ChanServ ada pertanyaan gak?
+[2017-02-16 22:24:55 WIB] Syandal_ <bilang> !br
+[2017-02-16 22:24:55 WIB] botan <bilang> ==============================
+[2017-02-16 22:24:58 WIB] Syandal_ <bilang> !singkat
+[2017-02-16 22:24:58 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-16 22:25:46 WIB] Syandal_ <bilang> 10) Method Obyek Math
+[2017-02-16 22:30:40 WIB] Syandal_ QUIT :Ping timeout: 240 seconds
+[2017-02-16 22:42:57 WIB] _greenshirt_ JOIN #ubuntu-indonesia
+[2017-02-16 22:46:22 WIB] greenshirt QUIT :Ping timeout: 256 seconds
+[2017-02-16 22:50:06 WIB] Syandal_ JOIN #ubuntu-indonesia
+[2017-02-16 22:50:10 WIB] Syandal_ <bilang> hmm
+[2017-02-16 22:50:13 WIB] Syandal_ <bilang> modemnya panas
+[2017-02-16 22:50:18 WIB] Syandal_ <bilang> ga nyanggup :v
+[2017-02-16 22:50:30 WIB] Syandal_ <bilang> ok lanjut
+[2017-02-16 22:50:32 WIB] Syandal_ <bilang> !br
+[2017-02-16 22:50:32 WIB] botan <bilang> ==============================
+[2017-02-16 22:50:34 WIB] Syandal_ <bilang> !singkat
+[2017-02-16 22:50:34 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-16 22:51:00 WIB] Syandal_ <bilang> 10) method obyek math
+[2017-02-16 22:57:45 WIB] Syandal_ <bilang> berikut contoh latihannya http://jsbin.com/hepodowixi/edit?html,js,console,output
+[2017-02-16 22:57:55 WIB] Syandal_ <bilang> botan, opah ChanServ ada pertanyaan gak?
+[2017-02-16 22:57:58 WIB] Syandal_ <bilang> ok lanjut
+[2017-02-16 22:58:02 WIB] Syandal_ <bilang> !br
+[2017-02-16 22:58:02 WIB] botan <bilang> ==============================
+[2017-02-16 22:58:04 WIB] Syandal_ <bilang> !singkat
+[2017-02-16 22:58:05 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-16 22:58:23 WIB] Syandal_ <bilang> 11) Obyek Date
+[2017-02-16 22:59:16 WIB] Syandal_ <bilang> pada javascript tidak memiliki tipe data tanggal, tetapi kita bisa menggunakan obyek 'Date' dan semua method nya untuk bekerja pada Date Time.. #belajarjs
+[2017-02-16 22:59:39 WIB] Syandal_ <bilang> sintaks membuat obyek 'Date' >> var dateObjectName = new Date([parameters]);
+[2017-02-16 23:02:45 WIB] Syandal_ <bilang> untuk latihan pembuatan obyek tanggal adalah seperti contoh berikut >> http://jsbin.com/jefadavici/edit?html,js,console,output
+[2017-02-16 23:02:53 WIB] Syandal_ <bilang> botan, opah ChanServ ada pertanyaan gak?
+[2017-02-16 23:02:55 WIB] Syandal_ <bilang> ok lanjut
+[2017-02-16 23:02:56 WIB] Syandal_ <bilang> !br
+[2017-02-16 23:02:57 WIB] botan <bilang> ==============================
+[2017-02-16 23:02:59 WIB] Syandal_ <bilang> !singkat
+[2017-02-16 23:02:59 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-16 23:04:37 WIB] Syandal_ <bilang> 12) Method pada obyek 'Date'
+[2017-02-16 23:05:29 WIB] Syandal_ <bilang> pada contoh berikut kita menggunakan method >> namaobyek.toString()  namaobyek.toUTCString()  dan namaobyek.toDateString() #belajarjs.. >> http://jsbin.com/toqonikaca/edit?html,js,output
+[2017-02-16 23:05:46 WIB] Syandal_ <bilang> botan, opah ChanServ ada pertanyaan gak?
+[2017-02-16 23:05:51 WIB] Syandal_ <bilang> ok lanjut
+[2017-02-16 23:05:52 WIB] Syandal_ <bilang> !br
+[2017-02-16 23:05:52 WIB] botan <bilang> ==============================
+[2017-02-16 23:05:55 WIB] Syandal_ <bilang> !singkat
+[2017-02-16 23:05:55 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-16 23:07:22 WIB] Syandal_ <bilang> ini latihan terakhir untuk obyek 'Date' >> http://jsbin.com/sogecinene/edit?html,js,output
+[2017-02-16 23:07:26 WIB] Syandal_ <bilang> !br
+[2017-02-16 23:07:26 WIB] botan <bilang> ==============================
+[2017-02-16 23:08:18 WIB] Syandal_ <bilang> baiklah, karna botan dan opah ChanServ nggak mau nanya sama sekali, maka kegiatan belajar bersama javascript untuk pertemuan 5 ini, kita akhiri sampai disini .. #belajarjs
+[2017-02-16 23:09:00 WIB] Syandal_ <bilang> /me* mengucapkan banyak terima kasih kepada semua peserta yang sudah hadir maupun silent reader di log kanal, dan mohon maaf sebesar2nya jika ada kekurangan dalam diskusi ini #belajarjs
+[2017-02-16 23:09:07 WIB] Syandal_ <bilang> wassalamu alaikum wr. wb.
+[2017-02-16 23:09:15 WIB] Syandal_ <bilang> /me* langsung afk _/|\_
+[2017-02-16 23:09:17 WIB] Syandal_ <bilang> !br
+[2017-02-16 23:09:17 WIB] botan <bilang> ==============================
+[2017-02-16 23:09:20 WIB] Syandal_ QUIT :Quit: Lelah abang neng..

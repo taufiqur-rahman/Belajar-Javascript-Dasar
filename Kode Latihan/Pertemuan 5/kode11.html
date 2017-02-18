@@ -1,0 +1,37 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+</body>
+</html>
+
+<script type="text/javascript">
+var a = 2 /0;
+console.log(a);
+console.log(typeof a);
+
+var b = 100 / "Apple";
+console.log(b);
+
+var c = 100 / "10"; // hasilnya 10 
+console.log(c); 
+console.log(typeof c);
+console.log(isNaN(b));  // hasilnya true 
+
+var d = NaN;
+var e = 5;
+console.log(d + e);  // NaN
+
+// nomor juga bisa jadi obyek
+
+var f = 123;
+var g = new Number(123);
+
+console.log(typeof f); // typeof x returns number
+console.log(typeof g); // typeof y returns object 
+</script>
