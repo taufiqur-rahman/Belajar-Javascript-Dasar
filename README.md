@@ -74,7 +74,7 @@ Bismillahirrahmanirrahim - بِسْمِ اللَّهِ الرَّحْمَنِ ا
 
 ### Referensi 
 
-Bebas, yang penting sesuai dengan materi yang dibahas per-hari
+Bebas, yang penting sesuai dengan materi yang dibahas per-hari, adapun referensi untuk membuat silabus ini diambil dari [MDN Javascript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 
 ### Waktu
 
