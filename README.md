@@ -121,10 +121,18 @@ Selesai belajar : belum tau
 	* Operator unary
 	* Tingkatan operator
 * Hari 5 
-	* Penggunaan angka
-	* Angka Desimal
-	* Angka Oktal
-	* Angka Heksadesimal
+	* Deklarasi Angka Desimal
+	* Deklarasi Angka Biner
+	* Deklarasi Angka Oktal
+	* Deklarasi Angka Heksadesimal
+	* Penggunaan Angka Eksponen
+	* Pengertian nilai NaN dan Infinity
+	* Konstanta Obyek Angka
+	* Method Angka
+	* Konstanta Obyek Math
+	* Method Obyke Math
+	* Obyek Tanggal (date)
+	* Method Tanggal
 * Hari 6
 	* Semua tentang penggunaan String
 * Hari 7
