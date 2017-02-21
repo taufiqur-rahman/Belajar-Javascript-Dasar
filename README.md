@@ -134,7 +134,12 @@ Selesai belajar : belum tau
 	* Obyek Tanggal (date)
 	* Method Tanggal
 * Hari 6
-	* Semua tentang penggunaan String
+	* Deklarasi String
+	* String Karakter Khusus
+	* String Sebagai Array
+	* Obyek String
+	* String Ekspresi
+	* Format Internasionalisasi Angka
 * Hari 7
 	* Semua tentang array
 * Hari 8 
@@ -146,3 +151,6 @@ Selesai belajar : belum tau
 	* Penanganan Event (event handler)
 * Hari 10
 	* Proyek akhir
+
+### Lisensi
+Semua ilmu pengetahuan hanya milik Allah

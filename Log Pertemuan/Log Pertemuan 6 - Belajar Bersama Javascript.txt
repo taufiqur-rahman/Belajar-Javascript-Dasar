@@ -1,0 +1,516 @@
+Bismillahirrahmanirrahim
+
+// /////////////////////////////////////////////////////////////////////////////////
+//     __  __ _             __            __        __                            //
+//    / / / / /_ __ __ __  / /___ __ ___ / /__  ___/ /___ ___  ___  ___ __ ___    //
+//   / /_/ / _  | // / _ `/ __/ // //__// / _ `/ __ / _  | _ `/ -_)(_-</ /'_  )   //
+//  |____ /____/____/_//_/___/,___/    /_/_//_/|___/\___/_//_/|__/____/_/\_,_/    //
+//                                                                                // 
+// /////////////////////////////////////////////////////////////////////////////////
+
+
+Belajar Bersama Komunitas Kanal #ubuntu-indonesia
+
+INFO
+server : irc.freenode.net  
+port   : 6667
+kanal  : #ubuntu-indonesia
+
+http://webchat.freenode.net/?channels=ubuntu-indonesia
+
+// ///////////////////////////////////////////////////////////////////////////////////////////
+
+             L O G    P E R T E M U A N   5
+
+// ///////////////////////////////////////////////////////////////////////////////////////////
+
+----------------------------------------------------------------------------------------------
+PR :
+1. Format Internasionalisasi Angka untuk negara Indonesia pada JavaScript belum ada.
+----------------------------------------------------------------------------------------------
+
+
+[2017-02-20 19:37:13 WIB] Syandal JOIN #ubuntu-indonesia
+[2017-02-20 19:37:20 WIB] Syandal <bilang> assalamu alaikum
+[2017-02-20 19:37:24 WIB] Syandal <bilang> !salim
+[2017-02-20 19:37:24 WIB] botan <bilang> assalamu alaikum
+[2017-02-20 19:41:37 WIB] ChanServ! MODE #ubuntu-indonesia +o Syandal_
+[2017-02-20 19:41:46 WIB] Syandal <bilang> katanya nggak bisa ikut kegiatan belajar bersama om?
+[2017-02-20 19:43:01 WIB] Syandal <bilang> /me* kalo dikasih voice cuman tau satu perintah doang.. perintah ini >> /kick 
+[2017-02-20 19:45:40 WIB] triawarman <bilang> ga jadi
+[2017-02-20 19:46:03 WIB] Syandal <bilang> ow
+[2017-02-20 19:46:35 WIB] Syandal <bilang> pengumuman dulu
+[2017-02-20 19:46:37 WIB] Syandal <bilang> !br
+[2017-02-20 19:46:37 WIB] botan <bilang> ==============================
+[2017-02-20 19:47:00 WIB] Syandal <bilang> Dear penghuni kanal, sebentar lagi kita akan melaksanakan kegiatan belajar bersama javascript
+[2017-02-20 19:47:20 WIB] Syandal <bilang> materinya pertemuan 6 tentang string
+[2017-02-20 19:47:25 WIB] Syandal <bilang> nggak pake g
+[2017-02-20 19:47:34 WIB] Syandal <bilang> !info-belajarjs6
+[2017-02-20 19:47:34 WIB] botan <bilang> Dear penghuni kanal, berikut adalah materi belajar bareng javascript pertemuan 6 >> https://goo.gl/dbKgrz :)
+[2017-02-20 19:47:45 WIB] triawarman <bilang> string << ada g
+[2017-02-20 19:47:46 WIB] Syandal <bilang> referensinya ini >> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Text_formatting
+[2017-02-20 19:47:48 WIB] Syandal <bilang> !br
+[2017-02-20 19:47:49 WIB] botan <bilang> ==============================
+[2017-02-20 19:48:03 WIB] Syandal <bilang> o iya lupa .. ada g ternyata
+[2017-02-20 19:48:17 WIB] vergil_s QUIT :Ping timeout: 240 seconds
+[2017-02-20 19:49:03 WIB] Syandal <bilang> seperti biasa sebelum memulai kegiatan, ada baiknya kita memilih moderator dulu ..
+[2017-02-20 19:49:15 WIB] Syandal <bilang> asal jangan di depan aja g nya .. #ehh
+[2017-02-20 19:49:48 WIB] suka|baik QUIT :Ping timeout: 260 seconds
+[2017-02-20 19:50:32 WIB] Syandal <bilang> mulainya berapa menit lagi?
+[2017-02-20 19:51:44 WIB] vergil_s JOIN #ubuntu-indonesia
+[2017-02-20 19:55:48 WIB] Syandal <bilang> karna nggak ada yang mau menjadi moderator.. Syandal_ memutuskan jadi moderator sementara
+[2017-02-20 19:55:54 WIB] Syandal <bilang> kita mulai aja keles yaa..
+[2017-02-20 19:58:36 WIB] Syandal <bilang> baiklah kita mulai aja kegiatan belajar bersama javascript kita
+[2017-02-20 19:58:38 WIB] Syandal <bilang> !br
+[2017-02-20 19:58:38 WIB] botan <bilang> ==============================
+[2017-02-20 19:58:45 WIB] Syandal <bilang> Assalamu alaikum wr.wb
+[2017-02-20 19:59:21 WIB] Syandal <bilang> /me* menyampaikan selamat datang kepada para peserta yang telah meluangkan waktu untuk bergabung dalam kegiatan belajar bersama kita #belajarjs
+[2017-02-20 19:59:48 WIB] Syandal <bilang> kegiatan kita ini untuk membahas javascript #belajarjs
+[2017-02-20 20:00:15 WIB] Syandal <bilang> untuk malam ini kita akan melaksanakan pertemuan ke 6 yang membahas tentang String
+[2017-02-20 20:02:38 WIB] Syandal <bilang> sedangkan sub materi yang akan kita bahas adalah >> 1) Deklarasi String 2) String Karakter Khusus 3) String Sebagai Array 4) Obyek String 5) Method String 6) String Ekspresi 7) Format Angka #belajarjs
+[2017-02-20 20:02:42 WIB] Syandal <bilang> !br
+[2017-02-20 20:02:42 WIB] botan <bilang> ==============================
+[2017-02-20 20:02:57 WIB] Syandal <bilang> !singkat
+[2017-02-20 20:02:57 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-20 20:03:07 WIB] Syandal <bilang> 1) Deklarasi String
+[2017-02-20 20:03:11 WIB] Syandal <bilang> !br
+[2017-02-20 20:03:11 WIB] botan <bilang> ==============================
+[2017-02-20 20:03:38 WIB] Syandal <bilang> Pengertian, Tipe data String di dalam JavaScript adalah tipe data yang terdiri dari kumpulan karakter yang berurutan. Atau di dalam penggunaan sehari-hari string adalah tipe data yang menampung nilai text atau kalimat #belajarjs
+[2017-02-20 20:04:08 WIB] Syandal <bilang> Untuk membuat sebuah tipe data string, kita hanya tinggal menambahkan tanda kutip (bahasa inggris: ’quotes’) pada awal dan akhir dari text. JavaScript mendukung penggunaan tanda kutip satu ( ’ ) manupun tanda kutip ganda ( ’’ ). Didalam sumber bahasa inggris sering disebut sebagai single quote dan double quote. #belajarjs
+[2017-02-20 20:04:53 WIB] Syandal <bilang> maap salah.. tanda kutip satu ( '' ) dan kutip ganda ( "" )
+[2017-02-20 20:06:31 WIB] triawarman <bilang> /me* tanya
+[2017-02-20 20:06:35 WIB] Syandal <bilang> Di dalam JavaScript, kedua tanda kutip ini bisa digunakan secara terpisah, maupun secara bersamaan.
+[2017-02-20 20:06:38 WIB] Syandal <bilang> silahkan
+[2017-02-20 20:06:41 WIB] triawarman <bilang> dibuka pertanyaan, per sesi atau bertanya kapanpun ?
+[2017-02-20 20:06:51 WIB] Syandal <bilang> kurang tau deh..
+[2017-02-20 20:06:57 WIB] Syandal <bilang> per sub materi aja keles ya..
+[2017-02-20 20:06:58 WIB] triawarman <bilang> persesi aja ya, biair muda
+[2017-02-20 20:07:05 WIB] triawarman <bilang> s/muda/mudah
+[2017-02-20 20:07:05 WIB] botan <bilang> <triawarman> persesi aja ya, biair mudah
+[2017-02-20 20:07:14 WIB] triawarman <bilang> y
+[2017-02-20 20:07:19 WIB] Syandal <bilang> misalnya sekarang kan lagi bahas tentang deklarasi string.. berarti pertanyaannya seputar itu..
+[2017-02-20 20:07:33 WIB] Syandal <bilang> silahkan
+[2017-02-20 20:07:49 WIB] triawarman <bilang> per submateri saja
+[2017-02-20 20:07:57 WIB] Syandal <bilang> sambil dia ^ bertanya.. ini latihan pertama >> http://jsbin.com/suqaselive/edit?html,js,output #belajarjs
+[2017-02-20 20:08:48 WIB] triawarman <bilang> ada pengaruh ' dan " ?
+[2017-02-20 20:09:15 WIB] Syandal <bilang> hmm..
+[2017-02-20 20:09:29 WIB] m327zcode JOIN #ubuntu-indonesia
+[2017-02-20 20:09:34 WIB] Syandal <bilang> kalo masalah pengaruh sepertinya nggak ada..
+[2017-02-20 20:09:42 WIB] Syandal <bilang> keduanya bisa dipakai untuk string..
+[2017-02-20 20:09:48 WIB] Syandal <bilang> Jika sebuah string diinput dengan menggunakan karakter awal tanda kutip satu, maka juga harus diakhiri dengan tanda kutip satu juga, walaupun di dalam kalimat tersebut terdapat tanda kutip dua, dan begitu juga sebaliknya. #belajarjs
+[2017-02-20 20:10:07 WIB] triawarman <bilang> kalau di PHP teks/karakter apapun didallam ' ' akan langsung di cetak kelayar
+[2017-02-20 20:10:43 WIB] triawarman <bilang> tapi jika didalam " " terdapat sebuah $variable, dia akan cetak variable tersebut
+[2017-02-20 20:10:45 WIB] Syandal <bilang> trus
+[2017-02-20 20:10:53 WIB] Syandal <bilang> hmm..
+[2017-02-20 20:11:02 WIB] Syandal <bilang> /me* bentar ta coba dulu
+[2017-02-20 20:11:32 WIB] triawarman <bilang> contoh: $var = 'syandal'; echo "ini $var";
+[2017-02-20 20:11:33 WIB] triawarman <bilang> akan menghasilkan ini syandal bukan ini $var
+[2017-02-20 20:11:55 WIB] Syandal <bilang> hmm..
+[2017-02-20 20:12:35 WIB] Syandal <bilang> sepertinya di javascript tidak seperti itu.. alasannya di javascript.. penamaan variabel tidak didahului oleh karakter $ atau karakter apapun penanda variabel .. #jawab #belajarjs
+[2017-02-20 20:13:13 WIB] Syandal <bilang> contoh deklarasi variabel di javascript >> var teks = "latihan javascript"
+[2017-02-20 20:13:23 WIB] Syandal <bilang> eh salah
+[2017-02-20 20:13:50 WIB] Syandal <bilang> var teks = 'latihan javascript';
+[2017-02-20 20:14:28 WIB] Syandal <bilang> console.log("kita lagi teks");
+[2017-02-20 20:14:29 WIB] Syandal <bilang> ^ sepertinya tidak ngaruh
+[2017-02-20 20:14:38 WIB] triawarman <bilang> tapi cetak label html perbedaan antara ' dan ", tiada arti. java script mungkin sama
+[2017-02-20 20:14:44 WIB] triawarman <bilang> >
+[2017-02-20 20:16:45 WIB] ahmadadhy JOIN #ubuntu-indonesia
+[2017-02-20 20:18:03 WIB] Syandal <bilang> ok..
+[2017-02-20 20:18:16 WIB] Syandal <bilang> disini sudah ta tambahin catatan >> http://jsbin.com/suqaselive/edit?html,js,output
+[2017-02-20 20:18:35 WIB] Syandal <bilang> ^ dicoba dulu sebentar
+[2017-02-20 20:18:46 WIB] Syandal <bilang> /me* kasih waktu 25 detik sebelum lanjut
+[2017-02-20 20:19:25 WIB] Syandal <bilang> ok lanjut
+[2017-02-20 20:19:27 WIB] Syandal <bilang> !br
+[2017-02-20 20:19:27 WIB] botan <bilang> ==============================
+[2017-02-20 20:19:30 WIB] Syandal <bilang> !singkat
+[2017-02-20 20:19:30 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-20 20:19:49 WIB] Syandal <bilang> 2) String Karakter Khusus
+[2017-02-20 20:19:52 WIB] Syandal <bilang> !br
+[2017-02-20 20:19:53 WIB] botan <bilang> ==============================
+[2017-02-20 20:22:56 WIB] Syandal <bilang> Javascript mendukung karakter khusus unicode .. berikut contoh latihannya >> http://jsbin.com/yecuweraje/edit?html,js,output
+[2017-02-20 20:23:21 WIB] cassadia JOIN #ubuntu-indonesia
+[2017-02-20 20:25:34 WIB] diom JOIN #ubuntu-indonesia
+[2017-02-20 20:28:30 WIB] Syandal <bilang> ini latihan kedua untuk string karakter khusus >> http://jsbin.com/jomanakowo/edit?html,js,output
+[2017-02-20 20:29:26 WIB] triawarman <bilang> var pesan2 = 'Kalimat ini terdiri dari\n 2 baris'; << kenyataanya hanya 1 baris
+[2017-02-20 20:30:42 WIB] diom QUIT :Read error: Connection reset by peer
+[2017-02-20 20:30:44 WIB] triawarman <bilang> entah, mungkin karena html. jika diganti <br/> mungkin hasil berbeda
+[2017-02-20 20:31:07 WIB] diom JOIN #ubuntu-indonesia
+[2017-02-20 20:31:24 WIB] triawarman <bilang> iya berbeda kan, mungkin krn pengaruh innerHTML itu
+[2017-02-20 20:31:30 WIB] Syandal <bilang> itu belum nemu
+[2017-02-20 20:31:42 WIB] Syandal <bilang> pake '\n' sama pake \r sama aja
+[2017-02-20 20:31:49 WIB] Syandal <bilang> bisa jadi
+[2017-02-20 20:31:53 WIB] triawarman <bilang> ' dan " pengaruh ?
+[2017-02-20 20:32:12 WIB] Syandal <bilang> iya ga pengaruh.. coba sendiri deh
+[2017-02-20 20:32:20 WIB] Syandal <bilang> padahal di sini keterangannya gitu >> https://www.w3schools.com/js/js_strings.asp
+[2017-02-20 20:33:07 WIB] diom <bilang> lognya dimana ya?
+[2017-02-20 20:33:26 WIB] diom <bilang> yang latihn dua tidak ada perubahan..
+[2017-02-20 20:33:43 WIB] Syandal <bilang> logubin.gomix.me
+[2017-02-20 20:33:45 WIB] Syandal <bilang> The escape characters above were originally designed to control typewriters, teletypes, and fax machines. They do not make any sense in HTML.
+[2017-02-20 20:33:51 WIB] Syandal <bilang> kita coba pake alert
+[2017-02-20 20:34:00 WIB] triawarman <bilang> innerHTML <<
+[2017-02-20 20:34:29 WIB] Syandal <bilang> hmm
+[2017-02-20 20:34:43 WIB] Syandal <bilang> coba buka ulang deh >> http://jsbin.com/jomanakowo/edit?html,js,output << pas di baris alert.. bisa dua baris
+[2017-02-20 20:35:41 WIB] triawarman <bilang> console.log() pun 2 baris
+[2017-02-20 20:35:52 WIB] Syandal <bilang> ^ nah itu
+[2017-02-20 20:36:17 WIB] Syandal <bilang> kesimpulannya pada javascript.. untuk karakter khusus pada string mendukung 2 jenis.. a) karakter unicode b) escape character
+[2017-02-20 20:36:29 WIB] samingun JOIN #ubuntu-indonesia
+[2017-02-20 20:37:00 WIB] Syandal <bilang> ada yang mau didiskusiin lagi nggak tentang karakter khusus pada string di javascript
+[2017-02-20 20:37:24 WIB] samingun <bilang> Selamat malam
+[2017-02-20 20:37:30 WIB] samingun <bilang> Ijin gabung
+[2017-02-20 20:37:50 WIB] Syandal <bilang> silahkan :)
+[2017-02-20 20:37:54 WIB] Syandal <bilang> !wb @ samingun
+[2017-02-20 20:37:54 WIB] botan <bilang> samingun: Welcome Back! Semoga kerasan di sini :)
+[2017-02-20 20:38:22 WIB] samingun <bilang> botan: terimakasih
+[2017-02-20 20:38:44 WIB] samingun <bilang> baru belajar
+[2017-02-20 20:38:45 WIB] cassadia <bilang> malam gan, ijin gabung dan menyimak,,
+[2017-02-20 20:38:52 WIB] Syandal <bilang> om samingun cassadia ahmadadhy silahkan dibuka file latihan pertemuan 6 deh
+[2017-02-20 20:38:59 WIB] Syandal <bilang> !info-belajarjs6
+[2017-02-20 20:38:59 WIB] botan <bilang> Dear penghuni kanal, berikut adalah materi belajar bareng javascript pertemuan 6 >> https://goo.gl/dbKgrz :)
+[2017-02-20 20:39:07 WIB] Syandal <bilang> ^ download disitu
+[2017-02-20 20:39:25 WIB] Syandal <bilang> pak cassadia salam kenal
+[2017-02-20 20:39:39 WIB] Syandal <bilang> !wb @ cassadia << seperti nama komplek perumahan ya..
+[2017-02-20 20:39:39 WIB] botan <bilang> cassadia: Welcome Back! Semoga kerasan di sini :)
+[2017-02-20 20:40:12 WIB] Syandal <bilang> ada yang mau didiskusiikan dulu nggak tentang karakter khusus..
+[2017-02-20 20:40:33 WIB] Syandal <bilang> berarti untuk baris baru di halaman html.. kita tetep membutuhkan elemen <br />
+[2017-02-20 20:40:42 WIB] Syandal <bilang> /me* *bener nggak yaa*
+[2017-02-20 20:41:03 WIB] triawarman <bilang> krn innerHTML
+[2017-02-20 20:41:13 WIB] samingun <bilang> Lagi bahas apa ya?
+[2017-02-20 20:41:13 WIB] Syandal <bilang> hmm.. iya kayaknya..
+[2017-02-20 20:41:21 WIB] Syandal <bilang> pertemuan 6..
+[2017-02-20 20:41:30 WIB] Syandal <bilang> tentang tipe data string di javascript
+[2017-02-20 20:41:38 WIB] samingun <bilang> 6?
+[2017-02-20 20:41:54 WIB] samingun <bilang> Baru pertama bang :-(
+[2017-02-20 20:43:03 WIB] Syandal <bilang> nanti kalo ketinggalan .. bisa dilihat di file latihan di github aja om..
+[2017-02-20 20:43:07 WIB] Syandal <bilang> !info-belajarjs
+[2017-02-20 20:43:07 WIB] botan <bilang> Dear penghuni kanal .. ini yang kita pelajari di blajar bersama javascript  #ubuntu-indonesia pertemuan pertama >> goo.gl/ZWJ7yK .. adapun referensinya bebas.. tapi /me mengikuti ini >> goo.gl/lxRJj0 .. alasannya kalo kita sudah menguasai materi disitu sudah mencukupi untuk mempelajari librari, fw, dst.. :)
+[2017-02-20 20:43:13 WIB] Syandal <bilang> !infobelajarjs
+[2017-02-20 20:43:13 WIB] botan <bilang> FYI : kita mau mengadakan belajar bersama javascript .. mohon dilihat topik kanal .. semua masukan, saran, tanggapan, dll harap dikirimkan ke bagian komentar pada dokumen ini .. >> git.io/vMjls .. dan semua kode latihan akan di simpan di repo github dialamat ini >> https://goo.gl/TrHqPE .. Happy Lerning :)
+[2017-02-20 20:43:46 WIB] Syandal <bilang> /me* kasih waktu 30 detik
+[2017-02-20 20:46:37 WIB] Syandal <bilang> berikut adalah beberapa escape character >> \'   single quote   \" double quote  \\  backslash
+[2017-02-20 20:48:12 WIB] Syandal <bilang> \b   Backspace,  \r   	Carriage Return,  \f    	Form Feed,   \t    Horizontal Tabulator,   \v  Vertical Tabulator
+[2017-02-20 20:48:53 WIB] Syandal <bilang> kita lanjut atau nggak?
+[2017-02-20 20:50:00 WIB] diom <bilang> lanjut kang
+[2017-02-20 20:51:04 WIB] Syandal <bilang> ok lanjut
+[2017-02-20 20:51:07 WIB] Syandal <bilang> !br
+[2017-02-20 20:51:07 WIB] botan <bilang> ==============================
+[2017-02-20 20:51:10 WIB] Syandal <bilang> !singkat
+[2017-02-20 20:51:10 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-20 20:51:38 WIB] Syandal <bilang> 3) String Sebagai Array
+[2017-02-20 20:51:40 WIB] Syandal <bilang> !br
+[2017-02-20 20:51:40 WIB] botan <bilang> ==============================
+[2017-02-20 20:52:05 WIB] Syandal <bilang> Di dalam JavaScript, string bisa dianggap sebagai array dari karakter, dan kita bisa mengambil nilai sebuah karakter dari String dengan mengaksesnya seperti array #belajarjs
+[2017-02-20 20:52:28 WIB] Syandal <bilang> untuk String sebagai array, bisa dipahami sebagai berikut: sebuah string dimulai dari array dengan index 0 untuk karakter pertama, index 1 untuk karakter kedua, dan seterusnya.
+[2017-02-20 20:52:48 WIB] Syandal <bilang> untuk latihannya ini >> http://jsbin.com/yafudasine/edit?html,js,output
+[2017-02-20 20:53:02 WIB] Syandal <bilang> ^ ada yang mau didiskusiin dari latihan itu nggak?
+[2017-02-20 20:54:34 WIB] Syandal <bilang> ada yang mau ditanyain nggak
+[2017-02-20 20:54:58 WIB] Syandal <bilang> jadi pertama kita mendeklarasikan variabel string.. yang berisi nilai "ubuntu-indonesia"
+[2017-02-20 20:55:36 WIB] Syandal <bilang> nah nilai untuk string[0] = u, string[1] = b, string[2] = u, dst
+[2017-02-20 20:55:52 WIB] diom <bilang> ga muncul 'ubuntu-indonesia'
+[2017-02-20 20:56:05 WIB] Syandal <bilang> sekarang kalo mau menampilkan huruf i n d o .. berarti elemen ke brapa yang dipanggil?
+[2017-02-20 20:56:27 WIB] Syandal <bilang> tombol pencet deeh di klik..
+[2017-02-20 20:56:28 WIB] samingun QUIT :Quit: Bye
+[2017-02-20 20:56:48 WIB] cassadia <bilang> yups, muncul gan,,
+[2017-02-20 20:57:06 WIB] Syandal <bilang> mau ditanyain dulu nggak
+[2017-02-20 20:57:17 WIB] cassadia <bilang> saya endak gan,,
+[2017-02-20 20:57:22 WIB] diom <bilang> eh muncul eng
+[2017-02-20 20:57:27 WIB] Syandal <bilang> ow
+[2017-02-20 20:57:43 WIB] Syandal <bilang> itu untuk menampilkan tiap elemen dari teks string tersebut
+[2017-02-20 20:57:44 WIB] triawarman <bilang> runwith javascript
+[2017-02-20 20:57:50 WIB] Syandal <bilang> ^ nah itu
+[2017-02-20 20:58:25 WIB] diom <bilang> iya udang kang
+[2017-02-20 20:58:30 WIB] triawarman <bilang> kalau lebih mudah centang aj autorun js
+[2017-02-20 20:58:40 WIB] triawarman <bilang> setelah itu klik tombol pencet deh
+[2017-02-20 20:59:01 WIB] triawarman <bilang> jika tidak berhasil, ada bbrp kemungkinan, koneksi, dan terakhr salahkan Syandal_
+[2017-02-20 20:59:36 WIB] diom <bilang> eh udah maksutnya
+[2017-02-20 21:01:57 WIB] Syandal <bilang> /me* :#
+[2017-02-20 21:02:09 WIB] Syandal <bilang> apak hubungannya sama ane
+[2017-02-20 21:02:42 WIB] triawarman <bilang> pemateri <<
+[2017-02-20 21:02:57 WIB] Syandal <bilang> hmm
+[2017-02-20 21:03:03 WIB] Syandal <bilang> ^ dia pemateri
+[2017-02-20 21:03:18 WIB] Syandal <bilang> tapi kan yang bertanggung jawab web js bin nya kalo ga jalan
+[2017-02-20 21:03:26 WIB] Syandal <bilang> perhatikan teks berikut >> JavaScript's String type is used to represent textual data. It is a set of "elements" of 16-bit unsigned integer values. Each element in the String occupies a position in the String. The first element is at index 0, the next at index 1, and so on. The length of a String is the number of elements in it. You can create strings using string literals or string objects
+[2017-02-20 21:03:40 WIB] diom QUIT :Remote host closed the connection
+[2017-02-20 21:03:59 WIB] Syandal <bilang> berarti tiap kita mendeklarasikan sebuah variabel yang berisi sebuah teks.. berati.. datanya disimpan per karakter ya
+[2017-02-20 21:04:04 WIB] diom JOIN #ubuntu-indonesia
+[2017-02-20 21:04:11 WIB] Syandal <bilang> 1 karakter besarnya 16 bit..
+[2017-02-20 21:04:30 WIB] Syandal <bilang> nah kita bisa mengakses tiap karakter dari string tersebut
+[2017-02-20 21:04:40 WIB] Syandal <bilang> dengan perintah namavariabel[nomorindeks]
+[2017-02-20 21:04:45 WIB] Syandal <bilang> /me* *bener nggak yaa*
+[2017-02-20 21:06:17 WIB] cassadia <bilang> yups, bener kang, hehe,,
+[2017-02-20 21:09:07 WIB] Syandal <bilang> lanjut ke pembahasan berikutnya
+[2017-02-20 21:09:22 WIB] Syandal <bilang> atau masih mau di tanyain dulu .. tentang string sebagai array
+[2017-02-20 21:09:28 WIB] cassadia JOIN #ubuntu-indonesia
+[2017-02-20 21:09:44 WIB] Syandal <bilang> /me* tunggu 30 detik
+[2017-02-20 21:10:09 WIB] diom <bilang> string sebagai array unpredic knp ya??
+[2017-02-20 21:10:54 WIB] cassadia QUIT :Ping timeout: 260 seconds
+[2017-02-20 21:11:15 WIB] Syandal <bilang> hmm
+[2017-02-20 21:11:33 WIB] Syandal <bilang> tau dari mana unpredic
+[2017-02-20 21:11:37 WIB] diom QUIT :Read error: Connection reset by peer
+[2017-02-20 21:11:51 WIB] diom JOIN #ubuntu-indonesia
+[2017-02-20 21:11:52 WIB] Syandal <bilang> /me* yang lain ada yang tau nggak kenapa string sebagai array itu unpredic ?
+[2017-02-20 21:12:00 WIB] Syandal <bilang> /me* yang lain ada yang tau nggak kenapa string sebagai array itu unpredic ?
+[2017-02-20 21:13:24 WIB] diom QUIT :Remote host closed the connection
+[2017-02-20 21:13:44 WIB] diom JOIN #ubuntu-indonesia
+[2017-02-20 21:13:58 WIB] Syandal <bilang> om diom bukan unpredic mungkin
+[2017-02-20 21:14:20 WIB] Syandal <bilang> tapi untuk mengakses tiap2 elemennya, menggunakan indeks.. nah indeksnya dimulai dari 0 bukan dari 1
+[2017-02-20 21:14:24 WIB] Syandal <bilang> contoh >>
+[2017-02-20 21:14:31 WIB] Syandal <bilang> var string = "ini sebuah teks";
+[2017-02-20 21:14:51 WIB] Syandal <bilang> console.log(string[2]);
+[2017-02-20 21:15:00 WIB] ahmadadhy QUIT :Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )
+[2017-02-20 21:15:11 WIB] Syandal <bilang> ^ akan menghasilkan huruf 'i' bukan 'n'
+[2017-02-20 21:15:49 WIB] Syandal <bilang> karna string[0] = i, string[1] = n, string[2] = i, dst
+[2017-02-20 21:16:02 WIB] Syandal <bilang> baiklah
+[2017-02-20 21:16:14 WIB] diom <bilang> oalah oke kang..lanjut aja
+[2017-02-20 21:16:14 WIB] Syandal <bilang> ada pertanyaan lagi nggak tentang string sebagai array
+[2017-02-20 21:16:19 WIB] Syandal <bilang> ok lanjut
+[2017-02-20 21:16:27 WIB] Syandal <bilang> !br
+[2017-02-20 21:16:28 WIB] botan <bilang> ==============================
+[2017-02-20 21:16:31 WIB] Syandal <bilang> !singkat
+[2017-02-20 21:16:31 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-20 21:17:03 WIB] Syandal <bilang>  4) Obyek String
+[2017-02-20 21:17:05 WIB] Syandal <bilang> !br
+[2017-02-20 21:17:05 WIB] botan <bilang> ==============================
+[2017-02-20 21:18:06 WIB] Syandal <bilang> obyek string adalah pembungkus dari tipe data string primitif
+[2017-02-20 21:18:23 WIB] Syandal <bilang> berikut contohnya >> http://jsbin.com/nocirunake/edit?html,js,output
+[2017-02-20 21:21:45 WIB] Syandal <bilang> penjelasannya susah :v
+[2017-02-20 21:21:53 WIB] Syandal <bilang> ada yang bisa bantu jelasin nggak?
+[2017-02-20 21:24:57 WIB] Syandal <bilang> penjelasan..
+[2017-02-20 21:25:16 WIB] Syandal <bilang> kita bisa mendeklarasikan string sebagai a) literal string b) obyek string
+[2017-02-20 21:25:34 WIB] Syandal <bilang> pada contoh diawal tadi kita mendeklarasikan sebagai literal string..
+[2017-02-20 21:25:53 WIB] Syandal <bilang> sedangkan pada pembahasan (4) kita mendeklarasikan string sebagai obyek string..
+[2017-02-20 21:26:19 WIB] Syandal <bilang> kedua cara pendeklarasian string tersebut tetap bisa memanggil method2 untuk string
+[2017-02-20 21:26:46 WIB] randalltux JOIN #ubuntu-indonesia
+[2017-02-20 21:27:20 WIB] randalltux <bilang> aralmelintang, colek ah
+[2017-02-20 21:27:38 WIB] randalltux <bilang> colek seventhsky
+[2017-02-20 21:27:42 WIB] aralmelintang <bilang> hus... lagi ada kelas om randalltux
+[2017-02-20 21:27:42 WIB] randalltux <bilang> colek Syandal_
+[2017-02-20 21:27:47 WIB] Syandal <bilang> hmm
+[2017-02-20 21:27:57 WIB] Syandal <bilang> /me* nggak sih.. kita cuman belajar bersama
+[2017-02-20 21:28:09 WIB] aralmelintang <bilang> kelas belajar bersama
+[2017-02-20 21:28:13 WIB] randalltux <bilang> Syandal_, aralmelintang ewh kaget kirain lagi ada yang ngajar :3
+[2017-02-20 21:28:19 WIB] randalltux <bilang> /me* lagi ngopi
+[2017-02-20 21:28:21 WIB] Syandal <bilang> /me* tapi mereka nggak ada yang mau berpartisipasi ngirim chat diskusinya :v
+[2017-02-20 21:28:32 WIB] Syandal <bilang> /me* nggak ada
+[2017-02-20 21:28:37 WIB] Syandal <bilang> kita sama2 belajar
+[2017-02-20 21:28:50 WIB] Syandal <bilang> lanjut
+[2017-02-20 21:28:51 WIB] Syandal <bilang> !br
+[2017-02-20 21:28:51 WIB] botan <bilang> ==============================
+[2017-02-20 21:29:00 WIB] randalltux <bilang> /me* nyimak
+[2017-02-20 21:29:37 WIB] Syandal <bilang> pemanggilan method string pada keadaan literal string.. literal tersebut diubah menjadi obyek string.. kemudian di oprasikan method tersebut.. kemudian obyek string tadi dihapus..
+[2017-02-20 21:30:09 WIB] Syandal <bilang> pada tipe data string, kita harus lebih banyak menggunakan literal string..
+[2017-02-20 21:31:04 WIB] Syandal <bilang> alasannya pada obyek string suka menghasikan kebalikan dari literal string
+[2017-02-20 21:31:09 WIB] Syandal <bilang> ini contohnya >> var s1 = '2 + 2'; // Creates a string literal value
+[2017-02-20 21:31:09 WIB] Syandal <bilang> var s2 = new String('2 + 2'); // Creates a String object
+[2017-02-20 21:31:10 WIB] Syandal <bilang> eval(s1); // Returns the number 4
+[2017-02-20 21:31:10 WIB] Syandal <bilang> eval(s2); // Returns the string "2 + 2"
+[2017-02-20 21:32:04 WIB] Syandal <bilang> s1 << literal, s2, obyek..
+[2017-02-20 21:32:10 WIB] Syandal <bilang> /me* selesai
+[2017-02-20 21:32:22 WIB] Syandal <bilang> ada pertanyaan nggak tentang obyek string?
+[2017-02-20 21:32:48 WIB] Syandal <bilang> eh ada pak aralmelintang pak randalltux *sungkem _/|\_
+[2017-02-20 21:32:52 WIB] Syandal <bilang> lagi sibuk apa pak?
+[2017-02-20 21:33:16 WIB] aralmelintang <bilang> sukem juga om Syandal_
+[2017-02-20 21:33:44 WIB] aralmelintang <bilang> kesibukan masih seperti biasa :-D
+[2017-02-20 21:35:52 WIB] Syandal <bilang> ow
+[2017-02-20 21:36:40 WIB] diom_ JOIN #ubuntu-indonesia
+[2017-02-20 21:37:04 WIB] Syandal <bilang> kita lanjut ke pembahasan berikutnya
+[2017-02-20 21:37:12 WIB] Syandal <bilang> atau masih ada yang mau ditanyain dulu
+[2017-02-20 21:38:03 WIB] diom_ <bilang> lanjut kang
+[2017-02-20 21:38:10 WIB] Syandal <bilang> ok lanjut
+[2017-02-20 21:38:13 WIB] Syandal <bilang> !br
+[2017-02-20 21:38:13 WIB] botan <bilang> ==============================
+[2017-02-20 21:38:46 WIB] Syandal <bilang> baiklah.. untuk mempersingkat waktu kita ke pembahasan ke 5) method string
+[2017-02-20 21:38:50 WIB] Syandal <bilang> !br
+[2017-02-20 21:38:50 WIB] botan <bilang> ==============================
+[2017-02-20 21:38:57 WIB] diom QUIT :Ping timeout: 240 seconds
+[2017-02-20 21:40:33 WIB] Syandal <bilang> Pengertian, Walaupun tipe data string bukan di defenisikan menjadi objek, namun JavaScript ‘memperlakukan’ tipe dasar String ini sebagai Objek String, sehingga memiliki property dan method yang dapat di gunakan. #belajarjs
+[2017-02-20 21:40:54 WIB] Syandal <bilang> Property dan method dari objek String semuanya mengembalikan nilai baru, dan tidak bisa mengubah nilai dalam variabel asal. Variabel asal String tetap bernilai seperti semula. Dalam pemograman sifat ini disebut dengan immutable variable. #belajarjs
+[2017-02-20 21:41:31 WIB] Syandal <bilang> properti string hanya a) string.length #belajarjs
+[2017-02-20 21:41:33 WIB] juliandsz JOIN #ubuntu-indonesia
+[2017-02-20 21:42:34 WIB] juliandsz <bilang> Mau tanya, ini aplikasi chat seperti mirc bukan?
+[2017-02-20 21:44:13 WIB] diom_ QUIT :Remote host closed the connection
+[2017-02-20 21:44:27 WIB] Syandal <bilang> sepertinya iya
+[2017-02-20 21:44:32 WIB] diom_ JOIN #ubuntu-indonesia
+[2017-02-20 21:44:37 WIB] Syandal <bilang> kayak mirc yang jadul itu :v
+[2017-02-20 21:44:49 WIB] Syandal <bilang> /me* kita kan komunitas jadul.. #ehh
+[2017-02-20 21:44:58 WIB] juliandsz <bilang> Untuk gabung ke server lokal/daerah gimana ya
+[2017-02-20 21:45:11 WIB] Syandal <bilang> ini contoh latihan properti dari string >> http://jsbin.com/batehubifu/edit?html,js,output
+[2017-02-20 21:45:29 WIB] Syandal <bilang> ada yang mau ditanyain dari latihan diatas ^ nggak?
+[2017-02-20 21:45:39 WIB] Syandal <bilang> juliandsz, kurang tau deh om?
+[2017-02-20 21:45:45 WIB] Syandal <bilang> juliandsz, asl please?
+[2017-02-20 21:46:27 WIB] juliandsz QUIT :Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )
+[2017-02-20 21:46:51 WIB] Syandal <bilang> waduh
+[2017-02-20 21:46:57 WIB] Syandal <bilang> ^ dia kabur :v
+[2017-02-20 21:48:31 WIB] diom_ <bilang> wah tanggung jawab kang
+[2017-02-20 21:49:44 WIB] Syandal <bilang> /me* *mangap _/|\_ 
+[2017-02-20 21:49:48 WIB] Syandal <bilang> /me* nggak ikut2an
+[2017-02-20 21:50:24 WIB] Syandal <bilang> <juliandsz> Untuk gabung ke server lokal/daerah gimana ya << ane mau bilang kalo komunitas chat kanal irc indonesia udah tumbang kek nya :v
+[2017-02-20 21:50:29 WIB] Syandal <bilang> /me* tinggal kita doang
+[2017-02-20 21:52:17 WIB] cassadia <bilang> masih ada saya kang,,
+[2017-02-20 21:52:38 WIB] diom_ <bilang> besok ramein deh..
+[2017-02-20 21:54:54 WIB] Syandal <bilang> ok..
+[2017-02-20 21:55:12 WIB] Syandal <bilang> !br
+[2017-02-20 21:55:12 WIB] botan <bilang> ==============================
+[2017-02-20 21:55:28 WIB] Syandal <bilang> baiklah selanjutnya tentang method string
+[2017-02-20 21:56:07 WIB] randalltux <bilang> /me* nyekrol dulu
+[2017-02-20 21:58:12 WIB] Syandal <bilang> yang akan kita pelajari adalah >> a) string.charAt()  b) string.charCodeAt()   c) string.concat()   d) string.indexof()   e) string.replace()   >> ini file latihannya >> http://jsbin.com/qesuzezejo/edit?html,js,output
+[2017-02-20 22:02:56 WIB] Syandal <bilang> ^ ada yang mau ditanyain dulu nggak?
+[2017-02-20 22:04:12 WIB] Syandal <bilang> untuk method2 lain bisa dilihat disini >> https://www.w3schools.com/js/js_string_methods.asp
+[2017-02-20 22:04:19 WIB] diom_ <bilang> teks.replace gak muncul.
+[2017-02-20 22:04:36 WIB] m327zcode QUIT :Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[2017-02-20 22:06:04 WIB] cassadia <bilang> indexOf juga tidak muncul kang, tapi klw diperhatikan indexOf ini seperti Length ya ?
+[2017-02-20 22:06:12 WIB] diom_ QUIT :Remote host closed the connection
+[2017-02-20 22:06:38 WIB] diom_ JOIN #ubuntu-indonesia
+[2017-02-20 22:08:59 WIB] Syandal <bilang> hmm
+[2017-02-20 22:09:05 WIB] Syandal <bilang> iya nggak muncul
+[2017-02-20 22:09:26 WIB] Syandal <bilang> indexof untuk mencari posisi indeks dari sebuah string atau kata
+[2017-02-20 22:09:42 WIB] Syandal <bilang> indexOf() untuk mencari posisi indeks dari sebuah string atau kata
+[2017-02-20 22:10:17 WIB] Syandal <bilang> coba liat ini >> http://jsbin.com/hiricarifo/edit?html,js,console,output << buka bagian console log.. trus jalanin ulang.. run with JS
+[2017-02-20 22:10:34 WIB] diom_ <bilang> knp ya ga muncul?
+[2017-02-20 22:12:38 WIB] Syandal <bilang> coba buka ulang lagi.. refresh
+[2017-02-20 22:14:25 WIB] Syandal <bilang> muncul nggak?
+[2017-02-20 22:14:51 WIB] diom_ <bilang> ga muncul kang..
+[2017-02-20 22:14:59 WIB] cassadia <bilang> case sensitive ternyata kang,,
+[2017-02-20 22:15:09 WIB] cassadia <bilang> harus indexOf, bukan indexof,,
+[2017-02-20 22:15:56 WIB] Syandal <bilang> hmm sepertinya iya
+[2017-02-20 22:17:23 WIB] Syandal <bilang> kalo disini bisa dibuka nggak >> https://jsfiddle.net/r0ukLL8y/
+[2017-02-20 22:17:56 WIB] Syandal <bilang> silahkan semua method2 string yang ada di halaman ini >> https://www.w3schools.com/js/js_string_methods.asp dicoba semua dulu.. bisa dicoba di jsbin atau di jsfiddle
+[2017-02-20 22:18:01 WIB] Syandal <bilang> /me* tunggu 5 menit
+[2017-02-20 22:18:07 WIB] Syandal <bilang> ada yang mau ditanyain nggak?
+[2017-02-20 22:19:43 WIB] diom_ <bilang> udah..lnjut aja kang
+[2017-02-20 22:20:29 WIB] diom_ <bilang> ijin left..ada keperluan
+[2017-02-20 22:20:35 WIB] diom_ QUIT :Quit: Leaving
+[2017-02-20 22:20:45 WIB] Syandal <bilang> ok lanjut
+[2017-02-20 22:20:48 WIB] cassadia <bilang> locate = 6, kenapa hasil nya 7 ya kang ??
+[2017-02-20 22:20:54 WIB] Syandal <bilang> ok see you next time
+[2017-02-20 22:21:06 WIB] Syandal <bilang> hmm bentar
+[2017-02-20 22:21:21 WIB] Syandal <bilang> cassadia_, coba copas ke jsbin.. trus kirim linknya kesini
+[2017-02-20 22:21:35 WIB] cassadia <bilang> bentar,,
+[2017-02-20 22:23:03 WIB] cassadia <bilang> eh kang, dari saya ga ada yg berubah sich, itu hasil copas dari akang jga, cuma tadi bisa tampil saya rubah indexof menjadi indexOf,,
+[2017-02-20 22:25:03 WIB] cassadia JOIN #ubuntu-indonesia
+[2017-02-20 22:25:16 WIB] cassadia <bilang> hmmm, suka mental ya,,
+[2017-02-20 22:27:54 WIB] cassadia QUIT :Ping timeout: 260 seconds
+[2017-02-20 22:28:22 WIB] Syandal <bilang> hmm
+[2017-02-20 22:28:30 WIB] Syandal <bilang> bentar
+[2017-02-20 22:28:43 WIB] Syandal <bilang> /me* merenung bentar
+[2017-02-20 22:28:55 WIB] Syandal <bilang> tapi tetep nggak menemukan jawaban :v
+[2017-02-20 22:30:25 WIB] cassadia <bilang> cth buatan akang nih, var teks = 'aqyu lagi belajar tukang php di kanal #ubuntu-indonesia';, jika document.getElementById("enam").innerHTML = teks.indexOf("lagi");
+[2017-02-20 22:30:32 WIB] cassadia <bilang> hasilnya 5, saya juga bingung,,
+[2017-02-20 22:34:32 WIB] Syandal <bilang> sudah saya ubah jadi ini >> http://jsbin.com/kisebusocu/edit?html,js,output
+[2017-02-20 22:34:39 WIB] Syandal <bilang> coba buka dulu deh
+[2017-02-20 22:36:29 WIB] Syandal <bilang> penjelasan >> karna   var teks = 'aqyu lagi belajar tukang php di kanal #ubuntu-indonesia';
+[2017-02-20 22:36:33 WIB] randalltux QUIT :Quit: Leaving
+[2017-02-20 22:36:41 WIB] Syandal <bilang> trus kita melakukan pencarian
+[2017-02-20 22:36:59 WIB] Syandal <bilang> teks.indexOf("lagi")
+[2017-02-20 22:37:21 WIB] Syandal <bilang> hasilnya >> 5
+[2017-02-20 22:37:51 WIB] Syandal <bilang> bener, kita mencari sebuah kata lagi, nah indeks awalnya yang ditampilin yaitu 5
+[2017-02-20 22:38:53 WIB] Syandal <bilang> pada string 'aqyu lagi' << a indeksnya 0, q indeksnya 1, y indeksnya 2, u indeksnya 3, spasi indeksnya 4, dan l indeksnya 5
+[2017-02-20 22:41:00 WIB] cassadia <bilang> ohh berarti maksd 5 itu, kata yg dicari adalah setelah angka 5,,
+[2017-02-20 22:41:09 WIB] Syandal <bilang> cassadia, buka lagi deh >> http://jsbin.com/kisebusocu/edit?html,js,output << ada catatan
+[2017-02-20 22:41:19 WIB] cassadia <bilang> klw barusan saya hitung2 dan saya coba dari punya akang seperti itu,,
+[2017-02-20 22:41:37 WIB] Syandal <bilang> ^ nah itu
+[2017-02-20 22:41:43 WIB] Syandal <bilang> /me* kadang ane suka gayanya dia 
+[2017-02-20 22:41:55 WIB] Syandal <bilang> /me* lanjut atau masih mau ditanyain lagi?
+[2017-02-20 22:42:14 WIB] Syandal <bilang> /me* kasih waktu 25 detik
+[2017-02-20 22:42:15 WIB] cassadia <bilang> oke kang, silahkan dilanjut,,
+[2017-02-20 22:42:20 WIB] Syandal <bilang> ok lanjut
+[2017-02-20 22:42:22 WIB] Syandal <bilang> !br
+[2017-02-20 22:42:22 WIB] botan <bilang> ==============================
+[2017-02-20 22:42:26 WIB] Syandal <bilang> !singkat
+[2017-02-20 22:42:26 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-20 22:42:59 WIB] Syandal <bilang> 6) String Ekspresi
+[2017-02-20 22:43:01 WIB] Syandal <bilang> !br
+[2017-02-20 22:43:01 WIB] botan <bilang> ==============================
+[2017-02-20 22:49:06 WIB] Syandal <bilang> ini contoh latihannya >> http://jsbin.com/fariveroko/edit?html,js,output
+[2017-02-20 22:49:18 WIB] Syandal <bilang> ^ ada yang mau ditanyain nggak?
+[2017-02-20 22:50:21 WIB] cassadia <bilang> diperhatikan dulu kang,,
+[2017-02-20 22:51:03 WIB] Syandal <bilang> hmm..
+[2017-02-20 22:51:30 WIB] Syandal <bilang> intinya kita bisa membuat sebuah variabel berisi nilai string.. dimana string itu didapatkan dari ekspresi matematika..
+[2017-02-20 22:52:11 WIB] Syandal <bilang> contohnya variabel hasil1 dan hasil 2 .. kalo kita kasih perintah >> typeof hasil1  dan typeof hasil2 .. maka tipe datanya adalah string
+[2017-02-20 22:52:24 WIB] Syandal <bilang> padahal nilainya didapat dari ekspresi matimatika
+[2017-02-20 22:53:04 WIB] Syandal <bilang> ekspresi matematikanya ini >> ('Fifteen is ' + (a + b) + ' and\nnot ' + (2 * a + b) + '.')
+[2017-02-20 22:53:22 WIB] Syandal <bilang> data yang disimpan di variabel hasil1 ini >> Fifteen is 15 and not 20.
+[2017-02-20 22:58:26 WIB] cassadia <bilang> berarti typeof disini, untuk mengidentifikasi type data yg ada di dalam variabel tersebut ya kang ??
+[2017-02-20 22:58:50 WIB] Syandal <bilang> iya
+[2017-02-20 22:59:16 WIB] cassadia <bilang> oke sip,,
+[2017-02-20 22:59:17 WIB] Syandal <bilang> ini contoh sederhananya >> http://jsbin.com/zunanewafe/edit?html,js,console,output
+[2017-02-20 23:01:21 WIB] cassadia <bilang> mantap kang,,
+[2017-02-20 23:01:35 WIB] Syandal <bilang> dalam tipe data string.. kita bisa melakukan ekspresi..
+[2017-02-20 23:01:54 WIB] Syandal <bilang> misalnya menggabung beberapa string menjadi satu pake operator +
+[2017-02-20 23:02:19 WIB] Syandal <bilang> atau bisa mengabung string dengan variabel berisi angka
+[2017-02-20 23:02:29 WIB] Syandal <bilang> atau menggabung string melalui ekspresi matematika lain
+[2017-02-20 23:02:37 WIB] Syandal <bilang> lanjut atau nggak?
+[2017-02-20 23:03:37 WIB] cassadia <bilang> lanjut kang,,
+[2017-02-20 23:03:51 WIB] Syandal <bilang> ok lanjut
+[2017-02-20 23:03:53 WIB] Syandal <bilang> !br
+[2017-02-20 23:03:53 WIB] botan <bilang> ==============================
+[2017-02-20 23:03:56 WIB] Syandal <bilang> !singkat
+[2017-02-20 23:03:56 WIB] botan <bilang> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-20 23:04:33 WIB] Syandal <bilang> sekarang pembahasan terakhir 7) Format Angka
+[2017-02-20 23:04:35 WIB] Syandal <bilang> !br
+[2017-02-20 23:04:35 WIB] botan <bilang> ==============================
+[2017-02-20 23:05:02 WIB] Syandal <bilang> ini contoh latihannya >> http://jsbin.com/jopofezaba/edit?html,js,output
+[2017-02-20 23:07:09 WIB] Syandal <bilang> Intl.NumberFormat << adalah obyek yang disediakan oleh javascript untuk format internasionalisasi angka
+[2017-02-20 23:07:32 WIB] Syandal <bilang> kalo obyek date kan seperti ini >> var a = new Date()
+[2017-02-20 23:07:49 WIB] Syandal <bilang> kalo array kan kayak gini >> var b = new Array()
+[2017-02-20 23:07:51 WIB] Syandal <bilang> dst
+[2017-02-20 23:08:01 WIB] Syandal <bilang> nah kalo Intl.NumberFormat sintaksnya >>
+[2017-02-20 23:08:11 WIB] Syandal <bilang> new Intl.NumberFormat([locales[, options]])
+[2017-02-20 23:08:11 WIB] Syandal <bilang> Intl.NumberFormat.call(this[, locales[, options]])
+[2017-02-20 23:08:12 WIB] Syandal <bilang> !br
+[2017-02-20 23:08:12 WIB] botan <bilang> ==============================
+[2017-02-20 23:08:29 WIB] Syandal <bilang> referensinya disini >> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat
+[2017-02-20 23:11:23 WIB] Syandal <bilang> ada yang mau ditanyain nggak?
+[2017-02-20 23:11:37 WIB] Syandal <bilang> /me* intinya javascript menyediakan obyek untuk format angka
+[2017-02-20 23:13:14 WIB] cassadia <bilang> oke gan, tapi ini untuk numberformat ini agak berbeda,,
+[2017-02-20 23:13:40 WIB] cassadia <bilang> tapi dengan new Number() sendiri beda ya gan ??
+[2017-02-20 23:14:17 WIB] Syandal <bilang> iya beda..
+[2017-02-20 23:15:04 WIB] Syandal <bilang> om cassadia liat ini deh https://goo.gl/TrHqPE << liat file latihan untuk pertemuan 5
+[2017-02-20 23:15:07 WIB] cassadia <bilang> oke kang,,
+[2017-02-20 23:18:10 WIB] cassadia JOIN #ubuntu-indonesia
+[2017-02-20 23:19:49 WIB] cassadia QUIT :Ping timeout: 260 seconds
+[2017-02-20 23:21:26 WIB] cassadia <bilang> sepertinya yg rupiah endak keluar ya,,
+[2017-02-20 23:21:37 WIB] Syandal <bilang> ember
+[2017-02-20 23:21:44 WIB] Syandal <bilang> kodenya ga tau apaan
+[2017-02-20 23:22:43 WIB] Syandal <bilang> sepertinya indonesia belum terdaftar di negara2 yang ada di permukaan bumi .. #ehh
+[2017-02-20 23:22:56 WIB] Syandal <bilang> ada pertanyaan nggak?
+[2017-02-20 23:23:06 WIB] Syandal <bilang> kalo nggak kita selesaikan sampai disini..
+[2017-02-20 23:23:07 WIB] cassadia <bilang> haha,,
+[2017-02-20 23:23:27 WIB] cassadia <bilang> oke kang, sepertinya cukup, tinggal practice nya aja,,
+[2017-02-20 23:23:34 WIB] Syandal <bilang> ok sip
+[2017-02-20 23:23:36 WIB] cassadia <bilang> hatur nuhun kang,,
+[2017-02-20 23:23:36 WIB] Syandal <bilang> !br
+[2017-02-20 23:23:36 WIB] botan <bilang> ==============================
+[2017-02-20 23:23:41 WIB] Syandal <bilang> sama2
+[2017-02-20 23:23:53 WIB] Syandal <bilang> untuk waktu dan materi pertemuan berikutnya diumumin menyusul
+[2017-02-20 23:23:56 WIB] Syandal <bilang> !br
+[2017-02-20 23:23:56 WIB] botan <bilang> ==============================
+[2017-02-20 23:24:10 WIB] cassadia <bilang> oke siap kang, ini juga tau dari teman, hehe,,
+[2017-02-20 23:24:22 WIB] Syandal <bilang> temennya siapa yang kasih tau?
+[2017-02-20 23:24:53 WIB] cassadia <bilang> dia salah satu member aktif sich di linux, lupa nama membernya,,
+[2017-02-20 23:25:05 WIB] Syandal <bilang> real name nya siapa ?
+[2017-02-20 23:25:07 WIB] cassadia <bilang> sore tadi, dia baru ngabarin,,
+[2017-02-20 23:25:14 WIB] cassadia <bilang> levy,,
+[2017-02-20 23:25:18 WIB] Syandal <bilang> owh..
+[2017-02-20 23:25:25 WIB] Syandal <bilang> nama panjangnya
+[2017-02-20 23:25:26 WIB] cassadia <bilang> kenal gan ?
+[2017-02-20 23:25:33 WIB] Syandal <bilang> belum kenal sih
+[2017-02-20 23:25:36 WIB] cassadia <bilang> fahlevy,,
+[2017-02-20 23:25:40 WIB] Syandal <bilang> mungkin dia pake nick lain
+[2017-02-20 23:25:41 WIB] Syandal <bilang> ow..
+[2017-02-20 23:25:59 WIB] Syandal <bilang> kirain levitasi
+[2017-02-20 23:26:07 WIB] cassadia <bilang> sepertinya bukan dh,,
+[2017-02-20 23:26:19 WIB] Syandal <bilang> /me* sebagai moderator musiman di kegiatan belajar bersama javascript di kanal irc #ubuntu-indonesia mau menyampaikan.. kegiatan diskusi hari ini untuk pertemuan 6 kita cukupkan sampai disini..
+[2017-02-20 23:26:32 WIB] Syandal <bilang> /me* meminta maaf jika ada kekurangan
+[2017-02-20 23:26:37 WIB] Syandal <bilang> wassalamu alaikum wr. wb.
+[2017-02-20 23:26:38 WIB] Syandal <bilang> !br
+[2017-02-20 23:26:38 WIB] botan <bilang> ==============================
+[2017-02-20 23:26:54 WIB] botan <bilang> roger bos!
+[2017-02-20 23:26:55 WIB] Syandal <bilang> ane pamit dulu
+[2017-02-20 23:27:01 WIB] Syandal <bilang> _/|\_
+[2017-02-20 23:27:03 WIB] cassadia <bilang> thanks all,,
+[2017-02-20 23:27:03 WIB] Syandal QUIT :Quit: Lelah abang neng..
+[2017-02-20 23:27:09 WIB] cassadia <bilang> pamit jga,,
+[2017-02-20 23:27:17 WIB] cassadia PART #ubuntu-indonesia
+
+
+
