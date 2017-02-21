@@ -130,7 +130,7 @@ Selesai belajar : belum tau
 	* Konstanta Obyek Angka
 	* Method Angka
 	* Konstanta Obyek Math
-	* Method Obyke Math
+	* Method Obyek Math
 	* Obyek Tanggal (date)
 	* Method Tanggal
 * Hari 6
