@@ -74,7 +74,7 @@ Bismillahirrahmanirrahim - بِسْمِ اللَّهِ الرَّحْمَنِ ا
 
 ### Referensi 
 
-Bebas, yang penting sesuai dengan materi yang dibahas per-hari, adapun referensi untuk membuat silabus ini diambil dari [MDN Javascript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+Bebas, yang penting sesuai dengan materi yang dibahas per-hari, adapun referensi untuk membuat silabus ini diambil dari [MDN Javascript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) selain itu kita juga punya [Dokumen Lainnya](https://gist.github.com/taufiqur-rahman/4024bd530a8310b197125deecf5dd1eb) yang berguna.
 
 ### Waktu
 
