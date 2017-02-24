@@ -1,0 +1,42 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+  <span id="hasil1"></span>
+  <span id="hasil2"></span>
+  <span id="hasil3"></span>
+
+  
+  <button class="w3-btn w3-padding-16 w3-large w3-margin-top" onclick="deklarasiString()">Pencet Deh..</button>
+
+  </body>
+</html>
+
+
+<script type="text/javascript">
+var nama = "Shily";
+var komunitas = '#ubuntu-indonesia';
+var pesan1 = 'Seseorang yang betah hidup menyendirian"';
+var pesan2 = "Mungkin pernah bersungguh-sungguh menyintai..!";
+var pesan3 = "Hari ini hari Jum'at";
+
+function deklarasiString() {
+document.getElementById("hasil1").innerHTML = pesan1 + " " + pesan2 + " ~" + nama + " " + komunitas + "<br />"  ; //
+document.getElementById("hasil2").innerHTML = pesan3 + "<br />"  ; //
+// tiap string dalam javascript dianggap sebagai array dari kumpulan karakter  
+document.getElementById("hasil3").innerHTML = pesan3[3] + "<br />"  ; //
+
+}
+
+
+// javascript menggunakan 16bit untuk menyimpan 1 karakter string
+// dan setiap variabel string bisa diakses setiap karakternya dengan mengakses
+// indeks arraynya
+// contoh pesan3[3] << akan mengakses indeks ke 4 dari variabel teks3
+// karna indeks array dimulai dari 0, 1 dst
+
+</script>

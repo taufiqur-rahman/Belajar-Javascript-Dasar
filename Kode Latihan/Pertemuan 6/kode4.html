@@ -1,0 +1,41 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+  <p>var string = 'ubuntu-indonesia';</p>
+  <p>Nilai string[0] adalah <strong><span id="satu"></span></strong></p>
+  <p>Nilai string[1] adalah <strong><span id="dua"></span></strong></p>
+  <p>Nilai string[2] adalah <strong><span id="tiga"></span></strong></p>
+  <p>Nilai string[3] adalah <strong><span id="empat"></span></strong></p>
+  <p>Nilai string[4] adalah <strong><span id="lima"></span></strong></p>
+  <p>Nilai string[5] adalah <strong><span id="enam"></span></strong></p>
+    <button class="w3-btn w3-padding-16 w3-large w3-margin-top" onclick="deklarasiString()">Pencet Deh..</button>
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+var string = 'ubuntu-indonesia';
+
+
+function deklarasiString() {
+document.getElementById("satu").innerHTML = string[0]  ; //
+document.getElementById("dua").innerHTML = string[1]  ; //
+document.getElementById("tiga").innerHTML = string[2]  ; //
+document.getElementById("empat").innerHTML = string[3]  ; //
+document.getElementById("lima").innerHTML = string[4]  ; //
+document.getElementById("enam").innerHTML = string[5]  ; //
+
+
+}
+
+// pada contoh ini kita menampilkan elemen dari >> 
+// string[0], string[1], string[2], string[3], string[4], string[5]
+
+
+</script>

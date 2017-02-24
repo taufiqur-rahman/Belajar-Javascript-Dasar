@@ -1,0 +1,47 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p id="array1"></p>
+<p id="array2"></p>
+<p id="array3"></p>
+<p id="array4"></p>
+<p id="array5"></p>
+<p id="array6"></p>
+<p id="array7"></p>
+<p><button type="submit" id="tambah" onclick="deklarasiArray()">Om Pencet Om..</button></p>
+  
+</body>
+</html>
+
+<script type="text/javascript">
+ function deklarasiArray() {
+ var array1 = [];
+ var array2 = ["Honde", "Susuki", "Yamaho"]; 
+ var array3 = [3, 12.5, "Jones", "Lagi", "Belajar", "JS"];
+ 
+ // deklarasi dengan obyek
+ var array4 = new Array();                     // array kosong, 0 elemen
+ var array5 = new Array(1,2,3,4,5);             // array dengan 5 elemen
+ var array6 = new Array("Koden", "Mugi", "Sandal");  
+ 
+ // array dari variabel lain
+ var a = 12;
+ var array7 = [a, a/2, a/3, a+3];
+ 
+ document.getElementById("array1").innerHTML = "Array pertama : " + array1.toString() ; // 
+ document.getElementById("array2").innerHTML = "Array kedua : " + array2.toString() ; // 
+ document.getElementById("array3").innerHTML = "Array ketiga : " + array3.toString() ; // 
+ document.getElementById("array4").innerHTML = "Array keempat : " + array4.toString() ; // 
+ document.getElementById("array5").innerHTML = "Array kelima : " + array5.toString() ; // 
+ document.getElementById("array6").innerHTML = "Array keenam : " + array6.toString() ; // 
+ document.getElementById("array7").innerHTML = "Array ketujuh : " + array7.toString() ; // 
+ 
+}
+
+</script>
+ 

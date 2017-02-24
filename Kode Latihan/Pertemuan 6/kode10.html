@@ -1,0 +1,52 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h3>String Ekspresi</h3>
+  
+  <p><strong>Contoh String Ekspresi</strong></p>
+  <p>var a = 5; </p>
+  <p>var b = 10; </p>
+
+  <p>Contoh Ekspresi string adalah <strong><span id="satu"></span></strong></p>
+  <p>Contoh Ekspresi string adalah <strong><span id="dua"></span></strong></p>
+  
+  <br />
+  <p>tipe data dari variabel hasil1 adalah <strong><span id="tiga"></span></strong></p>
+  <p>tipe data dari variabel hasil2 adalah <strong><span id="empat"></span></strong></p>
+
+  <p class="w3-text-grey">Sisanya coba-coba sendiri .. :p  </p> 
+  
+  <button class="w3-btn w3-padding-16 w3-large w3-margin-top" onclick="deklarasiString()">Pencet Deh..</button>
+  
+</body>
+</html>
+
+
+<script type="text/javascript">
+  var a = 5;
+  var b = 10;
+
+  var hasil1;
+  var hasil2;
+
+  function deklarasiString() {
+  // kita melakukan ekspresi matematika
+  // dan hasilnya disimpan ke variabel hasil1 dan hasil2
+    
+  hasil1 =  ('Fifteen is ' + (a + b) + ' and\nnot ' + (2 * a + b) + '.') ;
+  hasil2 =  ('Fifteen is ${a + b} and\nnot ${2 * a + b}.');
+
+  // kita menampilkan isi dari variabel hasil1 dan hasil2  
+  document.getElementById("satu").innerHTML = hasil1 ; // 
+  document.getElementById("dua").innerHTML = hasil2 ; // 
+    
+ // kita melihat tipe dari variabel hasil1 dan hasil2
+  document.getElementById("tiga").innerHTML = typeof hasil1 ; // 
+  document.getElementById("empat").innerHTML = typeof hasil2 ; // 
+    
+}
+</script>

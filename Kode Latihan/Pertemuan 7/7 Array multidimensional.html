@@ -1,0 +1,72 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ </head>
+ 
+<body>
+<h1>Pembahasan Array</h1>
+<h3> Saya sedang belajar bersama javascript #ubuntu-indonesia </h3>
+
+<p id="array1"></p>
+<p id="array2"></p>
+<p id="array3"></p>
+<p id="array4"></p>
+<p id="array5"></p>
+<p id="array6"></p>
+<p id="array7"></p>
+
+
+<p><button type="submit" id="tambah" onclick="deklarasiArray()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+<script type="text/javascript">
+  function deklarasiArray() {
+
+  // deklarasi arraypertama
+  var arrayPertama = [
+      [1,2,3],
+      ["c","b","a"],
+      [12,13,14],
+      ["x","y"] ];
+  
+ // menampilkan satuan elemen
+  document.getElementById("array1").innerHTML = "Isi elemen arrayPertama[0][1] : " + arrayPertama[0][1].toString() ; // 
+
+ // menampilkan perbaris 
+  document.getElementById("array2").innerHTML = "Isi elemen arrayPertama[1] : " + arrayPertama[1].toString() ; // 
+
+ // menampilkan seluruh array
+  document.getElementById("array3").innerHTML = "Isi elemen arrayPertama : " + arrayPertama.toString() ; // 
+  
+  
+  // deklarasi arrayKedua
+  var arrayKedua = new Array(4);
+    for (i = 0; i < 4; i++) {
+       arrayKedua[i] = new Array(4);
+         for (j = 0; j < 4; j++) {
+            arrayKedua[i][j] = '[' + i + ', ' + j + ']';
+        }
+    } 
+
+
+    
+ // menampilkan satuan elemen
+  document.getElementById("array4").innerHTML = "Isi elemen arrayKedua[0][1] : " + arrayKedua[0][1].toString() ; // 
+
+ // menampilkan perbaris 
+  document.getElementById("array5").innerHTML = "Isi elemen arrayKedua[1] : " + arrayKedua[1].toString() ; // 
+
+ // menampilkan seluruh array
+  document.getElementById("array6").innerHTML = "Isi elemen arrayKedua : " + arrayKedua.toString() ; // 
+  
+
+  document.getElementById("array7").innerHTML = "<br />Sisanya silahkan coba sendiri.. <strong>*mangap _/|\\_ </strong>" ; // 
+
+  
+}
+
+</script>
+ 

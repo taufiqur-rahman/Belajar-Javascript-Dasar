@@ -1,0 +1,45 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+  <h3>Format Angka</h3>
+  
+  <p><strong>Contoh Format Angka</strong></p>
+  <p>var gasPrice = new Intl.NumberFormat('en-US',
+                        { style: 'currency', currency: 'USD',
+                          minimumFractionDigits: 3 });</p>
+
+  <p>Sebelum Format adalah <strong><span id="satu"></span></strong></p>
+  <p>Setelah Format adalah <strong><span id="dua"></span></strong></p>
+  <p>Format Indonesia adalah <strong><span id="dua"></span></strong></p>
+  
+  
+  <br />  
+  <button class="w3-btn w3-padding-16 w3-large w3-margin-top" onclick="deklarasiString()">Pencet Deh..</button>
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+var gasPrice = new Intl.NumberFormat('en-US',
+                        { style: 'currency', currency: 'USD',
+                          minimumFractionDigits: 3 });
+
+
+var hanDecimalRMBInChina = new Intl.NumberFormat('zh-CN-u-nu-hanidec',
+                        { style: 'currency', currency: 'CNY' });
+ 
+var rupiahIndo = new Intl.NumberFormat('id-ID',
+                        { style: 'currency', currency: 'IDR' });
+
+
+  function deklarasiString() {
+  document.getElementById("satu").innerHTML = (gasPrice.format(5.259)) ; //  $5.259
+  document.getElementById("dua").innerHTML = (hanDecimalRMBInChina.format(1314.25)) ; // ï¿¥ ä¸,ä¸ä¸å.äºäº
+  document.getElementById("tiga").innerHTML = (rupiahIndo.format(200000));  
+}
+</script>

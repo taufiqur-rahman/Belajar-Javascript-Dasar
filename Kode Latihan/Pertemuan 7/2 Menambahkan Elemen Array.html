@@ -1,0 +1,42 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ </head>
+ 
+<body>
+<h1>Pembahasan Array</h1>
+<h3> Saya sedang belajar bersama javascript #ubuntu-indonesia </h3>
+
+<p id="array1"></p>
+<p id="array2"></p>
+<p id="array3"></p>
+<p id="array4"></p>
+<p id="array5"></p>
+
+<p><button type="submit" id="tambah" onclick="deklarasiArray()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+<script type="text/javascript">
+ function deklarasiArray() {
+ var member = [];
+ member[0] = "Triawarman";
+ member[1] = "k0d3N";
+ member[2] = "Mugi"; 
+  
+ document.getElementById("array1").innerHTML = "Array indeks pertama : " + member[0].toString() ; // 
+ document.getElementById("array2").innerHTML = "Array indeks kedua : " + member[1].toString() ; // 
+ document.getElementById("array3").innerHTML = "Array indeks ketiga : " + member[2].toString() ; // 
+
+ // menambahkan elemen lain
+ member[3] = 12;
+ member[4] = 21.32;
+
+ document.getElementById("array4").innerHTML = "<br />Menampilkan keseluruhan array : " + member.toString() ; //
+ 
+}
+
+</script>
+ 

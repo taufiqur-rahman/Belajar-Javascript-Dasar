@@ -1,0 +1,124 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p id="array1"></p>
+<p id="array2"></p>
+<p id="array3"></p>
+<p id="array4"></p>
+<p id="array5"></p>
+<p id="array6"></p>
+<p id="array7"></p>
+<p id="array8"></p>
+<p id="array9"></p>
+<p id="array10"></p>
+<p id="array11"></p>
+<p id="array12"></p>
+<p id="array13"></p>
+<p id="array14"></p>
+<p id="array15"></p>
+
+<p><button type="submit" id="tambah" onclick="deklarasiArray()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+<script type="text/javascript">
+  function deklarasiArray() {
+  var buah = ["Nangka", "Salak", "Jambu", "Nangka"];
+  
+  // method concat
+  
+  buah = buah.concat(12, 34, 25);
+  
+ // menampilkan banyaknya elemen buah
+  document.getElementById("array1").innerHTML = "Isi array buah : " + buah.toString() ; // 
+  
+ // deklarasi lagi
+  var nama = ["udin", "ucup", "uus", "unang"];
+ 
+ // method join
+ nama = nama.join(' - ');
+
+ // menampilkan banyaknya elemen nama
+  document.getElementById("array2").innerHTML = "Isi array nama : " + nama.toString() ; // 
+  
+ // deklarasi lagi
+  var angka = [14,15,16];
+ 
+ // method push
+ angka.push(17,18); 
+  
+ // menampilkan banyaknya elemen angka
+  document.getElementById("array3").innerHTML = "Isi array angka : " + angka.toString() ; // 
+  
+  // method pop
+  var terakhir = angka.pop();
+  
+ // menampilkan banyaknya elemen angka dan terakhir
+ document.getElementById("array4").innerHTML = "Isi array terakhir : " + terakhir.toString() ; // 
+ document.getElementById("array5").innerHTML = "Isi array angka : " + angka.toString() ; // 
+  
+ // deklarasi lagi
+ var angka2 = [21,22,23];
+ 
+ // method shift
+ var depan = angka2.shift(); 
+  
+ // menampilkan banyaknya elemen angka
+  document.getElementById("array6").innerHTML = "Isi array depan : " + depan.toString() ; // 
+  document.getElementById("array7").innerHTML = "Isi array angka2 : " + angka2.toString() ; // 
+  
+ // deklarasi lagi
+ var angka3 = [21,22,23];
+ 
+ // method unshift
+ var depan2 = angka3.unshift(1,2,3); 
+  
+ // menampilkan banyaknya elemen angka
+  document.getElementById("array8").innerHTML = "Isi array depan2 : " + depan2.toString() ; // 
+  document.getElementById("array9").innerHTML = "Isi array angka3 : " + angka3.toString() ; // 
+
+ // deklarasi lagi
+ var angka4 = [21,22,23, "a","b","c"];
+ 
+ // method reverse
+ var hasil = angka4.reverse(); 
+  
+ // menampilkan banyaknya elemen angka
+  document.getElementById("array10").innerHTML = "Isi array angka4 : " + angka4.toString() ; // 
+  document.getElementById("array11").innerHTML = "Isi array hasil : " + hasil.toString() ; // 
+
+ // deklarasi lagi
+ var angka5 = [1,4,7,2,8,3,5,6,9];
+ var teks1 = ["mangga", "kedondong", "nangka", "salak", "cermai", "jamblang", "manggis", "duku"];
+ 
+ // method sort
+ angka5.sort();
+ teks1.sort();
+  
+ // menampilkan banyaknya elemen angka
+  document.getElementById("array11").innerHTML = "Isi array angka5 : " + angka5.toString() ; // 
+  document.getElementById("array12").innerHTML = "Isi array teks1 : " + teks1.toString() ; // 
+  
+  // deklarasi lagi
+  var array1 = [1,2,3,4,"a","b","c","d"];
+  
+  // method slice
+  var array2 = array1.splice(3,3);
+  
+ // menampilkan banyaknya elemen array
+  document.getElementById("array13").innerHTML = "Isi array array1 : " + array1.toString() ; // 
+  document.getElementById("array14").innerHTML = "Isi array array2 : " + array2.toString() ; // 
+  
+  document.getElementById("array15").innerHTML = "<br />Sisanya silahkan coba sendiri.. <strong>*mangap _/|\\_ </strong>" ; // 
+  
+}
+
+
+</script>
+ 

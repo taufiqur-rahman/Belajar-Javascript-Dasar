@@ -1,0 +1,34 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+</body>
+</html>
+
+<script type="text/javascript">
+// pada saat index bukan nilai integer, maka
+// akan membuat properti baru dari obyek array
+// liat hasilnya di console.log
+
+// contoh kita buat array
+var arr = [];
+
+// trus kasi nilai bukan integer
+arr[3.4] = 'Oranges';
+
+// trus kita liat jumlah elemen array
+console.log(arr.length);                // 0
+
+// trus kita liat ket propertinya
+console.log(arr.hasOwnProperty(3.4));   // true
+
+// trus kita tampilin elemen arraynya
+console.log(arr[3.4]);
+
+</script>
+ 

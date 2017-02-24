@@ -1,0 +1,64 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ </head>
+ 
+<body>
+<h1>Pembahasan Array</h1>
+<h3> Saya sedang belajar bersama javascript #ubuntu-indonesia </h3>
+
+<p id="array1"></p>
+<p id="array2"></p>
+<p id="array3"></p>
+<p id="array4"></p>
+<p id="array5"></p>
+<p id="array6"></p>
+<p id="array7"></p>
+<p id="array8"></p>
+
+
+<p><button type="submit" id="tambah" onclick="deklarasiArray()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+<script type="text/javascript">
+ function deklarasiArray() {
+ var array1 = [];
+ array1[24] = "Sebuah data"; //
+ 
+ // menampilkan banyaknya elemen array1
+ document.getElementById("array1").innerHTML = "Banyaknya elemen array1 : " + array1.length ; // 
+ 
+ // membuat array2
+ var array2 = ["Nangka", "Salak", "Ga Nyangka", "Ada anak ngapak"];
+ 
+ document.getElementById("array2").innerHTML = "Banyaknya elemen array2 : " + array2.length ; // 
+ 
+ // menambahkan elemen lain
+ 
+ array2[4] = "Jambu";
+ array2[5] = "Kedondong";
+
+  document.getElementById("array3").innerHTML = "Banyaknya elemen array2 : " + array2.length ; // 
+  document.getElementById("array4").innerHTML = "Isi array 2 : " + array2.toString() ; // 
+
+ // memotong length
+ 
+ array2.length = 4;
+ 
+ document.getElementById("array5").innerHTML = "Banyaknya elemen array2 : " + array2.length ; // 
+ document.getElementById("array6").innerHTML = "Isi array 2 : " + array2.toString() ; // 
+
+ // memotong length
+ 
+ array2.length = 0;
+ 
+ document.getElementById("array7").innerHTML = "Banyaknya elemen array2 : " + array2.length ; // 
+ document.getElementById("array8").innerHTML = "Isi array 2 : " + array2.toString() ; // 
+ 
+}
+
+</script>
+ 

@@ -1,0 +1,52 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+  <p><strong>Contoh Method String</strong></p>
+  <p>var komunitas = "ubuntu-indonesia"; </p>
+
+  <p>Hasil komunitas.charAt(0) adalah <strong><span id="satu"></span></strong></p>
+  <p>Hasil komunitas.charAt(1) adalah <strong><span id="dua"></span></strong></p>
+  <p>Hasil komunitas.charCodeAt(3) adalah <strong><span id="tiga"></span></strong></p>
+  <p>Hasil komunitas.charCodeAt(5) adalah <strong><span id="empat"></span></strong></p>
+  <p>Hasil concat adalah <strong><span id="lima"></span></strong></p>
+  <p>Hasil komunitas.indexOf("b") adalah <strong><span id="enam"></span></strong></p>
+  <p>Hasil komunitas.indexOf("ai",3) adalah <strong><span id="tujuh"></span></strong></p>
+  <p>Hasil replace(/tukang php/g, "javascript"); adalah <strong><span id="delapan"></span></strong></p>
+
+<button class="w3-btn w3-padding-16 w3-large w3-margin-top" onclick="deklarasiString()">Pencet Deh..</button>
+  
+</body>
+</html>
+
+
+<script type="text/javascript">
+  var komunitas = 'ubuntu-indonesia'; 
+  var teks = 'aqyu lagi belajar tukang php di kanal #ubuntu-indonesia'; 
+  var hasil;
+  function deklarasiString() {
+  document.getElementById("satu").innerHTML = komunitas.charAt(0)  ; // 
+  document.getElementById("dua").innerHTML = komunitas.charAt(1) ; // 
+  document.getElementById("tiga").innerHTML = komunitas.charCodeAt(3) ; // 
+  document.getElementById("empat").innerHTML = komunitas.charCodeAt(5) ; // 
+  document.getElementById("lima").innerHTML = komunitas.concat(" ~ Komunitas Belajar Javascript") ; // 
+  document.getElementById("enam").innerHTML = komunitas.indexof("b");
+ // document.getElementById("tujuh").innerHTML = komunitas.indexOf("do",3);
+  hasil = teks.replace(/tukang php/g, "javascript");
+  document.getElementById("delapan").innerHTML = hasil;
+  
+}
+
+// method charAt() berfungsi untuk mengambil sebuah karakter dari String.
+// method charCodeAt() berfungsi untuk mengambil nilai Unicode karakter dari String
+// method concat() berfungsi untuk operasi penyambungan String
+// method indexOf() berfungsi untuk mencari karakter atau kata dalam sebuah String. 
+// method replace() berfungsi untuk pencarian string menggunakan regular expression, 
+//    dan mengganti kata yang dicari. Method ini merupakan fungsi find and replace di dalam JavaScript.
+
+// sisanya silahkan dicoba sendiri \(^_^)/
+
+</script>

@@ -1,0 +1,54 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p id="array1"></p>
+<p id="array2"></p>
+<p id="array3"></p>
+<p id="array4"></p>
+<p id="array5"></p>
+<p id="array6"></p>
+
+
+
+<p><button type="submit" id="tambah" onclick="deklarasiArray()">Om Pencet Om..</button></p>
+</body>
+</html>
+
+<script type="text/javascript">
+  function deklarasiArray() {
+  var buah = ["Nangka", "Salak", "Ga Nyangka", "Ada anak ngapak"];
+ 
+  // menampilkan banyaknya elemen buah
+  document.getElementById("array1").innerHTML = "Banyaknya elemen buah : " + buah.length ; // 
+  document.getElementById("array2").innerHTML = "Isi array buah : " + buah.toString() ; // 
+
+  // menambahkan elemen lain
+ 
+  buah[4] = "Jambu";
+  buah[5] = "Kedondong";
+  
+ // menampilkan banyaknya elemen buah
+  document.getElementById("array3").innerHTML = "Banyaknya elemen buah : " + buah.length ; // 
+  document.getElementById("array4").innerHTML = "Isi array buah : " + buah.toString() ; // 
+  
+  // menghapus elemen
+  delete buah[0];
+  delete buah[1];
+  
+ // menampilkan banyaknya elemen buah
+  document.getElementById("array5").innerHTML = "Banyaknya elemen buah : " + buah.length ; // 
+  document.getElementById("array6").innerHTML = "Isi array buah : " + buah.toString() ; // 
+  
+  // delete hanya menghapus isi elemen, tapi tidak berpengaruh dengan banyaknya elemen array
+  // untuk menghapus bisa menggunakan method, push(), pop(), shift() dan unshift()
+  // untuk memotong bisa menggunakan method length yang sudah dibahas di latihan sebelumnya
+  
+}
+
+</script>
+ 

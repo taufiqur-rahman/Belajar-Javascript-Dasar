@@ -141,13 +141,27 @@ Selesai belajar : belum tau
 	* String Ekspresi
 	* Format Internasionalisasi Angka
 * Hari 7
-	* Semua tentang array
+	* Deklarasi Array
+	* Menambahkan elemen Array
+	* Memahami method leght
+	* Menghapus elemen Array
+	* Iterasi Array 
+	* Method Array
+	* Array Multidimensional
 * Hari 8 
-	* Bekerja dengan obyek
+	* Deklarasi Obyek
+	* Cara mengakses properti Obyek
+	* Iterasi properti Obyek
+	* Kondisi Obyek
+	* Konstruktor
+	* Method Create
+	* Method Obyek
+	* Getter dan Setter
+	* Cara menghapus properti Obyek
 * Hari 9 
 	* Bekerja dengan form
 	* Menampilkan nilai form html
-	* Mengambil nilai html
+	* Mengambil nilai form html
 	* Penanganan Event (event handler)
 * Hari 10
 	* Proyek akhir

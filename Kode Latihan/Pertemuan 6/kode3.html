@@ -1,0 +1,37 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+<p id="hasil1"></p>  
+<p id="hasil2"></p>  
+<p id="hasil3"></p>  
+<p id="hasil4"></p>  
+<p id="hasil5"></p>   
+   <button class="w3-btn w3-padding-16 w3-large w3-margin-top" onclick="deklarasiString()">Pencet Deh..</button>
+    
+</body>
+</html>
+
+
+<script type="text/javascript">
+var hari = 'Jum\'at';
+var situs = 'http:\\\\ubuntu-indonesia.com/';
+var pesan1 = "dia berkata:I\"ll be back";
+var pesan2 = "Kalimat ini terdiri dari\n 2 baris";
+var pesan3 = "Saya sedang ngopi di caf\u00e9";
+
+function deklarasiString() {
+  document.getElementById("hasil1").innerHTML = hari  ; //
+  document.getElementById("hasil2").innerHTML = situs  ; //
+  document.getElementById("hasil3").innerHTML = pesan1  ; //
+  document.getElementById("hasil4").innerHTML = pesan2  ; //
+  document.getElementById("hasil5").innerHTML = pesan3  ; //
+ // alert(pesan2);
+}
+
+</script>

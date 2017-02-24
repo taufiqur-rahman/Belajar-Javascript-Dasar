@@ -1,0 +1,36 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p><strong>Contoh Hexadecimal Escapes</strong></p>
+
+  <p>Nilai '\xA9' hasilnya adalah <strong><span id="satu"></span></strong></p>
+  <p>Nilai '\u00A9' hasilnya adalah <strong><span id="dua"></span></strong></p>
+  <p>Nilai '\u{2F804}' hasilnya adalah <strong><span id="tiga"></span></strong></p>
+  <p>Nilai '\uD87E\uDC04' hasilnya adalah <strong><span id="empat"></span></strong></p>
+
+   <button class="w3-btn w3-padding-16 w3-large w3-margin-top" onclick="deklarasiString()">Pencet Deh..</button>
+ 
+  </body>
+</html>
+
+
+<script type="text/javascript">
+var string1 = '\xA9';
+var string2 = '\u00A9';
+var string3 = '\u{2F804}';   // coba komentarnya dihilangin
+var string4 = '\uD87E\uDC04';
+
+function deklarasiString() {
+document.getElementById("satu").innerHTML = string1  ; //
+document.getElementById("dua").innerHTML = string2  ; //
+document.getElementById("tiga").innerHTML = string3  ; //
+document.getElementById("empat").innerHTML = string4  ; //
+
+}
+
+</script>

@@ -1,0 +1,41 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p id="array1"></p>
+<p id="array2"></p>
+
+<p><button type="submit" id="tambah" onclick="deklarasiArray()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+<script type="text/javascript">
+  function deklarasiArray() {
+  var buah = ["Nangka", "Salak", "Ga Nyangka", "Ada anak ngapak"];
+  var data;
+  var hasil;
+
+  // ini iterasi1
+  for (var anu = 0; anu < buah.length; anu++) {
+   data += buah[anu] + " ";
+  }
+ // 
+  document.getElementById("array1").innerHTML = "Isi array buah : " + data.toString() ; // 
+  
+  // ini iterasi 2
+  
+  buah.forEach(function(isinya) {  hasil += "," + isinya ; });
+
+  document.getElementById("array2").innerHTML = "Isi array buah : " + hasil.toString() ; // 
+
+  
+}
+
+
+</script>
+ 
