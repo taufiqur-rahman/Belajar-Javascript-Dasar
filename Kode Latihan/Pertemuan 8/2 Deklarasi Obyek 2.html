@@ -1,0 +1,45 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ </head>
+ 
+<body>
+<h1>Pembahasan Obyek</h1>
+<h3> Saya sedang belajar bersama javascript #ubuntu-indonesia </h3>
+
+<p id="obyek1"></p>
+<p id="obyek2"></p>
+<p id="obyek3"></p>
+
+<p><button type="submit" id="tambah" onclick="tampilkanHasil()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+function tampilkanHasil() {
+// deklarasi obyek kendaraanKu
+var kendaraanKu = new Object();
+
+// memasukan nilai kedalam properti2
+kendaraanKu.merek = 'Ford';
+kendaraanKu.tipe = 'Mustang';
+kendaraanKu.tahun = 1969;
+
+// mengakses properti  namaobyek.properti
+document.getElementById("obyek1").innerHTML = "Kendaraanku " + kendaraanKu.merek + " berjenis " + kendaraanKu.tipe + " buatan " + kendaraanKu.tahun;
+
+// mengakses properti yang belum dibuat
+document.getElementById("obyek2").innerHTML = "Warnanya " + kendaraanKu.warna ;
+
+// cara kedua mengakses properti namaobyek['properti']
+document.getElementById("obyek3").innerHTML = "Kendaraanku " + kendaraanKu['merek'] + " berjenis " + kendaraanKu['tipe'] + " buatan " + kendaraanKu['tahun'];
+
+
+}
+
+</script>
+ 

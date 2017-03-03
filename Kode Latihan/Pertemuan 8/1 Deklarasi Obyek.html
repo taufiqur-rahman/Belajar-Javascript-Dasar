@@ -1,0 +1,46 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ </head>
+ 
+<body>
+<h1>Pembahasan Obyek</h1>
+<h3> Saya sedang belajar bersama javascript #ubuntu-indonesia </h3>
+
+<p id="obyek1"></p>
+<p id="obyek2"></p>
+
+
+<p><button type="submit" id="tambah" onclick="tampilkanHasil()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+function tampilkanHasil() {
+// deklarasi obyek peserta1 << disebut literal obyek peserta1
+var peserta1 = { namaDepan : "Shily", namaBelakang : "Similikity", umur : 19, jender : "cowek" };
+
+//deklarasi obyek peserta2  << disebut literal obyek peserta2
+var peserta2 = {
+    namaDepan : "Ozan",
+    namaBelakang  : "Candradimuka",
+    umur       : 23,
+    jender  : "cowek"
+};
+
+// mengakses properti dari peserta1
+document.getElementById("obyek1").innerHTML =
+peserta1.namaDepan + " berumur " + peserta1.umur + " tahun";
+
+// mengakses properti dari peserta2
+document.getElementById("obyek2").innerHTML =
+peserta2.namaDepan + " berumur " + peserta2.umur + " tahun";
+  
+}
+
+</script>
+ 

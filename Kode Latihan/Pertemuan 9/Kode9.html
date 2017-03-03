@@ -1,0 +1,33 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<h3> Saya sedang belajar bersama javascript #ubuntu-indonesia </h3>
+<p id="cobain"></p>
+<div onload="kedua(this)">test</div>  
+
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+
+
+window.onload = function () {
+
+    document.getElementById("cobain").innerHTML = "Ini ngetest aja !";
+
+}
+
+function kedua(obj) {
+  obj.innerHTML = "ini baris kedua"; 
+}
+
+
+</script>
+ 

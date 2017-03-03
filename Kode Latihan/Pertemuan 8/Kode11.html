@@ -1,0 +1,39 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p id="obyek1"></p>
+<p id="obyek2"></p>
+
+
+<p><button type="submit" id="tambah" onclick="tampilkanHasil()">Om Pencet Om..</button></p>
+  </body>
+</html>
+
+
+
+<script type="text/javascript">
+
+
+function tampilkanHasil() {
+// deklarasi obyek kendaraanKu
+
+var a;
+var b = 5;
+
+if (a != undefined) var sebuahObyek = {ucapan: 'hi penghuni kanal irc'}; // obyek pertama tidak pernah dibuat karna kondisi tidak terpenuhi / false
+if (b != undefined) var lainnyaObyek = {ucapan: 'hi jones kanal irc'};
+
+// mengakses properti
+document.getElementById("obyek1").innerHTML = "Obyek pertama >> " + sebuahObyek;
+document.getElementById("obyek2").innerHTML = "Obyek kedua >> " + lainnyaObyek.ucapan;
+
+
+}
+
+</script>
+ 

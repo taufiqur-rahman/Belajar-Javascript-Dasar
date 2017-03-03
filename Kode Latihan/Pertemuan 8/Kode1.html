@@ -1,0 +1,35 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+  <p> Ini contoh properti </p>
+<p id="hasil1"></p>
+  <p> Ini contoh method </p>
+<p id="hasil2"></p>
+
+<p><button type="submit" id="tambah" onclick="tampilkanHasil()">Om Pencet Om..</button></p>
+  
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+function tampilkanHasil() {
+
+// pengertian
+var sebuahTeks = "Belajar javascript dasar";
+
+// 
+
+document.getElementById("hasil1").innerHTML = sebuahTeks.length;
+document.getElementById("hasil2").innerHTML = sebuahTeks.toUpperCase();
+  
+} 
+
+</script>
+ 

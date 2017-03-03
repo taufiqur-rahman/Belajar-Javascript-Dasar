@@ -1,0 +1,45 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ </head>
+ 
+<body>
+<h1>Pembahasan Obyek</h1>
+<h3> Saya sedang belajar bersama javascript #ubuntu-indonesia </h3>
+
+<p id="obyek1"></p>
+<p id="obyek2"></p>
+<p id="obyek3"></p>
+
+<p><button type="submit" id="tambah" onclick="tampilkanHasil()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+function tampilkanHasil() {
+
+// deklarasi sebuah obyek
+var data = {
+  a: 7,
+  get b() {              // mengambil nilai b, disebut getter
+    return this.a + 1;
+  },
+  set c(x) {            // menset nilai c, disebut setter
+    this.a = x / 2;
+  }
+};
+
+
+document.getElementById("obyek1").innerHTML = "Menampilkan nilai dari data.a >> " + data.a;
+document.getElementById("obyek2").innerHTML = "Menampilkan nilai dari data.b >> " + data.b;
+data.c = 50;
+document.getElementById("obyek3").innerHTML = "Menampilkan nilai dari data.a yang sudah di set nilai c nya >> " + data.a;
+
+}
+
+</script>
+ 

@@ -168,3 +168,6 @@ Selesai belajar : belum tau
 
 ### Lisensi
 Semua ilmu pengetahuan hanya milik Allah
+
+### Belum selesai
+Untuk pembahasan pertemuan 10 (proyek menggunakan javascript) belum selesai .. ``` *mangap* _/|\_ ```

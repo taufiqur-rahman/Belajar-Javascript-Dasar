@@ -1,0 +1,48 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ </head>
+ 
+<body>
+<h1>Pembahasan Obyek</h1>
+<h3> Saya sedang belajar bersama javascript #ubuntu-indonesia </h3>
+
+<p id="obyek1"></p>
+<p id="obyek2"></p>
+<p id="obyek3"></p>
+
+<p><button type="submit" id="tambah" onclick="tampilkanHasil()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+<script type="text/javascript">
+function tampilkanHasil() {
+
+// buat kelas hewan enkapsulasi
+var Hewan = {
+    jenis: 'Mamahlia',  // properti default
+    tampilkanJenis: function() {
+    return(this.jenis);
+    } 
+    };
+    
+// instansiasi sebuah hewan
+var hewan1 = Object.create(Hewan);
+document.getElementById("obyek1").innerHTML = "Jenisnya " + hewan1.tampilkanJenis() + "<br />";
+
+// instansiasi hewan lain
+var hewan2 = Object.create(Hewan);
+hewan2.jenis = 'Ikan';
+document.getElementById("obyek2").innerHTML = "Jenisnya " + hewan2.tampilkanJenis() + "<br />";
+
+// instansiasi hewan lain
+var hewan3 = Object.create(Hewan);
+hewan3.jenis = 'Cebongers';
+document.getElementById("obyek3").innerHTML = "Jenisnya " + hewan3.tampilkanJenis() + "<br />";
+
+}
+
+</script>
+ 

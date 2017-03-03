@@ -1,0 +1,35 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<form id="form1" name="form1" onsubmit="return false">
+Masukkan nama gebetan kamu (kalo punya) : 
+  <p><input type="teks" name="teks1" id="teks1" value=""></P>
+  <p><button type="submit" id="baca" onclick="bacaForm()">Baca..</button></p>
+  <p><button type="submit" id="tulis" onclick="tulisForm()">Tulis..</button></p>
+
+</form></body>
+</html>
+
+<script type="text/javascript">
+
+function bacaForm() {
+     teks1 = document.getElementById("teks1").value;
+     alert("Ciee.. " + teks1 + " ciee.. ");
+
+}
+
+function tulisForm() {
+     document.getElementById("teks1").value = "Selamat belajar javascript";
+}
+
+// latihan ini berguna
+// membaca nilai dari form dan 
+// menulis nilai dari form
+
+</script>
+ 

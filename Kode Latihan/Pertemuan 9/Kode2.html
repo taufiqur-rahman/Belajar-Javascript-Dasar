@@ -1,0 +1,44 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<form id="form1" name="form1" onsubmit="return false">
+  Pilih Gebetan<br />
+  <select id="select1" name="select1">
+    <option value="Shily">Shily</option>
+    <option value="Nadya">Nadya</option>
+    <option value="Tiaranisa">Tiaranisa</option>
+  </select><br />
+  <p><button type="submit" id="tampil" onclick="hasilForm()">Tampilkan gebetan..</button></p>
+</form>
+
+<p id="hasil"></p>
+</body>
+</html>
+
+<script type="text/javascript">
+
+function hasilForm() {
+     var gebetan=document.getElementById("form1").select1.value;
+     var hasil=document.getElementById("hasil");
+     
+     switch(gebetan) {
+         case "Shily" :
+               hasil.innerHTML = "Selamat anda mendapatkan Shily";
+         break;
+         case "Nadya" :
+               hasil.innerHTML = "Selamat anda mendapatkan Nadya";
+         break;
+         case "Tiaranisa" :
+               hasil.innerHTML = "Selamat anda mendapatkan Tiaranisa";
+         break;
+}
+}
+
+
+</script>
+ 

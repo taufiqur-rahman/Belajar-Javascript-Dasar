@@ -1,0 +1,37 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ </head>
+ 
+<body>
+<h1>Pembahasan Obyek</h1>
+<h3> Saya sedang belajar bersama javascript #ubuntu-indonesia </h3>
+
+<p id="obyek1"></p>
+<p id="obyek2"></p>
+
+<p><button type="submit" id="tambah" onclick="tampilkanHasil()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+function tampilkanHasil() {
+
+// Creates a new object, myobj, with two properties, a and b.
+var sebuahObyek = new Object;
+sebuahObyek.a = 5;
+sebuahObyek.b = 12;
+
+
+document.getElementById("obyek1").innerHTML = "Menampilkan nilai dari sebuahObyek.a >> " + sebuahObyek.a + " dan sebuahObyek.b >>" + sebuahObyek.b;
+delete sebuahObyek.a; // hapus sebuah propertie
+document.getElementById("obyek2").innerHTML = "Menampilkan nilai dari sebuahObyek.a >> " + sebuahObyek.a + " dan sebuahObyek.b >>" + sebuahObyek.b;
+
+}
+
+</script>
+ 

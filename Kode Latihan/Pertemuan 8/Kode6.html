@@ -1,0 +1,40 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p id="obyek1"></p>
+
+<p><button type="submit" id="tambah" onclick="tampilkanHasil()">Om Pencet Om..</button></p>
+</body>
+</html>
+
+<script type="text/javascript">
+
+function tampilkanHasil() {
+// deklarasi obyek kendaraanKu
+var kendaraanKu = { merek : "Ford", tipe : "Mustang", tahun : 1969, silinder : "2800cc" };
+
+function tampilProperti(obyek, namaObyek) {
+  var hasil = '';
+  for (var i in obyek) {
+    // obyek.hasOwnProperty() is used to filter out properties from the object's prototype chain
+    if (obyek.hasOwnProperty(i)) {
+      hasil += namaObyek + '.' + i + ' = ' + obyek[i] + '\n';
+    }
+  }
+  return hasil;
+}
+
+
+// mengakses properti  namaobyek.properti
+document.getElementById("obyek1").innerHTML = "Semua properti untuk kendaraanKu >> " + tampilProperti(kendaraanKu, "kendaraanKu");
+
+}
+
+
+</script>
+ 

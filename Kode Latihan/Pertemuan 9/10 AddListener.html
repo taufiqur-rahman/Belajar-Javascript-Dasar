@@ -1,0 +1,30 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ </head>
+ 
+<body>
+<h1>Penanganan Event</h1>
+<h3> Saya sedang belajar bersama javascript #ubuntu-indonesia </h3>
+<p id="cobain">klik disini </p>
+
+        <input type="button" id="tombolku" value="Pencet..">
+
+           
+</body>
+</html>
+
+<script type="text/javascript">
+
+var tombol = document.getElementById("tombolku");
+var fungsi = function () {
+      var jdl = document.getElementById("cobain");
+      jdl.style.color = "#5FF";
+      jdl.innerHTML = "Tulisannya berubah";
+};
+
+tombol.addEventListener("click", fungsi);
+
+</script>
+ 

@@ -1,0 +1,481 @@
+Bismillahirrahmanirrahim
+
+// /////////////////////////////////////////////////////////////////////////////////
+//     __  __ _             __            __        __                            //
+//    / / / / /_ __ __ __  / /___ __ ___ / /__  ___/ /___ ___  ___  ___ __ ___    //
+//   / /_/ / _  | // / _ `/ __/ // //__// / _ `/ __ / _  | _ `/ -_)(_-</ /'_  )   //
+//  |____ /____/____/_//_/___/,___/    /_/_//_/|___/\___/_//_/|__/____/_/\_,_/    //
+//                                                                                // 
+// /////////////////////////////////////////////////////////////////////////////////
+
+
+Belajar Bersama Komunitas Kanal #ubuntu-indonesia
+
+INFO
+server : irc.freenode.net  
+port   : 6667
+kanal  : #ubuntu-indonesia
+
+http://webchat.freenode.net/?channels=ubuntu-indonesia
+
+// ///////////////////////////////////////////////////////////////////////////////////////////
+
+             L O G    P E R T E M U A N   8
+
+// ///////////////////////////////////////////////////////////////////////////////////////////
+
+----------------------------------------------------------------------------------------------
+Catatan :
+1. Mood Peserta Udah Mulai Ilang :v
+----------------------------------------------------------------------------------------------
+
+
+[2017-02-25 20:03:24 WIB] <Syandal_> kita mulai aja kali ya
+[2017-02-25 20:03:34 WIB] <Syandal_> mungkin nanti ada lagi member yang join
+[2017-02-25 20:03:43 WIB] <Syandal_> !br
+[2017-02-25 20:03:43 WIB] <botan_> ==============================
+[2017-02-25 20:05:23 WIB] <Syandal_> baiklah kita mulai
+[2017-02-25 20:06:02 WIB] <Syandal_> Assalamu alaikum wr. wb... Syandal__ mengucapkan terima kasih kepada semua peserta yang sudah menyediakan waktunya untuk hadir di kegiatan belajar bersama kita .. untuk pertemuan 8  #belajarjs
+[2017-02-25 20:06:10 WIB] <Syandal_> NICK :Syandal_
+[2017-02-25 20:06:20 WIB] <Tika> JOIN #ubuntu-indonesia
+[2017-02-25 20:06:29 WIB] <Syandal_> pada pertemuan hari ini kita akan membahas tentang obyek #belajarjs
+[2017-02-25 20:06:33 WIB] <greenshirt_> Malam ini गदजहर
+[2017-02-25 20:06:44 WIB] <Tika> \[T]/
+[2017-02-25 20:06:44 WIB] <Syandal_> ^ itu artinya apaan?
+[2017-02-25 20:06:59 WIB] <Tika> Kuch kuch hota hai
+[2017-02-25 20:07:29 WIB] <Tika> PRAISE THE SUN
+[2017-02-25 20:08:19 WIB] <Syandal_> adapun pembahasannya : 1) Deklarasi Obyek 2) Cara mengakses properti obyek 3) iterasi properti obyek 4) kondisi obyek 5) konstruktor 6) method create 7) method obyek 8 ) setter dan getter 9) menghapus properti obyek
+[2017-02-25 20:08:22 WIB] <Syandal_> !br
+[2017-02-25 20:08:22 WIB] <botan_> ==============================
+[2017-02-25 20:09:12 WIB] <Tika> !br
+[2017-02-25 20:09:12 WIB] <botan_> ==============================
+[2017-02-25 20:09:29 WIB] <Tika> QUIT :Client Quit
+[2017-02-25 20:09:38 WIB] <triawarman> (siap2 ngatain marketer/MLM, kalau kejar target doang)
+[2017-02-25 20:10:39 WIB] <Syandal_> hmm
+[2017-02-25 20:10:43 WIB] <Syandal_> /me* lagi mikir padahal
+[2017-02-25 20:10:54 WIB] <greenshirt_> /me* sepakat
+[2017-02-25 20:10:57 WIB] <Syandal_> obyek di javascript beda sama di php kek nya
+[2017-02-25 20:11:11 WIB] <triawarman> dalam artian ?
+[2017-02-25 20:11:25 WIB] <Syandal_> kalo di php, kita harus mendeklarsikan resmi sebuah kelas, kalo di javascript kita langsung bikin obyek nya..
+[2017-02-25 20:11:44 WIB] <Syandal_> kalo di php jelas, kita bikin kelas >> ada propertinya >> ada method nya
+[2017-02-25 20:17:06 WIB] <Syandal_> !br
+[2017-02-25 20:17:06 WIB] <botan_> ==============================
+[2017-02-25 20:17:39 WIB] <Syandal_> pertama kita bahas builtin properti dan builtin method padajavascript
+[2017-02-25 20:18:19 WIB] <Syandal_> Properti adalah nilai yang terkait dengan objek.
+[2017-02-25 20:18:33 WIB] <Syandal_> Metode adalah tindakan yang dapat dilakukan pada objek.
+[2017-02-25 20:18:35 WIB] <Syandal_> !br
+[2017-02-25 20:18:35 WIB] <botan_> ==============================
+[2017-02-25 20:18:50 WIB] <Syandal_> perhatikan latihan berikut
+[2017-02-25 20:18:52 WIB] <Syandal_> http://jsbin.com/maqotalifi/edit?html,js,output
+[2017-02-25 20:19:06 WIB] <greenshirt> QUIT :Quit: Bye
+[2017-02-25 20:19:32 WIB] <Syandal_> contoh pemanggilan properti di latihan diatas adalah >> sebuahTeks.length;
+[2017-02-25 20:19:50 WIB] <Syandal_> contoh pemanggilan method di latihan diatas adalah >> sebuahTeks.toUpperCase();
+[2017-02-25 20:20:42 WIB] <greenshirt> JOIN #ubuntu-indonesia
+[2017-02-25 20:20:42 WIB] <greenshirt> QUIT :Changing host
+[2017-02-25 20:20:42 WIB] <greenshirt> JOIN #ubuntu-indonesia
+[2017-02-25 20:20:42 WIB] <ChanServ>! MODE #ubuntu-indonesia +v greenshirt
+[2017-02-25 20:24:36 WIB] <Syandal_> javascript adalah pemrograman yang berbasis obyek..
+[2017-02-25 20:25:12 WIB] <Syandal_> semua variabel, array, fungsi, array memiliki method yang melekat pada elemen tersebut
+[2017-02-25 20:26:26 WIB] <Syandal_> Objek Javascript terdiri dari banyak properti. Masing-masing properti ini digunakan untuk mendeskripsikan objek tersebut. Sebuah properti idealnya berhubungan langsung dan mendeskripsikan objek dengan jelas.
+[2017-02-25 20:26:53 WIB] <Syandal_> Properti pada objek memiliki nama dan nilai dari properti tersebut. Nama dari properti menjelaskan nilai yang disimpan oleh properti tersebut.
+[2017-02-25 20:27:57 WIB] <Syandal_> pada Javascript kita tidak perlu mendefinisikan kelas terlebih dahulu untuk membuat objek. Notasi pembuatan objek pada Javascript sangat sederhana: sepasang kurung kurawal yang membungkus properti. Notasi pembuatan objek ini dikenal dengan nama object literal.
+[2017-02-25 20:28:13 WIB] <Syandal_> untuk contoh pembuatan obyek bisa dibuka di latihan 1
+[2017-02-25 20:30:05 WIB] <Syandal_> ini contoh latihannya >> http://jsbin.com/voyuqedeti/edit?html,js,output
+[2017-02-25 20:30:07 WIB] <Syandal_> !br
+[2017-02-25 20:30:07 WIB] <botan_> ==============================
+[2017-02-25 20:31:09 WIB] <Syandal_> pada latihan diatas, kita membuat 2 buah obyek, yaitu peserta1 dan peserta2, dimana kedua obyek tersebut hanya memiliki properti (nilai) kita belum membuat method (aksi/fungsi) .. #belajarjs
+[2017-02-25 20:31:12 WIB] <Syandal_> ada pertanyaan nggak
+[2017-02-25 20:31:34 WIB] <giri-ng> JOIN #ubuntu-indonesia
+[2017-02-25 20:32:00 WIB] <Syandal_> untuk mengakses properti sintasknya namaobyek.namaproperti >> contoh/ peserta1.namaBelakang;
+[2017-02-25 20:32:22 WIB] <Syandal_> eh ada pak giri-ng .. liat log kanal deh pak?
+[2017-02-25 20:32:31 WIB] <Syandal_> yang mau berdiskusi dipersilahkan
+[2017-02-25 20:33:35 WIB] <giri-ng> weleh weleh ketinggalan gak di om Syandal_
+[2017-02-25 20:33:35 WIB] <diom> JOIN #ubuntu-indonesia
+[2017-02-25 20:34:04 WIB] <Syandal_> nggak terlalu ketinggalan
+[2017-02-25 20:34:12 WIB] <Syandal_> contoh membuat sebuah obyek >>
+[2017-02-25 20:34:12 WIB] <Syandal_> var mobil = {
+[2017-02-25 20:34:12 WIB] <Syandal_>     "warna-badan": "merah",
+[2017-02-25 20:34:12 WIB] <Syandal_>     "nomor-polisi": "BK1234AB"
+[2017-02-25 20:34:12 WIB] <Syandal_> };
+[2017-02-25 20:34:17 WIB] <giri-ng> nyimak dulu deh,,, udah dari jaman purbakala gak singgah disini,, ok sinau,,
+[2017-02-25 20:35:45 WIB] <Syandal_> jadi dalam javascript, cara mudah untuk membuat obyek dengan mendeklarsikan sebuah variabel.. trus didalam variabel ada properti2 dan nilainya.. untuk properti sintaksnya >> namaproperti : nilai
+[2017-02-25 20:36:43 WIB] <triawarman> /me* ambil kesimpulan :
+[2017-02-25 20:37:11 WIB] <triawarman> bahkan dengan deklarasi variable biasa, sama dengan membuat objek, dengan properti dan metode bawaan. betul ?
+[2017-02-25 20:37:25 WIB] <Syandal_> ^ iya betul
+[2017-02-25 20:37:31 WIB] <diom> QUIT :Read error: Connection reset by peer
+[2017-02-25 20:37:41 WIB] <Syandal_> untuk cara lain mendeklarasikan obyek bisa seperti ini >> http://jsbin.com/zotemujota/edit?html,js,output
+[2017-02-25 20:37:47 WIB] <triawarman> seprti kata Syandal_ sebelumnya javascrip adalah pemrograman berbasis objek
+[2017-02-25 20:37:55 WIB] <Syandal_> kayaknya iya
+[2017-02-25 20:38:11 WIB] <diom> JOIN #ubuntu-indonesia
+[2017-02-25 20:38:17 WIB] <Syandal_> kita masih bahas membuat obyek dan properti, belum bahas cara membuat methodnya
+[2017-02-25 20:38:20 WIB] <greenshirt> Hmmm
+[2017-02-25 20:38:31 WIB] <iyon> .bintang triawarman
+[2017-02-25 20:38:31 WIB] <botan_> +1 triawarman, total = ★★
+[2017-02-25 20:39:04 WIB] <diom> QUIT :Read error: Connection reset by peer
+[2017-02-25 20:39:20 WIB] <Syandal_> sintaks ke2 membuat obyek
+[2017-02-25 20:39:21 WIB] <Syandal_> var kendaraanKu = new Object();
+[2017-02-25 20:39:21 WIB] <Syandal_>     kendaraanKu.merek = 'Ford';
+[2017-02-25 20:39:21 WIB] <Syandal_>     kendaraanKu.tipe = 'Mustang';
+[2017-02-25 20:39:21 WIB] <Syandal_>     kendaraanKu.tahun = 1969;
+[2017-02-25 20:42:17 WIB] <Syandal_> lanjut nggak?
+[2017-02-25 20:47:04 WIB] <Syandal_> baiklah agar tidak mengulur waktu kita ke pembahasan selanjutnya
+[2017-02-25 20:47:07 WIB] <Syandal_> !br
+[2017-02-25 20:47:07 WIB] <botan_> ==============================
+[2017-02-25 20:47:08 WIB] <giri-ng> QUIT :Read error: Connection reset by peer
+[2017-02-25 20:47:14 WIB] <Syandal_> 2) Mengakses properti
+[2017-02-25 20:49:26 WIB] <Syandal_> mengakses properti berguna untuk pemanggilan nilai properti untuk digunakan di bagian lain dari program.. misalnya untuk ditampilkan atau dilakuan operarsi lain
+[2017-02-25 20:49:37 WIB] <Syandal_> sintaksnya >> namaobyek.namaproperti;
+[2017-02-25 20:50:29 WIB] <Syandal_> atau bisa juga >> namaobyek["namaproperti"];
+[2017-02-25 20:51:03 WIB] <Syandal_> berikut contoh latihannya>> http://jsbin.com/yoxinajari/edit?html,js,output
+[2017-02-25 20:51:20 WIB] <diom> JOIN #ubuntu-indonesia
+[2017-02-25 20:51:29 WIB] <Syandal_> pada parakteknya kita lebih sering menggunakan cara pertama..
+[2017-02-25 20:54:06 WIB] <Syandal_> ada yang mau ditanyain nggak?
+[2017-02-25 20:54:53 WIB] <Syandal_> berikut contoh latihan kedua>> http://jsbin.com/kapifuxine/edit?html,js,output
+[2017-02-25 20:55:52 WIB] <diom> QUIT :Ping timeout: 255 seconds
+[2017-02-25 20:57:42 WIB] <integermanual> QUIT :Ping timeout: 240 seconds
+[2017-02-25 20:58:43 WIB] <triawarman> .
+[2017-02-25 20:58:45 WIB] <triawarman> >
+[2017-02-25 20:59:18 WIB] <Syandal_> pada contoh diatas kita membuat 4 variabel, dari 4 variabel itu hanya 2 yang berupa obyek yaitu myObj, dan obj, sedangkan variabel str dan rand adalah variabel biasa..
+[2017-02-25 20:59:34 WIB] <Syandal_> ok lanjut
+[2017-02-25 20:59:37 WIB] <Syandal_> !br
+[2017-02-25 20:59:37 WIB] <botan_> ==============================
+[2017-02-25 20:59:39 WIB] <triawarman> /me* kasi saran, kedepannya mungkin lebih baik gunakan console.log() daripada alert()
+[2017-02-25 20:59:44 WIB] <Syandal_> hmm
+[2017-02-25 20:59:46 WIB] <Syandal_> ok..
+[2017-02-25 21:00:18 WIB] <Syandal_> takut peserta lain nggak bisa liat tampilannya kalo di console.log
+[2017-02-25 21:00:42 WIB] <Syandal_> !singkat
+[2017-02-25 21:00:42 WIB] <botan_> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-25 21:00:59 WIB] <Syandal_> pembahasaan selanjutnya 3) iterasi properti obyek
+[2017-02-25 21:02:41 WIB] <integermanual> JOIN #ubuntu-indonesia
+[2017-02-25 21:02:41 WIB] <integermanual> QUIT :Changing host
+[2017-02-25 21:02:41 WIB] <integermanual> JOIN #ubuntu-indonesia
+[2017-02-25 21:02:41 WIB] <ChanServ>! MODE #ubuntu-indonesia +v integermanual
+[2017-02-25 21:03:58 WIB] <Malsasa_> JOIN #ubuntu-indonesia
+[2017-02-25 21:04:03 WIB] <giri-ng> JOIN #ubuntu-indonesia
+[2017-02-25 21:04:06 WIB] <Malsasa_> Assalamu'alaykum
+[2017-02-25 21:04:09 WIB] <Malsasa_> Semoga akang-akang semua sehat selalu.
+[2017-02-25 21:04:15 WIB] <Syandal_> waalaikum salam
+[2017-02-25 21:04:24 WIB] <Malsasa_> Salam buat Kang greenshirt dan kang integermanual
+[2017-02-25 21:04:28 WIB] <giri-ng> waalaikum salam Malsasa_
+[2017-02-25 21:04:32 WIB] <Malsasa_> Salam buat semua warga baru
+[2017-02-25 21:04:59 WIB] <Syandal_> pada obyek, karna biasanya memiliki beberapa properti, kita bisa melakukan iterasi untuk mengakses propertinya.. iterasi ini berupa looping..
+[2017-02-25 21:05:17 WIB] <Syandal_> berikut contohnya >> http://jsbin.com/jogamequya/edit?html,js,output
+[2017-02-25 21:06:32 WIB] <diom> JOIN #ubuntu-indonesia
+[2017-02-25 21:10:17 WIB] <Syandal_> berikut contoh latihannya yang lebih pendek>> http://jsbin.com/xeyafecaxa/edit?html,js,console,output
+[2017-02-25 21:10:28 WIB] <Syandal_> hasilnya bisa dilihat di console.log
+[2017-02-25 21:10:37 WIB] <Syandal_> om Malsasa_ gimana kabarnya ?
+[2017-02-25 21:11:10 WIB] <diom> QUIT :Ping timeout: 255 seconds
+[2017-02-25 21:11:58 WIB] <Dion> JOIN #ubuntu-indonesia
+[2017-02-25 21:12:29 WIB] <Syandal_> selama kondisi ini menghasilkan nilai true >>  if (obyek.hasOwnProperty(i)) << maka semua perulangan akan dilakukan terus..
+[2017-02-25 21:13:25 WIB] <Syandal_> ada yang mau didiskusiin nggak?
+[2017-02-25 21:14:18 WIB] <Syandal_> untuk perulangannya menggunakan FOR-IN, bukan for loop biasa, untuk sintaksnya bisa dilihat di pertemuan sebelumnya
+[2017-02-25 21:15:24 WIB] <Malsasa_> QUIT :Ping timeout: 260 seconds
+[2017-02-25 21:16:02 WIB] <Syandal_> susah ya
+[2017-02-25 21:16:22 WIB] <Syandal_> botan_, ada yang mau ditanyain ga?
+[2017-02-25 21:16:39 WIB] <Syandal_> ^ botan_ nicknya ganti
+[2017-02-25 21:17:28 WIB] <dion_> JOIN #ubuntu-indonesia
+[2017-02-25 21:19:12 WIB] <Syandal_> yang mau diskusi dipersilahkan
+[2017-02-25 21:19:18 WIB] <Syandal_> /me* kasih waktu 5 menit
+[2017-02-25 21:24:34 WIB] <greenshirt> Syandal_: JS kan dikenal pakai prototype inheritances.
+[2017-02-25 21:25:02 WIB] <greenshirt> . Syandal_ bedanya ma yang biasa apa om?
+[2017-02-25 21:25:12 WIB] <Syandal_> menarik
+[2017-02-25 21:25:26 WIB] <Syandal_> ada link nya nggak?
+[2017-02-25 21:25:34 WIB] <Dion> QUIT :Ping timeout: 260 seconds
+[2017-02-25 21:25:48 WIB] <greenshirt> ada
+[2017-02-25 21:26:00 WIB] <greenshirt> Tapi google ndiri ya om
+[2017-02-25 21:26:12 WIB] <Syandal_> :3
+[2017-02-25 21:26:15 WIB] <Syandal_> nanya kayak gitu
+[2017-02-25 21:26:40 WIB] <greenshirt> Hmmm
+[2017-02-25 21:27:07 WIB] <greenshirt> Mumpung lagi materi nya objek...Kan pas :-)
+[2017-02-25 21:27:33 WIB] <greenshirt> Syandal_: soalnya saya juga ga paham banget
+[2017-02-25 21:30:51 WIB] <dion_> wah udah mulai drtd ternyata
+[2017-02-25 21:32:24 WIB] <Syandal_> hmm
+[2017-02-25 21:32:30 WIB] <Syandal_> kita udah di pertengahan materi
+[2017-02-25 21:32:31 WIB] <Syandal_> !br
+[2017-02-25 21:32:32 WIB] <botan_> ==============================
+[2017-02-25 21:32:44 WIB] <Syandal_> baiklah Syandal_ mencoba menjawab versi ancur2annya..
+[2017-02-25 21:33:48 WIB] <dion_> scroll dulu deh..hehehe
+[2017-02-25 21:33:51 WIB] <Syandal_> prototipe pada javascript adalah lebih banyak menggunakan turunan obyek (inheritance) ..
+[2017-02-25 21:34:04 WIB] <Syandal_> pak dion liat di log kanal aja >> logubin.gomix.me
+[2017-02-25 21:34:16 WIB] <Syandal_> pada php berikut contoh penurunan sederhana >> https://goo.gl/Ejynld
+[2017-02-25 21:34:32 WIB] <dion_> iya maksutnya liat log.hehee
+[2017-02-25 21:35:26 WIB] <Syandal_> di php untuk membuat penurunan.. kita buat dulu sebuah kelas induk.. trus kita buat lagi kelas turunan dari kelas induk.. trus kita bikin sebuah obyek dari kelas turunan..
+[2017-02-25 21:35:35 WIB] <Syandal_> sedangkan pada javascript ..
+[2017-02-25 21:35:43 WIB] <Syandal_> /me* bentar *mikir dulu*
+[2017-02-25 21:39:17 WIB] <Syandal_> pada javascript untuk penurunan obyek (inheritance) berikut contohnya >> http://jsbin.com/yiyegekuyo/edit?html,js,console,output
+[2017-02-25 21:40:10 WIB] <Syandal_> ^ pada contoh itu pas kita jalanin perintah >> console.log(truk.jumlahBan);
+[2017-02-25 21:40:19 WIB] <Syandal_> hasilny adalah 4 .. padahal kita belum mendeklari properti apaapun dari obyek truk
+[2017-02-25 21:40:43 WIB] <Syandal_> itu karna obyek turunan dari obyek mobil
+[2017-02-25 21:41:14 WIB] <Syandal_> obyek 'mobil' ini kita sebut sebagai prototipe dari obyek 'truk'
+[2017-02-25 21:41:33 WIB] <Syandal_> nilai atau properti yang dimiliki oleh mobil secara otomatis akan juga dimiliki oleh truk
+[2017-02-25 21:41:53 WIB] <Syandal_> Semua objek yang kita buat dalam Javascript juga secara otomatis merupakan turunan dari objek Object.prototype, yang merupakan objek bawaan dari Javascript. Hal ini berarti mobil, dan seluruh turunannya, adalah turunan dari Object.prototype
+[2017-02-25 21:45:06 WIB] <Syandal_> berikut contoh nya >> http://jsbin.com/kisajomiwe/edit?html,js,console,output
+[2017-02-25 21:45:09 WIB] <Syandal_> !br
+[2017-02-25 21:45:09 WIB] <botan_> ==============================
+[2017-02-25 21:45:15 WIB] <Syandal_> baiklah waktu 5 menitnya abis
+[2017-02-25 21:45:18 WIB] <Syandal_> !singkat
+[2017-02-25 21:45:18 WIB] <botan_> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-25 21:45:59 WIB] <Syandal_> 4) Kondisi Obyek
+[2017-02-25 21:47:35 WIB] <Syandal_> pada keadaan tertentu, kita kadang membuat kondisi, jika kondisi terpenuhi akan membuat obyek, jika kondisi tidak terpenuhi,otomatis obyek tersebut tidak akan pernah dibuat..
+[2017-02-25 21:47:40 WIB] <Syandal_> berikut contohnya >> http://jsbin.com/ziditixuda/edit?html,js,output
+[2017-02-25 21:48:34 WIB] <Syandal_> pertama kita buat 2 variabel
+[2017-02-25 21:48:36 WIB] <Syandal_> var a;
+[2017-02-25 21:48:36 WIB] <Syandal_> var b = 5;
+[2017-02-25 21:49:28 WIB] <Syandal_> lalu kita buat 2 ekspresi kondisi
+[2017-02-25 21:49:29 WIB] <Syandal_> if (a != undefined) var sebuahObyek
+[2017-02-25 21:49:29 WIB] <Syandal_> if (b != undefined) var lainnyaObyek
+[2017-02-25 21:49:42 WIB] <goww> JOIN #ubuntu-indonesia
+[2017-02-25 21:49:53 WIB] <goww> assalamualaikum
+[2017-02-25 21:50:03 WIB] <Syandal_> !wasalam @ goww
+[2017-02-25 21:50:03 WIB] <botan_> goww: Waalaikumsalam Warahmatullahi Wabarakatuh
+[2017-02-25 21:50:26 WIB] <Syandal_> (a != undefined) << pada statemen ini maksudnya, jika variabel a bukan undefined, maka .. dst
+[2017-02-25 21:50:55 WIB] <goww> om Syandal_ : kalo botan itu kok bisa on terus,dia pake hostingan sendiri ato gimana ya?
+[2017-02-25 21:51:03 WIB] <Syandal_> dia bot
+[2017-02-25 21:51:15 WIB] <Syandal_> bikinan ka presiden/matematika-adit/tika
+[2017-02-25 21:51:57 WIB] <Syandal_> karna nilai variabel a adalah undefined, maka obyek pada baris tersebut tidak akan pernah dibuat
+[2017-02-25 21:52:06 WIB] <Syandal_> ada yang mau didiskusiin dulu nggak?
+[2017-02-25 21:52:11 WIB] <goww> iya, tapi kok bisa terus on sementara om presiden lagi nggak on sekarang?
+[2017-02-25 21:52:17 WIB] <Syandal_> /me* kasi waktu 5 menit termin kedua
+[2017-02-25 21:52:57 WIB] <Syandal_> mungkin ditaruh di gomix.me.. coba liat /whois botan_
+[2017-02-25 22:00:27 WIB] <Syandal_> /me* baiklah waktu 5 menit nya abis lagi
+[2017-02-25 22:00:31 WIB] <Syandal_> !br
+[2017-02-25 22:00:31 WIB] <botan_> ==============================
+[2017-02-25 22:00:34 WIB] <Syandal_> !singkat
+[2017-02-25 22:00:34 WIB] <botan_> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-25 22:00:57 WIB] <Syandal_> 5) Konstruktur
+[2017-02-25 22:01:46 WIB] <Syandal_> Pada bagian sebelumnya, kita sudah mendiskusikan bahwa untuk membuat sebuah obyek dengan cara mendeklarasikan sebuah variabel, yang berisi, properti2nya beserta nilai2 propertinya ..
+[2017-02-25 22:02:14 WIB] <Syandal_> contoh var namaobyek = { properti1 : nilai, properti2 : nilai2 }
+[2017-02-25 22:02:38 WIB] <Syandal_> nah permasalahan mulai muncul ketika kita akan membuat banyak obyek dengan konsep properti yang sama
+[2017-02-25 22:03:14 WIB] <Syandal_> untuk mempermudahkan kita membuat sebuah konstruktor.. konstruktor ini adalah berupa sebuah fungsi, yang nama fungsinya didahului huruf besar/kapital..
+[2017-02-25 22:04:05 WIB] <Syandal_> setelah kita buat fungsi konstruktor, kita buat obyek dari fungsi konstruktor tersebut, proses membuat obyek dalam bahasa pemrograman lain biasanya kita sebut 'instansiasi'
+[2017-02-25 22:05:44 WIB] <Syandal_> berikut contoh latihan konstruktor >> http://jsbin.com/wenivugofo/edit?html,js,output
+[2017-02-25 22:05:47 WIB] <Syandal_> !br
+[2017-02-25 22:05:47 WIB] <botan_> ==============================
+[2017-02-25 22:06:12 WIB] <Syandal_> yang kita sebut konstruktor adalah fungsi >> function Kendaraan(merek, model, tahun, silinder)
+[2017-02-25 22:06:40 WIB] <Syandal_> yang kita sebut sebagai instansiasi adalah >> var kendaraan1 = new Kendaraan("Toyota", "Korola", 2010, 2200);
+[2017-02-25 22:06:49 WIB] <Syandal_> silahkan berdiskusi dulu
+[2017-02-25 22:06:57 WIB] <Syandal_> /me* kasi waktu 5 menit termin ke 3
+[2017-02-25 22:07:23 WIB] <Syandal_> /me* *makan roti dulu*
+[2017-02-25 22:07:58 WIB] <codeme> JOIN #ubuntu-indonesia
+[2017-02-25 22:08:10 WIB] <codeme> As-salamu alaykum
+[2017-02-25 22:09:59 WIB] <Syandal_> !wasalam @ codeme
+[2017-02-25 22:09:59 WIB] <botan_> codeme: Waalaikumsalam Warahmatullahi Wabarakatuh
+[2017-02-25 22:10:04 WIB] <Syandal_> eh ada ka codeme
+[2017-02-25 22:10:10 WIB] <Syandal_> kita lagi kegiatan belajar bersama
+[2017-02-25 22:10:14 WIB] <Syandal_> liat log konal deh
+[2017-02-25 22:10:27 WIB] <codeme> iya? cool
+[2017-02-25 22:12:48 WIB] <Syandal_> pembahasan javascript baru permulaan doang, ada kemungkinan berikutnya kita mau ada kegiatan belajar bersama lain.. yang dipimpin pak kaus ijo.. *bener nggak yaa*
+[2017-02-25 22:13:07 WIB] <Syandal_> om codeme lagi sibuk apaan?
+[2017-02-25 22:13:42 WIB] <codeme> sibuk sama saja code-codean :)
+[2017-02-25 22:13:50 WIB] <codeme> bagus belajarnya
+[2017-02-25 22:14:33 WIB] <codeme> belajar yang siap pakai kalau bisa jangan hanya pengenalan :)
+[2017-02-25 22:14:42 WIB] <codeme> jadi berguna buat temen-temen
+[2017-02-25 22:15:37 WIB] <Syandal_> nah itu
+[2017-02-25 22:15:47 WIB] <Syandal_> tapi banyak yang request bahasa yang aneh2
+[2017-02-25 22:15:58 WIB] <codeme> javascript bagus
+[2017-02-25 22:16:01 WIB] <Syandal_> !pooling-belajar-lanjutan << ini daftarnya
+[2017-02-25 22:16:01 WIB] <botan_> (1) JQuery (2) ReactJS (3) MongoDB (4) Python Programming (5) PHP 6 & MySQL PDO (6) shell scripting (7) regex (sed, awk, grep) (8) perl (9) pascal (10) c (11) c++ (12) rust (13) go (14) haskell (15) ocaml (16) F# (17) clojure (18) Android Programming (19) Web servis : Soap, Rest, JSon, dst (20) Oracle XE (21) Lainnya.. *sebutkan*
+[2017-02-25 22:16:49 WIB] <Syandal_> tapi js lumayan susah, soalnya selama ini kita cuma tau bahasa javascript sebagai event handler dan animasi di web broser doang.. ternyata pas di pelajarin sulit juga :v
+[2017-02-25 22:17:08 WIB] <giri-ng> QUIT :Quit: Leaving
+[2017-02-25 22:17:21 WIB] <codeme> iya betul
+[2017-02-25 22:17:48 WIB] <codeme> lebih ambil javascript sedikit yang satu kali pertemuan tapi siap pakai
+[2017-02-25 22:17:54 WIB] <codeme> +baik
+[2017-02-25 22:18:12 WIB] <Syandal_> hmm
+[2017-02-25 22:18:15 WIB] <Syandal_> bisa jadi
+[2017-02-25 22:18:28 WIB] <codeme> itu lebih cocok sepertinya buat temen-temen
+[2017-02-25 22:18:31 WIB] <Syandal_> /me* kita sampe sekarang belum bahas event javascript sama sekali
+[2017-02-25 22:18:41 WIB] <Syandal_> bisa jadi
+[2017-02-25 22:18:57 WIB] <codeme> saya ambil contohnya ya?
+[2017-02-25 22:20:09 WIB] <codeme> contohnya belajar ini AngularJS tapi yang ini saja -> https://docs.angularjs.org/guide/component
+[2017-02-25 22:20:24 WIB] <codeme> sama yang ini -> https://docs.angularjs.org/guide/component-router
+[2017-02-25 22:20:30 WIB] <codeme> itu cukup beberapa jam
+[2017-02-25 22:20:37 WIB] <codeme> tapi hasilnya meyakinkan
+[2017-02-25 22:20:46 WIB] <codeme> bisa buat Single Page
+[2017-02-25 22:21:07 WIB] <codeme> bisa REST dan sebagainya
+[2017-02-25 22:21:34 WIB] <codeme> lingkupnya itu sangat luas
+[2017-02-25 22:21:51 WIB] <codeme> tapi cuman satu subject component angularjs
+[2017-02-25 22:27:28 WIB] <Syandal_> ow
+[2017-02-25 22:27:36 WIB] <Syandal_> /me* cek tkp
+[2017-02-25 22:28:25 WIB] <Syandal_> angular termasuk framework atau library om?
+[2017-02-25 22:28:29 WIB] <Syandal_> sambil lanjut ya
+[2017-02-25 22:28:30 WIB] <Syandal_> !br
+[2017-02-25 22:28:31 WIB] <botan_> ==============================
+[2017-02-25 22:28:57 WIB] <Syandal_> pada javascript, ketika kita membuat sebuah obyek yang berisi beberapa properti, kita bisa juga membuat properti yangn berupa obyek lain..
+[2017-02-25 22:29:52 WIB] <Syandal_> sintask mengakses propertinya seperti ini >> namaobyek.namaproperti;     sedangkan untuk mengakses sebuah properti yang berupa obyek sintaksnya >> namaobyek.namaproperti.namaproperti ;
+[2017-02-25 22:30:09 WIB] <Syandal_> berikut contoh latihannya >> http://jsbin.com/teqimeqaqe/edit?html,js,console,output
+[2017-02-25 22:30:18 WIB] <Syandal_> hasilnya dilihat di bagian console.log nya
+[2017-02-25 22:31:10 WIB] <Syandal_> sedangkan untuk membuat obyek .. yang propertinya berupa obek lagi, jika kita membuat menggunakan konstruktor .. berikut contohnya >> http://jsbin.com/qihunuheko/edit?html,js,output
+[2017-02-25 22:31:34 WIB] <Syandal_> !br
+[2017-02-25 22:31:34 WIB] <botan_> ==============================
+[2017-02-25 22:31:40 WIB] <Syandal_> ada yang mau didiskusiin dulu nggak?
+[2017-02-25 22:31:46 WIB] <Syandal_> /me* kasi waktu 5 menit lagi
+[2017-02-25 22:36:10 WIB] <Syandal_> waktu 5 menitnya habis
+[2017-02-25 22:36:16 WIB] <Syandal_> !br
+[2017-02-25 22:36:16 WIB] <botan_> ==============================
+[2017-02-25 22:36:18 WIB] <Syandal_> !singkat
+[2017-02-25 22:36:18 WIB] <botan_> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-25 22:36:41 WIB] <Syandal_> pembahasan selanjutnya 6) Method Create
+[2017-02-25 22:36:58 WIB] <Syandal_> untuk memudahkan pembuatan obyek, kita bisa menggunakan method create
+[2017-02-25 22:37:17 WIB] <dion_> lanjut..
+[2017-02-25 22:38:00 WIB] <Syandal_> kelebihan method create adalah kita bisa membuat obyek yang berisi properti dan method sekaligus .. tanpa membuat constructor nya ..
+[2017-02-25 22:39:02 WIB] <Syandal_> berikut contoh latihan method create >> http://jsbin.com/dujidebobu/edit?html,js,output
+[2017-02-25 22:39:05 WIB] <Syandal_> !br
+[2017-02-25 22:39:05 WIB] <botan_> ==============================
+[2017-02-25 22:40:28 WIB] <Syandal_> silahkan berdiskusi dulu 5 menit
+[2017-02-25 22:40:42 WIB] <iyon> QUIT :Ping timeout: 240 seconds
+[2017-02-25 22:41:19 WIB] <Syandal_> disitu kita membuat sebuah variabel bernama 'hewan' karna variabel tersebut berisi properti dan method, otomatis variabel tersebut bertipe obyek
+[2017-02-25 22:41:47 WIB] <iyon> JOIN #ubuntu-indonesia
+[2017-02-25 22:42:09 WIB] <Syandal_> kalo nggak percaya kasih perintah ini >> alert(typeof Hewan);   << setelah baagian deklarasi variabel Hewan
+[2017-02-25 22:42:56 WIB] <Syandal_> nah setelah itu kita membuat 3 buah obyek baru yang berupa instansiasi dari var Hewan.. membuat obyek tersebut menggunakan method create
+[2017-02-25 22:43:13 WIB] <Syandal_> ini perintah membuat obyek nya >> var hewan1 = Object.create(Hewan);
+[2017-02-25 22:43:30 WIB] <Syandal_> /me* kasi waktu 5 menit lagi buat diskusi
+[2017-02-25 22:43:42 WIB] <Syandal_> /me* *seruput air putih*
+[2017-02-25 22:44:48 WIB] <dion_> lumayan berat..tapi masih masuk kok
+[2017-02-25 22:44:53 WIB] <mertua> JOIN #ubuntu-indonesia
+[2017-02-25 22:45:28 WIB] <mertua> kabhi kushi kabhi gam :(
+[2017-02-25 22:45:41 WIB] <Syandal_> hmm
+[2017-02-25 22:45:57 WIB] <Syandal_> apanya yang berat dan masuk?
+[2017-02-25 22:46:34 WIB] <greenshirt> ¹¼
+[2017-02-25 22:47:34 WIB] <Syandal_> hmm
+[2017-02-25 22:47:43 WIB] <Syandal_> emang berat sih :v
+[2017-02-25 22:47:44 WIB] <mertua> !hmm
+[2017-02-25 22:47:45 WIB] <botan_> aliasnya !hmmm
+[2017-02-25 22:47:50 WIB] <mertua> !hmmm
+[2017-02-25 22:47:50 WIB] <botan_> setiap yang nulis "hmmm" bisa diartikan sebagai "wah, kok dia tau ya..." dan selalu pas 100%
+[2017-02-25 22:48:27 WIB] <Malsasa> JOIN #ubuntu-indonesia
+[2017-02-25 22:48:37 WIB] <Malsasa> Assalamu'alaykum
+[2017-02-25 22:48:48 WIB] <Syandal_> waalaikum salam
+[2017-02-25 22:48:57 WIB] <Malsasa> /me* akhirnya review MATE selesai juga
+[2017-02-25 22:49:08 WIB] <mertua> !wasalam @ Malsasa_
+[2017-02-25 22:49:09 WIB] <botan_> Malsasa_: Waalaikumsalam Warahmatullahi Wabarakatuh
+[2017-02-25 22:49:31 WIB] <Malsasa> http://www.ubuntubuzz.com/2017/02/a-short-mate-desktop-117-review-in-february-2017.html
+[2017-02-25 22:49:45 WIB] <Malsasa> /me* butuh waktu 6 jam lebih menulisnya
+[2017-02-25 22:50:27 WIB] <Syandal_> ow
+[2017-02-25 22:50:31 WIB] <Syandal_> /me* cek tkp
+[2017-02-25 22:52:11 WIB] <mertua> QUIT :Quit: kicked by Syandal_
+[2017-02-25 22:53:39 WIB] <Syandal_> /me* ^pitnah
+[2017-02-25 22:54:06 WIB] <Syandal_> * mertua has quit (Quit: kicked by Syandal_)   << :3
+[2017-02-25 22:54:40 WIB] <dion_> keren lah tulisannya..
+[2017-02-25 22:54:42 WIB] <greenshirt> man
+[2017-02-25 22:54:50 WIB] <greenshirt> menantu durhak
+[2017-02-25 22:54:55 WIB] <greenshirt> durhaka
+[2017-02-25 22:55:20 WIB] <greenshirt> mertua ndiri dikick
+[2017-02-25 22:58:35 WIB] <Syandal_> lagi mertua ngapain join di kanal hot
+[2017-02-25 23:00:25 WIB] <Syandal_> penggunaan ram 600Mb termasuk ringan ya
+[2017-02-25 23:00:35 WIB] <Syandal_> /me* sambil lanjut sedikit lagi ya
+[2017-02-25 23:00:42 WIB] <Syandal_> yang mau ngobrol sambil ngobrol aja
+[2017-02-25 23:00:54 WIB] <Syandal_> !br
+[2017-02-25 23:00:54 WIB] <botan_> ==============================
+[2017-02-25 23:00:56 WIB] <Syandal_> !singkat
+[2017-02-25 23:00:56 WIB] <botan_> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-25 23:01:11 WIB] <Syandal_> 7) Membuat Method pada Obyek
+[2017-02-25 23:01:54 WIB] <Syandal_> kalo tadi kita mempelajari contoh method create, yaitu berguna untuk membuat sebuah obyek dari variabel bertipe obyek, dimana variabel tersebut berisi properti2 dan method
+[2017-02-25 23:02:07 WIB] <Syandal_> selanjutnya kita membahas cara umum membuat method pada javascript
+[2017-02-25 23:03:01 WIB] <Syandal_> caranya adalah .. pertama kita membuat sebuah fungsi yang akan dijadikan sebagai method, setelah itu kita membuat konstruktor, dimana salah satu properti di konstruktor tersebut akan memanggil fungsi tadi, selanjutnya kita membuat obyek dari konstruktor tersebut ..
+[2017-02-25 23:03:32 WIB] <Syandal_> /me* berikut contoh latihannya >> http://jsbin.com/xesidemepe/edit?html,js,output
+[2017-02-25 23:04:02 WIB] <Syandal_> pada contoh itu kita membuat fungsi >> function tampilkanKendaraan()  << yang akan dijadikan method
+[2017-02-25 23:04:29 WIB] <Syandal_> trus kita buat konstruktornya >> function Kendaraan(merek, model, tahun, silinder, miliknya) { }
+[2017-02-25 23:05:05 WIB] <Syandal_> didalam konstruktor tersebut ada baris untuk memanggil fungsi tadi >>   this.tampilkanKendaraan = tampilkanKendaraan;
+[2017-02-25 23:05:08 WIB] <Syandal_> !br
+[2017-02-25 23:05:08 WIB] <botan_> ==============================
+[2017-02-25 23:05:14 WIB] <Syandal_> silahkan diskusi dulu
+[2017-02-25 23:05:20 WIB] <Syandal_> /me* kasi waktu 5 menit lagi
+[2017-02-25 23:05:39 WIB] <Syandal_> lagian mertua ngapain join di kanal oot..
+[2017-02-25 23:07:09 WIB] <Syandal_> bagian ini untuk mengakses method >> kendaraan2.tampilkanKendaraan()
+[2017-02-25 23:08:02 WIB] <greenshirt> ngaWasi mantu
+[2017-02-25 23:10:04 WIB] <dion_> cukup jelas contohnya.
+[2017-02-25 23:12:27 WIB] <Syandal_> hmm
+[2017-02-25 23:13:34 WIB] <Syandal_> this merujuk ke masing2 nilai di obyeknya ..
+[2017-02-25 23:13:43 WIB] <Syandal_> baiklah kita lanjut
+[2017-02-25 23:13:46 WIB] <Syandal_> !br
+[2017-02-25 23:13:46 WIB] <botan_> ==============================
+[2017-02-25 23:14:03 WIB] <Syandal_> !singkat
+[2017-02-25 23:14:03 WIB] <botan_> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-25 23:14:20 WIB] <Syandal_> 8) Getter dan Setter
+[2017-02-25 23:14:39 WIB] <dion_> QUIT :Ping timeout: 260 seconds
+[2017-02-25 23:15:33 WIB] <Syandal_> getter adalah method untuk mengambil nilai, sedangkat setter adalah method untuk menset nilai pada properti tertentu
+[2017-02-25 23:18:01 WIB] <Syandal_> berikut contoh latihan untuk setter dan getter >> http://jsbin.com/camisoguru/edit?html,js,output
+[2017-02-25 23:18:10 WIB] <Malsasa> QUIT :Read error: Connection reset by peer
+[2017-02-25 23:19:14 WIB] <Syandal_> /me* kasi waktu 5 menit lagi buat peserta untuk ngapain aja
+[2017-02-25 23:20:31 WIB] <Dion> JOIN #ubuntu-indonesia
+[2017-02-25 23:23:20 WIB] <Syandal_> getter dan setter akan digunakan pada saat kita memerlukan ekspresi khusus..
+[2017-02-25 23:23:53 WIB] <Syandal_> untuk getter >> sebenernya kita bisa langsung ngambil nilai properti dari dalam obyek dengan cara >> namaobyek.namaproperti;
+[2017-02-25 23:24:46 WIB] <Syandal_> tapi pas kita ingin mengambil properti, yang dilainya di proses dulu, misalnya di hitung kita memerlukan method getter.. nanti manggilnya sama aja.. >> namaobyek.namamethodgetter;
+[2017-02-25 23:25:19 WIB] <Syandal_> bedanya pada getter .. nilai yang akan di kasih (return) udah di olah terlebih dahulu..
+[2017-02-25 23:25:41 WIB] <Syandal_> selain itu .. dari dalam obyek.. getter itu berupa fungsi/method, bukan properti
+[2017-02-25 23:25:43 WIB] <Syandal_> !br
+[2017-02-25 23:25:43 WIB] <botan_> ==============================
+[2017-02-25 23:26:24 WIB] <Syandal_> pada setter .. sebenernya kita bisa memasukan nilai kedalam obyek dengan cara >> namaobyek.namaproperti = nilai ;
+[2017-02-25 23:27:03 WIB] <Malsasa> JOIN #ubuntu-indonesia
+[2017-02-25 23:27:20 WIB] <Malsasa> Assalamu'alaykum
+[2017-02-25 23:27:21 WIB] <Syandal_> nah setter akan kita gunakan, jika nilai yang akan kita masukan, diolah terlebih dahulu didalam obyek..
+[2017-02-25 23:27:26 WIB] <Syandal_> waalaikum salam
+[2017-02-25 23:27:39 WIB] <Syandal_> pada contoh berikut
+[2017-02-25 23:27:40 WIB] <Syandal_>   set c(x) {            // menset nilai c, disebut setter
+[2017-02-25 23:27:41 WIB] <Syandal_>     this.a = x / 2;
+[2017-02-25 23:27:41 WIB] <Syandal_>   }
+[2017-02-25 23:27:56 WIB] <Syandal_> nila nya akan disimpan pada properti 'c'
+[2017-02-25 23:28:19 WIB] <Syandal_> jadi pemanggilan nilainya .. tetap sama yaitu >> namaobyek.c;
+[2017-02-25 23:29:26 WIB] <presiden> JOIN #ubuntu-indonesia
+[2017-02-25 23:29:34 WIB] <Syandal_> berikut contoh kedua membuat getter dan setter
+[2017-02-25 23:29:37 WIB] <Syandal_> http://jsbin.com/wuceqizuha/edit?html,js,output
+[2017-02-25 23:29:39 WIB] <Syandal_> !br
+[2017-02-25 23:29:39 WIB] <botan_> ==============================
+[2017-02-25 23:29:49 WIB] <Dion> QUIT :Ping timeout: 260 seconds
+[2017-02-25 23:29:51 WIB] <Syandal_> /me* kasih waktu 5 menit lagi buat diskusi
+[2017-02-25 23:30:15 WIB] <presiden> cinta bukanlah kata kerja
+[2017-02-25 23:30:16 WIB] <presiden> cinta bukanlah kata benda
+[2017-02-25 23:30:16 WIB] <presiden> cinta adalah kata hati
+[2017-02-25 23:30:16 WIB] <presiden> - anonimous
+[2017-02-25 23:30:29 WIB] <presiden> QUIT :Client Quit
+[2017-02-25 23:30:50 WIB] <Syandal_> ^ iklan
+[2017-02-25 23:31:06 WIB] <Syandal_> !cinta
+[2017-02-25 23:31:10 WIB] <Syandal_> simpen ah
+[2017-02-25 23:31:52 WIB] <Syandal_> .ingat cinta = cinta bukanlah kata kerja.. cinta bukanlah kata benda .. cinta adalah kata hati .. - anonimous/presiden
+[2017-02-25 23:31:52 WIB] <botan_> 'cinta' diingat
+[2017-02-25 23:31:57 WIB] <Syandal_> !cinta
+[2017-02-25 23:31:57 WIB] <botan_> cinta bukanlah kata kerja.. cinta bukanlah kata benda .. cinta adalah kata hati .. - anonimous/presiden
+[2017-02-25 23:37:08 WIB] <Syandal_> waktunya abis
+[2017-02-25 23:37:11 WIB] <Syandal_> !br
+[2017-02-25 23:37:11 WIB] <botan_> ==============================
+[2017-02-25 23:37:18 WIB] <Syandal_> kita ke pembahasan terakhir
+[2017-02-25 23:37:21 WIB] <Syandal_> abis ini selesai
+[2017-02-25 23:37:27 WIB] <Syandal_> !singkat
+[2017-02-25 23:37:27 WIB] <botan_> baiklah untuk mempersingkat waktu marilah kita lanjut ke pembahasan berikutnya
+[2017-02-25 23:37:48 WIB] <Syandal_> 9) menghapus properti obyek
+[2017-02-25 23:38:14 WIB] <Syandal_> Jika sudah tidak ingin menggunakan sebuah properti, kita dapat melakukan penghapusan terhadap properti tersebut dengan menggunakan operator delete.
+[2017-02-25 23:39:27 WIB] <greenshirt> QUIT :Ping timeout: 240 seconds
+[2017-02-25 23:40:04 WIB] <Malsasa> QUIT :Ping timeout: 260 seconds
+[2017-02-25 23:40:28 WIB] <Syandal_> berikut contoh latihannya
+[2017-02-25 23:40:29 WIB] <Syandal_> http://jsbin.com/neyibaqaba/edit?html,js,output
+[2017-02-25 23:41:48 WIB] <Syandal_> dari contoh diatas ^ awalnya kita punya obyek.. trus obyek tersebut punya 2 properti yaitu a dan b.. kemudian properti a kita hapus dengan perintah >> delete sebuahObyek.a;
+[2017-02-25 23:42:00 WIB] <Syandal_> ketika ditampilkan isi dari properti a ..hasilnya undefined
+[2017-02-25 23:42:07 WIB] <Syandal_> /me* kasi waktu 5 menit dulu 
+[2017-02-25 23:42:26 WIB] <Syandal_> silahkan yang mau menanyakan pembahasan tentang obyek pada javascript
+[2017-02-25 23:42:37 WIB] <Syandal_> sebelum sesi hari ini kita tutup
+[2017-02-25 23:43:39 WIB] <Syandal_> kalo malem minggu banyak yang menjelma jadi remaja labi di kanal ini ya..
+[2017-02-25 23:43:49 WIB] <Syandal_> *labil
+[2017-02-25 23:43:49 WIB] <greenshirt> JOIN #ubuntu-indonesia
+[2017-02-25 23:43:49 WIB] <greenshirt> QUIT :Changing host
+[2017-02-25 23:43:49 WIB] <greenshirt> JOIN #ubuntu-indonesia
+[2017-02-25 23:43:49 WIB] <ChanServ>! MODE #ubuntu-indonesia +v greenshirt
+[2017-02-25 23:44:01 WIB] <Syandal_> ^ dia ngajar di sekolah mana?
+[2017-02-25 23:44:13 WIB] <Syandal_> /me* skrinsut ah .. trus kirim ke sekolahnya 
+[2017-02-25 23:44:25 WIB] <Syandal_> /me* 3 menit lagi yang mau bertanya
+[2017-02-25 23:45:00 WIB] <greenshirt> QUIT :Client Quit
+[2017-02-25 23:47:46 WIB] <Syandal_> /me* waktunya abis
+[2017-02-25 23:47:48 WIB] <Syandal_> !br
+[2017-02-25 23:47:48 WIB] <botan_> ==============================
+[2017-02-25 23:48:02 WIB] <Syandal_> botan_, opah ChanServ ada yang mau ditanyain nggak?
+[2017-02-25 23:48:28 WIB] <Syandal_> baiklah karna ga ada yang mau ditanyain, pertemuan hari ini pertemuan 8 kita akhiri sampai disini
+[2017-02-25 23:49:11 WIB] <Syandal_> /me* mengucapkan terima kasih kepada semua peserta yang udah berpartisipasi maupun yang udah kabur di kegiatan belajar bersama kanal irc ubuntu indonesia untuk materi javascript..
+[2017-02-25 23:49:23 WIB] <Syandal_> sekian.. wassalamu alaikum wr. wb.
+[2017-02-25 23:49:26 WIB] <Syandal_> !br
+[2017-02-25 23:49:26 WIB] <botan_> ==============================
+[2017-02-25 23:49:36 WIB] <Syandal_> log pertemuan dikirim menyusul
+[2017-02-25 23:49:48 WIB] <Syandal_> !infobelajarjs << info bisa diliat disini
+[2017-02-25 23:49:49 WIB] <botan_> FYI : kita mau mengadakan belajar bersama javascript .. mohon dilihat topik kanal .. semua masukan, saran, tanggapan, dll harap dikirimkan ke bagian komentar pada dokumen ini .. >> git.io/vMjls .. dan semua kode latihan akan di simpan di repo github dialamat ini >> https://goo.gl/TrHqPE .. Happy Lerning :)
+[2017-02-25 23:49:52 WIB] <Syandal_> !br
+[2017-02-25 23:49:52 WIB] <botan_> ==============================
+[2017-02-25 23:49:55 WIB] <Syandal_> /me* afk dulu
+[2017-02-25 23:49:57 WIB] <Syandal_> QUIT :Quit: Lelah abang neng..

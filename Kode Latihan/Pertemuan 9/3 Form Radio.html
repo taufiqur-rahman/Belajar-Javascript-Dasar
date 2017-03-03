@@ -1,0 +1,49 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ </head>
+ 
+<body>
+<h1>Penanganan Form</h1>
+<h3> Saya sedang belajar bersama javascript #ubuntu-indonesia </h3>
+
+<form id="form1" name="form1" onsubmit="return false">
+  <label for="radio1">Pilih Gebetan </label><br />
+    <input type="radio" name="radio1" value="Shily" checked>Shily <br />
+    <input type="radio" name="radio1" value="Nadya" >Nadya <br />
+    <input type="radio" name="radio1" value="Tiaranisa" >Tiaranisa <br />
+    
+  
+  <p><button type="submit" id="tampil" onclick="hasilForm()">Tampilkan gebetan..</button></p>
+</form>
+
+<p id="hasil"></p>
+
+</body>
+</html>
+
+<script type="text/javascript">
+
+function hasilForm() {
+
+     var gebetan=document.querySelector('input[name="radio1"]:checked').value;
+     var hasil=document.getElementById("hasil");
+
+     switch(gebetan) {
+         case "Shily" :
+               hasil.innerHTML = "Selamat anda mendapatkan Shily";
+         break;
+         case "Nadya" :
+               hasil.innerHTML = "Selamat anda mendapatkan Nadya";
+         break;
+         case "Tiaranisa" :
+               hasil.innerHTML = "Selamat anda mendapatkan Tiaranisa";
+         break;
+}
+
+
+}
+
+</script>
+ 

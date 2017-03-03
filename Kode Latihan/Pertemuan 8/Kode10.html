@@ -1,0 +1,39 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+</body>
+</html>
+
+
+<script type="text/javascript">
+
+// kita bikin obyek mobil
+var mobil = {
+    nama: "Mobil",
+    jumlahBan: 4
+};
+
+// kita turunin sebuah obyek truk dari obyek induk mobil
+var truk = Object.create(mobil);
+// truk.nama === "Mobil"
+// truk.jumlahBan === 4
+
+// kita ubah beberapa properti
+truk.nama = "Tronton"; // mobil.nama tetap "Mobil"
+truk.jumlahBan = 10;   // mobil.jumlahBan tetap 4
+
+// kita tampilin beberapa properti
+// hasilnya liat di  console.log
+console.log(mobil.nama);
+console.log(truk.nama);
+console.log(truk.jumlahBan);
+console.log(truk.berat_maks);  // undefined
+
+</script>
+ 

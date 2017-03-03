@@ -1,0 +1,38 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ </head>
+ 
+<body>
+<h1>Penanganan Form</h1>
+<h3> Saya sedang belajar bersama javascript #ubuntu-indonesia </h3>
+
+<form id="form1" name="form1" onsubmit="return false">
+  <label for="teks1">Masukkan nama gebetan kamu (kalo punya) : </label>
+  <p><input type="teks" name="teks1" id="teks1" value=""></P>
+  <p><button type="submit" id="baca" onclick="bacaForm()">Baca..</button></p>
+  <p><button type="submit" id="tulis" onclick="tulisForm()">Tulis..</button></p>
+
+  
+</form>
+
+
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+function bacaForm() {
+     teks1 = document.getElementById("teks1").value;
+     alert("Ciee.. " + teks1 + " ciee.. ");
+
+}
+
+function tulisForm() {
+     document.getElementById("teks1").value = "Selamat belajar javascript";
+}
+
+</script>
+ 

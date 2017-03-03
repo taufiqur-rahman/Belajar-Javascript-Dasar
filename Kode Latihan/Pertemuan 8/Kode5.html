@@ -1,0 +1,59 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p id="obyek1"></p>
+<p id="obyek2"></p>
+<p id="obyek3"></p>
+<p id="obyek4"></p>
+<p id="obyek5"></p>
+<p id="obyek6"></p>
+<p id="obyek7"></p>
+<p id="obyek8"></p>
+
+<p><button type="submit" id="tambah" onclick="tampilkanHasil()">Om Pencet Om..</button></p></body>
+</html>
+
+<script type="text/javascript">
+
+function tampilkanHasil() {
+// four variables are created and assigned in a single go, 
+// separated by commas
+var myObj = new Object(),
+    str = 'myString',
+    rand = Math.random(),
+    obj = new Object();
+
+myObj.type              = 'Dot syntax';
+myObj['date created']   = 'String with space';
+myObj[str]              = 'String value';
+myObj[rand]             = 'Random Number';
+myObj[obj]              = 'Object';
+myObj['']               = 'Even an empty string';
+
+// menampilkan obyek
+// nanti alert nya silahkan ganti pakek console.log
+alert(myObj);
+
+// menampilkan semua properti dari obyek myObj
+alert(myObj.type);
+alert(myObj['date created']);
+alert(myObj[str]);
+alert(myObj[rand]);
+alert(myObj[obj]);
+alert(myObj['']);
+
+// menampilkan variabel lain
+alert(str);
+alert(rand);
+alert(obj);
+
+
+}
+
+</script>
+ 

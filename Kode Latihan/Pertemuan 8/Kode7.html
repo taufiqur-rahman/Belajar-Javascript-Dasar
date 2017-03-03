@@ -1,0 +1,41 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+</body>
+</html>
+
+<script type="text/javascript">
+
+// obyek jadwal
+var jadwal = {
+    platform: 34,
+    telah_berangkat: false,
+    tujuan: "Medan",
+    asal: "Jakarta"
+};
+
+// mengakses properti obyek dengan iterasi
+function tampil(obyek, namaobyek) {
+    var hasil = '';
+  for (var i in obyek) {
+    // obyek.hasOwnProperty() is used to filter out properties from the object's prototype chain
+    if (obyek.hasOwnProperty(i)) {
+      hasil += namaobyek + '.' + i + ' = ' + obyek[i] + '\n';
+    }
+  }
+  return hasil;
+  
+}
+
+console.log(tampil(jadwal, "Jadwal"));
+//liat hasilnya di console log
+
+
+</script>
+ 

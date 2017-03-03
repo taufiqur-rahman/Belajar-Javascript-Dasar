@@ -1,0 +1,46 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<!-- cara 1 mendaftarkan event pada bagian elemen HTML -->
+<strong><div onmouseover="lewati(this)" onmouseout="tinggalkan(this)" style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+Cara 1</div></strong><br />
+
+<strong><div id="cobain" style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+Cara 2</div></strong>
+</body>
+</html>
+
+
+
+
+<script type="text/javascript">
+
+function lewati(obj) {
+    obj.style.backgroundColor = "#1ec5e5";
+    obj.innerHTML = "Hmmm !";
+}
+
+function tinggalkan(obj) {
+    obj.style.backgroundColor = "#D94A38";
+    obj.innerHTML = "Pergi !";
+}
+
+
+// cara 2 pengaturan pada properti javascript
+document.getElementById("cobain").onmouseover = function() { 
+    document.getElementById("cobain").backgroundColor = "#1ec5e5";
+    document.getElementById("cobain").innerHTML = "hmm lagi !";
+}
+
+document.getElementById("cobain").onmouseout = function() { 
+    document.getElementById("cobain").backgroundColor = "#D94A38";
+    document.getElementById("cobain").innerHTML = "Pergi !";
+}
+
+</script>
+ 

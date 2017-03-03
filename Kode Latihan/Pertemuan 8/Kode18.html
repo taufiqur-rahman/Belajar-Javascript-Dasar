@@ -1,0 +1,38 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p id="obyek1"></p>
+<p id="obyek2"></p>
+<p id="obyek3"></p>
+
+<p><button type="submit" id="tambah" onclick="tampilkanHasil()">Om Pencet Om..</button></p>
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+function tampilkanHasil() {
+
+// deklarasi sebuah obyek
+var data = { a: 0 };
+
+Object.defineProperties(data, {
+    'b': { get: function() { return this.a + 1; } },
+    'c': { set: function(x) { this.a = x / 2; } }
+});
+
+document.getElementById("obyek1").innerHTML = "Menampilkan nilai dari data.a >> " + data.a;
+document.getElementById("obyek2").innerHTML = "Menampilkan nilai dari data.b >> " + data.b;
+data.c = 10; // Runs the setter, which assigns 10 / 2 (5) to the 'a' property
+document.getElementById("obyek3").innerHTML = "Menampilkan nilai dari data.a yang sudah di set nilai c nya >> " + data.a;
+
+}
+
+</script>
+ 

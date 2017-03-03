@@ -1,0 +1,52 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Belajar Bersama JavaScript #ubuntu-indonesia</title>
+ </head>
+ 
+<body>
+<h1>Pembahasan Obyek</h1>
+<h3> Saya sedang belajar bersama javascript #ubuntu-indonesia </h3>
+
+<p id="obyek1"></p>
+<p id="obyek2"></p>
+
+<p><button type="submit" id="tambah" onclick="tampilkanHasil()">Om Pencet Om..</button></p>
+
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+function tampilkanHasil() {
+
+// deklarasi sebuah fungsi yang akan kita gunakan sebagai method
+
+function tampilkanKendaraan() {
+  var hasil = 'Sebuah kendaraan keren ' + this.tahun + ' ' + this.merek
+    + ' ' + this.model;
+  return(hasil);
+}
+
+// bikin konstruktor kendaraan
+function Kendaraan(merek, model, tahun, silinder, miliknya) {
+  this.merek = merek;
+  this.model = model;
+  this.tahun = tahun;
+  this.silinder = silinder;  
+  this.tampilkanKendaraan = tampilkanKendaraan; // ini merujuk ke fungsi method
+}
+
+// instansiasi obyek baru
+var kendaraan1 = new Kendaraan("Toyota", "Korola", 2010, 2200);
+var kendaraan2 = new Kendaraan("Misibusi", "Kolt", 2007, 2300);
+
+
+// memanggil method dari obyek
+document.getElementById("obyek1").innerHTML = kendaraan1.tampilkanKendaraan(); 
+document.getElementById("obyek2").innerHTML = kendaraan2.tampilkanKendaraan(); 
+}
+
+</script>
+ 

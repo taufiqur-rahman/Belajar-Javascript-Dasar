@@ -1,0 +1,51 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p id="obyek1"></p>
+<p id="obyek2"></p>
+<p id="obyek3"></p>
+
+<p><button type="submit" id="tambah" onclick="tampilkanHasil()">Om Pencet Om..</button></p>
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+
+
+function tampilkanHasil() {
+
+// untuk membuat konstruktor obyek, kita harus membuat fungsi konstruktor nya
+// nama fungsi diawali huruf besar
+function Kendaraan(merek, model, tahun, silinder) {
+  this.merek = merek;
+  this.model = model;
+  this.tahun = tahun;
+  this.silinder = silinder;  
+}
+
+// instansiasi sebuah obyek baru
+var kendaraan1 = new Kendaraan("Toyota", "Korola", 2010, 2200);
+
+// instansiasi sebuah obyek lain
+var kendaraan2 = new Kendaraan("Ford", "Eskip", 2007, 2300);
+
+// instansiasi sebuah obyek baru
+var kendaraan3 = new Kendaraan("Misubisi", "Kolt", 2006, 2400);
+
+// mengakses properti
+document.getElementById("obyek1").innerHTML = "Sebuah " + kendaraan1.merek + " bertipe " + kendaraan1.model + " buatan " + kendaraan1.tahun + " : " + kendaraan1.silinder + "cc";
+document.getElementById("obyek2").innerHTML = "Sebuah " + kendaraan2.merek + " bertipe " + kendaraan2.model + " buatan " + kendaraan2.tahun + " : " + kendaraan2.silinder + "cc";
+document.getElementById("obyek3").innerHTML = "Sebuah " + kendaraan3.merek + " bertipe " + kendaraan3.model + " buatan " + kendaraan3.tahun + " : " + kendaraan3.silinder + "cc";
+
+
+}
+
+</script>
+ 
