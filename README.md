@@ -1,4 +1,4 @@
-# Silabus Belajar Javascript Ubuntu Indonesia
+# Belajar Bersama Javascript Ubuntu Indonesia
 
 Bismillahirrahmanirrahim - بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم
 
