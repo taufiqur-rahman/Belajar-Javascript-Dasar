@@ -169,5 +169,8 @@ Selesai belajar : belum tau
 ### Lisensi
 Semua ilmu pengetahuan hanya milik Allah
 
+### Survey
+Sebagai bahan evaluasi kegiatan belajar bersama selanjutnya, bagi yang sedang tidak sibuk dimohon untuk membantu mengisi [Survey Beelajar](https://goo.gl/forms/MGPdTWr99icIqxak2)
+
 ### Belum selesai
 Untuk pembahasan pertemuan 10 (proyek menggunakan javascript) belum selesai .. ``` *mangap* _/|\_ ```
