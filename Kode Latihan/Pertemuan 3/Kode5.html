@@ -1,0 +1,40 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>  
+
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+// pembuatan fungsi pertama
+function cobaObyek(nilaiObyek) {
+      nilaiObyek.merek = "Honda";
+}
+
+// pembuatan obyek
+var motorKu = { merek: "Yamaha", model:"Supiter", tahun: 2008 };
+var a, b;
+
+// pemanggilan properti merek pada obyek
+a = motorKu.merek;
+
+alert("Hasil pertama >> " + a); 
+
+
+// pemanggilan fungsi dengan melewatkann/parsing nilai berupa sebuah obyek
+cobaObyek(motorKu);
+
+b = motorKu.merek;
+
+alert("Hasil kedua >> " + b);
+
+</script>

@@ -1,0 +1,37 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+</body>
+</html>
+
+<script type="text/javascript">
+
+// pada contoh ini, kita mempelajari fungsi bersarang
+// yaitu fungsi didalam fungsi
+
+function luaran(x) {
+  function daleman(y) {
+    return x + y;
+  }
+  return daleman;
+}
+
+// cara pemanggilan pertama
+panggil_daleman = luaran(3); // Think of it like: give me a function that adds 3 to whatever you give it
+alert('panggil_daleman '+panggil_daleman); //function daleman(y) { return x + y;}
+hasil = panggil_daleman(5); // returns 8
+
+alert("Hasil Pertama >> " + hasil);
+
+// cara pemanggilan kedua
+hasil2 = luaran(3)(5); // returns 8
+
+alert("Hasil Kedua >> " + hasil2);
+
+</script>

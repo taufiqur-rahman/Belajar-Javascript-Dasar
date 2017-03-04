@@ -1,0 +1,47 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+</body>
+</html>
+
+<script type="text/javascript">
+
+// Default parameter
+// jika salah satu argumen tidak ada, menggunakan nilai default
+
+// misalnya kode aslinya kek gini
+// function multiply(a, b) {
+//    b = typeof b !== 'undefined' ?  b : 1;
+//
+//  return a*b;
+// }
+//
+// multiply(5); // 5
+
+// kita singkat jadi kek gini
+
+function perkalian(a, b = 1) {
+  return a*b;
+}
+
+alert ("Perkalian 5 x 4 adalah " + perkalian(5, 4)); // 20
+
+// contoh hanya satu argumen
+alert ("Perkalian 5 adalah (default parameter adalah 1) " + perkalian(5)); // 5
+
+// Rest parameters
+
+function perkalian(nilaipengali, ...argumen2) {
+  return argumen2.map(x => nilaipengali * x);
+}
+
+var arrayku = perkalian(2, 1, 2, 3);
+alert("Hasil dari rest parameter >> " + arrayku); // [2, 4, 6]
+
+</script>

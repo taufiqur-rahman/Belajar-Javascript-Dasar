@@ -1,0 +1,34 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+</body>
+</html>
+
+<script type="text/javascript">
+
+// pada contoh ini, kita mempelajari fungsi bersarang
+// yaitu fungsi didalam fungsi
+// contohnya ada fungsi persegi() yang berada didalam 
+// fungsi tambahPersegi()
+
+function tambahPersegi(a,b) {
+  function persegi(x) {
+    return x * x;
+  }
+  return persegi(a) + persegi(b);
+}
+a = tambahPersegi(2,3); // returns 13
+b = tambahPersegi(3,4); // returns 25
+c = tambahPersegi(4,5); // returns 41
+
+alert("Hasil persegi pertama >> " + a);
+alert("Hasil persegi pertama >> " + b);
+alert("Hasil persegi pertama >> " + c);
+
+</script>

@@ -1,0 +1,38 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+</body>
+</html>
+
+<script type="text/javascript">
+
+function foo(i) {
+  if (i < 0)
+    return;
+  alert('perulangan ke:' + i);
+  foo(i - 1);
+  alert('balik:' + i);
+}
+
+// pemanggilan fungsi
+foo(3);  // coba nilai foo diganti pakai angka lain
+
+// Output:
+
+// perulangan ke:3
+// perulangan ke:2
+// perulangan ke:1
+// perulangan ke:0
+// balik:0
+// balik:1
+// balik:2
+// balik:3
+
+
+</script>

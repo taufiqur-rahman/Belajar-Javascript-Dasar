@@ -1,0 +1,37 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+</body>
+</html>
+
+<script type="text/javascript">
+
+// pada javascript pemanggilan fungsi melalui namanya, contoh >> namafungsi();
+// atau namafungsi(nilai1, nilai2) << dst
+// selain itu sebuah fungsi dapat melakukan pemanggilan dirinya sendiri
+// hal ini disebut 'rekursif'
+
+// berikut adalah pembuatan fungsi faktorial
+function faktorial(nilai){
+  if ((nilai === 0) || (nilai === 1))
+    return 1;
+  else
+    return (nilai * faktorial(nilai - 1));
+}
+
+
+// berikutu adalah pemanggilan fungsi faktorial
+alert("Faktorial 10 adalah >> " + faktorial(10));
+alert("Faktorial 3 adalah >> " + faktorial(3));
+alert("Faktorial 5 adalah >> " + faktorial(5));
+
+
+
+
+</script>

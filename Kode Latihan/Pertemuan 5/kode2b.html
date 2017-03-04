@@ -1,0 +1,45 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+  <p><strong>Angka Desimal</strong></p>
+  
+  <button  onclick="deklarasiAngka()">Pencet Deh..</button>
+  <p>var angkapertama = 1234567890 ;</p>
+  <p>var angkakedua = 42 ;</p>
+  <p>var angkaketiga = 088 ; // ini adalah angka desimal</p>
+  <p>var angkakeempat = 0777 ; // ini adalah angka oktal</p> 
+
+  <p class="w3-text-grey">Untuk mendeklarasikan angka desimal (basis 10), langsung ditulis angkanya saja. 
+  Jika sebuah angka desimal dimulai angka 0 dan diikut angka 1-7 maka angka tersebut dikenali sebagai bilangan oktal (basis 8), 
+  Sedangkan angka 0 yang diikuti angka 8 keatas dianggap angka desimal
+  </p> 
+  
+  <p>Tipe dari angkapertama <strong><span id="satu"></span></strong></p>
+  <p>Tipe dari angkakedua <strong><span id="dua"></span></strong></p>
+  <p>Tipe dari angkaketiga <strong><span id="tiga"></span></strong></p>
+  <p>Tipe dari angkakeempat <strong><span id="empat"></span></strong></p>
+</body>
+</html>
+
+<script type="text/javascript">
+
+function deklarasiAngka() {
+  
+  var angkapertama = 1234567890 ;
+  var angkakedua = 42 ;
+  var angkaketiga = 088 ;
+  var angkakeempat = 0777 ;
+
+  document.getElementById("satu").innerHTML = typeof angkapertama ; //   
+  document.getElementById("dua").innerHTML = typeof angkakedua ; //   
+  document.getElementById("tiga").innerHTML = typeof angkaketiga ; //   
+  document.getElementById("empat").innerHTML = (typeof angkakeempat) ; //   
+  
+}
+
+</script>

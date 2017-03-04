@@ -6,17 +6,17 @@
  
 <body>
 <h1>Belajar Bersama JavaScript</h1>
-  <p>Hasil tanggal.toString() adalah <strong><span id="satu"></span></strong></p>
-  <p>Nilai tanggal.toUTCString() <strong><span id="dua"></span></strong></p>
-  <p>Nilai tanggal.toDateString() <strong><span id="tiga"></span></strong></p>
+  <p>Nilai tanggal1 adalah <strong><span id="satu"></span></strong></p>
+  <p>Nilai tanggal2 adalah <strong><span id="dua"></span></strong></p> 
 </body>
 </html>
 
 <script type="text/javascript">
-var tanggal = new Date();
+var tanggal1 = new Date("January 20, 2017 11:13:00");
+var tanggal2 = new Date("January 13, 2017 11:13:00"); 
 
-  document.getElementById("satu").innerHTML = tanggal.toString() ; //
-  document.getElementById("dua").innerHTML = tanggal.toUTCString() ; //
-  document.getElementById("tiga").innerHTML = tanggal.toDateString() ; //
+
+  document.getElementById("satu").innerHTML = tanggal1 ; //
+  document.getElementById("dua").innerHTML = tanggal2 ; //
 
 </script>

@@ -1,0 +1,55 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+</body>
+</html>
+
+<script type="text/javascript">
+
+// sebuah variabel yang didefinisikan didalam sebuah fungsi 
+// tidak bisa diakses darimanapun diluar fungsi tersebut
+// tetapi fungsi itu bisa mengakses semua variabel dan fungsi
+// yang dideklarasiin didalam cakupan / scope
+// artinya fungsi yang dideklarasiin sebagai cakupan global
+// bisa mengakses variabel global
+// fungsi yang didefinisikan didalam fungsi lain
+// bisa mengakses variabel global dari parentnya, dan 
+// variabelnya sendiri
+
+// The following variables are defined in the global scope
+var nilai1 = 20,
+    nilai2 = 3,
+    nama = "Mamah muda..";
+
+// This function is defined in the global scope
+function perkalian() {
+  return nilai1 * nilai2;
+}
+
+// hasil pertama
+alert("Hasil perkalian >> " + perkalian()); // Returns 60
+
+// A nested function example
+function ambilSkor () {
+  var nilai1 = 2,
+      nilai2 = 3;
+  
+  function tambah() {
+    return nama + " skornya " + (nilai1 + nilai2);
+  }
+  
+  return tambah();
+}
+// hasil kedua
+alert("Fungsi kedua >> " + ambilSkor()); // Returns "Mamah muda skrornya 5";
+
+
+
+
+</script>

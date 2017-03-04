@@ -1,0 +1,64 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+<p> Saya sedang belajar bersama javascript #ubuntu-indonesia </p>
+  
+ 
+<button id="tomboltambah" onclick="tambah(10, 12)">Coba deh.. </button> 
+<div id="tambah"> </div>
+
+<hr />
+
+<button id="tombolkurang" onclick="kurang(12,6)">Coba deh.. </button> 
+<div id="kurang"> </div>
+
+<hr />
+
+<button id="tombolkeles" onclick="keles(16, 16)">Coba deh.. </button> 
+<div id="keles"> </div>
+
+<hr />
+
+<button id="tombolbagi" onclick="bagi(16, 2)">Coba deh.. </button> 
+<div id="bagi"> </div>
+
+<hr />
+  
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+function tambah(nilai1, nilai2) {
+
+   document.getElementById("tambah").innerHTML =   "Hasil Penjumlahan " + nilai1 + " ditambah " + nilai2 + " adalah " + (nilai1 + nilai2) + "<br />";
+
+}
+
+function kurang(nilai3, nilai4) {
+
+   document.getElementById("kurang").innerHTML =   "Hasil Penjumlahan " + nilai3 + " - " + nilai4 + " adalah " + (nilai3 - nilai4) + "<br />";
+
+}
+
+// latihan buatlah fungsi untuk peritungan kurang, keles, bagi dll
+// contoh
+// function kurang(nilai3, nilai4) {
+//  ...
+// }
+
+function keles(nilai5, nilai6) {
+  document.getElementById("keles").innerHTML = "hasil keles " + nilai5 + " dan " + nilai6 + " adalah " + nilai5*nilai6;
+}
+
+function bagi(nilai5, nilai6) {
+  document.getElementById("bagi").innerHTML = "hasil bagi " + nilai5 + " dan " + nilai6 + " adalah " + nilai5/nilai6;
+}
+
+</script>

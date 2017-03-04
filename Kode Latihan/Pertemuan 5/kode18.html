@@ -1,0 +1,30 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <title>Belajar Bersama Javascript di #ubuntu-indonesia</title>  
+</head>
+ 
+<body>
+<h1>Belajar Bersama JavaScript</h1>
+  <p>Tanggal adalah <strong><span id="hasil"></span></strong></p>
+</body>
+</html>
+
+<script type="text/javascript">
+function JSClock() {
+  var time = new Date();
+  var hour = time.getHours();
+  var minute = time.getMinutes();
+  var second = time.getSeconds();
+  var temp = '' + ((hour > 12) ? hour - 12 : hour);
+  if (hour == 0)
+    temp = '12';
+  temp += ((minute < 10) ? ':0' : ':') + minute;
+  temp += ((second < 10) ? ':0' : ':') + second;
+  temp += (hour >= 12) ? ' P.M.' : ' A.M.';
+  return temp;
+}
+
+document.getElementById("hasil").innerHTML = JSClock();
+
+</script>
